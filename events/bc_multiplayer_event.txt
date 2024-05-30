@@ -1,0 +1,121 @@
+namespace = bcmultiplayer
+
+### Hosting Trigger ###
+event = {
+	id = bcmultiplayer.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		or = {
+			not = { exists = event_target:bc_global_hosting_empire }
+			event_target:bc_global_hosting_empire = {
+				is_ai = yes
+			}
+			#Unnecessary, look below for more information
+			#event_target:bc_global_hosting_empire = {
+			#	num_pops < 2	
+			#}
+		}
+	}
+	immediate = {
+		log = "BetterCheats: bcmultiplayer.1 event called"
+		every_country = {
+			remove_country_flag = bc_hosting
+		}
+		log = "BetterCheats: removed bc_hosting flag from every country"
+		every_playable_country = {
+			limit = {
+				is_ai = no
+				is_primitive = no
+				#num_pops > 1	#Prevents the event being called on the first day
+			}
+			country_event = {
+				id = bcmultiplayer.5
+			}
+			
+			country_event = {
+				id = bcmultiplayer.2
+			}
+		}
+	}
+}
+
+### Hosting Event ###
+country_event = {
+	id = bcmultiplayer.2
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		not = { has_global_flag = bc_hosting_event_fired }
+	}
+	immediate = {
+		log = "BetterCheats: Assinged bc_hosting flag to '[This.GetName]'"
+		set_country_flag = bc_hosting
+		set_timed_global_flag = { flag = "bc_hosting_event_fired" days = 10 }
+		save_global_event_target_as = bc_global_hosting_empire
+	}
+	after = {
+		country_event = {
+			id = bcmultiplayer.4
+			days = 1
+		}
+	}
+}
+
+### Inform about Cheating status ###
+country_event = {
+	id = bcmultiplayer.3
+	title = "bcmultiplayer_3_title"
+	desc = "bcmultiplayer_3_desc"
+	is_triggered_only = yes
+	picture = GFX_evt_busy_spaceport
+	trigger = {
+		is_multiplayer = yes
+		not = { has_country_flag = bc_hosting }
+		has_country_flag = bc_inform_permission_updated
+	}
+	immediate = {
+		log = "BetterCheats: Showing updated permission to '[This.GetName]'"
+		remove_country_flag = bc_inform_permission_updated
+	}
+
+	# Close # 
+	option = {
+		name = "bccheatmenu_close"
+		default_hide_option = yes
+	}
+}
+
+### Inform about Hosting status ###
+country_event = {
+	id = bcmultiplayer.4
+	title = "bcmultiplayer_3_title"
+	desc = "bcmultiplayer_4_desc"
+	is_triggered_only = yes
+	picture = GFX_evt_busy_spaceport
+	trigger = {
+		is_multiplayer = yes
+		has_country_flag = bc_hosting
+	}
+	immediate = {
+		log = "BetterCheats: Showing updated host permission to '[This.GetName]'"
+		remove_country_flag = bc_inform_permission_updated
+	}
+
+	# Close # 
+	option = {
+		name = "bccheatmenu_close"
+		default_hide_option = yes
+	}
+}
+
+### DEBUG Log ###
+country_event = {
+	id = bcmultiplayer.5
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		log = "BetterCheats: '[This.GetName]' is potential the host, calling bcmultiplayer.2 event"
+	}
+}

@@ -1,0 +1,1492 @@
+#### EXAMPLE TIER SELECTOR ####
+bc_EXAMPLE_t1 = {
+	pop_growth_speed = 0.15
+}
+bc_EXAMPLE_t2 = {
+	pop_growth_speed = 0.50
+}
+bc_EXAMPLE_t3 = {
+	pop_growth_speed = 1.00
+}
+bc_EXAMPLE_t4 = {
+	pop_growth_speed = 2.50
+}
+bc_EXAMPLE_t5 = {
+	pop_growth_speed = 5.00
+}
+bc_EXAMPLE_t6 = {
+	pop_growth_speed = 10.00
+}
+bc_EXAMPLE_t7 = {
+	pop_growth_speed = 50.00
+}
+bc_EXAMPLE_t8 = {
+	pop_growth_speed = 100.00
+}
+bc_EXAMPLE_t9 = {
+	pop_growth_speed = 250.00
+}
+bc_EXAMPLE_t10 = {
+	pop_growth_speed = 500.00
+}
+###############################
+
+#### energy TIER SELECTOR ####
+bc_energy_t1 = {
+	country_energy_produces_mult = 0.15
+}
+bc_energy_t2 = {
+	country_energy_produces_mult = 0.50
+}
+bc_energy_t3 = {
+	country_energy_produces_mult = 1.00
+}
+bc_energy_t4 = {
+	country_energy_produces_mult = 2.50
+}
+bc_energy_t5 = {
+	country_energy_produces_mult = 5.00
+}
+bc_energy_t6 = {
+	country_energy_produces_mult = 10.00
+}
+bc_energy_t7 = {
+	country_energy_produces_mult = 50.00
+}
+bc_energy_t8 = {
+	country_energy_produces_mult = 100.00
+}
+bc_energy_t9 = {
+	country_energy_produces_mult = 250.00
+}
+bc_energy_t10 = {
+	country_energy_produces_mult = 500.00
+}
+###############################
+
+#### alloys TIER SELECTOR ####
+bc_alloys_t1 = {
+	country_alloys_produces_mult = 0.15
+}
+bc_alloys_t2 = {
+	country_alloys_produces_mult = 0.50
+}
+bc_alloys_t3 = {
+	country_alloys_produces_mult = 1.00
+}
+bc_alloys_t4 = {
+	country_alloys_produces_mult = 2.50
+}
+bc_alloys_t5 = {
+	country_alloys_produces_mult = 5.00
+}
+bc_alloys_t6 = {
+	country_alloys_produces_mult = 10.00
+}
+bc_alloys_t7 = {
+	country_alloys_produces_mult = 50.00
+}
+bc_alloys_t8 = {
+	country_alloys_produces_mult = 100.00
+}
+bc_alloys_t9 = {
+	country_alloys_produces_mult = 250.00
+}
+bc_alloys_t10 = {
+	country_alloys_produces_mult = 500.00
+}
+###############################
+
+#### research TIER SELECTOR ####
+bc_research_t1 = {
+	country_physics_research_produces_mult = 0.15
+	country_society_research_produces_mult = 0.15
+	country_engineering_research_produces_mult = 0.15
+}
+bc_research_t2 = {
+	country_physics_research_produces_mult = 0.50
+	country_society_research_produces_mult = 0.50
+	country_engineering_research_produces_mult = 0.50
+}
+bc_research_t3 = {
+	country_physics_research_produces_mult = 1.00
+	country_society_research_produces_mult = 1.00
+	country_engineering_research_produces_mult = 1.00
+}
+bc_research_t4 = {
+	country_physics_research_produces_mult = 2.50
+	country_society_research_produces_mult = 2.50
+	country_engineering_research_produces_mult = 2.50
+}
+bc_research_t5 = {
+	country_physics_research_produces_mult = 5.00
+	country_society_research_produces_mult = 5.00
+	country_engineering_research_produces_mult = 5.00
+}
+bc_research_t6 = {
+	country_physics_research_produces_mult = 10.00
+	country_society_research_produces_mult = 10.00
+	country_engineering_research_produces_mult = 10.00
+}
+bc_research_t7 = {
+	country_physics_research_produces_mult = 50.00
+	country_society_research_produces_mult = 50.00
+	country_engineering_research_produces_mult = 50.00
+}
+bc_research_t8 = {
+	country_physics_research_produces_mult = 100.00
+	country_society_research_produces_mult = 100.00
+	country_engineering_research_produces_mult = 100.00
+}
+bc_research_t9 = {
+	country_physics_research_produces_mult = 500.00
+	country_society_research_produces_mult = 500.00
+	country_engineering_research_produces_mult = 500.00
+}
+bc_research_t10 = {
+	country_physics_research_produces_mult = 1000.00
+	country_society_research_produces_mult = 1000.00
+	country_engineering_research_produces_mult = 1000.00
+}
+###############################
+
+#### minerlas TIER SELECTOR ####
+bc_minerals_t1 = {
+	country_minerals_produces_mult = 0.15
+}
+bc_minerals_t2 = {
+	country_minerals_produces_mult = 0.50
+}
+bc_minerals_t3 = {
+	country_minerals_produces_mult = 1.00
+}
+bc_minerals_t4 = {
+	country_minerals_produces_mult = 2.50
+}
+bc_minerals_t5 = {
+	country_minerals_produces_mult = 5.00
+}
+bc_minerals_t6 = {
+	country_minerals_produces_mult = 10.00
+}
+bc_minerals_t7 = {
+	country_minerals_produces_mult = 50.00
+}
+bc_minerals_t8 = {
+	country_minerals_produces_mult = 100.00
+}
+bc_minerals_t9 = {
+	country_minerals_produces_mult = 250.00
+}
+bc_minerals_t10 = {
+	country_minerals_produces_mult = 500.00
+}
+###############################
+
+#### colony TIER SELECTOR ####
+bc_colony_t1 = {
+	planet_colony_development_speed_mult = 0.15
+}
+bc_colony_t2 = {
+	planet_colony_development_speed_mult = 0.50
+}
+bc_colony_t3 = {
+	planet_colony_development_speed_mult = 1.00
+}
+bc_colony_t4 = {
+	planet_colony_development_speed_mult = 2.50
+}
+bc_colony_t5 = {
+	planet_colony_development_speed_mult = 5.00
+}
+bc_colony_t6 = {
+	planet_colony_development_speed_mult = 10.00
+}
+bc_colony_t7 = {
+	planet_colony_development_speed_mult = 50.00
+}
+bc_colony_t8 = {
+	planet_colony_development_speed_mult = 100.00
+}
+bc_colony_t9 = {
+	planet_colony_development_speed_mult = 250.00
+}
+bc_colony_t10 = {
+	planet_colony_development_speed_mult = 500.00
+}
+###############################
+
+#### consumer_goods TIER SELECTOR ####
+bc_consumer_goods_t1 = {
+	country_consumer_goods_produces_mult = 0.15
+}
+bc_consumer_goods_t2 = {
+	country_consumer_goods_produces_mult = 0.50
+}
+bc_consumer_goods_t3 = {
+	country_consumer_goods_produces_mult = 1.00
+}
+bc_consumer_goods_t4 = {
+	country_consumer_goods_produces_mult = 2.50
+}
+bc_consumer_goods_t5 = {
+	country_consumer_goods_produces_mult = 5.00
+}
+bc_consumer_goods_t6 = {
+	country_consumer_goods_produces_mult = 10.00
+}
+bc_consumer_goods_t7 = {
+	country_consumer_goods_produces_mult = 50.00
+}
+bc_consumer_goods_t8 = {
+	country_consumer_goods_produces_mult = 100.00
+}
+bc_consumer_goods_t9 = {
+	country_consumer_goods_produces_mult = 250.00
+}
+bc_consumer_goods_t10 = {
+	country_consumer_goods_produces_mult = 500.00
+}
+###############################
+
+#### diplomatic_weight TIER POSITIVE SELECTOR ####
+bc_diplomatic_weight_t1 = {
+	diplo_weight_mult = 0.15
+}
+bc_diplomatic_weight_t2 = {
+	diplo_weight_mult = 0.50
+}
+bc_diplomatic_weight_t3 = {
+	diplo_weight_mult = 1.00
+}
+bc_diplomatic_weight_t4 = {
+	diplo_weight_mult = 2.50
+}
+bc_diplomatic_weight_t5 = {
+	diplo_weight_mult = 5.00
+}
+bc_diplomatic_weight_t6 = {
+	diplo_weight_mult = 10.00
+}
+bc_diplomatic_weight_t7 = {
+	diplo_weight_mult = 50.00
+}
+bc_diplomatic_weight_t8 = {
+	diplo_weight_mult = 100.00
+}
+bc_diplomatic_weight_t9 = {
+	diplo_weight_mult = 250.00
+}
+bc_diplomatic_weight_t10 = {
+	diplo_weight_mult = 500.00
+}
+###############################
+
+#### diplomatic_weight TIER NEGATIVE SELECTOR ####
+bc_diplomatic_weight_t1n = {
+	diplo_weight_mult = -0.15
+}
+bc_diplomatic_weight_t2n = {
+	diplo_weight_mult = -0.50
+}
+bc_diplomatic_weight_t3n = {
+	diplo_weight_mult = -1.00
+}
+bc_diplomatic_weight_t4n = {
+	diplo_weight_mult = -2.50
+}
+bc_diplomatic_weight_t5n = {
+	diplo_weight_mult = -5.00
+}
+bc_diplomatic_weight_t6n = {
+	diplo_weight_mult = -10.00
+}
+bc_diplomatic_weight_t7n = {
+	diplo_weight_mult = -50.00
+}
+bc_diplomatic_weight_t8n = {
+	diplo_weight_mult = -100.00
+}
+bc_diplomatic_weight_t9n = {
+	diplo_weight_mult = -250.00
+}
+bc_diplomatic_weight_t10n = {
+	diplo_weight_mult = -500.00
+}
+###############################
+
+#### monthly loyalty TIER SELECTOR ####
+
+bc_monthly_loyalty_t1 = {
+	monthly_loyalty = 0.15
+	monthly_loyalty_from_subjects = 0.15
+}
+bc_monthly_loyalty_t2 = {
+	monthly_loyalty = 0.50
+	monthly_loyalty_from_subjects = 0.50
+}
+bc_monthly_loyalty_t3 = {
+	monthly_loyalty = 1.00
+	monthly_loyalty_from_subjects = 1.00
+}
+bc_monthly_loyalty_t4 = {
+	monthly_loyalty = 2.50
+	monthly_loyalty_from_subjects = 2.50
+}
+bc_monthly_loyalty_t5 = {
+	monthly_loyalty = 5.00
+	monthly_loyalty_from_subjects = 5.00
+}
+bc_monthly_loyalty_t6 = {
+	monthly_loyalty = 10.00
+	monthly_loyalty_from_subjects = 10.00
+}
+bc_monthly_loyalty_t7 = {
+	monthly_loyalty = 50.00
+	monthly_loyalty_from_subjects = 50.00
+}
+bc_monthly_loyalty_t8 = {
+	monthly_loyalty = 100.00
+	monthly_loyalty_from_subjects = 100.00
+}
+bc_monthly_loyalty_t9 = {
+	monthly_loyalty = 250.00
+	monthly_loyalty_from_subjects = 250.00
+}
+bc_monthly_loyalty_t10 = {
+	monthly_loyalty = 500.00
+	monthly_loyalty_from_subjects = 500.00
+}
+
+###############################
+
+#### damage TIER SELECTOR ####
+bc_damage_t1 = {
+	ship_weapon_damage = 0.15
+	army_damage_mult = 0.15
+}
+bc_damage_t2 = {
+	ship_weapon_damage = 0.50
+	army_damage_mult = 0.50
+}
+bc_damage_t3 = {
+	ship_weapon_damage = 1.00
+	army_damage_mult = 1.00
+}
+bc_damage_t4 = {
+	ship_weapon_damage = 2.50
+	army_damage_mult = 2.50
+}
+bc_damage_t5 = {
+	ship_weapon_damage = 5.00
+	army_damage_mult = 5.00
+}
+bc_damage_t6 = {
+	ship_weapon_damage = 10.00
+	army_damage_mult = 10.00
+}
+bc_damage_t7 = {
+	ship_weapon_damage = 50.00
+	army_damage_mult = 50.00
+}
+bc_damage_t8 = {
+	ship_weapon_damage = 100.00
+	army_damage_mult = 100.00
+}
+bc_damage_t9 = {
+	ship_weapon_damage = 250.00
+	army_damage_mult = 250.00
+}
+bc_damage_t10 = {
+	ship_weapon_damage = 500.00
+	army_damage_mult = 500.00
+}
+###############################
+
+#### trade_value TIER SELECTOR ####
+bc_trade_value_t1 = {
+	trade_value_mult = 0.15
+}
+bc_trade_value_t2 = {
+	trade_value_mult = 0.50
+}
+bc_trade_value_t3 = {
+	trade_value_mult = 1.00
+}
+bc_trade_value_t4 = {
+	trade_value_mult = 2.50
+}
+bc_trade_value_t5 = {
+	trade_value_mult = 5.00
+}
+bc_trade_value_t6 = {
+	trade_value_mult = 10.00
+}
+bc_trade_value_t7 = {
+	trade_value_mult = 50.00
+}
+bc_trade_value_t8 = {
+	trade_value_mult = 100.00
+}
+bc_trade_value_t9 = {
+	trade_value_mult = 250.00
+}
+bc_trade_value_t10 = {
+	trade_value_mult = 500.00
+}
+###############################
+
+#### unity TIER SELECTOR ####
+bc_unity_t1 = {
+	country_unity_produces_mult = 0.15
+}
+bc_unity_t2 = {
+	country_unity_produces_mult = 0.50
+}
+bc_unity_t3 = {
+	country_unity_produces_mult = 1.00
+}
+bc_unity_t4 = {
+	country_unity_produces_mult = 2.50
+}
+bc_unity_t5 = {
+	country_unity_produces_mult = 5.00
+}
+bc_unity_t6 = {
+	country_unity_produces_mult = 10.00
+}
+bc_unity_t7 = {
+	country_unity_produces_mult = 50.00
+}
+bc_unity_t8 = {
+	country_unity_produces_mult = 100.00
+}
+bc_unity_t9 = {
+	country_unity_produces_mult = 250.00
+}
+bc_unity_t10 = {
+	country_unity_produces_mult = 500.00
+}
+###############################
+
+#### upkeep TIER SELECTOR ####
+bc_upkeep_t1 = {
+	planet_buildings_upkeep_mult = -0.10
+	planet_districts_upkeep_mult = -0.10
+	ships_upkeep_mult = -0.10
+	starbases_upkeep_mult = -0.10
+}
+bc_upkeep_t2 = {
+	planet_buildings_upkeep_mult = -0.20
+	planet_districts_upkeep_mult = -0.20
+	ships_upkeep_mult = -0.20
+	starbases_upkeep_mult = -0.20
+}
+bc_upkeep_t3 = {
+	planet_buildings_upkeep_mult = -0.30
+	planet_districts_upkeep_mult = -0.30
+	ships_upkeep_mult = -0.30
+	starbases_upkeep_mult = -0.30
+}
+bc_upkeep_t4 = {
+	planet_buildings_upkeep_mult = -0.40
+	planet_districts_upkeep_mult = -0.40
+	ships_upkeep_mult = -0.40
+	starbases_upkeep_mult = -0.40
+}
+bc_upkeep_t5 = {
+	planet_buildings_upkeep_mult = -0.50
+	planet_districts_upkeep_mult = -0.50
+	ships_upkeep_mult = -0.50
+	starbases_upkeep_mult = -0.50
+}
+bc_upkeep_t6 = {
+	planet_buildings_upkeep_mult = -0.60
+	planet_districts_upkeep_mult = -0.60
+	ships_upkeep_mult = -0.60
+	starbases_upkeep_mult = -0.60
+}
+bc_upkeep_t7 = {
+	planet_buildings_upkeep_mult = -0.70
+	planet_districts_upkeep_mult = -0.70
+	ships_upkeep_mult = -0.70
+	starbases_upkeep_mult = -0.70
+}
+bc_upkeep_t8 = {
+	planet_buildings_upkeep_mult = -0.80
+	planet_districts_upkeep_mult = -0.80
+	ships_upkeep_mult = -0.80
+	starbases_upkeep_mult = -0.80
+}
+bc_upkeep_t9 = {
+	planet_buildings_upkeep_mult = -0.90
+	planet_districts_upkeep_mult = -0.90
+	ships_upkeep_mult = -0.90
+	starbases_upkeep_mult = -0.90
+}
+bc_upkeep_t10 = {
+	planet_buildings_upkeep_mult = -1.00
+	planet_districts_upkeep_mult = -1.00
+	ships_upkeep_mult = -1.00
+	starbases_upkeep_mult = -1.00
+}
+###############################
+
+#### anomalys TIER SELECTOR ####
+bc_anomalys_t1 = {
+	science_ship_survey_speed = 0.15
+	ship_anomaly_research_speed_mult = 0.15
+}
+bc_anomalys_t2 = {
+	science_ship_survey_speed = 0.50
+	ship_anomaly_research_speed_mult = 0.50
+}
+bc_anomalys_t3 = {
+	science_ship_survey_speed = 1.00
+	ship_anomaly_research_speed_mult = 1.00
+}
+bc_anomalys_t4 = {
+	science_ship_survey_speed = 2.50
+	ship_anomaly_research_speed_mult = 2.50
+}
+bc_anomalys_t5 = {
+	science_ship_survey_speed = 5.00
+	ship_anomaly_research_speed_mult = 5.00
+}
+bc_anomalys_t6 = {
+	science_ship_survey_speed = 10.00
+	ship_anomaly_research_speed_mult = 10.00
+}
+bc_anomalys_t7 = {
+	science_ship_survey_speed = 50.00
+	ship_anomaly_research_speed_mult = 50.00
+}
+bc_anomalys_t8 = {
+	science_ship_survey_speed = 100.00
+	ship_anomaly_research_speed_mult = 100.00
+}
+bc_anomalys_t9 = {
+	science_ship_survey_speed = 250.00
+	ship_anomaly_research_speed_mult = 250.00
+}
+bc_anomalys_t10 = {
+	science_ship_survey_speed = 500.00
+	ship_anomaly_research_speed_mult = 500.00
+}
+###############################
+
+#### food TIER SELECTOR ####
+bc_food_t1 = {
+	country_food_produces_mult = 0.15
+}
+bc_food_t2 = {
+	country_food_produces_mult = 0.50
+}
+bc_food_t3 = {
+	country_food_produces_mult = 1.00
+}
+bc_food_t4 = {
+	country_food_produces_mult = 2.50
+}
+bc_food_t5 = {
+	country_food_produces_mult = 5.00
+}
+bc_food_t6 = {
+	country_food_produces_mult = 10.00
+}
+bc_food_t7 = {
+	country_food_produces_mult = 50.00
+}
+bc_food_t8 = {
+	country_food_produces_mult = 100.00
+}
+bc_food_t9 = {
+	country_food_produces_mult = 250.00
+}
+bc_food_t10 = {
+	country_food_produces_mult = 500.00
+}
+###############################
+
+#### bio_pop TIER SELECTOR ####
+bc_bio_pop_t1 = {
+	pop_growth_speed = 0.15
+}
+bc_bio_pop_t2 = {
+	pop_growth_speed = 0.50
+}
+bc_bio_pop_t3 = {
+	pop_growth_speed = 1.00
+}
+bc_bio_pop_t4 = {
+	pop_growth_speed = 2.50
+}
+bc_bio_pop_t5 = {
+	pop_growth_speed = 5.00
+}
+bc_bio_pop_t6 = {
+	pop_growth_speed = 10.00
+}
+bc_bio_pop_t7 = {
+	pop_growth_speed = 50.00
+}
+bc_bio_pop_t8 = {
+	pop_growth_speed = 100.00
+}
+bc_bio_pop_t9 = {
+	pop_growth_speed = 250.00
+}
+bc_bio_pop_t10 = {
+	pop_growth_speed = 500.00
+}
+###############################
+
+#### bot_pop TIER SELECTOR ####
+bc_bot_pop_t1 = {
+	planet_pop_assembly_mult = 0.15
+}
+bc_bot_pop_t2 = {
+	planet_pop_assembly_mult = 0.50
+}
+bc_bot_pop_t3 = {
+	planet_pop_assembly_mult = 1.00
+}
+bc_bot_pop_t4 = {
+	planet_pop_assembly_mult = 2.50
+}
+bc_bot_pop_t5 = {
+	planet_pop_assembly_mult = 5.00
+}
+bc_bot_pop_t6 = {
+	planet_pop_assembly_mult = 10.00
+}
+bc_bot_pop_t7 = {
+	planet_pop_assembly_mult = 50.00
+}
+bc_bot_pop_t8 = {
+	planet_pop_assembly_mult = 100.00
+}
+bc_bot_pop_t9 = {
+	planet_pop_assembly_mult = 250.00
+}
+bc_bot_pop_t10 = {
+	planet_pop_assembly_mult = 500.00
+}
+###############################
+
+#### habitability TIER SELECTOR ####
+bc_habitability_t1 = {
+	pop_environment_tolerance = 1.00
+}
+bc_habitability_t2 = {
+	pop_environment_tolerance = 2.50
+}
+bc_habitability_t3 = {
+	pop_environment_tolerance = 5.00
+}
+bc_habitability_t4 = {
+	pop_environment_tolerance = 7.50
+}
+bc_habitability_t5 = {
+	pop_environment_tolerance = 10.00
+}
+bc_habitability_t6 = {
+	pop_environment_tolerance = 25.00
+}
+bc_habitability_t7 = {
+	pop_environment_tolerance = 50.00
+}
+bc_habitability_t8 = {
+	pop_environment_tolerance = 75.00
+}
+bc_habitability_t9 = {
+	pop_environment_tolerance = 100.00
+}
+bc_habitability_t10 = {
+	pop_environment_tolerance = 150.00
+}
+###############################
+
+#### influence TIER SELECTOR ####
+bc_influence_t1 = {
+	country_base_influence_produces_add = 3
+}
+bc_influence_t2 = {
+	country_base_influence_produces_add = 5
+}
+bc_influence_t3 = {
+	country_base_influence_produces_add = 10
+}
+bc_influence_t4 = {
+	country_base_influence_produces_add = 20
+}
+bc_influence_t5 = {
+	country_base_influence_produces_add = 50
+}
+bc_influence_t6 = {
+	country_base_influence_produces_add = 100
+}
+bc_influence_t7 = {
+	country_base_influence_produces_add = 200
+}
+bc_influence_t8 = {
+	country_base_influence_produces_add = 500
+}
+bc_influence_t9 = {
+	country_base_influence_produces_add = 1000
+}
+bc_influence_t10 = {
+	country_base_influence_produces_add = 100000
+}
+###############################
+
+#### strategic_resources TIER SELECTOR ####
+bc_strategic_resources_t1 = {
+	country_base_exotic_gases_produces_add = 10
+	country_base_rare_crystals_produces_add = 10
+	country_base_volatile_motes_produces_add = 10
+	country_base_sr_zro_produces_add = 10
+	country_base_sr_dark_matter_produces_add = 10
+	country_base_sr_living_metal_produces_add = 10
+	country_base_nanites_produces_add = 10
+	country_base_components_produces_add = 10
+	country_base_sr_dilithium_produces_add = 10
+	country_base_sr_ketracel_white_produces_add = 10
+      country_base_sr_latinum_produces_add = 10
+      country_base_sr_crew_produces_add = 10
+      country_base_sr_water_produces_add = 10
+      country_base_sr_brizeen_produces_add = 10
+      country_base_sr_deuterium_produces_add = 10
+      country_base_sr_luxuries_produces_add = 10
+      country_base_sr_cordrazine_produces_add = 10
+      country_base_sr_tallonian_produces_add = 10
+      country_base_sr_kemocite_produces_add = 10
+      country_base_sr_magnesite_produces_add = 10
+      country_base_sr_boronite_produces_add = 10
+      country_base_sr_time_crystals_produces_add = 10
+      country_base_sr_trellium_produces_add = 10
+      country_base_sr_pergium_produces_add = 10
+      country_base_sr_topaline_produces_add = 10
+      country_base_sr_ancient_zpm_produces_add = 10
+      country_base_sr_goauld_symbiote_produces_add = 10
+
+}
+bc_strategic_resources_t2 = {
+	country_base_exotic_gases_produces_add = 20
+	country_base_rare_crystals_produces_add = 20
+	country_base_volatile_motes_produces_add = 20
+	country_base_sr_zro_produces_add = 20
+	country_base_sr_dark_matter_produces_add = 20
+	country_base_sr_living_metal_produces_add = 20
+	country_base_nanites_produces_add = 20
+	country_base_components_produces_add = 20
+	country_base_sr_dilithium_produces_add = 20
+	country_base_sr_ketracel_white_produces_add = 20
+      country_base_sr_latinum_produces_add = 20
+      country_base_sr_crew_produces_add = 20
+      country_base_sr_water_produces_add = 20
+      country_base_sr_brizeen_produces_add = 20
+      country_base_sr_deuterium_produces_add = 20
+      country_base_sr_luxuries_produces_add = 20
+      country_base_sr_cordrazine_produces_add = 20
+      country_base_sr_tallonian_produces_add = 20
+      country_base_sr_kemocite_produces_add = 20
+      country_base_sr_magnesite_produces_add = 20
+      country_base_sr_boronite_produces_add = 20
+      country_base_sr_time_crystals_produces_add = 20
+      country_base_sr_trellium_produces_add = 20
+      country_base_sr_pergium_produces_add = 20
+      country_base_sr_topaline_produces_add = 20
+      country_base_sr_ancient_zpm_produces_add = 20
+      country_base_sr_goauld_symbiote_produces_add = 20
+}
+bc_strategic_resources_t3 = {
+      country_base_exotic_gases_produces_add = 50
+      country_base_rare_crystals_produces_add = 50
+      country_base_volatile_motes_produces_add = 50
+      country_base_sr_zro_produces_add = 50
+      country_base_sr_dark_matter_produces_add = 50
+      country_base_sr_living_metal_produces_add = 50
+      country_base_nanites_produces_add = 50
+      country_base_components_produces_add = 50
+      country_base_sr_dilithium_produces_add = 50
+      country_base_sr_ketracel_white_produces_add = 50
+      country_base_sr_latinum_produces_add = 50
+      country_base_sr_crew_produces_add = 50
+      country_base_sr_water_produces_add = 50
+      country_base_sr_brizeen_produces_add = 50
+      country_base_sr_deuterium_produces_add = 50
+      country_base_sr_luxuries_produces_add = 50
+      country_base_sr_cordrazine_produces_add = 50
+      country_base_sr_tallonian_produces_add = 50
+      country_base_sr_kemocite_produces_add = 50
+      country_base_sr_magnesite_produces_add = 50
+      country_base_sr_boronite_produces_add = 50
+      country_base_sr_time_crystal_produces_add = 50
+      country_base_sr_trellium_produces_add = 50
+      country_base_sr_pergium_produces_add = 50
+      country_base_sr_topaline_produces_add = 50
+      country_base_sr_ancient_zpm_produces_add = 50
+      country_base_sr_goauld_symbiote_produces_add = 50
+}
+bc_strategic_resources_t4 = {
+	country_base_exotic_gases_produces_add = 100
+	country_base_rare_crystals_produces_add = 100
+	country_base_volatile_motes_produces_add = 100
+	country_base_sr_zro_produces_add = 100
+	country_base_sr_dark_matter_produces_add = 100
+	country_base_sr_living_metal_produces_add = 100
+	country_base_nanites_produces_add = 100
+	country_base_components_produces_add = 100
+      country_base_sr_dilithium_produces_add = 100
+      country_base_sr_ketracel_white_produces_add = 100
+      country_base_sr_latinum_produces_add = 100
+      country_base_sr_crew_produces_add = 100
+      country_base_sr_water_produces_add = 100
+      country_base_sr_brizeen_produces_add = 100
+      country_base_sr_deuterium_produces_add = 100
+      country_base_sr_luxuries_produces_add = 100
+      country_base_sr_cordrazine_produces_add = 100
+      country_base_sr_tallonian_produces_add = 100
+      country_base_sr_kemocite_produces_add = 100
+      country_base_sr_magnesite_produces_add = 100
+      country_base_sr_boronite_produces_add = 100
+      country_base_sr_time_crystal_produces_add = 100
+      country_base_sr_trellium_produces_add = 100
+      country_base_sr_pergium_produces_add = 100
+      country_base_sr_topaline_produces_add = 100
+      country_base_sr_ancient_zpm_produces_add = 100
+      country_base_sr_goauld_symbiote_produces_add = 100
+}
+bc_strategic_resources_t5 = {
+	country_base_exotic_gases_produces_add = 200
+	country_base_rare_crystals_produces_add = 200
+	country_base_volatile_motes_produces_add = 200
+	country_base_sr_zro_produces_add = 200
+	country_base_sr_dark_matter_produces_add = 200
+	country_base_sr_living_metal_produces_add = 200
+	country_base_nanites_produces_add = 200
+	country_base_components_produces_add = 200
+      country_base_sr_dilithium_produces_add = 200
+      country_base_sr_ketracel_white_produces_add = 200
+      country_base_sr_latinum_produces_add = 200
+      country_base_sr_crew_produces_add = 200
+      country_base_sr_water_produces_add = 200
+      country_base_sr_brizeen_produces_add = 200
+      country_base_sr_deuterium_produces_add = 200
+      country_base_sr_luxuries_produces_add = 200
+      country_base_sr_cordrazine_produces_add = 200
+      country_base_sr_tallonian_produces_add = 200
+      country_base_sr_kemocite_produces_add = 200
+      country_base_sr_magnesite_produces_add = 200
+      country_base_sr_boronite_produces_add = 200
+      country_base_sr_time_crystal_produces_add = 200
+      country_base_sr_trellium_produces_add = 200
+      country_base_sr_pergium_produces_add = 200
+      country_base_sr_ancient_zpm_produces_add = 200
+      country_base_sr_goauld_symbiote_produces_add = 200
+}
+bc_strategic_resources_t6 = {
+	country_base_exotic_gases_produces_add = 500
+	country_base_rare_crystals_produces_add = 500
+	country_base_volatile_motes_produces_add = 500
+	country_base_sr_zro_produces_add = 500
+	country_base_sr_dark_matter_produces_add = 500
+	country_base_sr_living_metal_produces_add = 500
+	country_base_nanites_produces_add = 500
+	country_base_components_produces_add = 500
+	country_base_sr_dilithium_produces_add = 500
+	country_base_sr_ketracel_white_produces_add = 500
+      country_base_sr_latinum_produces_add = 500
+      country_base_sr_crew_produces_add = 500
+      country_base_sr_water_produces_add = 500
+      country_base_sr_brizeen_produces_add = 500
+      country_base_sr_deuterium_produces_add = 500
+      country_base_sr_luxuries_produces_add = 500
+      country_base_sr_cordrazine_produces_add = 500
+      country_base_sr_tallonian_produces_add = 500
+      country_base_sr_kemocite_produces_add = 500
+      country_base_sr_magnesite_produces_add = 500
+      country_base_sr_boronite_produces_add = 500
+      country_base_sr_time_crystal_produces_add = 500
+      country_base_sr_trellium_produces_add = 500
+      country_base_sr_pergium_produces_add = 500
+      country_base_sr_topaline_produces_add = 500
+      country_base_sr_ancient_zpm_produces_add = 500
+      country_base_sr_goauld_symbiote_produces_add = 500
+}
+bc_strategic_resources_t7 = {
+	country_base_exotic_gases_produces_add = 1000
+	country_base_rare_crystals_produces_add = 1000
+	country_base_volatile_motes_produces_add = 1000
+	country_base_sr_zro_produces_add = 1000
+	country_base_sr_dark_matter_produces_add = 1000
+	country_base_sr_living_metal_produces_add = 1000
+	country_base_nanites_produces_add = 1000
+	country_base_components_produces_add = 1000
+	country_base_sr_dilithium_produces_add = 1000
+	country_base_sr_ketracel_white_produces_add = 1000                 	country_base_sr_latinum_produces_add = 1000
+      country_base_sr_crew_produces_add = 1000
+      country_base_sr_water_produces_add = 1000
+      country_base_sr_brizeen_produces_add = 1000
+      country_base_sr_deuterium_produces_add = 1000
+      country_base_sr_luxuries_produces_add = 1000
+      country_base_sr_cordrazine_produces_add = 1000
+      country_base_sr_tallonian_produces_add = 1000
+      country_base_sr_kemocite_produces_add = 1000
+      country_base_sr_magnesite_produces_add = 1000
+      country_base_sr_boronite_produces_add = 1000
+      country_base_sr_time_crystal_produces_add = 1000
+      country_base_sr_trellium_produces_add = 1000
+      country_base_sr_pergium_produces_add = 1000
+      country_base_sr_topaline_produces_add = 1000
+      country_base_sr_ancient_zpm_produces_add = 1000
+      country_base_sr_goauld_symbiote_produces_add = 1000
+}
+bc_strategic_resources_t8 = {
+	country_base_exotic_gases_produces_add = 2000
+	country_base_rare_crystals_produces_add = 2000
+	country_base_volatile_motes_produces_add = 2000
+	country_base_sr_zro_produces_add = 2000
+	country_base_sr_dark_matter_produces_add = 2000
+	country_base_sr_living_metal_produces_add = 2000
+	country_base_nanites_produces_add = 2000
+	country_base_components_produces_add = 2000
+	country_base_sr_dilithium_produces_add = 2000
+	country_base_sr_ketracel_white_produces_add = 2000
+      country_base_sr_latinum_produces_add = 2000
+      country_base_sr_crew_produces_add = 2000
+      country_base_sr_water_produces_add = 2000
+      country_base_sr_brizeen_produces_add = 2000
+      country_base_sr_deuterium_produces_add = 2000
+      country_base_sr_luxuries_produces_add = 2000
+      country_base_sr_cordrazine_produces_add = 2000
+      country_base_sr_tallonian_produces_add = 2000
+      country_base_sr_kemocite_produces_add = 2000
+      country_base_sr_magnesite_produces_add = 2000
+      country_base_sr_boronite_produces_add = 2000
+      country_base_sr_time_crystal_produces_add = 2000
+      country_base_sr_trellium_produces_add = 2000
+      country_base_sr_pergium_produces_add = 2000
+      country_base_sr_topaline_produces_add = 2000
+      country_base_sr_ancient_zpm_produces_add = 2000
+      country_base_sr_goauld_symbiote_produces_add = 2000
+}
+bc_strategic_resources_t9 = {
+	country_base_exotic_gases_produces_add = 5000
+	country_base_rare_crystals_produces_add = 5000
+	country_base_volatile_motes_produces_add = 5000
+	country_base_sr_zro_produces_add = 5000
+	country_base_sr_dark_matter_produces_add = 5000
+	country_base_sr_living_metal_produces_add = 5000
+	country_base_nanites_produces_add = 5000
+	country_base_components_produces_add = 5000
+	country_base_sr_dilithium_produces_add = 5000
+	country_base_sr_ketracel_white_produces_add = 5000
+      country_base_sr_latinum_produces_add = 5000
+      country_base_sr_crew_produces_add = 5000
+      country_base_sr_water_produces_add = 5000
+      country_base_sr_brizeen_produces_add = 5000
+      country_base_sr_deuterium_produces_add = 5000
+      country_base_sr_luxuries_produces_add = 5000
+      country_base_sr_cordrazine_produces_add = 5000
+      country_base_sr_tallonian_produces_add = 5000
+      country_base_sr_kemocite_produces_add = 5000
+      country_base_sr_magnesite_produces_add = 5000
+      country_base_sr_boronite_produces_add = 5000
+      country_base_sr_time_crystal_produces_add = 5000
+      country_base_sr_trellium_produces_add = 5000
+      country_base_sr_pergium_produces_add = 5000
+      country_base_sr_topaline_produces_add = 5000
+      country_base_sr_ancient_zpm_produces_add = 5000
+      country_base_sr_goauld_symbiote_produces_add = 5000
+}
+bc_strategic_resources_t10 = {
+	country_base_exotic_gases_produces_add = 100000
+	country_base_rare_crystals_produces_add = 100000
+	country_base_volatile_motes_produces_add = 100000
+	country_base_sr_zro_produces_add = 100000
+	country_base_sr_dark_matter_produces_add = 100000
+	country_base_sr_living_metal_produces_add = 100000
+	country_base_nanites_produces_add = 100000
+	country_base_sr_dilithium_produces_add = 100000
+	country_base_sr_ketracel_white_produces_add = 100000
+	country_base_sr_latinum_produces_add = 100000
+	country_base_sr_crew_produces_add = 100000
+	country_base_sr_water_produces_add = 100000
+	country_base_sr_brizeen_produces_add = 100000
+	country_base_sr_deuterium_produces_add = 100000
+	country_base_sr_luxuries_produces_add = 100000
+	country_base_sr_cordrazine_produces_add = 100000
+	country_base_sr_tallonian_produces_add = 100000
+	country_base_sr_kemocite_produces_add = 100000
+	country_base_sr_magnesite_produces_add = 100000
+	country_base_sr_boronite_produces_add = 100000
+	country_base_sr_time_crystal_produces_add = 100000
+	country_base_sr_trellium_produces_add = 100000
+	country_base_sr_pergium_produces_add = 100000
+	country_base_sr_duranium_produces_add = 100000
+	country_base_sr_topaline_produces_add = 100000
+	country_base_sr_ancient_zpm_produces_add = 100000
+	country_base_sr_goauld_symbiote_produces_add = 100000
+
+}
+
+###############################
+
+#### admin_cap TIER SELECTOR ####
+bc_admin_cap_t1 = {
+	country_admin_cap_add = 50
+	country_commander_cap_add= 10
+	country_official_cap_add = 10
+	country_scientist_cap_add = 10
+	command_limit_add = 50
+}
+bc_admin_cap_t2 = {
+	country_admin_cap_add = 75
+	country_commander_cap_add = 20
+	country_official_cap_add = 20
+	country_scientist_cap_add = 20
+	command_limit_add = 75
+}
+bc_admin_cap_t3 = {
+	country_admin_cap_add = 100
+	country_commander_cap_add = 30
+	country_official_cap_add = 30
+	country_scientist_cap_add = 30
+	command_limit_add = 100
+}
+bc_admin_cap_t4 = {
+	country_admin_cap_add = 150
+	country_commander_cap_add = 40
+	country_official_cap_add = 40
+	country_scientist_cap_add = 40
+	command_limit_add = 150
+}
+bc_admin_cap_t5 = {
+	country_admin_cap_add = 250
+	country_commander_cap_add = 50
+	country_official_cap_add = 50
+	country_scientist_cap_add = 50
+	command_limit_add = 250
+}
+bc_admin_cap_t6 = {
+	country_admin_cap_add = 500
+	country_commander_cap_add = 60
+	country_official_cap_add = 60
+	country_scientist_cap_add = 60
+	command_limit_add = 500
+}
+bc_admin_cap_t7 = {
+	country_admin_cap_add = 750
+	country_commander_cap_add = 70
+	country_official_cap_add = 70
+	country_scientist_cap_add = 70
+	command_limit_add = 750
+}
+bc_admin_cap_t8 = {
+	country_admin_cap_add = 1000
+	country_commander_cap_add = 80
+	country_official_cap_add = 80
+	country_scientist_cap_add = 80
+	command_limit_add = 1000
+}
+bc_admin_cap_t9 = {
+	country_admin_cap_add = 2500
+	country_commander_cap_add = 90
+	country_official_cap_add = 90
+	country_scientist_cap_add = 90
+	command_limit_add = 2500
+}
+bc_admin_cap_t10 = {
+	country_admin_cap_add = 5000
+	country_commander_cap_add = 100
+	country_official_cap_add = 100
+	country_scientist_cap_add = 100
+	command_limit_add = 5000
+}
+###############################
+
+#### amenities TIER SELECTOR ####
+bc_amenities_t1 = {
+	pop_amenities_usage_no_happiness_mult = -0.20
+}
+bc_amenities_t2 = {
+	pop_amenities_usage_no_happiness_mult = -0.30
+}
+bc_amenities_t3 = {
+	pop_amenities_usage_no_happiness_mult = -0.40
+}
+bc_amenities_t4 = {
+	pop_amenities_usage_no_happiness_mult = -0.50
+}
+bc_amenities_t5 = {
+	pop_amenities_usage_no_happiness_mult = -0.60
+}
+bc_amenities_t6 = {
+	pop_amenities_usage_no_happiness_mult = -0.70
+}
+bc_amenities_t7 = {
+	pop_amenities_usage_no_happiness_mult = -0.80
+}
+bc_amenities_t8 = {
+	pop_amenities_usage_no_happiness_mult = -0.90
+}
+bc_amenities_t9 = {
+	pop_amenities_usage_no_happiness_mult = -1.00
+}
+bc_amenities_t10 = {
+	pop_amenities_usage_no_happiness_mult = -2.00
+}
+###############################
+
+#### happiness TIER SELECTOR ####
+bc_happiness_t1 = {
+	pop_happiness = 1.00
+}
+bc_happiness_t2 = {
+	pop_happiness = 2.50
+}
+bc_happiness_t3 = {
+	pop_happiness = 5.00
+}
+bc_happiness_t4 = {
+	pop_happiness = 7.50
+}
+bc_happiness_t5 = {
+	pop_happiness = 10.00
+}
+bc_happiness_t6 = {
+	pop_happiness = 25.00
+}
+bc_happiness_t7 = {
+	pop_happiness = 50.00
+}
+bc_happiness_t8 = {
+	pop_happiness = 75.00
+}
+bc_happiness_t9 = {
+	pop_happiness = 100.00
+}
+bc_happiness_t10 = {
+	pop_happiness = 150.00
+}
+###############################
+
+#### ship_speed TIER SELECTOR ####
+bc_ship_speed_t1 = {
+	ship_base_speed_mult = 0.15
+	ship_interstellar_speed_mult = 0.15
+}
+bc_ship_speed_t2 = {
+	ship_base_speed_mult = 0.50
+	ship_interstellar_speed_mult = 0.50
+}
+bc_ship_speed_t3 = {
+	ship_base_speed_mult = 1.00
+	ship_interstellar_speed_mult = 1.00
+}
+bc_ship_speed_t4 = {
+	ship_base_speed_mult = 2.50
+	ship_interstellar_speed_mult = 2.50
+}
+bc_ship_speed_t5 = {
+	ship_base_speed_mult = 5.00
+	ship_interstellar_speed_mult = 5.00
+}
+bc_ship_speed_t6 = {
+	ship_base_speed_mult = 10.00
+	ship_interstellar_speed_mult = 10.00
+}
+bc_ship_speed_t7 = {
+	ship_base_speed_mult = 50.00
+	ship_interstellar_speed_mult = 50.00
+}
+bc_ship_speed_t8 = {
+	ship_base_speed_mult = 100.00
+	ship_interstellar_speed_mult = 100.00
+}
+bc_ship_speed_t9 = {
+	ship_base_speed_mult = 250.00
+	ship_interstellar_speed_mult = 250.00
+}
+bc_ship_speed_t10 = {
+	ship_base_speed_mult = 500.00
+	ship_interstellar_speed_mult = 500.00
+}
+###############################
+
+#### ship_regen TIER SELECTOR ####
+bc_ship_regen_t1 = {
+	ship_armor_regen_add_static = 0.50
+	ship_hull_regen_add_static = 0.50
+	ship_shield_regen_add_static = 0.50
+}
+bc_ship_regen_t2 = {
+	ship_armor_regen_add_static = 1.00
+	ship_hull_regen_add_static = 1.00
+	ship_shield_regen_add_static = 1.00
+}
+bc_ship_regen_t3 = {
+	ship_armor_regen_add_static = 2.50
+	ship_hull_regen_add_static = 2.50
+	ship_shield_regen_add_static = 2.50
+}
+bc_ship_regen_t4 = {
+	ship_armor_regen_add_static = 5.00
+	ship_hull_regen_add_static = 5.00
+	ship_shield_regen_add_static = 5.00
+}
+bc_ship_regen_t5 = {
+	ship_armor_regen_add_static = 15.00
+	ship_hull_regen_add_static = 15.00
+	ship_shield_regen_add_static = 15.00
+}
+bc_ship_regen_t6 = {
+	ship_armor_regen_add_static = 50.00
+	ship_hull_regen_add_static = 50.00
+	ship_shield_regen_add_static = 50.00
+}
+bc_ship_regen_t7 = {
+	ship_armor_regen_add_static = 100.00
+	ship_hull_regen_add_static = 100.00
+	ship_shield_regen_add_static = 100.00
+}
+bc_ship_regen_t8 = {
+	ship_armor_regen_add_static = 500.00
+	ship_hull_regen_add_static = 500.00
+	ship_shield_regen_add_static = 500.00
+}
+bc_ship_regen_t9 = {
+	ship_armor_regen_add_static = 1000.00
+	ship_hull_regen_add_static = 1000.00
+	ship_shield_regen_add_static = 1000.00
+}
+bc_ship_regen_t10 = {
+	ship_armor_regen_add_static = 10000.00
+	ship_hull_regen_add_static = 10000.00
+	ship_shield_regen_add_static = 10000.00
+}
+###############################
+
+
+#### EXAMPLE2 BOOL SELECTOR ####
+bc_EXAMPLE2 = {
+	country_minerals_produces_mult = 100
+}
+###############################
+
+#### terraforming_speed BOOL SELECTOR ####
+bc_terraforming_speed = {
+	terraform_speed_mult = 10000
+}
+###############################
+
+#### trade_defence BOOL SELECTOR ####
+bc_trade_defence = {
+	starbase_trade_protection_add = 10000
+}
+###############################
+
+
+#### defence_platform_cap BOOL SELECTOR ####
+bc_defence_platform_cap = {
+	starbase_defense_platform_capacity_add = 100
+}
+###############################
+
+#### millitary BOOL SELECTOR ####
+bc_millitary = {
+	starbase_shipyard_build_speed_mult = 700.00
+	planet_army_build_speed_mult = 500.00
+}
+###############################
+
+#### planatary_building BOOL SELECTOR ####
+bc_planatary_building = {
+	planet_building_build_speed_mult = 500.00
+	planet_clear_blocker_speed_mult = 500.00
+	planet_clear_blocker_time_mult = -500.00
+}
+###############################
+
+#### megastructure_building BOOL SELECTOR ####
+bc_megastructure_building = {
+	megastructure_build_speed_mult = 500.00
+}
+###############################
+
+#### megastructure_cap BOOL SELECTOR ####
+bc_megastructure_cap = {
+	country_megastructure_build_cap_add = 500
+}
+###############################
+
+#### starbase_cap BOOL SELECTOR ####
+bc_starbase_cap = {
+	country_starbase_capacity_add = 5000000
+}
+###############################
+
+#### starbase_building BOOL SELECTOR ####
+bc_starbase_building = {
+	shipsize_starbase_outpost_build_speed_mult = 500.00
+	starbase_upgrade_speed_mult = 500.00
+	starbase_module_build_speed_mult = 500.00
+	starbase_building_build_speed_mult = 500.00
+	shipclass_military_station_build_speed_mult = 500.00
+}
+###############################
+
+#### resource_cap BOOL SELECTOR ####
+bc_resource_cap = {
+	country_resource_max_add = 5000000
+}
+###############################
+
+#### fleet_limit BOOL SELECTOR ####
+bc_fleet_limit = {
+	country_naval_cap_add = 5000000
+	command_limit_add = 5000000
+}
+###############################
+
+#### diplomacy BOOL SELECTOR ####
+bc_diplomacy = {
+	country_trust_growth = 500.00
+	country_trust_cap_add = 50000
+}
+###############################
+
+#### envoys BOOL SELECTOR ####
+bc_envoys_t1 = {
+	envoys_add = 5
+}
+bc_envoys_t2 = {
+	envoys_add = 10
+}
+bc_envoys_t3 = {
+	envoys_add = 20
+}
+bc_envoys_t4 = {
+	envoys_add = 30
+}
+bc_envoys_t5 = {
+	envoys_add = 40
+}
+bc_envoys_t6 = {
+	envoys_add = 50
+}
+bc_envoys_t7 = {
+	envoys_add = 70
+}
+###############################
+
+#### tech_alt BOOL SELECTOR ####
+bc_tech_alt = {
+	num_tech_alternatives_add = 20
+}
+###############################
+
+#### anomaly_gen BOOL SELECTOR ####
+bc_anomaly_gen = {
+	ship_anomaly_generation_chance_mult = 100.00
+}
+###############################
+
+#### ethics_gov BOOL SELECTOR ####
+bc_ethics = {
+	pop_government_ethic_attraction = 100.00
+}
+###############################
+
+#### ethics_shift BOOL SELECTOR ####
+bc_ethics_shift = {
+	pop_ethics_shift_speed_mult = 100.00
+}
+###############################
+
+#### stability TIER SELECTOR ####
+bc_stability_t1 = {
+	planet_stability_add = 1.00
+}
+bc_stability_t2 = {
+	planet_stability_add = 2.50
+}
+bc_stability_t3 = {
+	planet_stability_add = 5.00
+}
+bc_stability_t4 = {
+	planet_stability_add = 7.50
+}
+bc_stability_t5 = {
+	planet_stability_add = 10.00
+}
+bc_stability_t6 = {
+	planet_stability_add = 25.00
+}
+bc_stability_t7 = {
+	planet_stability_add = 50.00
+}
+bc_stability_t8 = {
+	planet_stability_add = 75.00
+}
+bc_stability_t9 = {
+	planet_stability_add = 100.00
+}
+bc_stability_t10 = {
+	planet_stability_add = 150.00
+}
+###############################
+
+#### leader_level BOOL SELECTOR ####
+bc_leader_level = {
+	leader_skill_levels = 100
+	species_leader_exp_gain = 5000.00
+}
+###############################
+
+#### leader_pool BOOL SELECTOR ####
+bc_leader_pool = {
+	country_leader_pool_size = 20
+}
+###############################
+
+#### ship_xp BOOL SELECTOR ####
+bc_ship_xp = {
+	ship_experience_gain_mult = 5000.00
+}
+###############################
+
+#### leader_age TIER SELECTOR ####
+bc_leader_age_t1 = {
+	leader_lifespan_add = 10
+}
+bc_leader_age_t2 = {
+	leader_lifespan_add = 20
+}
+bc_leader_age_t3 = {
+	leader_lifespan_add = 30
+}
+bc_leader_age_t4 = {
+	leader_lifespan_add = 40
+}
+bc_leader_age_t5 = {
+	leader_lifespan_add = 50
+}
+bc_leader_age_t6 = {
+	leader_lifespan_add = 75
+}
+bc_leader_age_t7 = {
+	leader_lifespan_add = 100
+}
+bc_leader_age_t8 = {
+	leader_lifespan_add = 250
+}
+bc_leader_age_t9 = {
+	leader_lifespan_add = 500
+}
+bc_leader_age_t10 = {
+	leader_lifespan_add = 1000
+}
+###############################

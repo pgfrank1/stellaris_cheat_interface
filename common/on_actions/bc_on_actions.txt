@@ -1,0 +1,18 @@
+on_game_start = {
+	events = {
+		bcmultiplayer.1 #Declare host
+	}	
+} 
+
+on_monthly_pulse = {
+	events = {
+		bcmultiplayer.1 #Redeclares host if necessary
+	}
+}
+
+#From = Planet scope
+#This = Fleet scope
+on_fleet_enter_orbit = {
+	events = {
+	}
+}
