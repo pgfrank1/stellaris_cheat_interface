@@ -414,8 +414,8 @@
 
  #### fleet_limit BOOL SELECTOR ####
 
- bccheatmenu_111_title:0             "Naval Capacity and Fleet Limit £fleet_limit£"
- bccheatmenu_111_title_b:0           "§GNaval Capacity and Fleet Limit £fleet_limit£§W"
+ bccheatmenu_111_title:0             "Naval Capacity and Fleet Limit £mod_command_limit_mult£"
+ bccheatmenu_111_title_b:0           "§GNaval Capacity and Fleet Limit £mod_command_limit_mult£§W"
  bccheatmenu_111_desc:0              "Naval Capacity describes the total amount of ships you are able to have without getting any malus to upkeep.\n\nFleet command limit describes the amount of ships you are able to have per indivifual fleet."
  bccheatmenu_111_activate_desc:0     "Overwhelming in numbers?\n\n"
  bccheatmenu_111_deactivate_desc:0   "Overwhelming in power?\n\n"
@@ -484,8 +484,8 @@
 
  #### damage TIER SELECTOR ####
 
- bccheatmenu_114_title:0             "Damage £millitary_power£ £millitary_ship£"
- bccheatmenu_114_title_b:0           "§GDamage £millitary_power£ £millitary_ship£§W"
+ bccheatmenu_114_title:0             "Damage £mod_ship_weapon_damage£ £mod_op_cat_military£"
+ bccheatmenu_114_title_b:0           "§GDamage £mod_ship_weapon_damage£ £mod_op_cat_military£§W"
  bccheatmenu_114_desc:0              "Each fleet is shown on the screen with a strength number. This number represents the power of this fleet, measured by the combined offensive strength of all of the ships in the fleet. This is a rough guide to a fleet's prowess, but cannot be understood as an absolute determinant in how combat will play out. A fleet that has a lot of offensive weapons that are unsuited for the enemy it is facing (Alien creatures with regenerating hulls or skins, enemies with sophisticated and appropriate countermeasures) may still lose to this enemy even though its strength number is considerably higher.\n\n-Stellaris Paradox Wiki"
  bccheatmenu_114_t1_desc:0           "The only damage you'll be giving is brain damage.\n\n"
  bccheatmenu_114_t2_desc:0           "Go and stub your toe. \n\n"
@@ -594,6 +594,24 @@
  bc_monthly_loyalty_t8:0                        "Monthly Loyalty Tier VIII"
  bc_monthly_loyalty_t9:0                        "Monthly Loyalty Tier IX"
  bc_monthly_loyalty_t10:0                       "Monthly Loyalty Tier X"
+
+ ###############################
+
+ #### Planetary Decision TIER SELECTOR ####
+ bccheatmenu_1157_title:0                       "Planetary Decision Speed £mod_planet_decision_enact_speed_mult£"
+ bccheatmenu_1157_title_b:0                     "§GPlanetary Decision Speed £mod_planet_decision_enact_speed_mult£§W"
+ bccheatmenu_1157_desc:0                        "Increases the speed of Planetary Decisions."
+
+ bc_planetary_decision_t1:0                     "Planetary Decision Speed Tier I"
+ bc_planetary_decision_t2:0                     "Planetary Decision Speed Tier II"
+ bc_planetary_decision_t3:0                     "Planetary Decision Speed Tier III"
+ bc_planetary_decision_t4:0                     "Planetary Decision Speed Tier IV"
+ bc_planetary_decision_t5:0                     "Planetary Decision Speed Tier V"
+ bc_planetary_decision_t6:0                     "Planetary Decision Speed Tier VI"
+ bc_planetary_decision_t7:0                     "Planetary Decision Speed Tier VII"
+ bc_planetary_decision_t8:0                     "Planetary Decision Speed Tier VIII"
+ bc_planetary_decision_t9:0                     "Planetary Decision Speed Tier IX"
+ bc_planetary_decision_t10:0                    "Planetary Decision Speed Tier X"
 
  ###############################
 
@@ -909,7 +927,7 @@
  #### strategic_resources TIER SELECTOR ####
 
  bccheatmenu_129_title:0             "Monthly Strategic resources £strategic£"
- bccheatmenu_129_title_b:0           "§GMonthly Strategic resources £strategi£§W"
+ bccheatmenu_129_title_b:0           "§GMonthly Strategic resources £strategic£§W"
  bccheatmenu_129_desc:0              "Strategic resources are special rare resources required to both build and maintain advanced buildings and ship components. They are much harder to obtain than the common basic resources and are therefore also much more highly valued.\n\n-Stellaris Paradox Wiki"
  bccheatmenu_129_t1_desc:0           "No luck finding any in your range?\n\n"
  bccheatmenu_129_t2_desc:0           "Not so strategic anymore.\n\n"
@@ -1101,8 +1119,8 @@
 
  #### leader_age TIER SELECTOR ####
 
- bccheatmenu_138_title:0             "Leader Lifespan £mod_leader_age£"
- bccheatmenu_138_title_b:0           "§GLeader Lifespan £mod_leader_age£§W"
+ bccheatmenu_138_title:0             "Leader Lifespan £mod_leader_lifespan_add£"
+ bccheatmenu_138_title_b:0           "§GLeader Lifespan £mod_leader_lifespan_add£§W"
  bccheatmenu_138_desc:0              "The amount of years your leader is guranteed to live."
  bccheatmenu_138_t1_desc:0           "Looks like every politican in the USA ever.\n\n"
  bccheatmenu_138_t2_desc:0           "Aging like fine wine.\n\n"
@@ -1130,8 +1148,8 @@
 
  #### ship_xp BOOL SELECTOR ####
 
- bccheatmenu_139_title:0             "Ship XP £mod_ship_experience_mult£"
- bccheatmenu_139_title_b:0           "§GShip XP £mod_ship_experience_mult£§W"
+ bccheatmenu_139_title:0             "Ship XP £mod_ship_experience_gain_mult£"
+ bccheatmenu_139_title_b:0           "§GShip XP £mod_ship_experience_gain_mult£§W"
  bccheatmenu_139_desc:0              "As ship expirience increases the ships base stats will increase aswell."
  bccheatmenu_139_activate_desc:0     "Everybody working on your ships had a previous run in with Truck-kun"
  bccheatmenu_139_deactivate_desc:0   "Your staff gets isekaid back to where they belong."
@@ -1171,8 +1189,8 @@
 
 #### ship_regen TIER SELECTOR ####
 
- bccheatmenu_141_title:0             "Ship Regeneration £mod_ship_armpr_regen_add_perc£"
- bccheatmenu_141_title_b:0           "§GShip Regeneration £mod_ship_armpr_regen_add_perc£§W"
+ bccheatmenu_141_title:0             "Ship Regeneration £mod_ship_armor_regen_add_static£"
+ bccheatmenu_141_title_b:0           "§GShip Regeneration £mod_ship_armor_regen_add_static£§W"
  bccheatmenu_141_desc:0              "The amount of health a ship regenerates when regenerative hull tissue or simelar is equipped."
  bccheatmenu_141_t1_desc:0           "Not to be confused with Reagen\n\n"
  bccheatmenu_141_t2_desc:0           "Insert bad skyrim 'Restoration' meme here\n\n"

@@ -390,6 +390,41 @@ bc_monthly_loyalty_t10 = {
 
 ###############################
 
+#### Planetary Decision Speed TIER SELECTOR ####
+
+bc_planetary_decision_t1 = {
+	planet_decision_enact_speed_mult = 0.15
+}
+bc_planetary_decision_t2 = {
+	planet_decision_enact_speed_mult = 0.50
+}
+bc_planetary_decision_t3 = {
+	planet_decision_enact_speed_mult = 1.00
+}
+bc_planetary_decision_t4 = {
+	planet_decision_enact_speed_mult = 2.50
+}
+bc_planetary_decision_t5 = {
+	planet_decision_enact_speed_mult = 5.00
+}
+bc_planetary_decision_t6 = {
+	planet_decision_enact_speed_mult = 10.00
+}
+bc_planetary_decision_t7 = {
+	planet_decision_enact_speed_mult = 50.00
+}
+bc_planetary_decision_t8 = {
+	planet_decision_enact_speed_mult = 100.00
+}
+bc_planetary_decision_t9 = {
+	planet_decision_enact_speed_mult = 250.00
+}
+bc_planetary_decision_t10 = {
+	planet_decision_enact_speed_mult = 500.00
+}
+
+###############################
+
 #### damage TIER SELECTOR ####
 bc_damage_t1 = {
 	ship_weapon_damage = 0.15

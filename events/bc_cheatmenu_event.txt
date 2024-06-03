@@ -3947,6 +3947,16 @@ country_event = {
 					has_modifier = bc_diplomatic_weight_t8n
 					has_modifier = bc_diplomatic_weight_t9n
 					has_modifier = bc_diplomatic_weight_t10n
+					has_modifier = bc_diplomatic_weight_t11n
+					has_modifier = bc_diplomatic_weight_t12n
+					has_modifier = bc_diplomatic_weight_t13n
+					has_modifier = bc_diplomatic_weight_t14n
+					has_modifier = bc_diplomatic_weight_t15n
+					has_modifier = bc_diplomatic_weight_t16n
+					has_modifier = bc_diplomatic_weight_t17n
+					has_modifier = bc_diplomatic_weight_t18n
+					has_modifier = bc_diplomatic_weight_t19n
+					has_modifier = bc_diplomatic_weight_t20n
 				}
 			}
 		}
@@ -3971,6 +3981,16 @@ country_event = {
 					has_modifier = bc_diplomatic_weight_t8n
 					has_modifier = bc_diplomatic_weight_t9n
 					has_modifier = bc_diplomatic_weight_t10n
+					has_modifier = bc_diplomatic_weight_t11n
+					has_modifier = bc_diplomatic_weight_t12n
+					has_modifier = bc_diplomatic_weight_t13n
+					has_modifier = bc_diplomatic_weight_t14n
+					has_modifier = bc_diplomatic_weight_t15n
+					has_modifier = bc_diplomatic_weight_t16n
+					has_modifier = bc_diplomatic_weight_t17n
+					has_modifier = bc_diplomatic_weight_t18n
+					has_modifier = bc_diplomatic_weight_t19n
+					has_modifier = bc_diplomatic_weight_t20n
 				}
 			}
 		}
@@ -3998,6 +4018,7 @@ country_event = {
 					has_modifier = bc_monthly_loyalty_t8
 					has_modifier = bc_monthly_loyalty_t9
 					has_modifier = bc_monthly_loyalty_t10
+
 				}
 			}
 		}
@@ -4027,6 +4048,59 @@ country_event = {
 		}
 	}
 	###################################
+
+	#### planetary decision TIER BUTTON START ####
+	option = {
+		name = "bccheatmenu_1157_title"
+		hidden_effect = {
+			country_event = {
+				id = bccheatmenu.1157
+			}
+		}
+		trigger = {
+			event_target:cheat_target_selected = {
+				nor = {
+					has_modifier = bc_planetary_decision_t1
+					has_modifier = bc_planetary_decision_t2
+					has_modifier = bc_planetary_decision_t3
+					has_modifier = bc_planetary_decision_t4
+					has_modifier = bc_planetary_decision_t5
+					has_modifier = bc_planetary_decision_t6
+					has_modifier = bc_planetary_decision_t7
+					has_modifier = bc_planetary_decision_t8
+					has_modifier = bc_planetary_decision_t9
+					has_modifier = bc_planetary_decision_t10
+				}
+			}
+		}
+	}
+	option = {
+		name = "bccheatmenu_1157_title_b"
+		hidden_effect = {
+			country_event = {
+				id = bccheatmenu.1157
+			}
+		}
+		trigger = {
+			event_target:cheat_target_selected = {
+				or = {
+					has_modifier = bc_planetary_decision_t1
+					has_modifier = bc_planetary_decision_t2
+					has_modifier = bc_planetary_decision_t3
+					has_modifier = bc_planetary_decision_t4
+					has_modifier = bc_planetary_decision_t5
+					has_modifier = bc_planetary_decision_t6
+					has_modifier = bc_planetary_decision_t7
+					has_modifier = bc_planetary_decision_t8
+					has_modifier = bc_planetary_decision_t9
+					has_modifier = bc_planetary_decision_t10
+				}
+			}
+		}
+	}
+
+	###################################
+
 	#### admin_cap TIER BUTTON START ####
 	option = {
 		name = "bccheatmenu_130_title"
@@ -10723,467 +10797,467 @@ country_event = {
 			}
 		}
 	}
-	option = {
-		name = "bc_tier_xi"
-		custom_tooltip = "bccheatmenu_115_t1_desc"
-		allow = {
-			event_target:cheat_target_selected = {
-				not = { has_modifier = bc_diplomatic_weight_t11n }
-			}
-		}
-		hidden_effect = {
-			country_event = {
-				id = bccheatmenu.1155
-			}
-			event_target:cheat_target_selected = {
-				remove_modifier = bc_diplomatic_weight_t1n
-				remove_modifier = bc_diplomatic_weight_t2n
-				remove_modifier = bc_diplomatic_weight_t3n
-				remove_modifier = bc_diplomatic_weight_t4n
-				remove_modifier = bc_diplomatic_weight_t5n
-				remove_modifier = bc_diplomatic_weight_t6n
-				remove_modifier = bc_diplomatic_weight_t7n
-				remove_modifier = bc_diplomatic_weight_t8n
-				remove_modifier = bc_diplomatic_weight_t9n
-				remove_modifier = bc_diplomatic_weight_t10n
-				remove_modifier = bc_diplomatic_weight_t11n
-				remove_modifier = bc_diplomatic_weight_t12n
-				remove_modifier = bc_diplomatic_weight_t13n
-				remove_modifier = bc_diplomatic_weight_t14n
-				remove_modifier = bc_diplomatic_weight_t15n
-				remove_modifier = bc_diplomatic_weight_t16n
-				remove_modifier = bc_diplomatic_weight_t17n
-				remove_modifier = bc_diplomatic_weight_t18n
-				remove_modifier = bc_diplomatic_weight_t19n
-				remove_modifier = bc_diplomatic_weight_t20n
-				add_modifier = {
-					modifier = bc_diplomatic_weight_t11n
-					days = -1
-				}
-			}
-		}
-		tooltip = {
-			add_modifier = {
-				modifier = bc_diplomatic_weight_t11n
-				days = -1
-			}
-		}
-
-	}
-	option = {
-		name = "bc_tier_ii"
-		custom_tooltip = "bccheatmenu_115_t2_desc"
-		allow = {
-			event_target:cheat_target_selected = {
-				not = { has_modifier = bc_diplomatic_weight_t12n }
-			}
-		}
-		hidden_effect = {
-			country_event = {
-				id = bccheatmenu.1155
-			}
-			event_target:cheat_target_selected = {
-				remove_modifier = bc_diplomatic_weight_t1n
-				remove_modifier = bc_diplomatic_weight_t2n
-				remove_modifier = bc_diplomatic_weight_t3n
-				remove_modifier = bc_diplomatic_weight_t4n
-				remove_modifier = bc_diplomatic_weight_t5n
-				remove_modifier = bc_diplomatic_weight_t6n
-				remove_modifier = bc_diplomatic_weight_t7n
-				remove_modifier = bc_diplomatic_weight_t8n
-				remove_modifier = bc_diplomatic_weight_t9n
-				remove_modifier = bc_diplomatic_weight_t10n
-				remove_modifier = bc_diplomatic_weight_t11n
-				remove_modifier = bc_diplomatic_weight_t12n
-				remove_modifier = bc_diplomatic_weight_t13n
-				remove_modifier = bc_diplomatic_weight_t14n
-				remove_modifier = bc_diplomatic_weight_t15n
-				remove_modifier = bc_diplomatic_weight_t16n
-				remove_modifier = bc_diplomatic_weight_t17n
-				remove_modifier = bc_diplomatic_weight_t18n
-				remove_modifier = bc_diplomatic_weight_t19n
-				remove_modifier = bc_diplomatic_weight_t20n
-				add_modifier = {
-					modifier = bc_diplomatic_weight_t12n
-					days = -1
-				}
-			}
-		}
-		tooltip = {
-			add_modifier = {
-				modifier = bc_diplomatic_weight_t12n
-				days = -1
-			}
-		}
-	}
-	option = {
-		name = "bc_tier_iii"
-		custom_tooltip = "bccheatmenu_115_t3_desc"
-		allow = {
-			event_target:cheat_target_selected = {
-				not = { has_modifier = bc_diplomatic_weight_t13n }
-			}
-		}
-		hidden_effect = {
-			country_event = {
-				id = bccheatmenu.1155
-			}
-			event_target:cheat_target_selected = {
-				remove_modifier = bc_diplomatic_weight_t1n
-				remove_modifier = bc_diplomatic_weight_t2n
-				remove_modifier = bc_diplomatic_weight_t3n
-				remove_modifier = bc_diplomatic_weight_t4n
-				remove_modifier = bc_diplomatic_weight_t5n
-				remove_modifier = bc_diplomatic_weight_t6n
-				remove_modifier = bc_diplomatic_weight_t7n
-				remove_modifier = bc_diplomatic_weight_t8n
-				remove_modifier = bc_diplomatic_weight_t9n
-				remove_modifier = bc_diplomatic_weight_t10n
-				remove_modifier = bc_diplomatic_weight_t11n
-				remove_modifier = bc_diplomatic_weight_t12n
-				remove_modifier = bc_diplomatic_weight_t13n
-				remove_modifier = bc_diplomatic_weight_t14n
-				remove_modifier = bc_diplomatic_weight_t15n
-				remove_modifier = bc_diplomatic_weight_t16n
-				remove_modifier = bc_diplomatic_weight_t17n
-				remove_modifier = bc_diplomatic_weight_t18n
-				remove_modifier = bc_diplomatic_weight_t19n
-				remove_modifier = bc_diplomatic_weight_t20n
-				add_modifier = {
-					modifier = bc_diplomatic_weight_t13n
-					days = -1
-				}
-			}
-		}
-		tooltip = {
-			add_modifier = {
-				modifier = bc_diplomatic_weight_t13n
-				days = -1
-			}
-		}
-	}
-	option = {
-		name = "bc_tier_iv"
-		custom_tooltip = "bccheatmenu_115_t4_desc"
-		allow = {
-			event_target:cheat_target_selected = {
-				not = { has_modifier = bc_diplomatic_weight_t14n }
-			}
-		}
-		hidden_effect = {
-			country_event = {
-				id = bccheatmenu.1155
-			}
-			event_target:cheat_target_selected = {
-				remove_modifier = bc_diplomatic_weight_t1n
-				remove_modifier = bc_diplomatic_weight_t2n
-				remove_modifier = bc_diplomatic_weight_t3n
-				remove_modifier = bc_diplomatic_weight_t4n
-				remove_modifier = bc_diplomatic_weight_t5n
-				remove_modifier = bc_diplomatic_weight_t6n
-				remove_modifier = bc_diplomatic_weight_t7n
-				remove_modifier = bc_diplomatic_weight_t8n
-				remove_modifier = bc_diplomatic_weight_t9n
-				remove_modifier = bc_diplomatic_weight_t10n
-				remove_modifier = bc_diplomatic_weight_t11n
-				remove_modifier = bc_diplomatic_weight_t12n
-				remove_modifier = bc_diplomatic_weight_t13n
-				remove_modifier = bc_diplomatic_weight_t14n
-				remove_modifier = bc_diplomatic_weight_t15n
-				remove_modifier = bc_diplomatic_weight_t16n
-				remove_modifier = bc_diplomatic_weight_t17n
-				remove_modifier = bc_diplomatic_weight_t18n
-				remove_modifier = bc_diplomatic_weight_t19n
-				remove_modifier = bc_diplomatic_weight_t20n
-				add_modifier = {
-					modifier = bc_diplomatic_weight_t14n
-					days = -1
-				}
-			}
-		}
-		tooltip = {
-			add_modifier = {
-				modifier = bc_diplomatic_weight_t14n
-				days = -1
-			}
-		}
-	}
-	option = {
-		name = "bc_tier_v"
-		custom_tooltip = "bccheatmenu_115_t5_desc"
-		allow = {
-			event_target:cheat_target_selected = {
-				not = { has_modifier = bc_diplomatic_weight_t15n }
-			}
-		}
-		hidden_effect = {
-			country_event = {
-				id = bccheatmenu.1155
-			}
-			event_target:cheat_target_selected = {
-				remove_modifier = bc_diplomatic_weight_t1n
-				remove_modifier = bc_diplomatic_weight_t2n
-				remove_modifier = bc_diplomatic_weight_t3n
-				remove_modifier = bc_diplomatic_weight_t4n
-				remove_modifier = bc_diplomatic_weight_t5n
-				remove_modifier = bc_diplomatic_weight_t6n
-				remove_modifier = bc_diplomatic_weight_t7n
-				remove_modifier = bc_diplomatic_weight_t8n
-				remove_modifier = bc_diplomatic_weight_t9n
-				remove_modifier = bc_diplomatic_weight_t10n
-				remove_modifier = bc_diplomatic_weight_t11n
-				remove_modifier = bc_diplomatic_weight_t12n
-				remove_modifier = bc_diplomatic_weight_t13n
-				remove_modifier = bc_diplomatic_weight_t14n
-				remove_modifier = bc_diplomatic_weight_t15n
-				remove_modifier = bc_diplomatic_weight_t16n
-				remove_modifier = bc_diplomatic_weight_t17n
-				remove_modifier = bc_diplomatic_weight_t18n
-				remove_modifier = bc_diplomatic_weight_t19n
-				remove_modifier = bc_diplomatic_weight_t20n
-				add_modifier = {
-					modifier = bc_diplomatic_weight_t15n
-					days = -1
-				}
-			}
-		}
-		tooltip = {
-			add_modifier = {
-				modifier = bc_diplomatic_weight_t15n
-				days = -1
-			}
-		}
-	}
-	option = {
-		name = "bc_tier_vi"
-		custom_tooltip = "bccheatmenu_115_t6_desc"
-		allow = {
-			event_target:cheat_target_selected = {
-				not = { has_modifier = bc_diplomatic_weight_t16n }
-			}
-		}
-		hidden_effect = {
-			country_event = {
-				id = bccheatmenu.1155
-			}
-			event_target:cheat_target_selected = {
-				remove_modifier = bc_diplomatic_weight_t1n
-				remove_modifier = bc_diplomatic_weight_t2n
-				remove_modifier = bc_diplomatic_weight_t3n
-				remove_modifier = bc_diplomatic_weight_t4n
-				remove_modifier = bc_diplomatic_weight_t5n
-				remove_modifier = bc_diplomatic_weight_t6n
-				remove_modifier = bc_diplomatic_weight_t7n
-				remove_modifier = bc_diplomatic_weight_t8n
-				remove_modifier = bc_diplomatic_weight_t9n
-				remove_modifier = bc_diplomatic_weight_t10n
-				remove_modifier = bc_diplomatic_weight_t11n
-				remove_modifier = bc_diplomatic_weight_t12n
-				remove_modifier = bc_diplomatic_weight_t13n
-				remove_modifier = bc_diplomatic_weight_t14n
-				remove_modifier = bc_diplomatic_weight_t15n
-				remove_modifier = bc_diplomatic_weight_t16n
-				remove_modifier = bc_diplomatic_weight_t17n
-				remove_modifier = bc_diplomatic_weight_t18n
-				remove_modifier = bc_diplomatic_weight_t19n
-				remove_modifier = bc_diplomatic_weight_t20n
-				add_modifier = {
-					modifier = bc_diplomatic_weight_t16n
-					days = -1
-				}
-			}
-		}
-		tooltip = {
-			add_modifier = {
-				modifier = bc_diplomatic_weight_t16n
-				days = -1
-			}
-		}
-	}
-	option = {
-		name = "bc_tier_vii"
-		custom_tooltip = "bccheatmenu_115_t7_desc"
-		allow = {
-			event_target:cheat_target_selected = {
-				not = { has_modifier = bc_diplomatic_weight_t17n }
-			}
-		}
-		hidden_effect = {
-			country_event = {
-				id = bccheatmenu.1155
-			}
-			event_target:cheat_target_selected = {
-				remove_modifier = bc_diplomatic_weight_t1n
-				remove_modifier = bc_diplomatic_weight_t2n
-				remove_modifier = bc_diplomatic_weight_t3n
-				remove_modifier = bc_diplomatic_weight_t4n
-				remove_modifier = bc_diplomatic_weight_t5n
-				remove_modifier = bc_diplomatic_weight_t6n
-				remove_modifier = bc_diplomatic_weight_t7n
-				remove_modifier = bc_diplomatic_weight_t8n
-				remove_modifier = bc_diplomatic_weight_t9n
-				remove_modifier = bc_diplomatic_weight_t10n
-				remove_modifier = bc_diplomatic_weight_t11n
-				remove_modifier = bc_diplomatic_weight_t12n
-				remove_modifier = bc_diplomatic_weight_t13n
-				remove_modifier = bc_diplomatic_weight_t14n
-				remove_modifier = bc_diplomatic_weight_t15n
-				remove_modifier = bc_diplomatic_weight_t16n
-				remove_modifier = bc_diplomatic_weight_t17n
-				remove_modifier = bc_diplomatic_weight_t18n
-				remove_modifier = bc_diplomatic_weight_t19n
-				remove_modifier = bc_diplomatic_weight_t20n
-				add_modifier = {
-					modifier = bc_diplomatic_weight_t17n
-					days = -1
-				}
-			}
-		}
-		tooltip = {
-			add_modifier = {
-				modifier = bc_diplomatic_weight_t17n
-				days = -1
-			}
-		}
-	}
-	option = {
-		name = "bc_tier_viii"
-		custom_tooltip = "bccheatmenu_115_t8_desc"
-		allow = {
-			event_target:cheat_target_selected = {
-				not = { has_modifier = bc_diplomatic_weight_t18n }
-			}
-		}
-		hidden_effect = {
-			country_event = {
-				id = bccheatmenu.1155
-			}
-			event_target:cheat_target_selected = {
-				remove_modifier = bc_diplomatic_weight_t1n
-				remove_modifier = bc_diplomatic_weight_t2n
-				remove_modifier = bc_diplomatic_weight_t3n
-				remove_modifier = bc_diplomatic_weight_t4n
-				remove_modifier = bc_diplomatic_weight_t5n
-				remove_modifier = bc_diplomatic_weight_t6n
-				remove_modifier = bc_diplomatic_weight_t7n
-				remove_modifier = bc_diplomatic_weight_t8n
-				remove_modifier = bc_diplomatic_weight_t9n
-				remove_modifier = bc_diplomatic_weight_t10n
-				remove_modifier = bc_diplomatic_weight_t11n
-				remove_modifier = bc_diplomatic_weight_t12n
-				remove_modifier = bc_diplomatic_weight_t13n
-				remove_modifier = bc_diplomatic_weight_t14n
-				remove_modifier = bc_diplomatic_weight_t15n
-				remove_modifier = bc_diplomatic_weight_t16n
-				remove_modifier = bc_diplomatic_weight_t17n
-				remove_modifier = bc_diplomatic_weight_t18n
-				remove_modifier = bc_diplomatic_weight_t19n
-				remove_modifier = bc_diplomatic_weight_t20n
-				add_modifier = {
-					modifier = bc_diplomatic_weight_t18n
-					days = -1
-				}
-			}
-		}
-		tooltip = {
-			add_modifier = {
-				modifier = bc_diplomatic_weight_t18n
-				days = -1
-			}
-		}
-	}
-	option = {
-		name = "bc_tier_ix"
-		custom_tooltip = "bccheatmenu_115_t9_desc"
-		allow = {
-			event_target:cheat_target_selected = {
-				not = { has_modifier = bc_diplomatic_weight_t19n }
-			}
-		}
-		hidden_effect = {
-			country_event = {
-				id = bccheatmenu.1155
-			}
-			event_target:cheat_target_selected = {
-				remove_modifier = bc_diplomatic_weight_t1n
-				remove_modifier = bc_diplomatic_weight_t2n
-				remove_modifier = bc_diplomatic_weight_t3n
-				remove_modifier = bc_diplomatic_weight_t4n
-				remove_modifier = bc_diplomatic_weight_t5n
-				remove_modifier = bc_diplomatic_weight_t6n
-				remove_modifier = bc_diplomatic_weight_t7n
-				remove_modifier = bc_diplomatic_weight_t8n
-				remove_modifier = bc_diplomatic_weight_t9n
-				remove_modifier = bc_diplomatic_weight_t10n
-				remove_modifier = bc_diplomatic_weight_t11n
-				remove_modifier = bc_diplomatic_weight_t12n
-				remove_modifier = bc_diplomatic_weight_t13n
-				remove_modifier = bc_diplomatic_weight_t14n
-				remove_modifier = bc_diplomatic_weight_t15n
-				remove_modifier = bc_diplomatic_weight_t16n
-				remove_modifier = bc_diplomatic_weight_t17n
-				remove_modifier = bc_diplomatic_weight_t18n
-				remove_modifier = bc_diplomatic_weight_t19n
-				remove_modifier = bc_diplomatic_weight_t20n
-				add_modifier = {
-					modifier = bc_diplomatic_weight_t19n
-					days = -1
-				}
-			}
-		}
-		tooltip = {
-			add_modifier = {
-				modifier = bc_diplomatic_weight_t19n
-				days = -1
-			}
-		}
-	}
-	option = {
-		name = "bc_tier_x"
-		custom_tooltip = "bccheatmenu_115_t10_desc"
-		allow = {
-			event_target:cheat_target_selected = {
-				not = { has_modifier = bc_diplomatic_weight_t20n }
-			}
-		}
-		hidden_effect = {
-			country_event = {
-				id = bccheatmenu.1155
-			}
-			event_target:cheat_target_selected = {
-				remove_modifier = bc_diplomatic_weight_t1n
-				remove_modifier = bc_diplomatic_weight_t2n
-				remove_modifier = bc_diplomatic_weight_t3n
-				remove_modifier = bc_diplomatic_weight_t4n
-				remove_modifier = bc_diplomatic_weight_t5n
-				remove_modifier = bc_diplomatic_weight_t6n
-				remove_modifier = bc_diplomatic_weight_t7n
-				remove_modifier = bc_diplomatic_weight_t8n
-				remove_modifier = bc_diplomatic_weight_t9n
-				remove_modifier = bc_diplomatic_weight_t10n
-				remove_modifier = bc_diplomatic_weight_t11n
-				remove_modifier = bc_diplomatic_weight_t12n
-				remove_modifier = bc_diplomatic_weight_t13n
-				remove_modifier = bc_diplomatic_weight_t14n
-				remove_modifier = bc_diplomatic_weight_t15n
-				remove_modifier = bc_diplomatic_weight_t16n
-				remove_modifier = bc_diplomatic_weight_t17n
-				remove_modifier = bc_diplomatic_weight_t18n
-				remove_modifier = bc_diplomatic_weight_t19n
-				remove_modifier = bc_diplomatic_weight_t20n
-				add_modifier = {
-					modifier = bc_diplomatic_weight_t20n
-					days = -1
-				}
-			}
-		}
-		tooltip = {
-			add_modifier = {
-				modifier = bc_diplomatic_weight_t20n
-				days = -1
-			}
-		}
-	}
+	# option = {
+	# 	name = "bc_tier_xi"
+	# 	custom_tooltip = "bccheatmenu_115_t1_desc"
+	# 	allow = {
+	# 		event_target:cheat_target_selected = {
+	# 			not = { has_modifier = bc_diplomatic_weight_t11n }
+	# 		}
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = {
+	# 			id = bccheatmenu.1155
+	# 		}
+	# 		event_target:cheat_target_selected = {
+	# 			remove_modifier = bc_diplomatic_weight_t1n
+	# 			remove_modifier = bc_diplomatic_weight_t2n
+	# 			remove_modifier = bc_diplomatic_weight_t3n
+	# 			remove_modifier = bc_diplomatic_weight_t4n
+	# 			remove_modifier = bc_diplomatic_weight_t5n
+	# 			remove_modifier = bc_diplomatic_weight_t6n
+	# 			remove_modifier = bc_diplomatic_weight_t7n
+	# 			remove_modifier = bc_diplomatic_weight_t8n
+	# 			remove_modifier = bc_diplomatic_weight_t9n
+	# 			remove_modifier = bc_diplomatic_weight_t10n
+	# 			remove_modifier = bc_diplomatic_weight_t11n
+	# 			remove_modifier = bc_diplomatic_weight_t12n
+	# 			remove_modifier = bc_diplomatic_weight_t13n
+	# 			remove_modifier = bc_diplomatic_weight_t14n
+	# 			remove_modifier = bc_diplomatic_weight_t15n
+	# 			remove_modifier = bc_diplomatic_weight_t16n
+	# 			remove_modifier = bc_diplomatic_weight_t17n
+	# 			remove_modifier = bc_diplomatic_weight_t18n
+	# 			remove_modifier = bc_diplomatic_weight_t19n
+	# 			remove_modifier = bc_diplomatic_weight_t20n
+	# 			add_modifier = {
+	# 				modifier = bc_diplomatic_weight_t11n
+	# 				days = -1
+	# 			}
+	# 		}
+	# 	}
+	# 	tooltip = {
+	# 		add_modifier = {
+	# 			modifier = bc_diplomatic_weight_t11n
+	# 			days = -1
+	# 		}
+	# 	}
+	#
+	# }
+	# option = {
+	# 	name = "bc_tier_xii"
+	# 	custom_tooltip = "bccheatmenu_115_t2_desc"
+	# 	allow = {
+	# 		event_target:cheat_target_selected = {
+	# 			not = { has_modifier = bc_diplomatic_weight_t12n }
+	# 		}
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = {
+	# 			id = bccheatmenu.1155
+	# 		}
+	# 		event_target:cheat_target_selected = {
+	# 			remove_modifier = bc_diplomatic_weight_t1n
+	# 			remove_modifier = bc_diplomatic_weight_t2n
+	# 			remove_modifier = bc_diplomatic_weight_t3n
+	# 			remove_modifier = bc_diplomatic_weight_t4n
+	# 			remove_modifier = bc_diplomatic_weight_t5n
+	# 			remove_modifier = bc_diplomatic_weight_t6n
+	# 			remove_modifier = bc_diplomatic_weight_t7n
+	# 			remove_modifier = bc_diplomatic_weight_t8n
+	# 			remove_modifier = bc_diplomatic_weight_t9n
+	# 			remove_modifier = bc_diplomatic_weight_t10n
+	# 			remove_modifier = bc_diplomatic_weight_t11n
+	# 			remove_modifier = bc_diplomatic_weight_t12n
+	# 			remove_modifier = bc_diplomatic_weight_t13n
+	# 			remove_modifier = bc_diplomatic_weight_t14n
+	# 			remove_modifier = bc_diplomatic_weight_t15n
+	# 			remove_modifier = bc_diplomatic_weight_t16n
+	# 			remove_modifier = bc_diplomatic_weight_t17n
+	# 			remove_modifier = bc_diplomatic_weight_t18n
+	# 			remove_modifier = bc_diplomatic_weight_t19n
+	# 			remove_modifier = bc_diplomatic_weight_t20n
+	# 			add_modifier = {
+	# 				modifier = bc_diplomatic_weight_t12n
+	# 				days = -1
+	# 			}
+	# 		}
+	# 	}
+	# 	tooltip = {
+	# 		add_modifier = {
+	# 			modifier = bc_diplomatic_weight_t12n
+	# 			days = -1
+	# 		}
+	# 	}
+	# }
+	# option = {
+	# 	name = "bc_tier_xiii"
+	# 	custom_tooltip = "bccheatmenu_115_t3_desc"
+	# 	allow = {
+	# 		event_target:cheat_target_selected = {
+	# 			not = { has_modifier = bc_diplomatic_weight_t13n }
+	# 		}
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = {
+	# 			id = bccheatmenu.1155
+	# 		}
+	# 		event_target:cheat_target_selected = {
+	# 			remove_modifier = bc_diplomatic_weight_t1n
+	# 			remove_modifier = bc_diplomatic_weight_t2n
+	# 			remove_modifier = bc_diplomatic_weight_t3n
+	# 			remove_modifier = bc_diplomatic_weight_t4n
+	# 			remove_modifier = bc_diplomatic_weight_t5n
+	# 			remove_modifier = bc_diplomatic_weight_t6n
+	# 			remove_modifier = bc_diplomatic_weight_t7n
+	# 			remove_modifier = bc_diplomatic_weight_t8n
+	# 			remove_modifier = bc_diplomatic_weight_t9n
+	# 			remove_modifier = bc_diplomatic_weight_t10n
+	# 			remove_modifier = bc_diplomatic_weight_t11n
+	# 			remove_modifier = bc_diplomatic_weight_t12n
+	# 			remove_modifier = bc_diplomatic_weight_t13n
+	# 			remove_modifier = bc_diplomatic_weight_t14n
+	# 			remove_modifier = bc_diplomatic_weight_t15n
+	# 			remove_modifier = bc_diplomatic_weight_t16n
+	# 			remove_modifier = bc_diplomatic_weight_t17n
+	# 			remove_modifier = bc_diplomatic_weight_t18n
+	# 			remove_modifier = bc_diplomatic_weight_t19n
+	# 			remove_modifier = bc_diplomatic_weight_t20n
+	# 			add_modifier = {
+	# 				modifier = bc_diplomatic_weight_t13n
+	# 				days = -1
+	# 			}
+	# 		}
+	# 	}
+	# 	tooltip = {
+	# 		add_modifier = {
+	# 			modifier = bc_diplomatic_weight_t13n
+	# 			days = -1
+	# 		}
+	# 	}
+	# }
+	# option = {
+	# 	name = "bc_tier_xiv"
+	# 	custom_tooltip = "bccheatmenu_115_t4_desc"
+	# 	allow = {
+	# 		event_target:cheat_target_selected = {
+	# 			not = { has_modifier = bc_diplomatic_weight_t14n }
+	# 		}
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = {
+	# 			id = bccheatmenu.1155
+	# 		}
+	# 		event_target:cheat_target_selected = {
+	# 			remove_modifier = bc_diplomatic_weight_t1n
+	# 			remove_modifier = bc_diplomatic_weight_t2n
+	# 			remove_modifier = bc_diplomatic_weight_t3n
+	# 			remove_modifier = bc_diplomatic_weight_t4n
+	# 			remove_modifier = bc_diplomatic_weight_t5n
+	# 			remove_modifier = bc_diplomatic_weight_t6n
+	# 			remove_modifier = bc_diplomatic_weight_t7n
+	# 			remove_modifier = bc_diplomatic_weight_t8n
+	# 			remove_modifier = bc_diplomatic_weight_t9n
+	# 			remove_modifier = bc_diplomatic_weight_t10n
+	# 			remove_modifier = bc_diplomatic_weight_t11n
+	# 			remove_modifier = bc_diplomatic_weight_t12n
+	# 			remove_modifier = bc_diplomatic_weight_t13n
+	# 			remove_modifier = bc_diplomatic_weight_t14n
+	# 			remove_modifier = bc_diplomatic_weight_t15n
+	# 			remove_modifier = bc_diplomatic_weight_t16n
+	# 			remove_modifier = bc_diplomatic_weight_t17n
+	# 			remove_modifier = bc_diplomatic_weight_t18n
+	# 			remove_modifier = bc_diplomatic_weight_t19n
+	# 			remove_modifier = bc_diplomatic_weight_t20n
+	# 			add_modifier = {
+	# 				modifier = bc_diplomatic_weight_t14n
+	# 				days = -1
+	# 			}
+	# 		}
+	# 	}
+	# 	tooltip = {
+	# 		add_modifier = {
+	# 			modifier = bc_diplomatic_weight_t14n
+	# 			days = -1
+	# 		}
+	# 	}
+	# }
+	# option = {
+	# 	name = "bc_tier_xv"
+	# 	custom_tooltip = "bccheatmenu_115_t5_desc"
+	# 	allow = {
+	# 		event_target:cheat_target_selected = {
+	# 			not = { has_modifier = bc_diplomatic_weight_t15n }
+	# 		}
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = {
+	# 			id = bccheatmenu.1155
+	# 		}
+	# 		event_target:cheat_target_selected = {
+	# 			remove_modifier = bc_diplomatic_weight_t1n
+	# 			remove_modifier = bc_diplomatic_weight_t2n
+	# 			remove_modifier = bc_diplomatic_weight_t3n
+	# 			remove_modifier = bc_diplomatic_weight_t4n
+	# 			remove_modifier = bc_diplomatic_weight_t5n
+	# 			remove_modifier = bc_diplomatic_weight_t6n
+	# 			remove_modifier = bc_diplomatic_weight_t7n
+	# 			remove_modifier = bc_diplomatic_weight_t8n
+	# 			remove_modifier = bc_diplomatic_weight_t9n
+	# 			remove_modifier = bc_diplomatic_weight_t10n
+	# 			remove_modifier = bc_diplomatic_weight_t11n
+	# 			remove_modifier = bc_diplomatic_weight_t12n
+	# 			remove_modifier = bc_diplomatic_weight_t13n
+	# 			remove_modifier = bc_diplomatic_weight_t14n
+	# 			remove_modifier = bc_diplomatic_weight_t15n
+	# 			remove_modifier = bc_diplomatic_weight_t16n
+	# 			remove_modifier = bc_diplomatic_weight_t17n
+	# 			remove_modifier = bc_diplomatic_weight_t18n
+	# 			remove_modifier = bc_diplomatic_weight_t19n
+	# 			remove_modifier = bc_diplomatic_weight_t20n
+	# 			add_modifier = {
+	# 				modifier = bc_diplomatic_weight_t15n
+	# 				days = -1
+	# 			}
+	# 		}
+	# 	}
+	# 	tooltip = {
+	# 		add_modifier = {
+	# 			modifier = bc_diplomatic_weight_t15n
+	# 			days = -1
+	# 		}
+	# 	}
+	# }
+	# option = {
+	# 	name = "bc_tier_xvi"
+	# 	custom_tooltip = "bccheatmenu_115_t6_desc"
+	# 	allow = {
+	# 		event_target:cheat_target_selected = {
+	# 			not = { has_modifier = bc_diplomatic_weight_t16n }
+	# 		}
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = {
+	# 			id = bccheatmenu.1155
+	# 		}
+	# 		event_target:cheat_target_selected = {
+	# 			remove_modifier = bc_diplomatic_weight_t1n
+	# 			remove_modifier = bc_diplomatic_weight_t2n
+	# 			remove_modifier = bc_diplomatic_weight_t3n
+	# 			remove_modifier = bc_diplomatic_weight_t4n
+	# 			remove_modifier = bc_diplomatic_weight_t5n
+	# 			remove_modifier = bc_diplomatic_weight_t6n
+	# 			remove_modifier = bc_diplomatic_weight_t7n
+	# 			remove_modifier = bc_diplomatic_weight_t8n
+	# 			remove_modifier = bc_diplomatic_weight_t9n
+	# 			remove_modifier = bc_diplomatic_weight_t10n
+	# 			remove_modifier = bc_diplomatic_weight_t11n
+	# 			remove_modifier = bc_diplomatic_weight_t12n
+	# 			remove_modifier = bc_diplomatic_weight_t13n
+	# 			remove_modifier = bc_diplomatic_weight_t14n
+	# 			remove_modifier = bc_diplomatic_weight_t15n
+	# 			remove_modifier = bc_diplomatic_weight_t16n
+	# 			remove_modifier = bc_diplomatic_weight_t17n
+	# 			remove_modifier = bc_diplomatic_weight_t18n
+	# 			remove_modifier = bc_diplomatic_weight_t19n
+	# 			remove_modifier = bc_diplomatic_weight_t20n
+	# 			add_modifier = {
+	# 				modifier = bc_diplomatic_weight_t16n
+	# 				days = -1
+	# 			}
+	# 		}
+	# 	}
+	# 	tooltip = {
+	# 		add_modifier = {
+	# 			modifier = bc_diplomatic_weight_t16n
+	# 			days = -1
+	# 		}
+	# 	}
+	# }
+	# option = {
+	# 	name = "bc_tier_xvii"
+	# 	custom_tooltip = "bccheatmenu_115_t7_desc"
+	# 	allow = {
+	# 		event_target:cheat_target_selected = {
+	# 			not = { has_modifier = bc_diplomatic_weight_t17n }
+	# 		}
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = {
+	# 			id = bccheatmenu.1155
+	# 		}
+	# 		event_target:cheat_target_selected = {
+	# 			remove_modifier = bc_diplomatic_weight_t1n
+	# 			remove_modifier = bc_diplomatic_weight_t2n
+	# 			remove_modifier = bc_diplomatic_weight_t3n
+	# 			remove_modifier = bc_diplomatic_weight_t4n
+	# 			remove_modifier = bc_diplomatic_weight_t5n
+	# 			remove_modifier = bc_diplomatic_weight_t6n
+	# 			remove_modifier = bc_diplomatic_weight_t7n
+	# 			remove_modifier = bc_diplomatic_weight_t8n
+	# 			remove_modifier = bc_diplomatic_weight_t9n
+	# 			remove_modifier = bc_diplomatic_weight_t10n
+	# 			remove_modifier = bc_diplomatic_weight_t11n
+	# 			remove_modifier = bc_diplomatic_weight_t12n
+	# 			remove_modifier = bc_diplomatic_weight_t13n
+	# 			remove_modifier = bc_diplomatic_weight_t14n
+	# 			remove_modifier = bc_diplomatic_weight_t15n
+	# 			remove_modifier = bc_diplomatic_weight_t16n
+	# 			remove_modifier = bc_diplomatic_weight_t17n
+	# 			remove_modifier = bc_diplomatic_weight_t18n
+	# 			remove_modifier = bc_diplomatic_weight_t19n
+	# 			remove_modifier = bc_diplomatic_weight_t20n
+	# 			add_modifier = {
+	# 				modifier = bc_diplomatic_weight_t17n
+	# 				days = -1
+	# 			}
+	# 		}
+	# 	}
+	# 	tooltip = {
+	# 		add_modifier = {
+	# 			modifier = bc_diplomatic_weight_t17n
+	# 			days = -1
+	# 		}
+	# 	}
+	# }
+	# option = {
+	# 	name = "bc_tier_xviii"
+	# 	custom_tooltip = "bccheatmenu_115_t8_desc"
+	# 	allow = {
+	# 		event_target:cheat_target_selected = {
+	# 			not = { has_modifier = bc_diplomatic_weight_t18n }
+	# 		}
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = {
+	# 			id = bccheatmenu.1155
+	# 		}
+	# 		event_target:cheat_target_selected = {
+	# 			remove_modifier = bc_diplomatic_weight_t1n
+	# 			remove_modifier = bc_diplomatic_weight_t2n
+	# 			remove_modifier = bc_diplomatic_weight_t3n
+	# 			remove_modifier = bc_diplomatic_weight_t4n
+	# 			remove_modifier = bc_diplomatic_weight_t5n
+	# 			remove_modifier = bc_diplomatic_weight_t6n
+	# 			remove_modifier = bc_diplomatic_weight_t7n
+	# 			remove_modifier = bc_diplomatic_weight_t8n
+	# 			remove_modifier = bc_diplomatic_weight_t9n
+	# 			remove_modifier = bc_diplomatic_weight_t10n
+	# 			remove_modifier = bc_diplomatic_weight_t11n
+	# 			remove_modifier = bc_diplomatic_weight_t12n
+	# 			remove_modifier = bc_diplomatic_weight_t13n
+	# 			remove_modifier = bc_diplomatic_weight_t14n
+	# 			remove_modifier = bc_diplomatic_weight_t15n
+	# 			remove_modifier = bc_diplomatic_weight_t16n
+	# 			remove_modifier = bc_diplomatic_weight_t17n
+	# 			remove_modifier = bc_diplomatic_weight_t18n
+	# 			remove_modifier = bc_diplomatic_weight_t19n
+	# 			remove_modifier = bc_diplomatic_weight_t20n
+	# 			add_modifier = {
+	# 				modifier = bc_diplomatic_weight_t18n
+	# 				days = -1
+	# 			}
+	# 		}
+	# 	}
+	# 	tooltip = {
+	# 		add_modifier = {
+	# 			modifier = bc_diplomatic_weight_t18n
+	# 			days = -1
+	# 		}
+	# 	}
+	# }
+	# option = {
+	# 	name = "bc_tier_xix"
+	# 	custom_tooltip = "bccheatmenu_115_t9_desc"
+	# 	allow = {
+	# 		event_target:cheat_target_selected = {
+	# 			not = { has_modifier = bc_diplomatic_weight_t19n }
+	# 		}
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = {
+	# 			id = bccheatmenu.1155
+	# 		}
+	# 		event_target:cheat_target_selected = {
+	# 			remove_modifier = bc_diplomatic_weight_t1n
+	# 			remove_modifier = bc_diplomatic_weight_t2n
+	# 			remove_modifier = bc_diplomatic_weight_t3n
+	# 			remove_modifier = bc_diplomatic_weight_t4n
+	# 			remove_modifier = bc_diplomatic_weight_t5n
+	# 			remove_modifier = bc_diplomatic_weight_t6n
+	# 			remove_modifier = bc_diplomatic_weight_t7n
+	# 			remove_modifier = bc_diplomatic_weight_t8n
+	# 			remove_modifier = bc_diplomatic_weight_t9n
+	# 			remove_modifier = bc_diplomatic_weight_t10n
+	# 			remove_modifier = bc_diplomatic_weight_t11n
+	# 			remove_modifier = bc_diplomatic_weight_t12n
+	# 			remove_modifier = bc_diplomatic_weight_t13n
+	# 			remove_modifier = bc_diplomatic_weight_t14n
+	# 			remove_modifier = bc_diplomatic_weight_t15n
+	# 			remove_modifier = bc_diplomatic_weight_t16n
+	# 			remove_modifier = bc_diplomatic_weight_t17n
+	# 			remove_modifier = bc_diplomatic_weight_t18n
+	# 			remove_modifier = bc_diplomatic_weight_t19n
+	# 			remove_modifier = bc_diplomatic_weight_t20n
+	# 			add_modifier = {
+	# 				modifier = bc_diplomatic_weight_t19n
+	# 				days = -1
+	# 			}
+	# 		}
+	# 	}
+	# 	tooltip = {
+	# 		add_modifier = {
+	# 			modifier = bc_diplomatic_weight_t19n
+	# 			days = -1
+	# 		}
+	# 	}
+	# }
+	# option = {
+	# 	name = "bc_tier_xx"
+	# 	custom_tooltip = "bccheatmenu_115_t10_desc"
+	# 	allow = {
+	# 		event_target:cheat_target_selected = {
+	# 			not = { has_modifier = bc_diplomatic_weight_t20n }
+	# 		}
+	# 	}
+	# 	hidden_effect = {
+	# 		country_event = {
+	# 			id = bccheatmenu.1155
+	# 		}
+	# 		event_target:cheat_target_selected = {
+	# 			remove_modifier = bc_diplomatic_weight_t1n
+	# 			remove_modifier = bc_diplomatic_weight_t2n
+	# 			remove_modifier = bc_diplomatic_weight_t3n
+	# 			remove_modifier = bc_diplomatic_weight_t4n
+	# 			remove_modifier = bc_diplomatic_weight_t5n
+	# 			remove_modifier = bc_diplomatic_weight_t6n
+	# 			remove_modifier = bc_diplomatic_weight_t7n
+	# 			remove_modifier = bc_diplomatic_weight_t8n
+	# 			remove_modifier = bc_diplomatic_weight_t9n
+	# 			remove_modifier = bc_diplomatic_weight_t10n
+	# 			remove_modifier = bc_diplomatic_weight_t11n
+	# 			remove_modifier = bc_diplomatic_weight_t12n
+	# 			remove_modifier = bc_diplomatic_weight_t13n
+	# 			remove_modifier = bc_diplomatic_weight_t14n
+	# 			remove_modifier = bc_diplomatic_weight_t15n
+	# 			remove_modifier = bc_diplomatic_weight_t16n
+	# 			remove_modifier = bc_diplomatic_weight_t17n
+	# 			remove_modifier = bc_diplomatic_weight_t18n
+	# 			remove_modifier = bc_diplomatic_weight_t19n
+	# 			remove_modifier = bc_diplomatic_weight_t20n
+	# 			add_modifier = {
+	# 				modifier = bc_diplomatic_weight_t20n
+	# 				days = -1
+	# 			}
+	# 		}
+	# 	}
+	# 	tooltip = {
+	# 		add_modifier = {
+	# 			modifier = bc_diplomatic_weight_t20n
+	# 			days = -1
+	# 		}
+	# 	}
+	# }
 
 	# Back # 
 	option = {
@@ -11614,6 +11688,434 @@ country_event = {
 		default_hide_option = yes
 	}
 }
+###############################
+
+#### planet_decision_enact_speed_mult TIER SELECTOR ####
+country_event = {
+	id = bccheatmenu.1157
+	title = "bccheatmenu_1157_title"
+	desc = "bccheatmenu_1157_desc"
+	is_triggered_only = yes
+	diplomatic = yes
+	trigger = {
+		is_ai = no
+	}
+	picture_event_data = {
+		portrait = event_target:cheat_target_selected
+		planet_background = event_target:cheat_target_selected
+		graphical_culture = event_target:cheat_target_selected
+		city_level = event_target:cheat_target_selected
+		room = event_target:cheat_target_selected.ruler
+	}
+	option = {
+		name = "bccheatmenu_disable"
+		allow = {
+			event_target:cheat_target_selected = {
+				or = {
+					has_modifier = bc_planetary_decision_t1
+					has_modifier = bc_planetary_decision_t2
+					has_modifier = bc_planetary_decision_t3
+					has_modifier = bc_planetary_decision_t4
+					has_modifier = bc_planetary_decision_t5
+					has_modifier = bc_planetary_decision_t6
+					has_modifier = bc_planetary_decision_t7
+					has_modifier = bc_planetary_decision_t8
+					has_modifier = bc_planetary_decision_t9
+					has_modifier = bc_planetary_decision_t10
+				}
+			}
+		}
+		event_target:cheat_target_selected = {
+			remove_modifier = bc_planetary_decision_t1
+			remove_modifier = bc_planetary_decision_t2
+			remove_modifier = bc_planetary_decision_t3
+			remove_modifier = bc_planetary_decision_t4
+			remove_modifier = bc_planetary_decision_t5
+			remove_modifier = bc_planetary_decision_t6
+			remove_modifier = bc_planetary_decision_t7
+			remove_modifier = bc_planetary_decision_t8
+			remove_modifier = bc_planetary_decision_t9
+			remove_modifier = bc_planetary_decision_t10
+		}
+		hidden_effect = {
+			country_event = {
+				id = bccheatmenu.1157
+			}
+		}
+	}
+	option = {
+		name = "bc_tier_i"
+		allow = {
+			event_target:cheat_target_selected = {
+				not = { has_modifier = bc_planetary_decision_t1 }
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = bccheatmenu.1157
+			}
+			event_target:cheat_target_selected = {
+				remove_modifier = bc_planetary_decision_t1
+				remove_modifier = bc_planetary_decision_t2
+				remove_modifier = bc_planetary_decision_t3
+				remove_modifier = bc_planetary_decision_t4
+				remove_modifier = bc_planetary_decision_t5
+				remove_modifier = bc_planetary_decision_t6
+				remove_modifier = bc_planetary_decision_t7
+				remove_modifier = bc_planetary_decision_t8
+				remove_modifier = bc_planetary_decision_t9
+				remove_modifier = bc_planetary_decision_t10
+				add_modifier = {
+					modifier = bc_planetary_decision_t1
+					days = -1
+				}
+			}
+		}
+		tooltip = {
+			add_modifier = {
+				modifier = bc_planetary_decision_t1
+				days = -1
+			}
+
+		}
+	}
+	option = {
+		name = "bc_tier_ii"
+		allow = {
+			event_target:cheat_target_selected = {
+				not = { has_modifier = bc_planetary_decision_t2 }
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = bccheatmenu.1157
+			}
+			event_target:cheat_target_selected = {
+				remove_modifier = bc_planetary_decision_t1
+				remove_modifier = bc_planetary_decision_t2
+				remove_modifier = bc_planetary_decision_t3
+				remove_modifier = bc_planetary_decision_t4
+				remove_modifier = bc_planetary_decision_t5
+				remove_modifier = bc_planetary_decision_t6
+				remove_modifier = bc_planetary_decision_t7
+				remove_modifier = bc_planetary_decision_t8
+				remove_modifier = bc_planetary_decision_t9
+				remove_modifier = bc_planetary_decision_t10
+				add_modifier = {
+					modifier = bc_planetary_decision_t2
+					days = -1
+				}
+			}
+		}
+		tooltip = {
+			add_modifier = {
+				modifier = bc_planetary_decision_t2
+				days = -1
+			}
+
+			}
+		}
+	option = {
+		name = "bc_tier_iii"
+		allow = {
+			event_target:cheat_target_selected = {
+				not = { has_modifier = bc_planetary_decision_t3 }
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = bccheatmenu.1157
+			}
+			event_target:cheat_target_selected = {
+				remove_modifier = bc_planetary_decision_t1
+				remove_modifier = bc_planetary_decision_t2
+				remove_modifier = bc_planetary_decision_t3
+				remove_modifier = bc_planetary_decision_t4
+				remove_modifier = bc_planetary_decision_t5
+				remove_modifier = bc_planetary_decision_t6
+				remove_modifier = bc_planetary_decision_t7
+				remove_modifier = bc_planetary_decision_t8
+				remove_modifier = bc_planetary_decision_t9
+				remove_modifier = bc_planetary_decision_t10
+				add_modifier = {
+					modifier = bc_planetary_decision_t3
+					days = -1
+				}
+			}
+		}
+		tooltip = {
+			add_modifier = {
+				modifier = bc_planetary_decision_t3
+				days = -1
+			}
+
+		}
+	}
+	option = {
+		name = "bc_tier_iv"
+		allow = {
+			event_target:cheat_target_selected = {
+				not = { has_modifier = bc_planetary_decision_t4 }
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = bccheatmenu.1157
+			}
+			event_target:cheat_target_selected = {
+				remove_modifier = bc_planetary_decision_t1
+				remove_modifier = bc_planetary_decision_t2
+				remove_modifier = bc_planetary_decision_t3
+				remove_modifier = bc_planetary_decision_t4
+				remove_modifier = bc_planetary_decision_t5
+				remove_modifier = bc_planetary_decision_t6
+				remove_modifier = bc_planetary_decision_t7
+				remove_modifier = bc_planetary_decision_t8
+				remove_modifier = bc_planetary_decision_t9
+				remove_modifier = bc_planetary_decision_t10
+				add_modifier = {
+					modifier = bc_planetary_decision_t4
+					days = -1
+				}
+			}
+		}
+		tooltip = {
+			add_modifier = {
+				modifier = bc_planetary_decision_t4
+				days = -1
+			}
+
+		}
+	}
+	option = {
+		name = "bc_tier_v"
+		allow = {
+			event_target:cheat_target_selected = {
+				not = { has_modifier = bc_planetary_decision_t5 }
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = bccheatmenu.1157
+			}
+			event_target:cheat_target_selected = {
+				remove_modifier = bc_planetary_decision_t1
+				remove_modifier = bc_planetary_decision_t2
+				remove_modifier = bc_planetary_decision_t3
+				remove_modifier = bc_planetary_decision_t4
+				remove_modifier = bc_planetary_decision_t5
+				remove_modifier = bc_planetary_decision_t6
+				remove_modifier = bc_planetary_decision_t7
+				remove_modifier = bc_planetary_decision_t8
+				remove_modifier = bc_planetary_decision_t9
+				remove_modifier = bc_planetary_decision_t10
+				add_modifier = {
+					modifier = bc_planetary_decision_t5
+					days = -1
+				}
+			}
+		}
+		tooltip = {
+			add_modifier = {
+				modifier = bc_planetary_decision_t5
+				days = -1
+			}
+
+		}
+	}
+	option = {
+		name = "bc_tier_vi"
+		allow = {
+			event_target:cheat_target_selected = {
+				not = { has_modifier = bc_planetary_decision_t6 }
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = bccheatmenu.1157
+			}
+			event_target:cheat_target_selected = {
+				remove_modifier = bc_planetary_decision_t1
+				remove_modifier = bc_planetary_decision_t2
+				remove_modifier = bc_planetary_decision_t3
+				remove_modifier = bc_planetary_decision_t4
+				remove_modifier = bc_planetary_decision_t5
+				remove_modifier = bc_planetary_decision_t6
+				remove_modifier = bc_planetary_decision_t7
+				remove_modifier = bc_planetary_decision_t8
+				remove_modifier = bc_planetary_decision_t9
+				remove_modifier = bc_planetary_decision_t10
+				add_modifier = {
+					modifier = bc_planetary_decision_t6
+					days = -1
+				}
+			}
+		}
+		tooltip = {
+			add_modifier = {
+				modifier = bc_planetary_decision_t6
+				days = -1
+			}
+
+		}
+	}
+	option = {
+		name = "bc_tier_vii"
+		allow = {
+			event_target:cheat_target_selected = {
+				not = { has_modifier = bc_planetary_decision_t7 }
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = bccheatmenu.1157
+			}
+			event_target:cheat_target_selected = {
+				remove_modifier = bc_planetary_decision_t1
+				remove_modifier = bc_planetary_decision_t2
+				remove_modifier = bc_planetary_decision_t3
+				remove_modifier = bc_planetary_decision_t4
+				remove_modifier = bc_planetary_decision_t5
+				remove_modifier = bc_planetary_decision_t6
+				remove_modifier = bc_planetary_decision_t7
+				remove_modifier = bc_planetary_decision_t8
+				remove_modifier = bc_planetary_decision_t9
+				remove_modifier = bc_planetary_decision_t10
+				add_modifier = {
+					modifier = bc_planetary_decision_t7
+					days = -1
+				}
+			}
+		}
+		tooltip = {
+			add_modifier = {
+				modifier = bc_planetary_decision_t7
+				days = -1
+			}
+
+		}
+	}
+	option = {
+		name = "bc_tier_viii"
+		allow = {
+			event_target:cheat_target_selected = {
+				not = { has_modifier = bc_planetary_decision_t8 }
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = bccheatmenu.1157
+			}
+			event_target:cheat_target_selected = {
+				remove_modifier = bc_planetary_decision_t1
+				remove_modifier = bc_planetary_decision_t2
+				remove_modifier = bc_planetary_decision_t3
+				remove_modifier = bc_planetary_decision_t4
+				remove_modifier = bc_planetary_decision_t5
+				remove_modifier = bc_planetary_decision_t6
+				remove_modifier = bc_planetary_decision_t7
+				remove_modifier = bc_planetary_decision_t8
+				remove_modifier = bc_planetary_decision_t9
+				remove_modifier = bc_planetary_decision_t10
+				add_modifier = {
+					modifier = bc_planetary_decision_t8
+					days = -1
+				}
+			}
+		}
+		tooltip = {
+			add_modifier = {
+				modifier = bc_planetary_decision_t8
+				days = -1
+			}
+
+		}
+	}
+	option = {
+		name = "bc_tier_ix"
+		allow = {
+			event_target:cheat_target_selected = {
+				not = { has_modifier = bc_planetary_decision_t9 }
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = bccheatmenu.1157
+			}
+			event_target:cheat_target_selected = {
+				remove_modifier = bc_planetary_decision_t1
+				remove_modifier = bc_planetary_decision_t2
+				remove_modifier = bc_planetary_decision_t3
+				remove_modifier = bc_planetary_decision_t4
+				remove_modifier = bc_planetary_decision_t5
+				remove_modifier = bc_planetary_decision_t6
+				remove_modifier = bc_planetary_decision_t7
+				remove_modifier = bc_planetary_decision_t8
+				remove_modifier = bc_planetary_decision_t9
+				remove_modifier = bc_planetary_decision_t10
+				add_modifier = {
+					modifier = bc_planetary_decision_t9
+					days = -1
+				}
+			}
+		}
+		tooltip = {
+			add_modifier = {
+				modifier = bc_planetary_decision_t9
+				days = -1
+			}
+
+		}
+	}
+	option = {
+		name = "bc_tier_x"
+		allow = {
+			event_target:cheat_target_selected = {
+				not = { has_modifier = bc_planetary_decision_t10 }
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = bccheatmenu.1157
+			}
+			event_target:cheat_target_selected = {
+				remove_modifier = bc_planetary_decision_t1
+				remove_modifier = bc_planetary_decision_t2
+				remove_modifier = bc_planetary_decision_t3
+				remove_modifier = bc_planetary_decision_t4
+				remove_modifier = bc_planetary_decision_t5
+				remove_modifier = bc_planetary_decision_t6
+				remove_modifier = bc_planetary_decision_t7
+				remove_modifier = bc_planetary_decision_t8
+				remove_modifier = bc_planetary_decision_t9
+				remove_modifier = bc_planetary_decision_t10
+				add_modifier = {
+					modifier = bc_planetary_decision_t10
+					days = -1
+				}
+			}
+		}
+		tooltip = {
+			add_modifier = {
+				modifier = bc_planetary_decision_t10
+				days = -1
+			}
+
+		}
+	}
+
+	# Back #
+	option = {
+		name = "bccheatmenu_back"
+		hidden_effect = {
+			country_event = {
+				id = bccheatmenu.51
+			}
+		}
+		default_hide_option = yes
+	}
+}
+
 ###############################
 
 #### diplomacy BOOL SELECTOR ####
