@@ -45,6 +45,16 @@
  bc_tier_viii:0                     "Tier VIII"
  bc_tier_ix:0                       "Tier IX"
  bc_tier_x:0                        "Tier X"
+ bc_tier_xi:0                       "Tier XI"
+ bc_tier_xii:0                       "Tier XII"
+ bc_tier_xiii:0                      "Tier XIII"
+ bc_tier_xiv:0                       "Tier XIV"
+ bc_tier_xv:0                        "Tier XV"
+ bc_tier_xvi:0                       "Tier XVI"
+ bc_tier_xvii:0                      "Tier XVII"
+ bc_tier_xviii:0                     "Tier XVIII"
+ bc_tier_xix:0                       "Tier XIX"
+ bc_tier_xx:0                        "Tier XX"
  ###############################
 
 ####### CHEATMENU #######
@@ -556,7 +566,16 @@
  bc_diplomatic_weight_t8n:0                        "Diplomatic Weight Tier VIII"
  bc_diplomatic_weight_t9n:0                        "Diplomatic Weight Tier IX"
  bc_diplomatic_weight_t10n:0                       "Diplomatic Weight Tier X"
-
+ bc_diplomatic_weight_t11n:0                       "Diplomatic Weight Tier XI"
+ bc_diplomatic_weight_t12n:0                       "Diplomatic Weight Tier XII"
+ bc_diplomatic_weight_t13n:0                       "Diplomatic Weight Tier XIII"
+ bc_diplomatic_weight_t14n:0                       "Diplomatic Weight Tier XIV"
+ bc_diplomatic_weight_t15n:0                       "Diplomatic Weight Tier XV"
+ bc_diplomatic_weight_t16n:0                       "Diplomatic Weight Tier XVI"
+ bc_diplomatic_weight_t17n:0                       "Diplomatic Weight Tier XVII"
+ bc_diplomatic_weight_t18n:0                       "Diplomatic Weight Tier XVIII"
+ bc_diplomatic_weight_t19n:0                       "Diplomatic Weight Tier XVIX"
+ bc_diplomatic_weight_t20n:0                       "Diplomatic Weight Tier XX"
  ###############################
 
  #### diplomatic_weight NEGATIVE TIER SELECTOR ####

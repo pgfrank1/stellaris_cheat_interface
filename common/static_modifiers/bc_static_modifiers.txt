@@ -313,6 +313,36 @@ bc_diplomatic_weight_t9n = {
 bc_diplomatic_weight_t10n = {
 	diplo_weight_mult = -500.00
 }
+bc_diplomatic_weight_t11n = {
+	diplo_weight_mult = -1000.0
+}
+bc_diplomatic_weight_t12n = {
+	diplo_weight_mult = -2000.0
+}
+bc_diplomatic_weight_t13n = {
+	diplo_weight_mult = -5000.0
+}
+bc_diplomatic_weight_t14n = {
+	diplo_weight_mult = -10000.0
+}
+bc_diplomatic_weight_t15n = {
+	diplo_weight_mult = -20000.0
+}
+bc_diplomatic_weight_t16n = {
+	diplo_weight_mult = -50000.0
+}
+bc_diplomatic_weight_t17n = {
+	diplo_weight_mult = -100000.0
+}
+bc_diplomatic_weight_t18n = {
+	diplo_weight_mult = -200000.0
+}
+bc_diplomatic_weight_t19n = {
+	diplo_weight_mult = -500000.0
+}
+bc_diplomatic_weight_t20n = {
+	diplo_weight_mult = -1000000.0
+}
 ###############################
 
 #### monthly loyalty TIER SELECTOR ####
