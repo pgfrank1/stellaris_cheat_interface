@@ -12,10 +12,34 @@ bc_edict_1 = {
         cost = {
             influence = 0
         }
-    }   
+    }
     effect = {
         country_event = {
             id = bccheatmenu.999
         }
     }
 }
+
+bc_edict_2 = {
+    length = -1
+    edict_cap_usage = 0
+    potential = {
+        is_ai = no
+    }
+    allow = {
+        is_ai = no
+    }
+    resources = {
+        category = edicts
+        cost = {
+            influence = 0
+        }
+    }
+    effect = {
+        country_event = {
+            id = bccheatinterface.1
+        }
+    }
+}
+
+

@@ -1,0 +1,53 @@
+namespace = bccheatinterface
+@MinPopCountrySelect = 1	#The minimal amount of pops required to be shown on the 'Select Empire' screen
+
+### Preparation ###
+country_event = {
+    id = bccheatinterface.1
+    is_triggered_only = yes
+    hide_window = yes
+    trigger = {
+        not = { has_country_flag = bc_is_in_menu }
+    }
+    after = {
+        country_event = {
+            id = bccheatinterface.2
+        }
+    }
+}
+
+### Better Cheats Introduction Screen ###
+country_event = {
+    title = "edict_bc_edict_2"
+    id = bccheatinterface.2
+    is_triggered_only = yes
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface"
+    
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_menu
+        }
+    }
+}
+
+country_event = {
+    id = bccheatinterface.3001
+    title = "bccheatinterface_2_ship_base_speed"
+    desc = "bccheatinterface_2_ship_base_speed"
+    is_triggered_only = yes
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_ship_base_speed"
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_menu
+        }
+    }
+}

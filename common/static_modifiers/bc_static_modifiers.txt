@@ -348,7 +348,7 @@ bc_diplomatic_weight_t20n = {
 #### monthly loyalty TIER SELECTOR ####
 
 bc_monthly_loyalty_t1 = {
-	monthly_loyalty = 0.15
+	mod_monthly_loyalty = 0.15
 	monthly_loyalty_from_subjects = 0.15
 }
 bc_monthly_loyalty_t2 = {
@@ -990,7 +990,8 @@ bc_strategic_resources_t7 = {
 	country_base_nanites_produces_add = 1000
 	country_base_components_produces_add = 1000
 	country_base_sr_dilithium_produces_add = 1000
-	country_base_sr_ketracel_white_produces_add = 1000                 	country_base_sr_latinum_produces_add = 1000
+	country_base_sr_ketracel_white_produces_add = 1000
+	country_base_sr_latinum_produces_add = 1000
       country_base_sr_crew_produces_add = 1000
       country_base_sr_water_produces_add = 1000
       country_base_sr_brizeen_produces_add = 1000

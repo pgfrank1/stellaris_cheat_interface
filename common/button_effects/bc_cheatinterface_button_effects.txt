@@ -1,0 +1,24 @@
+bc_cheatinterface_button_effect = {
+    potential = { always = yes }
+    allow = { always = yes }
+}
+
+bc_cheatinterface_button_title = {
+    potential = { always = no }
+    allow = { always = no }
+}
+bc_cheatinterface_button_ship_base_speed = {
+    potential = {
+        is_ai = no
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        country_event = {
+            id = bccheatinterface.3001
+        }
+    }
+
+
+}

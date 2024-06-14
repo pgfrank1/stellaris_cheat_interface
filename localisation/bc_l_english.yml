@@ -5,6 +5,10 @@
  edict_bc_edict_1:0                 "Open BetterCheats Cheating Menu"
  edict_bc_edict_1_desc:0            "Opens the Cheatmenu\nkinda obvious, nh?\n\n(If it's checked, press it twice!)"
 
+ edict_bc_edict_2:0                 "Open BetterCheats Cheating Interface"
+ edict_bc_edict_2_desc:0            "Opens the Cheatmenu\nkinda obvious, nh?\n\n(If it's checked, press it twice!)"
+
+
  decision_bc_open_planetmenu:0      "Open BetterCheats PlanetEdit Menu"
  decision_bc_open_planetmenu_desc:0 "It opends the menu!\n\n(at least most of the time)"
  decision_bc_open_planetmenu_ct:0   "PlanetEdit allows you to change various options of this planet.\n§LI know, pretty unexpected.§W"
@@ -1472,8 +1476,70 @@
 
  ###############################
 
+ ####### INTERFACE MENU by Flyingsausage87 #######
 
+ ####### Resources Column #######
+ bccheatinterface_2_resources:0         "Resources £basic_resources£"
 
+ bccheatinterface_2_minerals:0          "Minerals £mod_minerals_produces_mult£"
+ bccheatinterface_2_energy:0            "Energy £mod_energy_produces_mult£"
+ bccheatinterface_2_food:0              "Food £mod_food_produces_mult£"
+ bccheatinterface_2_consumer_goods:0    "Consumer Goods £mod_consumer_goods_produces_mult£"
+ bccheatinterface_2_alloys:0            "Alloys £mod_alloys_produces_mult£"
+ bccheatinterface_2_influence:0         "Influence £mod_influence_produces_add£"
+ bccheatinterface_2_unity:0             "Unity £mod_unity_produces_mult£"
+ bccheatinterface_2_volatile_motes:0    "Volatile Motes £mod_volatile_motes_produces_mult£"
+ bccheatinterface_2_exotic_gases:0      "Exotic Gases £mod_exotic_gases_produces_mult£"
+ bccheatinterface_2_rare_crystals:0     "Rare Crystals £mod_rare_crystals_produces_mult£"
+ bccheatinterface_2_living_metal:0      "Living Metal £mod_sr_living_metal_produces_mult£"
+ bccheatinterface_2_zro:0               "Zro £mod_sr_zro_produces_mult£"
+ bccheatinterface_2_dark_matter:0       "Dark Matter £mod_sr_dark_matter_produces_mult£"
+ bccheatinterface_2_nanites:0           "Nanites £mod_nanites_produces_mult£"
+
+ ##############################
+
+ ####### Empire Column #######
+ bccheatinterface_2_empire:0                     "Empire £empire£"
+
+ bccheatinterface_2_diplomatic_weight:0          "Diplomatic Weight £mod_diplo_weight_mult£"
+ bccheatinterface_2_monthly_loyalty:0            "Monthly Loyalty £mod_monthly_loyalty_gain£"
+ bccheatinterface_2_planetary_decision:0         "Planetary Decision £mod_food_produces_mult£"
+ bccheatinterface_2_research:0                   "Research £mod_country_all_tech_research_speed£"
+ bccheatinterface_2_colony_development:0         "Colony Development £mod_planet_colony_development_speed_mult£"
+ # bccheatinterface_2_influence:0                  "Influence £influence£"
+ # bccheatinterface_2_unity:0                      "Unity £unity£"
+ # bccheatinterface_2_volatile_motes:0             "Volatile Motes £volatile_motes£"
+ # bccheatinterface_2_exotic_gases:0               "Exotic Gases £exotic_gases£"
+ # bccheatinterface_2_rare_crystals:0              "Rare Crystals £rare_crystals£"
+ # bccheatinterface_2_living_metal:0               "Living Metal £sr_living_metal£"
+ # bccheatinterface_2_zro:0                        "Zro £zro£"
+ # bccheatinterface_2_dark_matter:0                "Dark Matter £sr_dark_matter£"
+ # bccheatinterface_2_nanites:0                    "Nanites £nanites£"
+
+ ##############################
+
+ ####### Ship Column #######
+ bccheatinterface_2_ship:0                       "Ships £ship_modifier£"
+
+ bccheatinterface_2_ship_base_speed:0            "Ship Base Speed £mod_ship_base_speed_mult£"
+ bccheatinterface_2_ship_interstellar_speed:0    "Ship FTL Speed £mod_ship_interstellar_speed_mult£"
+ bccheatinterface_2_ship_armor_regen:0           "Ship Armor Regeneration £mod_ship_armor_regen_add_perc£"
+ bccheatinterface_2_ship_hull_regen:0            "Ship Hull Regeneration £mod_ship_hull_regen_add_perc£"
+ bccheatinterface_2_ship_shield_regen:0          "Ship Shield Regeneration £mod_ship_shield_regen_add_perc£"
+ #bccheatinterface_2_planetary_decision:0         "Planetary Decision £mod_food_produces_mult£"
+ #bccheatinterface_2_research:0                   "Research £mod_country_all_tech_research_speed£"
+ #bccheatinterface_2_colony_development:0         "Colony Development £mod_planet_colony_development_speed_mult£"
+ # bccheatinterface_2_influence:0                  "Influence £influence£"
+ # bccheatinterface_2_unity:0                      "Unity £unity£"
+ # bccheatinterface_2_volatile_motes:0             "Volatile Motes £volatile_motes£"
+ # bccheatinterface_2_exotic_gases:0               "Exotic Gases £exotic_gases£"
+ # bccheatinterface_2_rare_crystals:0              "Rare Crystals £rare_crystals£"
+ # bccheatinterface_2_living_metal:0               "Living Metal £sr_living_metal£"
+ # bccheatinterface_2_zro:0                        "Zro £zro£"
+ # bccheatinterface_2_dark_matter:0                "Dark Matter £sr_dark_matter£"
+ # bccheatinterface_2_nanites:0                    "Nanites £nanites£"
+
+ ##############################
  ####### SYSTEM MENU #######
  
  #### Introduction ####
