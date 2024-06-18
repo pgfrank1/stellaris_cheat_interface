@@ -16,7 +16,7 @@ bc_cheatinterface_button_ship_base_speed = {
     }
     effect = {
         country_event = {
-            id = bccheatinterface.3001
+            id = "bccheatinterface.3001"
         }
     }
 

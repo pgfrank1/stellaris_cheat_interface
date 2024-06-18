@@ -50,7 +50,18 @@ guiTypes = {
             position = { x = 6 y = 22 }
             alwaysTransparent = yes
         }
-
+        # Custom header
+        instantTextBoxType = {
+            name = "irm_some_header"
+            font = "malgun_goth_24"
+            text = "bccheatinterface_2_title"    # header text
+            position = { x = 20 y = 5 }
+            maxWidth = 543
+            maxHeight = 22
+            fixedSize = yes
+            alwaysTransparent = yes
+        }
+        ######## HIDDEN ########
         buttonType = {
             name = "focus_button"
             position = { x = @hidden_ui_items y = @hidden_ui_items }
@@ -59,7 +70,7 @@ guiTypes = {
             buttonFont = "cg_16b"
             shortcut = "q"
         }
-
+        ######## HIDDEN ########
         buttonType = {
             name = "tts_button"
             position = { x = @hidden_ui_items y = @hidden_ui_items }
@@ -67,7 +78,7 @@ guiTypes = {
             buttonFont = "cg_16b"
             shortCut = "t"
         }
-
+        ######## HIDDEN ########
         buttonType = {
             name = "close"
             quadTextureSprite = "GFX_main_close_button_caravaneer"
@@ -75,7 +86,7 @@ guiTypes = {
             Orientation = "UPPER_RIGHT"
             clicksound = "back_click"
         }
-
+        ######## HIDDEN ########
         instantTextBoxType = {
             name = "heading"
             font = "malgun_goth_24"
@@ -86,7 +97,7 @@ guiTypes = {
             fixedSize = yes
             alwaysTransparent = yes
         }
-
+        ######## HIDDEN ########
         buttonType = {
             name = "alien_message_background"
             size = { x = 485 y = 240 }
@@ -94,7 +105,7 @@ guiTypes = {
             spriteType = "GFX_tiles_dark_area_cut_8"
             alwaysTransparent = yes
         }
-
+        ######## HIDDEN ########
         instantTextBoxType = {
             name = "alien_message"
             font = "cg_16b"
@@ -104,7 +115,7 @@ guiTypes = {
             format = left
             scrollbartype = "standardtext_slider"
         }
-
+        ######## HIDDEN ########
         buttonType = {
             name = "confirm_button"
             quadTextureSprite = "GFX_standard_button_142_34_button"
@@ -114,9 +125,7 @@ guiTypes = {
             text = "MESSAGE_OK"
             clicksound = "confirmation"
         }
-
-        ### PORTRAIT ###
-
+        ######## HIDDEN ########
         containerWindowType = {
             name = "portrait_background"
             position = { x = @hidden_ui_items y = @hidden_ui_items }
@@ -135,7 +144,7 @@ guiTypes = {
                 spriteType = "GFX_portrait_character"
             }
         }
-
+        ######## HIDDEN ########
         containerWindowType = {
             name = "portrait"
             position = { x = @hidden_ui_items y = @hidden_ui_items }
@@ -168,16 +177,15 @@ guiTypes = {
                 alwaysTransparent = yes
             }
         }
-
         ### EMPIRE INFO ###
-
+        ######## HIDDEN ########
         iconType = {
             name = "empire_info_bg"
             spriteType = "GFX_diplomacy_dark_fade_bg"
             position = { x = @hidden_ui_items y = @hidden_ui_items }
             alwaysTransparent = yes
         }
-
+        ######## HIDDEN ########
         instantTextBoxType={
             name = "empire_name"
             font = "malgun_goth_24"
@@ -189,7 +197,7 @@ guiTypes = {
             text_color_code = "E"
             fixedsize = yes
         }
-
+        ######## HIDDEN ########
         instantTextBoxType={
             name = "empire_government_type"
             font = "cg_16b"
@@ -201,7 +209,7 @@ guiTypes = {
             fixedsize = yes
             text_color_code = "Y"
         }
-
+        ######## HIDDEN ########
         instantTextBoxType={
             name = "empire_personality_type"
             font = "cg_16b"
@@ -212,7 +220,7 @@ guiTypes = {
             format = LEFT
             fixedsize = yes
         }
-
+        ######## HIDDEN ########
         OverlappingElementsBoxType = {
             name = "empire_ethics_icons"
             position = { x = @hidden_ui_items y = @hidden_ui_items }
@@ -220,14 +228,14 @@ guiTypes = {
             spacing = 2.0
             format = left
         }
-
+        ######## HIDDEN ########
         buttonType = {
             name = "empire_flag"
             quadTextureSprite = "GFX_empire_flag_128_trader"
             position = { x = @hidden_ui_items y = @hidden_ui_items }
             orientation = UPPER_LEFT
         }
-
+        ######## HIDDEN ########
         containerWindowType = {
             name = "leader_details"
             position = { x = @hidden_ui_items y = @hidden_ui_items }
@@ -285,8 +293,8 @@ guiTypes = {
                 format = left
             }
         }
-
         ### OPINION
+        ######## HIDDEN ########
         containerWindowType = {
             name = "opinion_window"
             position = { x = @hidden_ui_items y = @hidden_ui_items }
@@ -315,9 +323,8 @@ guiTypes = {
                 alwaysTransparent = yes
             }
         }
-
         ### EVENT DIPLO ###
-
+        ######## HIDDEN ########
         containerWindowType = {
             name = "EVENT_DIPLO"
             position = { x = @hidden_ui_items y = @hidden_ui_items }
