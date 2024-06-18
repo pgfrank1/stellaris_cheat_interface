@@ -1,4 +1,5 @@
 bc_edict_1 = {
+    icon = "GFX_icon_ethics"
     length = -1
     edict_cap_usage = 0
 	potential = {
@@ -21,6 +22,7 @@ bc_edict_1 = {
 }
 
 bc_edict_2 = {
+    icon = "GFX_icon_update"
     length = -1
     edict_cap_usage = 0
     potential = {
