@@ -1,9 +1,9 @@
-version="1.1.1"
+version="1.1.2"
 tags={
 	"Utilities"
 	"Gameplay"
 	"Fixes"
 }
 name="BetterCheats Patch"
-supported_version="3.12.4"
+supported_version="3.12.5"
 remote_file_id="3251732956"
