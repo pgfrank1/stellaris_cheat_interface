@@ -18,11 +18,64 @@ country_event = {
 
 ### Better Cheats Introduction Screen ###
 country_event = {
-    title = "edict_bc_edict_2"
     id = bccheatinterface.2
+    title = "edict_bc_edict_2"
     is_triggered_only = yes
     diplomatic = yes
     custom_gui = "bc_cheat_interface"
+    trigger = {
+        is_ai = no
+    }
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_menu
+            every_country = {
+                limit = {
+                    num_pops = 0
+                }
+                save_event_target_as = cheat_target_1
+                save_event_target_as = cheat_target_2
+                save_event_target_as = cheat_target_3
+                save_event_target_as = cheat_target_4
+                save_event_target_as = cheat_target_5
+                save_event_target_as = cheat_target_6
+                save_event_target_as = cheat_target_7
+                save_event_target_as = cheat_target_8
+                save_event_target_as = cheat_target_9
+                save_event_target_as = cheat_target_10
+                save_event_target_as = cheat_target_11
+                save_event_target_as = cheat_target_12
+                save_event_target_as = cheat_target_13
+                save_event_target_as = cheat_target_14
+                save_event_target_as = cheat_target_15
+                save_event_target_as = cheat_target_16
+                save_event_target_as = cheat_target_17
+                save_event_target_as = cheat_target_18
+                save_event_target_as = cheat_target_19
+                save_event_target_as = cheat_target_20
+                save_event_target_as = cheat_target_21
+                save_event_target_as = cheat_target_22
+                save_event_target_as = cheat_target_23
+                save_event_target_as = cheat_target_24
+                save_event_target_as = cheat_target_25
+                save_event_target_as = cheat_target_26
+                save_event_target_as = cheat_target_27
+                save_event_target_as = cheat_target_28
+                save_event_target_as = cheat_target_29
+                save_event_target_as = cheat_target_30
+                save_event_target_as = cheat_target_31
+                save_event_target_as = cheat_target_32
+                save_event_target_as = cheat_target_33
+                save_event_target_as = cheat_target_34
+                save_event_target_as = cheat_target_35
+                save_event_target_as = cheat_target_36
+                save_event_target_as = cheat_target_37
+                save_event_target_as = cheat_target_38
+                save_event_target_as = cheat_target_39
+                save_event_target_as = cheat_target_40
+            }
+        }
+    }
     
     # Close #
     option = {
@@ -30,24 +83,34 @@ country_event = {
         default_hide_option = yes
         hidden_effect = {
             remove_country_flag = bc_is_in_menu
+            remove_country_flag = bc_is_in_ship_base_speed_interface
         }
     }
 }
 
-country_event = {
-    id = bccheatinterface.3001
-    title = "bccheatinterface_2_ship_base_speed"
-    desc = "bccheatinterface_2_ship_base_speed"
-    is_triggered_only = yes
-    diplomatic = yes
-    custom_gui = "bc_cheat_interface_ship_base_speed"
-
-    # Close #
-    option = {
-        name = "bccheatmenu_close"
-        default_hide_option = yes
-        hidden_effect = {
-            remove_country_flag = bc_is_in_menu
-        }
-    }
-}
+# country_event = {
+#     id = bccheatinterface.3001
+#     title = "bccheatinterface_2_ship_base_speed"
+#     desc = "bccheatinterface_2_ship_base_speed"
+#     is_triggered_only = yes
+#     trigger = {
+#         is_ai = no
+#         not = { has_country_flag = bc_is_in_ship_base_speed_interface}
+#     }
+#     diplomatic = yes
+#     custom_gui = "bc_cheat_interface_ship_base_speed"
+#     immediate = {
+#         hidden_effect = {
+#             set_country_flag = bc_is_in_ship_base_speed_interface
+#         }
+#     }
+#
+#     # Close #
+#     option = {
+#         name = "bccheatmenu_close"
+#         default_hide_option = yes
+#         hidden_effect = {
+#             remove_country_flag = bc_is_in_ship_base_speed_interface
+#         }
+#     }
+# }
