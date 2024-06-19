@@ -1283,7 +1283,7 @@
  ###############################
 
 ####### PLANET MENU #######
- 
+
  #### Introduction ####
 
  bcplanetmenu_1_title:0                     "BetterCheats PlanetEdit Menu"
@@ -1292,7 +1292,7 @@
  bcplanetmenu_1_option_2:0                  "Add outer ring"
  bcplanetmenu_1_option_2_1:0                "Remove outer ring"
  bcplanetmenu_1_option_3:0                  "Edit star system"
- 
+
  ###############################
 
  #### Planet Class ####
@@ -1356,7 +1356,7 @@
  bcplanetmenu_20_size_24:0                  "Set planet size to 24"
  bcplanetmenu_20_size_25:0                  "Set planet size to 25"
  bcplanetmenu_20_size_50:0                  "Set planet size to 50"
- 
+
 
 ###############################
 
@@ -1528,6 +1528,79 @@
  bccheatinterface_2_ship_armor_regen:0           "Ship Armor Regeneration £mod_ship_armor_regen_add_perc£"
  bccheatinterface_2_ship_hull_regen:0            "Ship Hull Regeneration £mod_ship_hull_regen_add_perc£"
  bccheatinterface_2_ship_shield_regen:0          "Ship Shield Regeneration £mod_ship_shield_regen_add_perc£"
+ #bccheatinterface_2_planetary_decision:0         "Planetary Decision £mod_food_produces_mult£"
+ #bccheatinterface_2_research:0                   "Research £mod_country_all_tech_research_speed£"
+ #bccheatinterface_2_colony_development:0         "Colony Development £mod_planet_colony_development_speed_mult£"
+ # bccheatinterface_2_influence:0                  "Influence £influence£"
+ # bccheatinterface_2_unity:0                      "Unity £unity£"
+ # bccheatinterface_2_volatile_motes:0             "Volatile Motes £volatile_motes£"
+ # bccheatinterface_2_exotic_gases:0               "Exotic Gases £exotic_gases£"
+ # bccheatinterface_2_rare_crystals:0              "Rare Crystals £rare_crystals£"
+ # bccheatinterface_2_living_metal:0               "Living Metal £sr_living_metal£"
+ # bccheatinterface_2_zro:0                        "Zro £zro£"
+ # bccheatinterface_2_dark_matter:0                "Dark Matter £sr_dark_matter£"
+ # bccheatinterface_2_nanites:0                    "Nanites £nanites£"
+
+ # bccheatmenu_140_title:0             "Ship Base Speed £mod_ship_base_speed_mult£"
+ # bccheatmenu_140_title_b:0           "§GShip Base Speed £mod_ship_base_speed_mult£§W"
+ # bccheatmenu_140_desc:0              "The sublight speed or the amount of time a ship needs to traverse within a system."
+ # bccheatmenu_140_t1_desc:0           "I. am. speed.\n\n"
+ # bccheatmenu_140_t2_desc:0           "Blitzkrieg?\n\n"
+ # bccheatmenu_140_t3_desc:0           "The Sonic Movie.\n\n"
+ # bccheatmenu_140_t4_desc:0           "Run.\n\n"
+ # bccheatmenu_140_t5_desc:0           "FTl 2.0\n\n"
+ # bccheatmenu_140_t6_desc:0           "Turg! Turg! Turg!\n\n"
+ # bccheatmenu_140_t7_desc:0           "I wish my internet was this fast. :(\n\n"
+ # bccheatmenu_140_t8_desc:0           "Speed - Not the drug?\n\n"
+ # bccheatmenu_140_t9_desc:0           "Faster than you finish in bed.\n\n"
+ # bccheatmenu_140_t10_desc:0          "The fast but not the furious.\n\n"
+
+ bc_ship_base_speed_t1_title:0                  "[owner.bc_ship_base_speed_t1_title]"
+ bc_ship_base_speed_t1:0                        "Ship Base Speed Tier I"
+ bc_ship_base_speed_t1_b:0                      "§GShip Base Speed Tier I§W"
+ bc_ship_base_speed_t2:0                        "Ship Base Speed Tier II"
+ bc_ship_base_speed_t3:0                        "Ship Base Speed Tier III"
+ bc_ship_base_speed_t4:0                        "Ship Base Speed Tier IV"
+ bc_ship_base_speed_t5:0                        "Ship Base Speed Tier V"
+ bc_ship_base_speed_t6:0                        "Ship Base Speed Tier VI"
+ bc_ship_base_speed_t7:0                        "Ship Base Speed Tier VII"
+ bc_ship_base_speed_t8:0                        "Ship Base Speed Tier VIII"
+ bc_ship_base_speed_t9:0                        "Ship Base Speed Tier IX"
+ bc_ship_base_speed_t10:0                       "Ship Base Speed Tier X"
+
+ ##############################
+
+ ####### Army Column #######
+ bccheatinterface_2_army:0                       "Army £ship_modifier£"
+
+ bccheatinterface_2_army_base_speed:0            "Ship Base Speed £mod_ship_base_speed_mult£"
+ bccheatinterface_2_army_interstellar_speed:0    "Ship FTL Speed £mod_ship_interstellar_speed_mult£"
+ bccheatinterface_2_army_armor_regen:0           "Ship Armor Regeneration £mod_ship_armor_regen_add_perc£"
+ bccheatinterface_2_army_hull_regen:0            "Ship Hull Regeneration £mod_ship_hull_regen_add_perc£"
+ bccheatinterface_2_army_shield_regen:0          "Ship Shield Regeneration £mod_ship_shield_regen_add_perc£"
+ #bccheatinterface_2_planetary_decision:0         "Planetary Decision £mod_food_produces_mult£"
+ #bccheatinterface_2_research:0                   "Research £mod_country_all_tech_research_speed£"
+ #bccheatinterface_2_colony_development:0         "Colony Development £mod_planet_colony_development_speed_mult£"
+ # bccheatinterface_2_influence:0                  "Influence £influence£"
+ # bccheatinterface_2_unity:0                      "Unity £unity£"
+ # bccheatinterface_2_volatile_motes:0             "Volatile Motes £volatile_motes£"
+ # bccheatinterface_2_exotic_gases:0               "Exotic Gases £exotic_gases£"
+ # bccheatinterface_2_rare_crystals:0              "Rare Crystals £rare_crystals£"
+ # bccheatinterface_2_living_metal:0               "Living Metal £sr_living_metal£"
+ # bccheatinterface_2_zro:0                        "Zro £zro£"
+ # bccheatinterface_2_dark_matter:0                "Dark Matter £sr_dark_matter£"
+ # bccheatinterface_2_nanites:0                    "Nanites £nanites£"
+
+ ##############################
+
+ ####### Building Column #######
+ bccheatinterface_2_building:0                       "Buildings £build_time£"
+
+ bccheatinterface_2_building_base_speed:0            "Ship Base Speed £mod_army_base_speed_mult£"
+ bccheatinterface_2_building_interstellar_speed:0    "Ship FTL Speed £mod_army_interstellar_speed_mult£"
+ bccheatinterface_2_building_armor_regen:0           "Ship Armor Regeneration £mod_army_armor_regen_add_perc£"
+ bccheatinterface_2_building_hull_regen:0            "Ship Hull Regeneration £mod_building_hull_regen_add_perc£"
+ bccheatinterface_2_building_shield_regen:0          "Ship Shield Regeneration £mod_army_shield_regen_add_perc£"
  #bccheatinterface_2_planetary_decision:0         "Planetary Decision £mod_food_produces_mult£"
  #bccheatinterface_2_research:0                   "Research £mod_country_all_tech_research_speed£"
  #bccheatinterface_2_colony_development:0         "Colony Development £mod_planet_colony_development_speed_mult£"

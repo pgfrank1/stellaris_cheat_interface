@@ -19,6 +19,24 @@ bc_cheatinterface_button_ship_base_speed = {
             id = "bccheatinterface.3001"
         }
     }
-
-
 }
+###################### Ship Base Speed Button Effects ###########################
+bc_cheatinterface_button_ship_base_speed_t1 = {
+    potential = {
+        is_ai = no
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        add_modifier = {
+            modifier = bc_ship_base_speed_t1
+            days = -1
+        }
+        hidden_effect = {
+            set_country_flag = bc_has_base_ship_speed_modifier
+        }
+    }
+}
+
+################################################################################

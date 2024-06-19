@@ -1239,6 +1239,47 @@ bc_happiness_t10 = {
 }
 ###############################
 
+#### ship_base_speed TIER SELECTOR ####
+bc_ship_speed_t1 = {
+	ship_base_speed_mult = 0.15
+	ship_interstellar_speed_mult = 0.15
+}
+bc_ship_speed_t2 = {
+	ship_base_speed_mult = 0.50
+	ship_interstellar_speed_mult = 0.50
+}
+bc_ship_speed_t3 = {
+	ship_base_speed_mult = 1.00
+	ship_interstellar_speed_mult = 1.00
+}
+bc_ship_speed_t4 = {
+	ship_base_speed_mult = 2.50
+	ship_interstellar_speed_mult = 2.50
+}
+bc_ship_speed_t5 = {
+	ship_base_speed_mult = 5.00
+	ship_interstellar_speed_mult = 5.00
+}
+bc_ship_speed_t6 = {
+	ship_base_speed_mult = 10.00
+	ship_interstellar_speed_mult = 10.00
+}
+bc_ship_speed_t7 = {
+	ship_base_speed_mult = 50.00
+	ship_interstellar_speed_mult = 50.00
+}
+bc_ship_speed_t8 = {
+	ship_base_speed_mult = 100.00
+	ship_interstellar_speed_mult = 100.00
+}
+bc_ship_speed_t9 = {
+	ship_base_speed_mult = 250.00
+	ship_interstellar_speed_mult = 250.00
+}
+bc_ship_speed_t10 = {
+	ship_base_speed_mult = 500.00
+	ship_interstellar_speed_mult = 500.00
+}
 #### ship_speed TIER SELECTOR ####
 bc_ship_speed_t1 = {
 	ship_base_speed_mult = 0.15
@@ -1280,6 +1321,39 @@ bc_ship_speed_t10 = {
 	ship_base_speed_mult = 500.00
 	ship_interstellar_speed_mult = 500.00
 }
+
+#### ship_speed TIER SELECTOR ####
+bc_ship_base_speed_t1 = {
+	ship_base_speed_mult = 0.15
+}
+bc_ship_base_speed_t2 = {
+	ship_base_speed_mult = 0.50
+}
+bc_ship_base_speed_t3 = {
+	ship_base_speed_mult = 1.00
+}
+bc_ship_base_speed_t4 = {
+	ship_base_speed_mult = 2.50
+}
+bc_ship_base_speed_t5 = {
+	ship_base_speed_mult = 5.00
+}
+bc_ship_base_speed_t6 = {
+	ship_base_speed_mult = 10.00
+}
+bc_ship_base_speed_t7 = {
+	ship_base_speed_mult = 50.00
+}
+bc_ship_base_speed_t8 = {
+	ship_base_speed_mult = 100.00
+}
+bc_ship_base_speed_t9 = {
+	ship_base_speed_mult = 250.00
+}
+bc_ship_base_speed_t10 = {
+	ship_base_speed_mult = 500.00
+}
+
 ###############################
 
 #### ship_regen TIER SELECTOR ####

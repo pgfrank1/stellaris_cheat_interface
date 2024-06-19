@@ -1,0 +1,17 @@
+defined_text = {
+    name = bc_ship_base_speed_t1_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = bc_has_base_ship_speed_modifier
+            }
+        }
+        localization_key = bc_ship_base_speed_t1
+    }
+    text = {
+
+        trigger = { has_modifier = bc_ship_base_speed_t1 }
+        localization_key = bc_ship_base_speed_t1_b
+    }
+
+}

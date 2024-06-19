@@ -1,53 +1,29 @@
 guiTypes = {
     @hidden_ui_items = -10000
-    ### ENCLAVE CARAVANEER EVENT OPTION ###
-
-    # containerWindowType = {
-    #     name = "enclave_caravaneer_option"
-    #     position = { x=0 y=0 }
-    #     size = { width = 388 height = 30 }
-    #     moveable = no
-    #
-    #     buttonType = {
-    #         name = "option_button"
-    #         quadTextureSprite = "GFX_event_button_452_caravaneer"
-    #         position = { x=0 y=8 }
-    #         font = "cg_16b"
-    #         text = "OPTION_TEXT"
-    #     }
-    #
-    #     OverlappingElementsBoxType = {
-    #         name = "trigger_icons"
-    #         position = { x = 0  y = 10 }
-    #         size = { x=65 y= 28 }
-    #     }
-    # }
-
-    ### ENCLAVE CARAVANEER EVENT WINDOW ###
 
     containerWindowType = {
         name = "bc_cheat_interface_ship_base_speed"
         orientation = center
         origo = center
         moveable = yes
-        size = { width = 974 height = 680 }
+        size = { width = 250 height = 500 }
 
         background = {
             name = "background"
-            quadTextureSprite = "GFX_tile_large_bg_caravaneer"
+            quadTextureSprite = "GFX_tile_outliner_bg_solid"
         }
 
         iconType = {
             name = "hex_bg"
-            spriteType = "GFX_hex_bg_caravaneer"
+            spriteType = "GFX_hex_bg"
             position = { x = -10 y = -14 }
             alwaysTransparent = yes
         }
 
         iconType = {
             name = "empire_header_line"
-            quadTextureSprite = "GFX_line_long_caravaneer"
-            position = { x = 6 y = 22 }
+            quadTextureSprite = "GFX_line_short"
+            position = { x = 6 y = 44 }
             alwaysTransparent = yes
         }
         # Custom header
@@ -56,7 +32,7 @@ guiTypes = {
             font = "malgun_goth_24"
             text = "bccheatinterface_2_ship_base_speed"    # header text
             position = { x = 20 y = 5 }
-            maxWidth = 543
+            maxWidth = 250
             maxHeight = 22
             fixedSize = yes
             alwaysTransparent = yes
@@ -368,166 +344,145 @@ guiTypes = {
             position = { x = -10 y = -14 }
             alwaysTransparent = yes
         }
-
         iconType = {
             name = "empire_header_line"
             quadTextureSprite = "GFX_line_long"
             position = { x = 6 y = 22 }
             alwaysTransparent = yes
         }
-
         buttonType = {
             name = "close"
             quadTextureSprite = "GFX_close"
-            position = { x = -42 y = 12 }
+            position = { x = 0 y = -12 }
             orientation = "UPPER_RIGHT"
             #shortcut = "ESCAPE"
             clicksound = "back_click"
         }
+        ################################ Ship Base Speed Column ################################
+        containerWindowType = {
+            @bc_cheatinterface_ship_column_width = 226
+            @bc_cheatinterface_ship_column_height = 100%
+            @bc_cheatinterface_ship_column_title_width = 165
+            @bc_cheatinterface_ship_column_title_height = 55
+            @bc_cheatinterface_ship_column_main_width = 780
+
+            #@bc_cheatinterface_width  = 800
+            #@bc_cheatinterface_height = 615
+            #@bc_cheatinterface_main_width = 780
+            #@bc_cheatinterface_main_height =
+
+            name = "bccheatinterface_ship_column"
+            size = { width = @bc_cheatinterface_ship_column_width height = @bc_cheatinterface_ship_column_height }
+            # background = {
+            #     name = "bc_cheatinterface_ship_column_title_background"
+            #     quadTextureSprite = "GFX_bg_area_light"
+            # }
+            #movable = yes
+            position = { x = 13 y = 62 }
+            verticalScrollbar = "right_vertical_slider"
+            extendedScrollbarType = {
+                name = "bccheatinterface_ship_column_scrollbar"
+                startValue = 0
+            }
+            # Ship Base Speed Tier I Button
+            effectButtonType = {
+                name = "bccheatinterface_2_ship_base_speed"
+                quadTextureSprite = "GFX_standard_button_200_34_button"
+                position = { x = 0 y = 0 }
+                effect = "bc_cheatinterface_button_ship_base_speed_t1"
+                buttonFont = "cg_16b"
+                buttonText = "bc_ship_base_speed_t1_title"
+
+            }
+            # Ship Base Speed Tier II Button
+            effectButtonType = {
+                name = "bc_cheatinterface_button_ship_base_speed_t2"
+                quadTextureSprite = "GFX_standard_button_200_34_button"
+                position = { x = 0 y = 40 }
+                effect = "bc_cheatinterface_button_ship_base_speed_t2"
+                buttonFont = "cg_16b"
+                buttonText = "bc_ship_base_speed_t2"
+            }
+
+            # Ship Base Speed Tier III Button
+            effectButtonType = {
+                name = "bc_cheatinterface_button_ship_base_speed_t3"
+                quadTextureSprite = "GFX_standard_button_200_34_button"
+                position = { x = 0 y = 80 }
+                effect = "bc_cheatinterface_button_ship_base_speed_t3"
+                buttonFont = "cg_16b"
+                buttonText = "bc_ship_base_speed_t3"
+            }
+
+            # Ship Base Speed Tier IV Button
+            effectButtonType = {
+                name = "bc_cheatinterface_button_ship_base_speed_t4"
+                quadTextureSprite = "GFX_standard_button_200_34_button"
+                position = { x = 0 y = 120 }
+                effect = "bc_cheatinterface_button_ship_base_speed_t4"
+                buttonFont = "cg_16b"
+                buttonText = "bc_ship_base_speed_t4"
+            }
+
+            # Ship Base Speed Tier V Button
+            effectButtonType = {
+                name = "bc_cheatinterface_button_ship_base_speed_t5"
+                quadTextureSprite = "GFX_standard_button_200_34_button"
+                position = { x = 0 y = 160 }
+                effect = "bc_cheatinterface_button_ship_base_speed_t5"
+                buttonFont = "cg_16b"
+                buttonText = "bc_ship_base_speed_t5"
+            }
+
+            # Ship Base Speed Tier VI Button
+            effectButtonType = {
+                name = "bc_cheatinterface_button_ship_base_speed_t6"
+                quadTextureSprite = "GFX_standard_button_200_34_button"
+                position = { x = 0 y = 200 }
+                effect = "bc_cheatinterface_button_ship_base_speed_t6"
+                buttonFont = "cg_16b"
+                buttonText = "bc_ship_base_speed_t6"
+            }
+
+            # Ship Base Speed Tier VII Button
+            effectButtonType = {
+                name = "bc_cheatinterface_button_ship_base_speed_t7"
+                quadTextureSprite = "GFX_standard_button_200_34_button"
+                position = { x = 0 y = 240 }
+                effect = "bc_cheatinterface_button_ship_base_speed_t7"
+                buttonFont = "cg_16b"
+                buttonText = "bc_ship_base_speed_t7"
+            }
+
+            # Ship Base Speed Tier VIII Button
+            effectButtonType = {
+                name = "bc_cheatinterface_button_ship_base_speed_t8"
+                quadTextureSprite = "GFX_standard_button_200_34_button"
+                position = { x = 0 y = 280 }
+                effect = "bc_cheatinterface_button_ship_base_speed_t8"
+                buttonFont = "cg_16b"
+                buttonText = "bc_ship_base_speed_t8"
+            }
+
+            # Ship Base Speed Tier IX Button
+            effectButtonType = {
+                name = "bc_cheatinterface_button_ship_base_speed_t9"
+                quadTextureSprite = "GFX_standard_button_200_34_button"
+                position = { x = 0 y = 320 }
+                effect = "bc_cheatinterface_button_ship_base_speed_t9"
+                buttonFont = "cg_16b"
+                buttonText = "bc_ship_base_speed_t9"
+            }
+
+            # Ship Base Speed Tier X Button
+            effectButtonType = {
+                name = "bc_cheatinterface_button_ship_base_speed_t10"
+                quadTextureSprite = "GFX_standard_button_200_34_button"
+                position = { x = 0 y = 360 }
+                effect = "bc_cheatinterface_button_ship_base_speed_t10"
+                buttonFont = "cg_16b"
+                buttonText = "bc_ship_base_speed_t10"
+            }
+        }
     }
 }
-# guiTypes = {
-#
-#     @hidden_ui_elements_position = -10000
-#
-#     containerWindowType = {
-#         ####################### Hidden UI #########################
-#         iconType = { name = "empire_header_line" quadTextureSprite = "GFX_line_long_caravaneer" position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position } alwaysTransparent = yes }
-#         buttonType = { name = "focus_button" position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position } orientation = "UPPER_RIGHT" spriteType = "GFX_fleetview_focus" buttonFont = "cg_16b" shortcut = "q" }
-#         instantTextBoxType = {
-#             name = "heading" font = "malgun_goth_24" text = "DIPLOMACY" position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position }
-#             maxWidth = 543 maxHeight = 22 fixedSize = yes alwaysTransparent = yes
-#         }
-#         buttonType = {
-#             name = "tts_button" position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position }
-#             spriteType = "GFX_button_tts_start" buttonFont = "cg_16b" shortCut = "t"
-#         }
-#         buttonType = {
-#             name = "alien_message_background" size = { x = 485 y = 240 } position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position }
-#             spriteType = "GFX_tiles_dark_area_cut_8" alwaysTransparent = yes
-#         }
-#         instantTextBoxType = {
-#             name = "alien_message" font = "cg_16b" position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position }
-#             maxWidth = 465 maxHeight = 220 format = left scrollbartype = "standardtext_slider"
-#         }
-#         buttonType = {
-#             name = "confirm_button" quadTextureSprite = "GFX_standard_button_142_34_button" position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position }
-#             Orientation = "UPPER_RIGHT" font = "cg_16b" text = "MESSAGE_OK" clicksound = "confirmation"
-#         }
-#         ### PORTRAIT ###
-#         containerWindowType = {
-#             name = "portrait_background"
-#             position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position }
-#             size = { width = 964 height = 350 }
-#             clipping = yes
-#             iconType = { name = "event_picture" spriteType = "GFX_diplomacy_portrait_frame" position = { x = -6 y = -5 } }
-#             iconType = { name = "portrait" position = { x = 250 y = 0 } spriteType = "GFX_portrait_character" }
-#         }
-#         containerWindowType = {
-#             name = "portrait"
-#             position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position }
-#             size = { width = 964 height = 350 }
-#             clipping = yes
-#             iconType = { name = "portrait" spriteType = "GFX_portrait_gamesetup_mask" alwaysTransparent = yes }
-#             iconType = { name = "black_frame" spriteType = "GFX_diplomacy_portrait_shadow_frame" position = { x = -4 y = -5 } alwaysTransparent = yes }
-#             iconType = { name = "stripes_1" spriteType = "GFX_diplomacy_stripes_2" alwaysTransparent = yes }
-#             iconType = { name = "city_frame" spriteType = "GFX_diplomacy_portrait_frame_caravaneer" position = { x = -6 y = -5 } alwaysTransparent = yes }
-#         }
-#         ### EMPIRE INFO ###
-#         iconType = { name = "empire_info_bg" spriteType = "GFX_diplomacy_dark_fade_bg" position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position } alwaysTransparent = yes }
-#         instantTextBoxType = {
-#             name = "empire_name" font = "malgun_goth_24" text = "Kammarian Galactic Concordat" position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position }
-#             maxWidth = 450 maxHeight = 16 format = LEFT text_color_code = "E" fixedsize = yes
-#         }
-#         instantTextBoxType = {
-#             name = "empire_government_type" font = "cg_16b" text = "Autocracy" position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position }
-#             maxWidth = 250 maxHeight = 16 format = LEFT fixedsize = yes text_color_code = "Y"
-#         }
-#         instantTextBoxType = {
-#             name = "empire_personality_type" font = "cg_16b" text = "Despicable Neutrals" position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position }
-#             maxWidth = 250 maxHeight = 16 format = LEFT fixedsize = yes
-#         }
-#         OverlappingElementsBoxType = { name = "empire_ethics_icons" position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position } size = { x = 240 y = 30 } spacing = 2.0 format = left }
-#         buttonType = { name = "empire_flag" quadTextureSprite = "GFX_empire_flag_128_trader" position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position } orientation = UPPER_LEFT }
-#         containerWindowType = {
-#             name = "leader_details"
-#             position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position }
-#             containerWindowType = { name = "empire_traits_box" position = { x = 0 y = -5 } size = { width = 210 height = 75 } background = { name = "ethics_bg" spriteType = "GFX_tiles_dark_area_cut_8" } }
-#             instantTextBoxType = { name = "empire_traits_label" position = { x = 214 y = 37 } font = "cg_16b" maxWidth = 230 maxHeight = 20 fixedSize = yes format = left text = "RULER_TRAITS" alwaysTransparent = yes }
-#             overlappingElementsBoxType = { name = "leader_traits" position = { x = 215 y = 55 } size = { x = 125 y = 330 } }
-#             instantTextBoxType = { name = "leader_name" position = { x = 10 y = 0 } font = "cg_16b" maxWidth = 330 maxHeight = 20 fixedSize = yes format = left text = "Leader Name" text_color_code = "E" }
-#             instantTextBoxType = { name = "leader_species" position = { x = 10 y = 18 } font = "cg_16b" maxWidth = 330 maxHeight = 20 fixedSize = yes text = "Leader Species" format = left }
-#         }
-#         ### OPINION
-#         containerWindowType = {
-#             name = "opinion_window"
-#             position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position }
-#             size = { width = 94 height = 30 }
-#             background = { name = "opinion_bg" spriteType = "GFX_tiled_window_transparent" }
-#             iconType = { name = "their_opinion_icon" spriteType = "GFX_diplomacy_opinion" position = { x = 7 y = 4 } alwaysTransparent = yes }
-#             instantTextBoxType = { name = "their_opinion" font = "cg_16b" maxWidth = 40 position = { x = 40 y = 7 } format = left text = "100" alwaysTransparent = yes }
-#         }
-#         ### EVENT DIPLO ###
-#         containerWindowType = {
-#             name = "EVENT_DIPLO"
-#             position = { x = @hidden_ui_elements_position y = @hidden_ui_elements_position }
-#             size = { width = 563 height = 280 }
-#             moveable = no
-#             instantTextBoxType = { name = "action_title" font = "malgun_goth_24" position = { x = 20 y = 0 } maxWidth = 520 alwaysTransparent = yes }
-#             instantTextBoxType = { name = "action_desc" font = "malgun_goth_24" position = { x = 490 y = 0 } maxWidth = 500 maxHeight = 180 Orientation = "UPPER_LEFT" format = center alwaysTransparent = yes text_color_code = "H" }
-#             listboxType = { name = "option_list" position = { x = 500 y = 20 } size = { x = 460 y = 240 } spacing = 1 scrollbartype = "standardlistbox_slider" borderSize = { x = 0 y = 0 } Orientation = "UPPER_LEFT" }
-#         }
-#         ################## Actually Displayed UI ##################
-#
-#         @bc_cheatinterface_ship_base_speed_height = 620
-#         @bc_cheatinterface_ship_base_speed_width = 225
-#
-#         name = "bc_cheat_interface_ship_base_speed"
-#         position = { X = 0 Y = 0 }
-#         orientation = center
-#         origo = center
-#         moveable = yes
-#         size = {
-#             width = @bc_cheatinterface_ship_base_speed_width
-#             height = @bc_cheatinterface_ship_base_speed_height
-#         }
-#         background = { name = "background" quadTextureSprite = "GFX_tile_outliner_bg" }
-#
-#         iconType = {
-#             name = "hex_bg"
-#             spriteType = "GFX_hex_bg"
-#             position = { x = -10 y = -14 }
-#             alwaysTransparent = yes
-#         }
-#
-#         iconType = {
-#             name = "empire_header_line"
-#             quadTextureSprite = "GFX_line_long"
-#             position = { x = 6 y = 22 }
-#             alwaysTransparent = yes
-#         }
-#
-#         buttonType = {
-#             name = "close"
-#             quadTextureSprite = "GFX_close"
-#             position = { x = -42 y = 12 }
-#             orientation = "UPPER_RIGHT"
-#             #shortcut = "ESCAPE"
-#             clicksound = "back_click"
-#         }
-#
-#         # Custom header
-#         instantTextBoxType = {
-#             name = "irm_some_header"
-#             font = "malgun_goth_24"
-#             text = "bccheatinterface_2_ship_base_speed"    # header text
-#             position = { x = 20 y = 5 }
-#             maxWidth = 543
-#             maxHeight = 22
-#             fixedSize = yes
-#             alwaysTransparent = yes
-#         }
-#
-#
-#     }
-# }
