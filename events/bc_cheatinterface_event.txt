@@ -20,6 +20,7 @@ country_event = {
 country_event = {
     id = bccheatinterface.2
     title = "edict_bc_edict_2"
+    desc = "edict_bc_edict_2_desc"
     is_triggered_only = yes
     diplomatic = yes
     custom_gui = "bc_cheat_interface"
@@ -84,10 +85,13 @@ country_event = {
         hidden_effect = {
             remove_country_flag = bc_is_in_menu
             remove_country_flag = bc_is_in_ship_base_speed_interface
+            remove_country_flag = bc_is_in_ship_ftl_speed_interface
         }
     }
 }
+#########################################
 
+### Better Cheats Ship Base Speed Screen ###
 country_event = {
     id = bccheatinterface.3001
     title = "bccheatinterface_2_ship_base_speed"
@@ -114,3 +118,33 @@ country_event = {
         }
     }
 }
+#########################################
+
+### Better Cheats Ship FTL Speed Screen ###
+country_event =  {
+    id = bccheatinterface.3002
+    title = "bccheatinterface_2_ship_ftl_speed"
+    desc = "bccheatinterface_2_ship_ftl_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_ship_ftl_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_ship_ftl_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_ship_ftl_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_ship_ftl_speed_interface
+        }
+    }
+}
+#########################################

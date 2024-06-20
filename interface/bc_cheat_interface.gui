@@ -830,12 +830,12 @@ guiTypes = {
                 }
                 # Ship FTL Speed Button
                 effectButtonType = {
-                    name = "bccheatinterface_2_ship_interstellar_speed"
+                    name = "bccheatinterface_2_ship_ftl_speed"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 40 }
-                    effect = "bc_cheatinterface_button_effect"
+                    effect = "bc_cheatinterface_button_ship_ftl_speed"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_ship_interstellar_speed"
+                    buttonText = "bccheatinterface_2_ship_ftl_speed"
                 }
 
                 # Ship Armor Regeneration Button
