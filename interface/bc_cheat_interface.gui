@@ -397,7 +397,7 @@ guiTypes = {
                 }
                 # Minerals Button
                 effectButtonType = {
-                    name = "bccheatinterface_2_mineralss"
+                    name = "bccheatinterface_2_minerals"
                     quadTextureSprite = "GFX_standard_button_142_34_button"
                     #position = { x = 0 y = 0 }
                     effect = "bc_cheatinterface_button_effect"
@@ -420,23 +420,25 @@ guiTypes = {
                     name = "bccheatinterface_resource_column_scrollbar"
                     startValue = 0
                 }
+
                 # Minerals Button
                 effectButtonType = {
                     name = "bccheatinterface_2_minerals"
                     quadTextureSprite = "GFX_standard_button_142_34_button"
                     position = { x = 0 y = 0 }
-                    effect = "bc_cheatinterface_button_effect"
+                    effect = "bc_cheatinterface_button_resource_minerals"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_minerals"
+                    buttonText = "bccheatinterface_2_minerals_title"
                 }
+
                 # Energy Button
                 effectButtonType = {
                     name = "bccheatinterface_2_energy"
                     quadTextureSprite = "GFX_standard_button_142_34_button"
                     position = { x = 0 y = 40 }
-                    effect = "bc_cheatinterface_button_effect"
+                    effect = "bc_cheatinterface_button_resource_energy"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_energy"
+                    buttonText = "bccheatinterface_2_energy_title"
                 }
 
                 # Food Button
@@ -444,9 +446,9 @@ guiTypes = {
                     name = "bccheatinterface_2_food"
                     quadTextureSprite = "GFX_standard_button_142_34_button"
                     position = { x = 0 y = 80 }
-                    effect = "bc_cheatinterface_button_effect"
+                    effect = "bc_cheatinterface_button_resource_food"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_food"
+                    buttonText = "bccheatinterface_2_food_title"
                 }
 
                 # Consumer Goods Button
@@ -454,9 +456,9 @@ guiTypes = {
                     name = "bccheatinterface_2_consumer_goods"
                     quadTextureSprite = "GFX_standard_button_142_34_button"
                     position = { x = 0 y = 120 }
-                    effect = "bc_cheatinterface_button_effect"
+                    effect = "bc_cheatinterface_button_resource_consumer_goods"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_consumer_goods"
+                    buttonText = "bccheatinterface_2_consumer_goods_title"
                 }
 
                 # Alloy Button
@@ -819,14 +821,15 @@ guiTypes = {
                     name = "bccheatinterface_ship_column_scrollbar"
                     startValue = 0
                 }
+
                 # Ship Base Speed Button
                 effectButtonType = {
-                    name = "bccheatinterface_2_ship_base_speed"
+                    name = "bccheatinterface_2_ship_base_speed_title"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 0 }
                     effect = "bc_cheatinterface_button_ship_base_speed"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_ship_base_speed"
+                    buttonText = "bccheatinterface_2_ship_base_speed_title"
                 }
                 # Ship FTL Speed Button
                 effectButtonType = {
@@ -835,37 +838,34 @@ guiTypes = {
                     position = { x = 0 y = 40 }
                     effect = "bc_cheatinterface_button_ship_ftl_speed"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_ship_ftl_speed"
+                    buttonText = "bccheatinterface_2_ship_ftl_speed_title"
                 }
-
                 # Ship Armor Regeneration Button
                 effectButtonType = {
-                    name = "bccheatinterface_2_ship_armor_regen"
+                    name = "bccheatinterface_2_ship_armor_regeneration"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 80 }
-                    effect = "bc_cheatinterface_button_effect"
+                    effect = "bc_cheatinterface_button_ship_armor_regeneration"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_ship_armor_regen"
+                    buttonText = "bccheatinterface_2_ship_armor_regeneration_title"
                 }
-
                 # Ship Hull Regeneration Button
                 effectButtonType = {
-                    name = "bccheatinterface_2_ship_hull_regen"
+                    name = "bccheatinterface_2_ship_hull_regeneration"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 120 }
-                    effect = "bc_cheatinterface_button_effect"
+                    effect = "bc_cheatinterface_button_ship_hull_regeneration"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_ship_hull_regen"
+                    buttonText = "bccheatinterface_2_ship_hull_regeneration_title"
                 }
-
                 # Ship Shield Regeneration Button
                 effectButtonType = {
-                    name = "bccheatinterface_2_ship_shield_regen"
+                    name = "bccheatinterface_2_ship_shield_regeneration"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 160 }
-                    effect = "bc_cheatinterface_button_effect"
+                    effect = "bc_cheatinterface_button_ship_shield_regeneration"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_ship_shield_regen"
+                    buttonText = "bccheatinterface_2_ship_shield_regeneration_title"
                 }
 
                 # # Influence Button
@@ -999,7 +999,7 @@ guiTypes = {
                     #position = { x = 0 y = 0 }
                     effect = "bc_cheatinterface_button_effect"
                     buttonFont = "malgun_goth_24"
-                    buttonText = "bccheatinterface_2_empire"
+                    buttonText = "bccheatinterface_2_army"
                     alwaysTransparent = yes
                 }
             }
@@ -1198,7 +1198,7 @@ guiTypes = {
                     #position = { x = 0 y = 0 }
                     effect = "bc_cheatinterface_button_effect"
                     buttonFont = "malgun_goth_24"
-                    buttonText = "bccheatinterface_2_ship"
+                    buttonText = "bccheatinterface_2_building"
                     alwaysTransparent = yes
                 }
             }

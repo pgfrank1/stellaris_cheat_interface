@@ -8,6 +8,1877 @@ bc_cheatinterface_button_title = {
     allow = { always = no }
 }
 
+############################# Resource Minerals #################################
+bc_cheatinterface_button_resource_minerals = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        country_event = {
+            id = "bccheatinterface.1001"
+        }
+    }
+}
+
+bc_cheatinterface_button_resource_minerals_t1 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_minerals_t1_modifier
+                has_modifier = bc_resource_minerals_t1
+            }
+            remove_country_flag = bc_has_resource_minerals_t1_modifier
+            remove_modifier = bc_resource_minerals_t1
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_minerals_t1
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_minerals_t1_modifier
+                remove_country_flag = bc_has_resource_minerals_t2_modifier
+                remove_country_flag = bc_has_resource_minerals_t3_modifier
+                remove_country_flag = bc_has_resource_minerals_t4_modifier
+                remove_country_flag = bc_has_resource_minerals_t5_modifier
+                remove_country_flag = bc_has_resource_minerals_t6_modifier
+                remove_country_flag = bc_has_resource_minerals_t7_modifier
+                remove_country_flag = bc_has_resource_minerals_t8_modifier
+                remove_country_flag = bc_has_resource_minerals_t9_modifier
+                remove_country_flag = bc_has_resource_minerals_t10_modifier
+                remove_modifier = bc_resource_minerals_t2
+                remove_modifier = bc_resource_minerals_t3
+                remove_modifier = bc_resource_minerals_t4
+                remove_modifier = bc_resource_minerals_t5
+                remove_modifier = bc_resource_minerals_t6
+                remove_modifier = bc_resource_minerals_t7
+                remove_modifier = bc_resource_minerals_t8
+                remove_modifier = bc_resource_minerals_t9
+                remove_modifier = bc_resource_minerals_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_minerals_t2 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_minerals_t2_modifier
+                has_modifier = bc_resource_minerals_t2
+            }
+            remove_country_flag = bc_has_resource_minerals_t2_modifier
+            remove_modifier = bc_resource_minerals_t2
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_minerals_t2
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_minerals_t2_modifier
+                remove_country_flag = bc_has_resource_minerals_t1_modifier
+                remove_country_flag = bc_has_resource_minerals_t3_modifier
+                remove_country_flag = bc_has_resource_minerals_t4_modifier
+                remove_country_flag = bc_has_resource_minerals_t5_modifier
+                remove_country_flag = bc_has_resource_minerals_t6_modifier
+                remove_country_flag = bc_has_resource_minerals_t7_modifier
+                remove_country_flag = bc_has_resource_minerals_t8_modifier
+                remove_country_flag = bc_has_resource_minerals_t9_modifier
+                remove_country_flag = bc_has_resource_minerals_t10_modifier
+                remove_modifier = bc_resource_minerals_t1
+                remove_modifier = bc_resource_minerals_t3
+                remove_modifier = bc_resource_minerals_t4
+                remove_modifier = bc_resource_minerals_t5
+                remove_modifier = bc_resource_minerals_t6
+                remove_modifier = bc_resource_minerals_t7
+                remove_modifier = bc_resource_minerals_t8
+                remove_modifier = bc_resource_minerals_t9
+                remove_modifier = bc_resource_minerals_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_minerals_t3 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_minerals_t3_modifier
+                has_modifier = bc_resource_minerals_t3
+            }
+            remove_country_flag = bc_has_resource_minerals_t3_modifier
+            remove_modifier = bc_resource_minerals_t3
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_minerals_t3
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_minerals_t3_modifier
+                remove_country_flag = bc_has_resource_minerals_t1_modifier
+                remove_country_flag = bc_has_resource_minerals_t2_modifier
+                remove_country_flag = bc_has_resource_minerals_t4_modifier
+                remove_country_flag = bc_has_resource_minerals_t5_modifier
+                remove_country_flag = bc_has_resource_minerals_t6_modifier
+                remove_country_flag = bc_has_resource_minerals_t7_modifier
+                remove_country_flag = bc_has_resource_minerals_t8_modifier
+                remove_country_flag = bc_has_resource_minerals_t9_modifier
+                remove_country_flag = bc_has_resource_minerals_t10_modifier
+                remove_modifier = bc_resource_minerals_t1
+                remove_modifier = bc_resource_minerals_t2
+                remove_modifier = bc_resource_minerals_t4
+                remove_modifier = bc_resource_minerals_t5
+                remove_modifier = bc_resource_minerals_t6
+                remove_modifier = bc_resource_minerals_t7
+                remove_modifier = bc_resource_minerals_t8
+                remove_modifier = bc_resource_minerals_t9
+                remove_modifier = bc_resource_minerals_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_minerals_t4 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_minerals_t4_modifier
+                has_modifier = bc_resource_minerals_t4
+            }
+            remove_country_flag = bc_has_resource_minerals_t4_modifier
+            remove_modifier = bc_resource_minerals_t4
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_minerals_t4
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_minerals_t4_modifier
+                remove_country_flag = bc_has_resource_minerals_t1_modifier
+                remove_country_flag = bc_has_resource_minerals_t2_modifier
+                remove_country_flag = bc_has_resource_minerals_t3_modifier
+                remove_country_flag = bc_has_resource_minerals_t5_modifier
+                remove_country_flag = bc_has_resource_minerals_t6_modifier
+                remove_country_flag = bc_has_resource_minerals_t7_modifier
+                remove_country_flag = bc_has_resource_minerals_t8_modifier
+                remove_country_flag = bc_has_resource_minerals_t9_modifier
+                remove_country_flag = bc_has_resource_minerals_t10_modifier
+                remove_modifier = bc_resource_minerals_t1
+                remove_modifier = bc_resource_minerals_t2
+                remove_modifier = bc_resource_minerals_t3
+                remove_modifier = bc_resource_minerals_t5
+                remove_modifier = bc_resource_minerals_t6
+                remove_modifier = bc_resource_minerals_t7
+                remove_modifier = bc_resource_minerals_t8
+                remove_modifier = bc_resource_minerals_t9
+                remove_modifier = bc_resource_minerals_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_minerals_t5 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_minerals_t5_modifier
+                has_modifier = bc_resource_minerals_t5
+            }
+            remove_country_flag = bc_has_resource_minerals_t5_modifier
+            remove_modifier = bc_resource_minerals_t5
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_minerals_t5
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_minerals_t5_modifier
+                remove_country_flag = bc_has_resource_minerals_t1_modifier
+                remove_country_flag = bc_has_resource_minerals_t2_modifier
+                remove_country_flag = bc_has_resource_minerals_t3_modifier
+                remove_country_flag = bc_has_resource_minerals_t4_modifier
+                remove_country_flag = bc_has_resource_minerals_t6_modifier
+                remove_country_flag = bc_has_resource_minerals_t7_modifier
+                remove_country_flag = bc_has_resource_minerals_t8_modifier
+                remove_country_flag = bc_has_resource_minerals_t9_modifier
+                remove_country_flag = bc_has_resource_minerals_t10_modifier
+                remove_modifier = bc_resource_minerals_t1
+                remove_modifier = bc_resource_minerals_t2
+                remove_modifier = bc_resource_minerals_t3
+                remove_modifier = bc_resource_minerals_t4
+                remove_modifier = bc_resource_minerals_t6
+                remove_modifier = bc_resource_minerals_t7
+                remove_modifier = bc_resource_minerals_t8
+                remove_modifier = bc_resource_minerals_t9
+                remove_modifier = bc_resource_minerals_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_minerals_t6 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_minerals_t6_modifier
+                has_modifier = bc_resource_minerals_t6
+            }
+            remove_country_flag = bc_has_resource_minerals_t6_modifier
+            remove_modifier = bc_resource_minerals_t6
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_minerals_t6
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_minerals_t6_modifier
+                remove_country_flag = bc_has_resource_minerals_t1_modifier
+                remove_country_flag = bc_has_resource_minerals_t2_modifier
+                remove_country_flag = bc_has_resource_minerals_t3_modifier
+                remove_country_flag = bc_has_resource_minerals_t4_modifier
+                remove_country_flag = bc_has_resource_minerals_t5_modifier
+                remove_country_flag = bc_has_resource_minerals_t7_modifier
+                remove_country_flag = bc_has_resource_minerals_t8_modifier
+                remove_country_flag = bc_has_resource_minerals_t9_modifier
+                remove_country_flag = bc_has_resource_minerals_t10_modifier
+                remove_modifier = bc_resource_minerals_t1
+                remove_modifier = bc_resource_minerals_t2
+                remove_modifier = bc_resource_minerals_t3
+                remove_modifier = bc_resource_minerals_t4
+                remove_modifier = bc_resource_minerals_t5
+                remove_modifier = bc_resource_minerals_t7
+                remove_modifier = bc_resource_minerals_t8
+                remove_modifier = bc_resource_minerals_t9
+                remove_modifier = bc_resource_minerals_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_minerals_t7 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_minerals_t7_modifier
+                has_modifier = bc_resource_minerals_t7
+            }
+            remove_country_flag = bc_has_resource_minerals_t7_modifier
+            remove_modifier = bc_resource_minerals_t7
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_minerals_t7
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_minerals_t7_modifier
+                remove_country_flag = bc_has_resource_minerals_t1_modifier
+                remove_country_flag = bc_has_resource_minerals_t2_modifier
+                remove_country_flag = bc_has_resource_minerals_t3_modifier
+                remove_country_flag = bc_has_resource_minerals_t4_modifier
+                remove_country_flag = bc_has_resource_minerals_t5_modifier
+                remove_country_flag = bc_has_resource_minerals_t6_modifier
+                remove_country_flag = bc_has_resource_minerals_t8_modifier
+                remove_country_flag = bc_has_resource_minerals_t9_modifier
+                remove_country_flag = bc_has_resource_minerals_t10_modifier
+                remove_modifier = bc_resource_minerals_t1
+                remove_modifier = bc_resource_minerals_t2
+                remove_modifier = bc_resource_minerals_t3
+                remove_modifier = bc_resource_minerals_t4
+                remove_modifier = bc_resource_minerals_t5
+                remove_modifier = bc_resource_minerals_t6
+                remove_modifier = bc_resource_minerals_t8
+                remove_modifier = bc_resource_minerals_t9
+                remove_modifier = bc_resource_minerals_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_minerals_t8 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_minerals_t8_modifier
+                has_modifier = bc_resource_minerals_t8
+            }
+            remove_country_flag = bc_has_resource_minerals_t8_modifier
+            remove_modifier = bc_resource_minerals_t8
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_minerals_t8
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_minerals_t8_modifier
+                remove_country_flag = bc_has_resource_minerals_t1_modifier
+                remove_country_flag = bc_has_resource_minerals_t2_modifier
+                remove_country_flag = bc_has_resource_minerals_t3_modifier
+                remove_country_flag = bc_has_resource_minerals_t4_modifier
+                remove_country_flag = bc_has_resource_minerals_t5_modifier
+                remove_country_flag = bc_has_resource_minerals_t6_modifier
+                remove_country_flag = bc_has_resource_minerals_t7_modifier
+                remove_country_flag = bc_has_resource_minerals_t9_modifier
+                remove_country_flag = bc_has_resource_minerals_t10_modifier
+                remove_modifier = bc_resource_minerals_t1
+                remove_modifier = bc_resource_minerals_t2
+                remove_modifier = bc_resource_minerals_t3
+                remove_modifier = bc_resource_minerals_t4
+                remove_modifier = bc_resource_minerals_t5
+                remove_modifier = bc_resource_minerals_t6
+                remove_modifier = bc_resource_minerals_t7
+                remove_modifier = bc_resource_minerals_t9
+                remove_modifier = bc_resource_minerals_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_minerals_t9 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_minerals_t9_modifier
+                has_modifier = bc_resource_minerals_t9
+            }
+            remove_country_flag = bc_has_resource_minerals_t9_modifier
+            remove_modifier = bc_resource_minerals_t9
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_minerals_t9
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_minerals_t9_modifier
+                remove_country_flag = bc_has_resource_minerals_t1_modifier
+                remove_country_flag = bc_has_resource_minerals_t2_modifier
+                remove_country_flag = bc_has_resource_minerals_t3_modifier
+                remove_country_flag = bc_has_resource_minerals_t4_modifier
+                remove_country_flag = bc_has_resource_minerals_t5_modifier
+                remove_country_flag = bc_has_resource_minerals_t6_modifier
+                remove_country_flag = bc_has_resource_minerals_t7_modifier
+                remove_country_flag = bc_has_resource_minerals_t8_modifier
+                remove_country_flag = bc_has_resource_minerals_t10_modifier
+                remove_modifier = bc_resource_minerals_t1
+                remove_modifier = bc_resource_minerals_t2
+                remove_modifier = bc_resource_minerals_t3
+                remove_modifier = bc_resource_minerals_t4
+                remove_modifier = bc_resource_minerals_t5
+                remove_modifier = bc_resource_minerals_t6
+                remove_modifier = bc_resource_minerals_t7
+                remove_modifier = bc_resource_minerals_t8
+                remove_modifier = bc_resource_minerals_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_minerals_t10 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_minerals_t10_modifier
+                has_modifier = bc_resource_minerals_t10
+            }
+            remove_country_flag = bc_has_resource_minerals_t10_modifier
+            remove_modifier = bc_resource_minerals_t10
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_minerals_t10
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_minerals_t10_modifier
+                remove_country_flag = bc_has_resource_minerals_t1_modifier
+                remove_country_flag = bc_has_resource_minerals_t2_modifier
+                remove_country_flag = bc_has_resource_minerals_t3_modifier
+                remove_country_flag = bc_has_resource_minerals_t4_modifier
+                remove_country_flag = bc_has_resource_minerals_t5_modifier
+                remove_country_flag = bc_has_resource_minerals_t6_modifier
+                remove_country_flag = bc_has_resource_minerals_t7_modifier
+                remove_country_flag = bc_has_resource_minerals_t8_modifier
+                remove_country_flag = bc_has_resource_minerals_t9_modifier
+                remove_modifier = bc_resource_minerals_t1
+                remove_modifier = bc_resource_minerals_t2
+                remove_modifier = bc_resource_minerals_t3
+                remove_modifier = bc_resource_minerals_t4
+                remove_modifier = bc_resource_minerals_t5
+                remove_modifier = bc_resource_minerals_t6
+                remove_modifier = bc_resource_minerals_t7
+                remove_modifier = bc_resource_minerals_t8
+                remove_modifier = bc_resource_minerals_t9
+            }
+        }
+    }
+}
+#################################################################################
+
+############################### Resource Energy #################################
+
+bc_cheatinterface_button_resource_energy = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        country_event = {
+            id = "bccheatinterface.1002"
+        }
+    }
+}
+
+bc_cheatinterface_button_resource_energy_t1 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_energy_t1_modifier
+                has_modifier = bc_resource_energy_t1
+            }
+            remove_country_flag = bc_has_resource_energy_t1_modifier
+            remove_modifier = bc_resource_energy_t1
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_energy_t1
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_energy_t1_modifier
+                remove_country_flag = bc_has_resource_energy_t2_modifier
+                remove_country_flag = bc_has_resource_energy_t3_modifier
+                remove_country_flag = bc_has_resource_energy_t4_modifier
+                remove_country_flag = bc_has_resource_energy_t5_modifier
+                remove_country_flag = bc_has_resource_energy_t6_modifier
+                remove_country_flag = bc_has_resource_energy_t7_modifier
+                remove_country_flag = bc_has_resource_energy_t8_modifier
+                remove_country_flag = bc_has_resource_energy_t9_modifier
+                remove_country_flag = bc_has_resource_energy_t10_modifier
+                remove_modifier = bc_resource_energy_t2
+                remove_modifier = bc_resource_energy_t3
+                remove_modifier = bc_resource_energy_t4
+                remove_modifier = bc_resource_energy_t5
+                remove_modifier = bc_resource_energy_t6
+                remove_modifier = bc_resource_energy_t7
+                remove_modifier = bc_resource_energy_t8
+                remove_modifier = bc_resource_energy_t9
+                remove_modifier = bc_resource_energy_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_energy_t2 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_energy_t2_modifier
+                has_modifier = bc_resource_energy_t2
+            }
+            remove_country_flag = bc_has_resource_energy_t2_modifier
+            remove_modifier = bc_resource_energy_t2
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_energy_t2
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_energy_t2_modifier
+                remove_country_flag = bc_has_resource_energy_t1_modifier
+                remove_country_flag = bc_has_resource_energy_t3_modifier
+                remove_country_flag = bc_has_resource_energy_t4_modifier
+                remove_country_flag = bc_has_resource_energy_t5_modifier
+                remove_country_flag = bc_has_resource_energy_t6_modifier
+                remove_country_flag = bc_has_resource_energy_t7_modifier
+                remove_country_flag = bc_has_resource_energy_t8_modifier
+                remove_country_flag = bc_has_resource_energy_t9_modifier
+                remove_country_flag = bc_has_resource_energy_t10_modifier
+                remove_modifier = bc_resource_energy_t1
+                remove_modifier = bc_resource_energy_t3
+                remove_modifier = bc_resource_energy_t4
+                remove_modifier = bc_resource_energy_t5
+                remove_modifier = bc_resource_energy_t6
+                remove_modifier = bc_resource_energy_t7
+                remove_modifier = bc_resource_energy_t8
+                remove_modifier = bc_resource_energy_t9
+                remove_modifier = bc_resource_energy_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_energy_t3 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_energy_t3_modifier
+                has_modifier = bc_resource_energy_t3
+            }
+            remove_country_flag = bc_has_resource_energy_t3_modifier
+            remove_modifier = bc_resource_energy_t3
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_energy_t3
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_energy_t3_modifier
+                remove_country_flag = bc_has_resource_energy_t1_modifier
+                remove_country_flag = bc_has_resource_energy_t2_modifier
+                remove_country_flag = bc_has_resource_energy_t4_modifier
+                remove_country_flag = bc_has_resource_energy_t5_modifier
+                remove_country_flag = bc_has_resource_energy_t6_modifier
+                remove_country_flag = bc_has_resource_energy_t7_modifier
+                remove_country_flag = bc_has_resource_energy_t8_modifier
+                remove_country_flag = bc_has_resource_energy_t9_modifier
+                remove_country_flag = bc_has_resource_energy_t10_modifier
+                remove_modifier = bc_resource_energy_t1
+                remove_modifier = bc_resource_energy_t2
+                remove_modifier = bc_resource_energy_t4
+                remove_modifier = bc_resource_energy_t5
+                remove_modifier = bc_resource_energy_t6
+                remove_modifier = bc_resource_energy_t7
+                remove_modifier = bc_resource_energy_t8
+                remove_modifier = bc_resource_energy_t9
+                remove_modifier = bc_resource_energy_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_energy_t4 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_energy_t4_modifier
+                has_modifier = bc_resource_energy_t4
+            }
+            remove_country_flag = bc_has_resource_energy_t4_modifier
+            remove_modifier = bc_resource_energy_t4
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_energy_t4
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_energy_t4_modifier
+                remove_country_flag = bc_has_resource_energy_t1_modifier
+                remove_country_flag = bc_has_resource_energy_t2_modifier
+                remove_country_flag = bc_has_resource_energy_t3_modifier
+                remove_country_flag = bc_has_resource_energy_t5_modifier
+                remove_country_flag = bc_has_resource_energy_t6_modifier
+                remove_country_flag = bc_has_resource_energy_t7_modifier
+                remove_country_flag = bc_has_resource_energy_t8_modifier
+                remove_country_flag = bc_has_resource_energy_t9_modifier
+                remove_country_flag = bc_has_resource_energy_t10_modifier
+                remove_modifier = bc_resource_energy_t1
+                remove_modifier = bc_resource_energy_t2
+                remove_modifier = bc_resource_energy_t3
+                remove_modifier = bc_resource_energy_t5
+                remove_modifier = bc_resource_energy_t6
+                remove_modifier = bc_resource_energy_t7
+                remove_modifier = bc_resource_energy_t8
+                remove_modifier = bc_resource_energy_t9
+                remove_modifier = bc_resource_energy_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_energy_t5 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_energy_t5_modifier
+                has_modifier = bc_resource_energy_t5
+            }
+            remove_country_flag = bc_has_resource_energy_t5_modifier
+            remove_modifier = bc_resource_energy_t5
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_energy_t5
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_energy_t5_modifier
+                remove_country_flag = bc_has_resource_energy_t1_modifier
+                remove_country_flag = bc_has_resource_energy_t2_modifier
+                remove_country_flag = bc_has_resource_energy_t3_modifier
+                remove_country_flag = bc_has_resource_energy_t4_modifier
+                remove_country_flag = bc_has_resource_energy_t6_modifier
+                remove_country_flag = bc_has_resource_energy_t7_modifier
+                remove_country_flag = bc_has_resource_energy_t8_modifier
+                remove_country_flag = bc_has_resource_energy_t9_modifier
+                remove_country_flag = bc_has_resource_energy_t10_modifier
+                remove_modifier = bc_resource_energy_t1
+                remove_modifier = bc_resource_energy_t2
+                remove_modifier = bc_resource_energy_t3
+                remove_modifier = bc_resource_energy_t4
+                remove_modifier = bc_resource_energy_t6
+                remove_modifier = bc_resource_energy_t7
+                remove_modifier = bc_resource_energy_t8
+                remove_modifier = bc_resource_energy_t9
+                remove_modifier = bc_resource_energy_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_energy_t6 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_energy_t6_modifier
+                has_modifier = bc_resource_energy_t6
+            }
+            remove_country_flag = bc_has_resource_energy_t6_modifier
+            remove_modifier = bc_resource_energy_t6
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_energy_t6
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_energy_t6_modifier
+                remove_country_flag = bc_has_resource_energy_t1_modifier
+                remove_country_flag = bc_has_resource_energy_t2_modifier
+                remove_country_flag = bc_has_resource_energy_t3_modifier
+                remove_country_flag = bc_has_resource_energy_t4_modifier
+                remove_country_flag = bc_has_resource_energy_t5_modifier
+                remove_country_flag = bc_has_resource_energy_t7_modifier
+                remove_country_flag = bc_has_resource_energy_t8_modifier
+                remove_country_flag = bc_has_resource_energy_t9_modifier
+                remove_country_flag = bc_has_resource_energy_t10_modifier
+                remove_modifier = bc_resource_energy_t1
+                remove_modifier = bc_resource_energy_t2
+                remove_modifier = bc_resource_energy_t3
+                remove_modifier = bc_resource_energy_t4
+                remove_modifier = bc_resource_energy_t5
+                remove_modifier = bc_resource_energy_t7
+                remove_modifier = bc_resource_energy_t8
+                remove_modifier = bc_resource_energy_t9
+                remove_modifier = bc_resource_energy_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_energy_t7 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_energy_t7_modifier
+                has_modifier = bc_resource_energy_t7
+            }
+            remove_country_flag = bc_has_resource_energy_t7_modifier
+            remove_modifier = bc_resource_energy_t7
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_energy_t7
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_energy_t7_modifier
+                remove_country_flag = bc_has_resource_energy_t1_modifier
+                remove_country_flag = bc_has_resource_energy_t2_modifier
+                remove_country_flag = bc_has_resource_energy_t3_modifier
+                remove_country_flag = bc_has_resource_energy_t4_modifier
+                remove_country_flag = bc_has_resource_energy_t5_modifier
+                remove_country_flag = bc_has_resource_energy_t6_modifier
+                remove_country_flag = bc_has_resource_energy_t8_modifier
+                remove_country_flag = bc_has_resource_energy_t9_modifier
+                remove_country_flag = bc_has_resource_energy_t10_modifier
+                remove_modifier = bc_resource_energy_t1
+                remove_modifier = bc_resource_energy_t2
+                remove_modifier = bc_resource_energy_t3
+                remove_modifier = bc_resource_energy_t4
+                remove_modifier = bc_resource_energy_t5
+                remove_modifier = bc_resource_energy_t6
+                remove_modifier = bc_resource_energy_t8
+                remove_modifier = bc_resource_energy_t9
+                remove_modifier = bc_resource_energy_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_energy_t8 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_energy_t8_modifier
+                has_modifier = bc_resource_energy_t8
+            }
+            remove_country_flag = bc_has_resource_energy_t8_modifier
+            remove_modifier = bc_resource_energy_t8
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_energy_t8
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_energy_t8_modifier
+                remove_country_flag = bc_has_resource_energy_t1_modifier
+                remove_country_flag = bc_has_resource_energy_t2_modifier
+                remove_country_flag = bc_has_resource_energy_t3_modifier
+                remove_country_flag = bc_has_resource_energy_t4_modifier
+                remove_country_flag = bc_has_resource_energy_t5_modifier
+                remove_country_flag = bc_has_resource_energy_t6_modifier
+                remove_country_flag = bc_has_resource_energy_t7_modifier
+                remove_country_flag = bc_has_resource_energy_t9_modifier
+                remove_country_flag = bc_has_resource_energy_t10_modifier
+                remove_modifier = bc_resource_energy_t1
+                remove_modifier = bc_resource_energy_t2
+                remove_modifier = bc_resource_energy_t3
+                remove_modifier = bc_resource_energy_t4
+                remove_modifier = bc_resource_energy_t5
+                remove_modifier = bc_resource_energy_t6
+                remove_modifier = bc_resource_energy_t7
+                remove_modifier = bc_resource_energy_t9
+                remove_modifier = bc_resource_energy_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_energy_t9 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_energy_t9_modifier
+                has_modifier = bc_resource_energy_t9
+            }
+            remove_country_flag = bc_has_resource_energy_t9_modifier
+            remove_modifier = bc_resource_energy_t9
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_energy_t9
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_energy_t9_modifier
+                remove_country_flag = bc_has_resource_energy_t1_modifier
+                remove_country_flag = bc_has_resource_energy_t2_modifier
+                remove_country_flag = bc_has_resource_energy_t3_modifier
+                remove_country_flag = bc_has_resource_energy_t4_modifier
+                remove_country_flag = bc_has_resource_energy_t5_modifier
+                remove_country_flag = bc_has_resource_energy_t6_modifier
+                remove_country_flag = bc_has_resource_energy_t7_modifier
+                remove_country_flag = bc_has_resource_energy_t8_modifier
+                remove_country_flag = bc_has_resource_energy_t10_modifier
+                remove_modifier = bc_resource_energy_t1
+                remove_modifier = bc_resource_energy_t2
+                remove_modifier = bc_resource_energy_t3
+                remove_modifier = bc_resource_energy_t4
+                remove_modifier = bc_resource_energy_t5
+                remove_modifier = bc_resource_energy_t6
+                remove_modifier = bc_resource_energy_t7
+                remove_modifier = bc_resource_energy_t8
+                remove_modifier = bc_resource_energy_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_energy_t10 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_energy_t10_modifier
+                has_modifier = bc_resource_energy_t10
+            }
+            remove_country_flag = bc_has_resource_energy_t10_modifier
+            remove_modifier = bc_resource_energy_t10
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_energy_t10
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_energy_t10_modifier
+                remove_country_flag = bc_has_resource_energy_t1_modifier
+                remove_country_flag = bc_has_resource_energy_t2_modifier
+                remove_country_flag = bc_has_resource_energy_t3_modifier
+                remove_country_flag = bc_has_resource_energy_t4_modifier
+                remove_country_flag = bc_has_resource_energy_t5_modifier
+                remove_country_flag = bc_has_resource_energy_t6_modifier
+                remove_country_flag = bc_has_resource_energy_t7_modifier
+                remove_country_flag = bc_has_resource_energy_t8_modifier
+                remove_country_flag = bc_has_resource_energy_t9_modifier
+                remove_modifier = bc_resource_energy_t1
+                remove_modifier = bc_resource_energy_t2
+                remove_modifier = bc_resource_energy_t3
+                remove_modifier = bc_resource_energy_t4
+                remove_modifier = bc_resource_energy_t5
+                remove_modifier = bc_resource_energy_t6
+                remove_modifier = bc_resource_energy_t7
+                remove_modifier = bc_resource_energy_t8
+                remove_modifier = bc_resource_energy_t9
+            }
+        }
+    }
+}
+#################################################################################
+
+############################### Resource Food #################################
+
+bc_cheatinterface_button_resource_food = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        country_event = {
+            id = "bccheatinterface.1003"
+        }
+    }
+}
+
+bc_cheatinterface_button_resource_food_t1 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_food_t1_modifier
+                has_modifier = bc_resource_food_t1
+            }
+            remove_country_flag = bc_has_resource_food_t1_modifier
+            remove_modifier = bc_resource_food_t1
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_food_t1
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_food_t1_modifier
+                remove_country_flag = bc_has_resource_food_t2_modifier
+                remove_country_flag = bc_has_resource_food_t3_modifier
+                remove_country_flag = bc_has_resource_food_t4_modifier
+                remove_country_flag = bc_has_resource_food_t5_modifier
+                remove_country_flag = bc_has_resource_food_t6_modifier
+                remove_country_flag = bc_has_resource_food_t7_modifier
+                remove_country_flag = bc_has_resource_food_t8_modifier
+                remove_country_flag = bc_has_resource_food_t9_modifier
+                remove_country_flag = bc_has_resource_food_t10_modifier
+                remove_modifier = bc_resource_food_t2
+                remove_modifier = bc_resource_food_t3
+                remove_modifier = bc_resource_food_t4
+                remove_modifier = bc_resource_food_t5
+                remove_modifier = bc_resource_food_t6
+                remove_modifier = bc_resource_food_t7
+                remove_modifier = bc_resource_food_t8
+                remove_modifier = bc_resource_food_t9
+                remove_modifier = bc_resource_food_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_food_t2 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_food_t2_modifier
+                has_modifier = bc_resource_food_t2
+            }
+            remove_country_flag = bc_has_resource_food_t2_modifier
+            remove_modifier = bc_resource_food_t2
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_food_t2
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_food_t2_modifier
+                remove_country_flag = bc_has_resource_food_t1_modifier
+                remove_country_flag = bc_has_resource_food_t3_modifier
+                remove_country_flag = bc_has_resource_food_t4_modifier
+                remove_country_flag = bc_has_resource_food_t5_modifier
+                remove_country_flag = bc_has_resource_food_t6_modifier
+                remove_country_flag = bc_has_resource_food_t7_modifier
+                remove_country_flag = bc_has_resource_food_t8_modifier
+                remove_country_flag = bc_has_resource_food_t9_modifier
+                remove_country_flag = bc_has_resource_food_t10_modifier
+                remove_modifier = bc_resource_food_t1
+                remove_modifier = bc_resource_food_t3
+                remove_modifier = bc_resource_food_t4
+                remove_modifier = bc_resource_food_t5
+                remove_modifier = bc_resource_food_t6
+                remove_modifier = bc_resource_food_t7
+                remove_modifier = bc_resource_food_t8
+                remove_modifier = bc_resource_food_t9
+                remove_modifier = bc_resource_food_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_food_t3 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_food_t3_modifier
+                has_modifier = bc_resource_food_t3
+            }
+            remove_country_flag = bc_has_resource_food_t3_modifier
+            remove_modifier = bc_resource_food_t3
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_food_t3
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_food_t3_modifier
+                remove_country_flag = bc_has_resource_food_t1_modifier
+                remove_country_flag = bc_has_resource_food_t2_modifier
+                remove_country_flag = bc_has_resource_food_t4_modifier
+                remove_country_flag = bc_has_resource_food_t5_modifier
+                remove_country_flag = bc_has_resource_food_t6_modifier
+                remove_country_flag = bc_has_resource_food_t7_modifier
+                remove_country_flag = bc_has_resource_food_t8_modifier
+                remove_country_flag = bc_has_resource_food_t9_modifier
+                remove_country_flag = bc_has_resource_food_t10_modifier
+                remove_modifier = bc_resource_food_t1
+                remove_modifier = bc_resource_food_t2
+                remove_modifier = bc_resource_food_t4
+                remove_modifier = bc_resource_food_t5
+                remove_modifier = bc_resource_food_t6
+                remove_modifier = bc_resource_food_t7
+                remove_modifier = bc_resource_food_t8
+                remove_modifier = bc_resource_food_t9
+                remove_modifier = bc_resource_food_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_food_t4 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_food_t4_modifier
+                has_modifier = bc_resource_food_t4
+            }
+            remove_country_flag = bc_has_resource_food_t4_modifier
+            remove_modifier = bc_resource_food_t4
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_food_t4
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_food_t4_modifier
+                remove_country_flag = bc_has_resource_food_t1_modifier
+                remove_country_flag = bc_has_resource_food_t2_modifier
+                remove_country_flag = bc_has_resource_food_t3_modifier
+                remove_country_flag = bc_has_resource_food_t5_modifier
+                remove_country_flag = bc_has_resource_food_t6_modifier
+                remove_country_flag = bc_has_resource_food_t7_modifier
+                remove_country_flag = bc_has_resource_food_t8_modifier
+                remove_country_flag = bc_has_resource_food_t9_modifier
+                remove_country_flag = bc_has_resource_food_t10_modifier
+                remove_modifier = bc_resource_food_t1
+                remove_modifier = bc_resource_food_t2
+                remove_modifier = bc_resource_food_t3
+                remove_modifier = bc_resource_food_t5
+                remove_modifier = bc_resource_food_t6
+                remove_modifier = bc_resource_food_t7
+                remove_modifier = bc_resource_food_t8
+                remove_modifier = bc_resource_food_t9
+                remove_modifier = bc_resource_food_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_food_t5 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_food_t5_modifier
+                has_modifier = bc_resource_food_t5
+            }
+            remove_country_flag = bc_has_resource_food_t5_modifier
+            remove_modifier = bc_resource_food_t5
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_food_t5
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_food_t5_modifier
+                remove_country_flag = bc_has_resource_food_t1_modifier
+                remove_country_flag = bc_has_resource_food_t2_modifier
+                remove_country_flag = bc_has_resource_food_t3_modifier
+                remove_country_flag = bc_has_resource_food_t4_modifier
+                remove_country_flag = bc_has_resource_food_t6_modifier
+                remove_country_flag = bc_has_resource_food_t7_modifier
+                remove_country_flag = bc_has_resource_food_t8_modifier
+                remove_country_flag = bc_has_resource_food_t9_modifier
+                remove_country_flag = bc_has_resource_food_t10_modifier
+                remove_modifier = bc_resource_food_t1
+                remove_modifier = bc_resource_food_t2
+                remove_modifier = bc_resource_food_t3
+                remove_modifier = bc_resource_food_t4
+                remove_modifier = bc_resource_food_t6
+                remove_modifier = bc_resource_food_t7
+                remove_modifier = bc_resource_food_t8
+                remove_modifier = bc_resource_food_t9
+                remove_modifier = bc_resource_food_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_food_t6 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_food_t6_modifier
+                has_modifier = bc_resource_food_t6
+            }
+            remove_country_flag = bc_has_resource_food_t6_modifier
+            remove_modifier = bc_resource_food_t6
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_food_t6
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_food_t6_modifier
+                remove_country_flag = bc_has_resource_food_t1_modifier
+                remove_country_flag = bc_has_resource_food_t2_modifier
+                remove_country_flag = bc_has_resource_food_t3_modifier
+                remove_country_flag = bc_has_resource_food_t4_modifier
+                remove_country_flag = bc_has_resource_food_t5_modifier
+                remove_country_flag = bc_has_resource_food_t7_modifier
+                remove_country_flag = bc_has_resource_food_t8_modifier
+                remove_country_flag = bc_has_resource_food_t9_modifier
+                remove_country_flag = bc_has_resource_food_t10_modifier
+                remove_modifier = bc_resource_food_t1
+                remove_modifier = bc_resource_food_t2
+                remove_modifier = bc_resource_food_t3
+                remove_modifier = bc_resource_food_t4
+                remove_modifier = bc_resource_food_t5
+                remove_modifier = bc_resource_food_t7
+                remove_modifier = bc_resource_food_t8
+                remove_modifier = bc_resource_food_t9
+                remove_modifier = bc_resource_food_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_food_t7 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_food_t7_modifier
+                has_modifier = bc_resource_food_t7
+            }
+            remove_country_flag = bc_has_resource_food_t7_modifier
+            remove_modifier = bc_resource_food_t7
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_food_t7
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_food_t7_modifier
+                remove_country_flag = bc_has_resource_food_t1_modifier
+                remove_country_flag = bc_has_resource_food_t2_modifier
+                remove_country_flag = bc_has_resource_food_t3_modifier
+                remove_country_flag = bc_has_resource_food_t4_modifier
+                remove_country_flag = bc_has_resource_food_t5_modifier
+                remove_country_flag = bc_has_resource_food_t6_modifier
+                remove_country_flag = bc_has_resource_food_t8_modifier
+                remove_country_flag = bc_has_resource_food_t9_modifier
+                remove_country_flag = bc_has_resource_food_t10_modifier
+                remove_modifier = bc_resource_food_t1
+                remove_modifier = bc_resource_food_t2
+                remove_modifier = bc_resource_food_t3
+                remove_modifier = bc_resource_food_t4
+                remove_modifier = bc_resource_food_t5
+                remove_modifier = bc_resource_food_t6
+                remove_modifier = bc_resource_food_t8
+                remove_modifier = bc_resource_food_t9
+                remove_modifier = bc_resource_food_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_food_t8 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_food_t8_modifier
+                has_modifier = bc_resource_food_t8
+            }
+            remove_country_flag = bc_has_resource_food_t8_modifier
+            remove_modifier = bc_resource_food_t8
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_food_t8
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_food_t8_modifier
+                remove_country_flag = bc_has_resource_food_t1_modifier
+                remove_country_flag = bc_has_resource_food_t2_modifier
+                remove_country_flag = bc_has_resource_food_t3_modifier
+                remove_country_flag = bc_has_resource_food_t4_modifier
+                remove_country_flag = bc_has_resource_food_t5_modifier
+                remove_country_flag = bc_has_resource_food_t6_modifier
+                remove_country_flag = bc_has_resource_food_t7_modifier
+                remove_country_flag = bc_has_resource_food_t9_modifier
+                remove_country_flag = bc_has_resource_food_t10_modifier
+                remove_modifier = bc_resource_food_t1
+                remove_modifier = bc_resource_food_t2
+                remove_modifier = bc_resource_food_t3
+                remove_modifier = bc_resource_food_t4
+                remove_modifier = bc_resource_food_t5
+                remove_modifier = bc_resource_food_t6
+                remove_modifier = bc_resource_food_t7
+                remove_modifier = bc_resource_food_t9
+                remove_modifier = bc_resource_food_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_food_t9 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_food_t9_modifier
+                has_modifier = bc_resource_food_t9
+            }
+            remove_country_flag = bc_has_resource_food_t9_modifier
+            remove_modifier = bc_resource_food_t9
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_food_t9
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_food_t9_modifier
+                remove_country_flag = bc_has_resource_food_t1_modifier
+                remove_country_flag = bc_has_resource_food_t2_modifier
+                remove_country_flag = bc_has_resource_food_t3_modifier
+                remove_country_flag = bc_has_resource_food_t4_modifier
+                remove_country_flag = bc_has_resource_food_t5_modifier
+                remove_country_flag = bc_has_resource_food_t6_modifier
+                remove_country_flag = bc_has_resource_food_t7_modifier
+                remove_country_flag = bc_has_resource_food_t8_modifier
+                remove_country_flag = bc_has_resource_food_t10_modifier
+                remove_modifier = bc_resource_food_t1
+                remove_modifier = bc_resource_food_t2
+                remove_modifier = bc_resource_food_t3
+                remove_modifier = bc_resource_food_t4
+                remove_modifier = bc_resource_food_t5
+                remove_modifier = bc_resource_food_t6
+                remove_modifier = bc_resource_food_t7
+                remove_modifier = bc_resource_food_t8
+                remove_modifier = bc_resource_food_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_food_t10 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_food_t10_modifier
+                has_modifier = bc_resource_food_t10
+            }
+            remove_country_flag = bc_has_resource_food_t10_modifier
+            remove_modifier = bc_resource_food_t10
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_food_t10
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_food_t10_modifier
+                remove_country_flag = bc_has_resource_food_t1_modifier
+                remove_country_flag = bc_has_resource_food_t2_modifier
+                remove_country_flag = bc_has_resource_food_t3_modifier
+                remove_country_flag = bc_has_resource_food_t4_modifier
+                remove_country_flag = bc_has_resource_food_t5_modifier
+                remove_country_flag = bc_has_resource_food_t6_modifier
+                remove_country_flag = bc_has_resource_food_t7_modifier
+                remove_country_flag = bc_has_resource_food_t8_modifier
+                remove_country_flag = bc_has_resource_food_t9_modifier
+                remove_modifier = bc_resource_food_t1
+                remove_modifier = bc_resource_food_t2
+                remove_modifier = bc_resource_food_t3
+                remove_modifier = bc_resource_food_t4
+                remove_modifier = bc_resource_food_t5
+                remove_modifier = bc_resource_food_t6
+                remove_modifier = bc_resource_food_t7
+                remove_modifier = bc_resource_food_t8
+                remove_modifier = bc_resource_food_t9
+            }
+        }
+    }
+}
+#################################################################################
+
+############################### Resource Consumer Goods #################################
+
+bc_cheatinterface_button_resource_consumer_goods = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        country_event = {
+            id = "bccheatinterface.1004"
+        }
+    }
+}
+
+bc_cheatinterface_button_resource_consumer_goods_t1 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_consumer_goods_t1_modifier
+                has_modifier = bc_resource_consumer_goods_t1
+            }
+            remove_country_flag = bc_has_resource_consumer_goods_t1_modifier
+            remove_modifier = bc_resource_consumer_goods_t1
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_consumer_goods_t1
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_consumer_goods_t1_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t2_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t3_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t4_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t5_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t6_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t7_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t8_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t9_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t10_modifier
+                remove_modifier = bc_resource_consumer_goods_t2
+                remove_modifier = bc_resource_consumer_goods_t3
+                remove_modifier = bc_resource_consumer_goods_t4
+                remove_modifier = bc_resource_consumer_goods_t5
+                remove_modifier = bc_resource_consumer_goods_t6
+                remove_modifier = bc_resource_consumer_goods_t7
+                remove_modifier = bc_resource_consumer_goods_t8
+                remove_modifier = bc_resource_consumer_goods_t9
+                remove_modifier = bc_resource_consumer_goods_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_consumer_goods_t2 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_consumer_goods_t2_modifier
+                has_modifier = bc_resource_consumer_goods_t2
+            }
+            remove_country_flag = bc_has_resource_consumer_goods_t2_modifier
+            remove_modifier = bc_resource_consumer_goods_t2
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_consumer_goods_t2
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_consumer_goods_t2_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t1_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t3_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t4_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t5_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t6_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t7_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t8_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t9_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t10_modifier
+                remove_modifier = bc_resource_consumer_goods_t1
+                remove_modifier = bc_resource_consumer_goods_t3
+                remove_modifier = bc_resource_consumer_goods_t4
+                remove_modifier = bc_resource_consumer_goods_t5
+                remove_modifier = bc_resource_consumer_goods_t6
+                remove_modifier = bc_resource_consumer_goods_t7
+                remove_modifier = bc_resource_consumer_goods_t8
+                remove_modifier = bc_resource_consumer_goods_t9
+                remove_modifier = bc_resource_consumer_goods_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_consumer_goods_t3 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_consumer_goods_t3_modifier
+                has_modifier = bc_resource_consumer_goods_t3
+            }
+            remove_country_flag = bc_has_resource_consumer_goods_t3_modifier
+            remove_modifier = bc_resource_consumer_goods_t3
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_consumer_goods_t3
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_consumer_goods_t3_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t1_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t2_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t4_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t5_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t6_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t7_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t8_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t9_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t10_modifier
+                remove_modifier = bc_resource_consumer_goods_t1
+                remove_modifier = bc_resource_consumer_goods_t2
+                remove_modifier = bc_resource_consumer_goods_t4
+                remove_modifier = bc_resource_consumer_goods_t5
+                remove_modifier = bc_resource_consumer_goods_t6
+                remove_modifier = bc_resource_consumer_goods_t7
+                remove_modifier = bc_resource_consumer_goods_t8
+                remove_modifier = bc_resource_consumer_goods_t9
+                remove_modifier = bc_resource_consumer_goods_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_consumer_goods_t4 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_consumer_goods_t4_modifier
+                has_modifier = bc_resource_consumer_goods_t4
+            }
+            remove_country_flag = bc_has_resource_consumer_goods_t4_modifier
+            remove_modifier = bc_resource_consumer_goods_t4
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_consumer_goods_t4
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_consumer_goods_t4_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t1_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t2_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t3_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t5_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t6_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t7_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t8_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t9_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t10_modifier
+                remove_modifier = bc_resource_consumer_goods_t1
+                remove_modifier = bc_resource_consumer_goods_t2
+                remove_modifier = bc_resource_consumer_goods_t3
+                remove_modifier = bc_resource_consumer_goods_t5
+                remove_modifier = bc_resource_consumer_goods_t6
+                remove_modifier = bc_resource_consumer_goods_t7
+                remove_modifier = bc_resource_consumer_goods_t8
+                remove_modifier = bc_resource_consumer_goods_t9
+                remove_modifier = bc_resource_consumer_goods_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_consumer_goods_t5 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_consumer_goods_t5_modifier
+                has_modifier = bc_resource_consumer_goods_t5
+            }
+            remove_country_flag = bc_has_resource_consumer_goods_t5_modifier
+            remove_modifier = bc_resource_consumer_goods_t5
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_consumer_goods_t5
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_consumer_goods_t5_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t1_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t2_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t3_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t4_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t6_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t7_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t8_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t9_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t10_modifier
+                remove_modifier = bc_resource_consumer_goods_t1
+                remove_modifier = bc_resource_consumer_goods_t2
+                remove_modifier = bc_resource_consumer_goods_t3
+                remove_modifier = bc_resource_consumer_goods_t4
+                remove_modifier = bc_resource_consumer_goods_t6
+                remove_modifier = bc_resource_consumer_goods_t7
+                remove_modifier = bc_resource_consumer_goods_t8
+                remove_modifier = bc_resource_consumer_goods_t9
+                remove_modifier = bc_resource_consumer_goods_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_consumer_goods_t6 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_consumer_goods_t6_modifier
+                has_modifier = bc_resource_consumer_goods_t6
+            }
+            remove_country_flag = bc_has_resource_consumer_goods_t6_modifier
+            remove_modifier = bc_resource_consumer_goods_t6
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_consumer_goods_t6
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_consumer_goods_t6_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t1_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t2_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t3_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t4_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t5_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t7_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t8_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t9_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t10_modifier
+                remove_modifier = bc_resource_consumer_goods_t1
+                remove_modifier = bc_resource_consumer_goods_t2
+                remove_modifier = bc_resource_consumer_goods_t3
+                remove_modifier = bc_resource_consumer_goods_t4
+                remove_modifier = bc_resource_consumer_goods_t5
+                remove_modifier = bc_resource_consumer_goods_t7
+                remove_modifier = bc_resource_consumer_goods_t8
+                remove_modifier = bc_resource_consumer_goods_t9
+                remove_modifier = bc_resource_consumer_goods_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_consumer_goods_t7 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_consumer_goods_t7_modifier
+                has_modifier = bc_resource_consumer_goods_t7
+            }
+            remove_country_flag = bc_has_resource_consumer_goods_t7_modifier
+            remove_modifier = bc_resource_consumer_goods_t7
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_consumer_goods_t7
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_consumer_goods_t7_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t1_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t2_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t3_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t4_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t5_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t6_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t8_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t9_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t10_modifier
+                remove_modifier = bc_resource_consumer_goods_t1
+                remove_modifier = bc_resource_consumer_goods_t2
+                remove_modifier = bc_resource_consumer_goods_t3
+                remove_modifier = bc_resource_consumer_goods_t4
+                remove_modifier = bc_resource_consumer_goods_t5
+                remove_modifier = bc_resource_consumer_goods_t6
+                remove_modifier = bc_resource_consumer_goods_t8
+                remove_modifier = bc_resource_consumer_goods_t9
+                remove_modifier = bc_resource_consumer_goods_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_consumer_goods_t8 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_consumer_goods_t8_modifier
+                has_modifier = bc_resource_consumer_goods_t8
+            }
+            remove_country_flag = bc_has_resource_consumer_goods_t8_modifier
+            remove_modifier = bc_resource_consumer_goods_t8
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_consumer_goods_t8
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_consumer_goods_t8_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t1_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t2_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t3_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t4_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t5_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t6_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t7_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t9_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t10_modifier
+                remove_modifier = bc_resource_consumer_goods_t1
+                remove_modifier = bc_resource_consumer_goods_t2
+                remove_modifier = bc_resource_consumer_goods_t3
+                remove_modifier = bc_resource_consumer_goods_t4
+                remove_modifier = bc_resource_consumer_goods_t5
+                remove_modifier = bc_resource_consumer_goods_t6
+                remove_modifier = bc_resource_consumer_goods_t7
+                remove_modifier = bc_resource_consumer_goods_t9
+                remove_modifier = bc_resource_consumer_goods_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_consumer_goods_t9 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_consumer_goods_t9_modifier
+                has_modifier = bc_resource_consumer_goods_t9
+            }
+            remove_country_flag = bc_has_resource_consumer_goods_t9_modifier
+            remove_modifier = bc_resource_consumer_goods_t9
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_consumer_goods_t9
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_consumer_goods_t9_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t1_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t2_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t3_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t4_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t5_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t6_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t7_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t8_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t10_modifier
+                remove_modifier = bc_resource_consumer_goods_t1
+                remove_modifier = bc_resource_consumer_goods_t2
+                remove_modifier = bc_resource_consumer_goods_t3
+                remove_modifier = bc_resource_consumer_goods_t4
+                remove_modifier = bc_resource_consumer_goods_t5
+                remove_modifier = bc_resource_consumer_goods_t6
+                remove_modifier = bc_resource_consumer_goods_t7
+                remove_modifier = bc_resource_consumer_goods_t8
+                remove_modifier = bc_resource_consumer_goods_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_resource_consumer_goods_t10 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_resource_consumer_goods_t10_modifier
+                has_modifier = bc_resource_consumer_goods_t10
+            }
+            remove_country_flag = bc_has_resource_consumer_goods_t10_modifier
+            remove_modifier = bc_resource_consumer_goods_t10
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_resource_consumer_goods_t10
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_resource_consumer_goods_t10_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t1_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t2_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t3_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t4_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t5_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t6_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t7_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t8_modifier
+                remove_country_flag = bc_has_resource_consumer_goods_t9_modifier
+                remove_modifier = bc_resource_consumer_goods_t1
+                remove_modifier = bc_resource_consumer_goods_t2
+                remove_modifier = bc_resource_consumer_goods_t3
+                remove_modifier = bc_resource_consumer_goods_t4
+                remove_modifier = bc_resource_consumer_goods_t5
+                remove_modifier = bc_resource_consumer_goods_t6
+                remove_modifier = bc_resource_consumer_goods_t7
+                remove_modifier = bc_resource_consumer_goods_t8
+                remove_modifier = bc_resource_consumer_goods_t9
+            }
+        }
+    }
+}
+#################################################################################
+
 ###################### Ship Base Speed Button Effects ###########################
 bc_cheatinterface_button_ship_base_speed = {
     potential = {
@@ -952,7 +2823,7 @@ bc_cheatinterface_button_ship_armor_regeneration = {
     }
     effect = {
         country_event = {
-            id = "bccheatinterface.3002"
+            id = "bccheatinterface.3003"
         }
     }
 }
@@ -1407,3 +3278,938 @@ bc_cheatinterface_button_ship_armor_regeneration_t10 = {
         }
     }
 }
+################################################################################
+
+###################### Ship Hull Regeneration Button Effects ###########################
+bc_cheatinterface_button_ship_hull_regeneration = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        country_event = {
+            id = "bccheatinterface.3004"
+        }
+    }
+}
+
+bc_cheatinterface_button_ship_hull_regeneration_t1 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_hull_regeneration_t1_modifier
+                has_modifier = bc_ship_hull_regeneration_t1
+            }
+            remove_country_flag = bc_has_hull_regeneration_t1_modifier
+            remove_modifier = bc_ship_hull_regeneration_t1
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_hull_regeneration_t1
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_hull_regeneration_t1_modifier
+                remove_country_flag = bc_has_hull_regeneration_t2_modifier
+                remove_country_flag = bc_has_hull_regeneration_t3_modifier
+                remove_country_flag = bc_has_hull_regeneration_t4_modifier
+                remove_country_flag = bc_has_hull_regeneration_t5_modifier
+                remove_country_flag = bc_has_hull_regeneration_t6_modifier
+                remove_country_flag = bc_has_hull_regeneration_t7_modifier
+                remove_country_flag = bc_has_hull_regeneration_t8_modifier
+                remove_country_flag = bc_has_hull_regeneration_t9_modifier
+                remove_country_flag = bc_has_hull_regeneration_t10_modifier
+                remove_modifier = bc_ship_hull_regeneration_t2
+                remove_modifier = bc_ship_hull_regeneration_t3
+                remove_modifier = bc_ship_hull_regeneration_t4
+                remove_modifier = bc_ship_hull_regeneration_t5
+                remove_modifier = bc_ship_hull_regeneration_t6
+                remove_modifier = bc_ship_hull_regeneration_t7
+                remove_modifier = bc_ship_hull_regeneration_t8
+                remove_modifier = bc_ship_hull_regeneration_t9
+                remove_modifier = bc_ship_hull_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_hull_regeneration_t2 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_hull_regeneration_t2_modifier
+                has_modifier = bc_ship_hull_regeneration_t2
+            }
+            remove_country_flag = bc_has_hull_regeneration_t2_modifier
+            remove_modifier = bc_ship_hull_regeneration_t2
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_hull_regeneration_t2
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_hull_regeneration_t2_modifier
+                remove_country_flag = bc_has_hull_regeneration_t1_modifier
+                remove_country_flag = bc_has_hull_regeneration_t3_modifier
+                remove_country_flag = bc_has_hull_regeneration_t4_modifier
+                remove_country_flag = bc_has_hull_regeneration_t5_modifier
+                remove_country_flag = bc_has_hull_regeneration_t6_modifier
+                remove_country_flag = bc_has_hull_regeneration_t7_modifier
+                remove_country_flag = bc_has_hull_regeneration_t8_modifier
+                remove_country_flag = bc_has_hull_regeneration_t9_modifier
+                remove_country_flag = bc_has_hull_regeneration_t10_modifier
+                remove_modifier = bc_ship_hull_regeneration_t1
+                remove_modifier = bc_ship_hull_regeneration_t3
+                remove_modifier = bc_ship_hull_regeneration_t4
+                remove_modifier = bc_ship_hull_regeneration_t5
+                remove_modifier = bc_ship_hull_regeneration_t6
+                remove_modifier = bc_ship_hull_regeneration_t7
+                remove_modifier = bc_ship_hull_regeneration_t8
+                remove_modifier = bc_ship_hull_regeneration_t9
+                remove_modifier = bc_ship_hull_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_hull_regeneration_t3 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_hull_regeneration_t3_modifier
+                has_modifier = bc_ship_hull_regeneration_t3
+            }
+            remove_country_flag = bc_has_hull_regeneration_t3_modifier
+            remove_modifier = bc_ship_hull_regeneration_t3
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_hull_regeneration_t3
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_hull_regeneration_t3_modifier
+                remove_country_flag = bc_has_hull_regeneration_t1_modifier
+                remove_country_flag = bc_has_hull_regeneration_t2_modifier
+                remove_country_flag = bc_has_hull_regeneration_t4_modifier
+                remove_country_flag = bc_has_hull_regeneration_t5_modifier
+                remove_country_flag = bc_has_hull_regeneration_t6_modifier
+                remove_country_flag = bc_has_hull_regeneration_t7_modifier
+                remove_country_flag = bc_has_hull_regeneration_t8_modifier
+                remove_country_flag = bc_has_hull_regeneration_t9_modifier
+                remove_country_flag = bc_has_hull_regeneration_t10_modifier
+                remove_modifier = bc_ship_hull_regeneration_t1
+                remove_modifier = bc_ship_hull_regeneration_t2
+                remove_modifier = bc_ship_hull_regeneration_t4
+                remove_modifier = bc_ship_hull_regeneration_t5
+                remove_modifier = bc_ship_hull_regeneration_t6
+                remove_modifier = bc_ship_hull_regeneration_t7
+                remove_modifier = bc_ship_hull_regeneration_t8
+                remove_modifier = bc_ship_hull_regeneration_t9
+                remove_modifier = bc_ship_hull_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_hull_regeneration_t4 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_hull_regeneration_t4_modifier
+                has_modifier = bc_ship_hull_regeneration_t4
+            }
+            remove_country_flag = bc_has_hull_regeneration_t4_modifier
+            remove_modifier = bc_ship_hull_regeneration_t4
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_hull_regeneration_t4
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_hull_regeneration_t4_modifier
+                remove_country_flag = bc_has_hull_regeneration_t1_modifier
+                remove_country_flag = bc_has_hull_regeneration_t2_modifier
+                remove_country_flag = bc_has_hull_regeneration_t3_modifier
+                remove_country_flag = bc_has_hull_regeneration_t5_modifier
+                remove_country_flag = bc_has_hull_regeneration_t6_modifier
+                remove_country_flag = bc_has_hull_regeneration_t7_modifier
+                remove_country_flag = bc_has_hull_regeneration_t8_modifier
+                remove_country_flag = bc_has_hull_regeneration_t9_modifier
+                remove_country_flag = bc_has_hull_regeneration_t10_modifier
+                remove_modifier = bc_ship_hull_regeneration_t1
+                remove_modifier = bc_ship_hull_regeneration_t2
+                remove_modifier = bc_ship_hull_regeneration_t3
+                remove_modifier = bc_ship_hull_regeneration_t5
+                remove_modifier = bc_ship_hull_regeneration_t6
+                remove_modifier = bc_ship_hull_regeneration_t7
+                remove_modifier = bc_ship_hull_regeneration_t8
+                remove_modifier = bc_ship_hull_regeneration_t9
+                remove_modifier = bc_ship_hull_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_hull_regeneration_t5 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_hull_regeneration_t5_modifier
+                has_modifier = bc_ship_hull_regeneration_t5
+            }
+            remove_country_flag = bc_has_hull_regeneration_t5_modifier
+            remove_modifier = bc_ship_hull_regeneration_t5
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_hull_regeneration_t5
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_hull_regeneration_t5_modifier
+                remove_country_flag = bc_has_hull_regeneration_t1_modifier
+                remove_country_flag = bc_has_hull_regeneration_t2_modifier
+                remove_country_flag = bc_has_hull_regeneration_t3_modifier
+                remove_country_flag = bc_has_hull_regeneration_t4_modifier
+                remove_country_flag = bc_has_hull_regeneration_t6_modifier
+                remove_country_flag = bc_has_hull_regeneration_t7_modifier
+                remove_country_flag = bc_has_hull_regeneration_t8_modifier
+                remove_country_flag = bc_has_hull_regeneration_t9_modifier
+                remove_country_flag = bc_has_hull_regeneration_t10_modifier
+                remove_modifier = bc_ship_hull_regeneration_t1
+                remove_modifier = bc_ship_hull_regeneration_t2
+                remove_modifier = bc_ship_hull_regeneration_t3
+                remove_modifier = bc_ship_hull_regeneration_t4
+                remove_modifier = bc_ship_hull_regeneration_t6
+                remove_modifier = bc_ship_hull_regeneration_t7
+                remove_modifier = bc_ship_hull_regeneration_t8
+                remove_modifier = bc_ship_hull_regeneration_t9
+                remove_modifier = bc_ship_hull_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_hull_regeneration_t6 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_hull_regeneration_t6_modifier
+                has_modifier = bc_ship_hull_regeneration_t6
+            }
+            remove_country_flag = bc_has_hull_regeneration_t6_modifier
+            remove_modifier = bc_ship_hull_regeneration_t6
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_hull_regeneration_t6
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_hull_regeneration_t6_modifier
+                remove_country_flag = bc_has_hull_regeneration_t1_modifier
+                remove_country_flag = bc_has_hull_regeneration_t2_modifier
+                remove_country_flag = bc_has_hull_regeneration_t3_modifier
+                remove_country_flag = bc_has_hull_regeneration_t4_modifier
+                remove_country_flag = bc_has_hull_regeneration_t5_modifier
+                remove_country_flag = bc_has_hull_regeneration_t7_modifier
+                remove_country_flag = bc_has_hull_regeneration_t8_modifier
+                remove_country_flag = bc_has_hull_regeneration_t9_modifier
+                remove_country_flag = bc_has_hull_regeneration_t10_modifier
+                remove_modifier = bc_ship_hull_regeneration_t1
+                remove_modifier = bc_ship_hull_regeneration_t2
+                remove_modifier = bc_ship_hull_regeneration_t3
+                remove_modifier = bc_ship_hull_regeneration_t4
+                remove_modifier = bc_ship_hull_regeneration_t5
+                remove_modifier = bc_ship_hull_regeneration_t7
+                remove_modifier = bc_ship_hull_regeneration_t8
+                remove_modifier = bc_ship_hull_regeneration_t9
+                remove_modifier = bc_ship_hull_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_hull_regeneration_t7 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_hull_regeneration_t7_modifier
+                has_modifier = bc_ship_hull_regeneration_t7
+            }
+            remove_country_flag = bc_has_hull_regeneration_t7_modifier
+            remove_modifier = bc_ship_hull_regeneration_t7
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_hull_regeneration_t7
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_hull_regeneration_t7_modifier
+                remove_country_flag = bc_has_hull_regeneration_t1_modifier
+                remove_country_flag = bc_has_hull_regeneration_t2_modifier
+                remove_country_flag = bc_has_hull_regeneration_t3_modifier
+                remove_country_flag = bc_has_hull_regeneration_t4_modifier
+                remove_country_flag = bc_has_hull_regeneration_t5_modifier
+                remove_country_flag = bc_has_hull_regeneration_t6_modifier
+                remove_country_flag = bc_has_hull_regeneration_t8_modifier
+                remove_country_flag = bc_has_hull_regeneration_t9_modifier
+                remove_country_flag = bc_has_hull_regeneration_t10_modifier
+                remove_modifier = bc_ship_hull_regeneration_t1
+                remove_modifier = bc_ship_hull_regeneration_t2
+                remove_modifier = bc_ship_hull_regeneration_t3
+                remove_modifier = bc_ship_hull_regeneration_t4
+                remove_modifier = bc_ship_hull_regeneration_t5
+                remove_modifier = bc_ship_hull_regeneration_t6
+                remove_modifier = bc_ship_hull_regeneration_t8
+                remove_modifier = bc_ship_hull_regeneration_t9
+                remove_modifier = bc_ship_hull_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_hull_regeneration_t8 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_hull_regeneration_t8_modifier
+                has_modifier = bc_ship_hull_regeneration_t8
+            }
+            remove_country_flag = bc_has_hull_regeneration_t8_modifier
+            remove_modifier = bc_ship_hull_regeneration_t8
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_hull_regeneration_t8
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_hull_regeneration_t8_modifier
+                remove_country_flag = bc_has_hull_regeneration_t1_modifier
+                remove_country_flag = bc_has_hull_regeneration_t2_modifier
+                remove_country_flag = bc_has_hull_regeneration_t3_modifier
+                remove_country_flag = bc_has_hull_regeneration_t4_modifier
+                remove_country_flag = bc_has_hull_regeneration_t5_modifier
+                remove_country_flag = bc_has_hull_regeneration_t6_modifier
+                remove_country_flag = bc_has_hull_regeneration_t7_modifier
+                remove_country_flag = bc_has_hull_regeneration_t9_modifier
+                remove_country_flag = bc_has_hull_regeneration_t10_modifier
+                remove_modifier = bc_ship_hull_regeneration_t1
+                remove_modifier = bc_ship_hull_regeneration_t2
+                remove_modifier = bc_ship_hull_regeneration_t3
+                remove_modifier = bc_ship_hull_regeneration_t4
+                remove_modifier = bc_ship_hull_regeneration_t5
+                remove_modifier = bc_ship_hull_regeneration_t6
+                remove_modifier = bc_ship_hull_regeneration_t7
+                remove_modifier = bc_ship_hull_regeneration_t9
+                remove_modifier = bc_ship_hull_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_hull_regeneration_t9 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_hull_regeneration_t9_modifier
+                has_modifier = bc_ship_hull_regeneration_t9
+            }
+            remove_country_flag = bc_has_hull_regeneration_t9_modifier
+            remove_modifier = bc_ship_hull_regeneration_t9
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_hull_regeneration_t9
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_hull_regeneration_t9_modifier
+                remove_country_flag = bc_has_hull_regeneration_t1_modifier
+                remove_country_flag = bc_has_hull_regeneration_t2_modifier
+                remove_country_flag = bc_has_hull_regeneration_t3_modifier
+                remove_country_flag = bc_has_hull_regeneration_t4_modifier
+                remove_country_flag = bc_has_hull_regeneration_t5_modifier
+                remove_country_flag = bc_has_hull_regeneration_t6_modifier
+                remove_country_flag = bc_has_hull_regeneration_t7_modifier
+                remove_country_flag = bc_has_hull_regeneration_t8_modifier
+                remove_country_flag = bc_has_hull_regeneration_t10_modifier
+                remove_modifier = bc_ship_hull_regeneration_t1
+                remove_modifier = bc_ship_hull_regeneration_t2
+                remove_modifier = bc_ship_hull_regeneration_t3
+                remove_modifier = bc_ship_hull_regeneration_t4
+                remove_modifier = bc_ship_hull_regeneration_t5
+                remove_modifier = bc_ship_hull_regeneration_t6
+                remove_modifier = bc_ship_hull_regeneration_t7
+                remove_modifier = bc_ship_hull_regeneration_t8
+                remove_modifier = bc_ship_hull_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_hull_regeneration_t10 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_hull_regeneration_t10_modifier
+                has_modifier = bc_ship_hull_regeneration_t10
+            }
+            remove_country_flag = bc_has_hull_regeneration_t10_modifier
+            remove_modifier = bc_ship_hull_regeneration_t10
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_hull_regeneration_t10
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_hull_regeneration_t10_modifier
+                remove_country_flag = bc_has_hull_regeneration_t1_modifier
+                remove_country_flag = bc_has_hull_regeneration_t2_modifier
+                remove_country_flag = bc_has_hull_regeneration_t3_modifier
+                remove_country_flag = bc_has_hull_regeneration_t4_modifier
+                remove_country_flag = bc_has_hull_regeneration_t5_modifier
+                remove_country_flag = bc_has_hull_regeneration_t6_modifier
+                remove_country_flag = bc_has_hull_regeneration_t7_modifier
+                remove_country_flag = bc_has_hull_regeneration_t8_modifier
+                remove_country_flag = bc_has_hull_regeneration_t9_modifier
+                remove_modifier = bc_ship_hull_regeneration_t1
+                remove_modifier = bc_ship_hull_regeneration_t2
+                remove_modifier = bc_ship_hull_regeneration_t3
+                remove_modifier = bc_ship_hull_regeneration_t4
+                remove_modifier = bc_ship_hull_regeneration_t5
+                remove_modifier = bc_ship_hull_regeneration_t6
+                remove_modifier = bc_ship_hull_regeneration_t7
+                remove_modifier = bc_ship_hull_regeneration_t8
+                remove_modifier = bc_ship_hull_regeneration_t9
+            }
+        }
+    }
+}
+################################################################################
+
+###################### Ship Shield Regeneration Button Effects ###########################
+bc_cheatinterface_button_ship_shield_regeneration = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        country_event = {
+            id = "bccheatinterface.3005"
+        }
+    }
+}
+
+bc_cheatinterface_button_ship_shield_regeneration_t1 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_shield_regeneration_t1_modifier
+                has_modifier = bc_ship_shield_regeneration_t1
+            }
+            remove_country_flag = bc_has_shield_regeneration_t1_modifier
+            remove_modifier = bc_ship_shield_regeneration_t1
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_shield_regeneration_t1
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_shield_regeneration_t1_modifier
+                remove_country_flag = bc_has_shield_regeneration_t2_modifier
+                remove_country_flag = bc_has_shield_regeneration_t3_modifier
+                remove_country_flag = bc_has_shield_regeneration_t4_modifier
+                remove_country_flag = bc_has_shield_regeneration_t5_modifier
+                remove_country_flag = bc_has_shield_regeneration_t6_modifier
+                remove_country_flag = bc_has_shield_regeneration_t7_modifier
+                remove_country_flag = bc_has_shield_regeneration_t8_modifier
+                remove_country_flag = bc_has_shield_regeneration_t9_modifier
+                remove_country_flag = bc_has_shield_regeneration_t10_modifier
+                remove_modifier = bc_ship_shield_regeneration_t2
+                remove_modifier = bc_ship_shield_regeneration_t3
+                remove_modifier = bc_ship_shield_regeneration_t4
+                remove_modifier = bc_ship_shield_regeneration_t5
+                remove_modifier = bc_ship_shield_regeneration_t6
+                remove_modifier = bc_ship_shield_regeneration_t7
+                remove_modifier = bc_ship_shield_regeneration_t8
+                remove_modifier = bc_ship_shield_regeneration_t9
+                remove_modifier = bc_ship_shield_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_shield_regeneration_t2 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_shield_regeneration_t2_modifier
+                has_modifier = bc_ship_shield_regeneration_t2
+            }
+            remove_country_flag = bc_has_shield_regeneration_t2_modifier
+            remove_modifier = bc_ship_shield_regeneration_t2
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_shield_regeneration_t2
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_shield_regeneration_t2_modifier
+                remove_country_flag = bc_has_shield_regeneration_t1_modifier
+                remove_country_flag = bc_has_shield_regeneration_t3_modifier
+                remove_country_flag = bc_has_shield_regeneration_t4_modifier
+                remove_country_flag = bc_has_shield_regeneration_t5_modifier
+                remove_country_flag = bc_has_shield_regeneration_t6_modifier
+                remove_country_flag = bc_has_shield_regeneration_t7_modifier
+                remove_country_flag = bc_has_shield_regeneration_t8_modifier
+                remove_country_flag = bc_has_shield_regeneration_t9_modifier
+                remove_country_flag = bc_has_shield_regeneration_t10_modifier
+                remove_modifier = bc_ship_shield_regeneration_t1
+                remove_modifier = bc_ship_shield_regeneration_t3
+                remove_modifier = bc_ship_shield_regeneration_t4
+                remove_modifier = bc_ship_shield_regeneration_t5
+                remove_modifier = bc_ship_shield_regeneration_t6
+                remove_modifier = bc_ship_shield_regeneration_t7
+                remove_modifier = bc_ship_shield_regeneration_t8
+                remove_modifier = bc_ship_shield_regeneration_t9
+                remove_modifier = bc_ship_shield_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_shield_regeneration_t3 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_shield_regeneration_t3_modifier
+                has_modifier = bc_ship_shield_regeneration_t3
+            }
+            remove_country_flag = bc_has_shield_regeneration_t3_modifier
+            remove_modifier = bc_ship_shield_regeneration_t3
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_shield_regeneration_t3
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_shield_regeneration_t3_modifier
+                remove_country_flag = bc_has_shield_regeneration_t1_modifier
+                remove_country_flag = bc_has_shield_regeneration_t2_modifier
+                remove_country_flag = bc_has_shield_regeneration_t4_modifier
+                remove_country_flag = bc_has_shield_regeneration_t5_modifier
+                remove_country_flag = bc_has_shield_regeneration_t6_modifier
+                remove_country_flag = bc_has_shield_regeneration_t7_modifier
+                remove_country_flag = bc_has_shield_regeneration_t8_modifier
+                remove_country_flag = bc_has_shield_regeneration_t9_modifier
+                remove_country_flag = bc_has_shield_regeneration_t10_modifier
+                remove_modifier = bc_ship_shield_regeneration_t1
+                remove_modifier = bc_ship_shield_regeneration_t2
+                remove_modifier = bc_ship_shield_regeneration_t4
+                remove_modifier = bc_ship_shield_regeneration_t5
+                remove_modifier = bc_ship_shield_regeneration_t6
+                remove_modifier = bc_ship_shield_regeneration_t7
+                remove_modifier = bc_ship_shield_regeneration_t8
+                remove_modifier = bc_ship_shield_regeneration_t9
+                remove_modifier = bc_ship_shield_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_shield_regeneration_t4 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_shield_regeneration_t4_modifier
+                has_modifier = bc_ship_shield_regeneration_t4
+            }
+            remove_country_flag = bc_has_shield_regeneration_t4_modifier
+            remove_modifier = bc_ship_shield_regeneration_t4
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_shield_regeneration_t4
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_shield_regeneration_t4_modifier
+                remove_country_flag = bc_has_shield_regeneration_t1_modifier
+                remove_country_flag = bc_has_shield_regeneration_t2_modifier
+                remove_country_flag = bc_has_shield_regeneration_t3_modifier
+                remove_country_flag = bc_has_shield_regeneration_t5_modifier
+                remove_country_flag = bc_has_shield_regeneration_t6_modifier
+                remove_country_flag = bc_has_shield_regeneration_t7_modifier
+                remove_country_flag = bc_has_shield_regeneration_t8_modifier
+                remove_country_flag = bc_has_shield_regeneration_t9_modifier
+                remove_country_flag = bc_has_shield_regeneration_t10_modifier
+                remove_modifier = bc_ship_shield_regeneration_t1
+                remove_modifier = bc_ship_shield_regeneration_t2
+                remove_modifier = bc_ship_shield_regeneration_t3
+                remove_modifier = bc_ship_shield_regeneration_t5
+                remove_modifier = bc_ship_shield_regeneration_t6
+                remove_modifier = bc_ship_shield_regeneration_t7
+                remove_modifier = bc_ship_shield_regeneration_t8
+                remove_modifier = bc_ship_shield_regeneration_t9
+                remove_modifier = bc_ship_shield_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_shield_regeneration_t5 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_shield_regeneration_t5_modifier
+                has_modifier = bc_ship_shield_regeneration_t5
+            }
+            remove_country_flag = bc_has_shield_regeneration_t5_modifier
+            remove_modifier = bc_ship_shield_regeneration_t5
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_shield_regeneration_t5
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_shield_regeneration_t5_modifier
+                remove_country_flag = bc_has_shield_regeneration_t1_modifier
+                remove_country_flag = bc_has_shield_regeneration_t2_modifier
+                remove_country_flag = bc_has_shield_regeneration_t3_modifier
+                remove_country_flag = bc_has_shield_regeneration_t4_modifier
+                remove_country_flag = bc_has_shield_regeneration_t6_modifier
+                remove_country_flag = bc_has_shield_regeneration_t7_modifier
+                remove_country_flag = bc_has_shield_regeneration_t8_modifier
+                remove_country_flag = bc_has_shield_regeneration_t9_modifier
+                remove_country_flag = bc_has_shield_regeneration_t10_modifier
+                remove_modifier = bc_ship_shield_regeneration_t1
+                remove_modifier = bc_ship_shield_regeneration_t2
+                remove_modifier = bc_ship_shield_regeneration_t3
+                remove_modifier = bc_ship_shield_regeneration_t4
+                remove_modifier = bc_ship_shield_regeneration_t6
+                remove_modifier = bc_ship_shield_regeneration_t7
+                remove_modifier = bc_ship_shield_regeneration_t8
+                remove_modifier = bc_ship_shield_regeneration_t9
+                remove_modifier = bc_ship_shield_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_shield_regeneration_t6 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_shield_regeneration_t6_modifier
+                has_modifier = bc_ship_shield_regeneration_t6
+            }
+            remove_country_flag = bc_has_shield_regeneration_t6_modifier
+            remove_modifier = bc_ship_shield_regeneration_t6
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_shield_regeneration_t6
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_shield_regeneration_t6_modifier
+                remove_country_flag = bc_has_shield_regeneration_t1_modifier
+                remove_country_flag = bc_has_shield_regeneration_t2_modifier
+                remove_country_flag = bc_has_shield_regeneration_t3_modifier
+                remove_country_flag = bc_has_shield_regeneration_t4_modifier
+                remove_country_flag = bc_has_shield_regeneration_t5_modifier
+                remove_country_flag = bc_has_shield_regeneration_t7_modifier
+                remove_country_flag = bc_has_shield_regeneration_t8_modifier
+                remove_country_flag = bc_has_shield_regeneration_t9_modifier
+                remove_country_flag = bc_has_shield_regeneration_t10_modifier
+                remove_modifier = bc_ship_shield_regeneration_t1
+                remove_modifier = bc_ship_shield_regeneration_t2
+                remove_modifier = bc_ship_shield_regeneration_t3
+                remove_modifier = bc_ship_shield_regeneration_t4
+                remove_modifier = bc_ship_shield_regeneration_t5
+                remove_modifier = bc_ship_shield_regeneration_t7
+                remove_modifier = bc_ship_shield_regeneration_t8
+                remove_modifier = bc_ship_shield_regeneration_t9
+                remove_modifier = bc_ship_shield_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_shield_regeneration_t7 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_shield_regeneration_t7_modifier
+                has_modifier = bc_ship_shield_regeneration_t7
+            }
+            remove_country_flag = bc_has_shield_regeneration_t7_modifier
+            remove_modifier = bc_ship_shield_regeneration_t7
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_shield_regeneration_t7
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_shield_regeneration_t7_modifier
+                remove_country_flag = bc_has_shield_regeneration_t1_modifier
+                remove_country_flag = bc_has_shield_regeneration_t2_modifier
+                remove_country_flag = bc_has_shield_regeneration_t3_modifier
+                remove_country_flag = bc_has_shield_regeneration_t4_modifier
+                remove_country_flag = bc_has_shield_regeneration_t5_modifier
+                remove_country_flag = bc_has_shield_regeneration_t6_modifier
+                remove_country_flag = bc_has_shield_regeneration_t8_modifier
+                remove_country_flag = bc_has_shield_regeneration_t9_modifier
+                remove_country_flag = bc_has_shield_regeneration_t10_modifier
+                remove_modifier = bc_ship_shield_regeneration_t1
+                remove_modifier = bc_ship_shield_regeneration_t2
+                remove_modifier = bc_ship_shield_regeneration_t3
+                remove_modifier = bc_ship_shield_regeneration_t4
+                remove_modifier = bc_ship_shield_regeneration_t5
+                remove_modifier = bc_ship_shield_regeneration_t6
+                remove_modifier = bc_ship_shield_regeneration_t8
+                remove_modifier = bc_ship_shield_regeneration_t9
+                remove_modifier = bc_ship_shield_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_shield_regeneration_t8 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_shield_regeneration_t8_modifier
+                has_modifier = bc_ship_shield_regeneration_t8
+            }
+            remove_country_flag = bc_has_shield_regeneration_t8_modifier
+            remove_modifier = bc_ship_shield_regeneration_t8
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_shield_regeneration_t8
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_shield_regeneration_t8_modifier
+                remove_country_flag = bc_has_shield_regeneration_t1_modifier
+                remove_country_flag = bc_has_shield_regeneration_t2_modifier
+                remove_country_flag = bc_has_shield_regeneration_t3_modifier
+                remove_country_flag = bc_has_shield_regeneration_t4_modifier
+                remove_country_flag = bc_has_shield_regeneration_t5_modifier
+                remove_country_flag = bc_has_shield_regeneration_t6_modifier
+                remove_country_flag = bc_has_shield_regeneration_t7_modifier
+                remove_country_flag = bc_has_shield_regeneration_t9_modifier
+                remove_country_flag = bc_has_shield_regeneration_t10_modifier
+                remove_modifier = bc_ship_shield_regeneration_t1
+                remove_modifier = bc_ship_shield_regeneration_t2
+                remove_modifier = bc_ship_shield_regeneration_t3
+                remove_modifier = bc_ship_shield_regeneration_t4
+                remove_modifier = bc_ship_shield_regeneration_t5
+                remove_modifier = bc_ship_shield_regeneration_t6
+                remove_modifier = bc_ship_shield_regeneration_t7
+                remove_modifier = bc_ship_shield_regeneration_t9
+                remove_modifier = bc_ship_shield_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_shield_regeneration_t9 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_shield_regeneration_t9_modifier
+                has_modifier = bc_ship_shield_regeneration_t9
+            }
+            remove_country_flag = bc_has_shield_regeneration_t9_modifier
+            remove_modifier = bc_ship_shield_regeneration_t9
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_shield_regeneration_t9
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_shield_regeneration_t9_modifier
+                remove_country_flag = bc_has_shield_regeneration_t1_modifier
+                remove_country_flag = bc_has_shield_regeneration_t2_modifier
+                remove_country_flag = bc_has_shield_regeneration_t3_modifier
+                remove_country_flag = bc_has_shield_regeneration_t4_modifier
+                remove_country_flag = bc_has_shield_regeneration_t5_modifier
+                remove_country_flag = bc_has_shield_regeneration_t6_modifier
+                remove_country_flag = bc_has_shield_regeneration_t7_modifier
+                remove_country_flag = bc_has_shield_regeneration_t8_modifier
+                remove_country_flag = bc_has_shield_regeneration_t10_modifier
+                remove_modifier = bc_ship_shield_regeneration_t1
+                remove_modifier = bc_ship_shield_regeneration_t2
+                remove_modifier = bc_ship_shield_regeneration_t3
+                remove_modifier = bc_ship_shield_regeneration_t4
+                remove_modifier = bc_ship_shield_regeneration_t5
+                remove_modifier = bc_ship_shield_regeneration_t6
+                remove_modifier = bc_ship_shield_regeneration_t7
+                remove_modifier = bc_ship_shield_regeneration_t8
+                remove_modifier = bc_ship_shield_regeneration_t10
+            }
+        }
+    }
+}
+bc_cheatinterface_button_ship_shield_regeneration_t10 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = bc_has_shield_regeneration_t10_modifier
+                has_modifier = bc_ship_shield_regeneration_t10
+            }
+            remove_country_flag = bc_has_shield_regeneration_t10_modifier
+            remove_modifier = bc_ship_shield_regeneration_t10
+        }
+        else = {
+            add_modifier = {
+                modifier = bc_ship_shield_regeneration_t10
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = bc_has_shield_regeneration_t10_modifier
+                remove_country_flag = bc_has_shield_regeneration_t1_modifier
+                remove_country_flag = bc_has_shield_regeneration_t2_modifier
+                remove_country_flag = bc_has_shield_regeneration_t3_modifier
+                remove_country_flag = bc_has_shield_regeneration_t4_modifier
+                remove_country_flag = bc_has_shield_regeneration_t5_modifier
+                remove_country_flag = bc_has_shield_regeneration_t6_modifier
+                remove_country_flag = bc_has_shield_regeneration_t7_modifier
+                remove_country_flag = bc_has_shield_regeneration_t8_modifier
+                remove_country_flag = bc_has_shield_regeneration_t9_modifier
+                remove_modifier = bc_ship_shield_regeneration_t1
+                remove_modifier = bc_ship_shield_regeneration_t2
+                remove_modifier = bc_ship_shield_regeneration_t3
+                remove_modifier = bc_ship_shield_regeneration_t4
+                remove_modifier = bc_ship_shield_regeneration_t5
+                remove_modifier = bc_ship_shield_regeneration_t6
+                remove_modifier = bc_ship_shield_regeneration_t7
+                remove_modifier = bc_ship_shield_regeneration_t8
+                remove_modifier = bc_ship_shield_regeneration_t9
+            }
+        }
+    }
+}
+################################################################################

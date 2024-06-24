@@ -1,5 +1,664 @@
+######################################################################################
+#                               Resource Titles START                                #
+######################################################################################
+
+#################################### Minerals ########################################
+defined_text = {
+    name = bccheatinterface_2_minerals_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = bc_has_resource_minerals_t1_modifier
+                has_country_flag = bc_has_resource_minerals_t2_modifier
+                has_country_flag = bc_has_resource_minerals_t3_modifier
+                has_country_flag = bc_has_resource_minerals_t4_modifier
+                has_country_flag = bc_has_resource_minerals_t5_modifier
+                has_country_flag = bc_has_resource_minerals_t6_modifier
+                has_country_flag = bc_has_resource_minerals_t7_modifier
+                has_country_flag = bc_has_resource_minerals_t8_modifier
+                has_country_flag = bc_has_resource_minerals_t9_modifier
+                has_country_flag = bc_has_resource_minerals_t10_modifier
+
+            }
+        }
+        localization_key = bccheatinterface_2_minerals
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = bc_resource_minerals_t1
+                has_modifier = bc_resource_minerals_t2
+                has_modifier = bc_resource_minerals_t3
+                has_modifier = bc_resource_minerals_t4
+                has_modifier = bc_resource_minerals_t5
+                has_modifier = bc_resource_minerals_t6
+                has_modifier = bc_resource_minerals_t7
+                has_modifier = bc_resource_minerals_t8
+                has_modifier = bc_resource_minerals_t9
+                has_modifier = bc_resource_minerals_t10
+            }
+        }
+        localization_key = bccheatinterface_2_minerals_b
+    }
+}
+
+defined_text = {
+    name = bc_resource_minerals_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_minerals_t1_modifier } }
+        localization_key = bc_resource_minerals_t1
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_minerals_t1 }
+        localization_key = bc_resource_minerals_t1_b
+    }
+}
+defined_text = {
+    name = bc_resource_minerals_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_minerals_t2_modifier } }
+        localization_key = bc_resource_minerals_t2
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_minerals_t2 }
+        localization_key = bc_resource_minerals_t2_b
+    }
+}
+defined_text = {
+    name = bc_resource_minerals_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_minerals_t3_modifier } }
+        localization_key = bc_resource_minerals_t3
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_minerals_t3 }
+        localization_key = bc_resource_minerals_t3_b
+    }
+}
+defined_text = {
+    name = bc_resource_minerals_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_minerals_t4_modifier } }
+        localization_key = bc_resource_minerals_t4
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_minerals_t4 }
+        localization_key = bc_resource_minerals_t4_b
+    }
+}
+defined_text = {
+    name = bc_resource_minerals_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_minerals_t5_modifier } }
+        localization_key = bc_resource_minerals_t5
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_minerals_t5 }
+        localization_key = bc_resource_minerals_t5_b
+    }
+}
+defined_text = {
+    name = bc_resource_minerals_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_minerals_t6_modifier } }
+        localization_key = bc_resource_minerals_t6
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_minerals_t6 }
+        localization_key = bc_resource_minerals_t6_b
+    }
+}
+defined_text = {
+    name = bc_resource_minerals_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_minerals_t7_modifier } }
+        localization_key = bc_resource_minerals_t7
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_minerals_t7 }
+        localization_key = bc_resource_minerals_t7_b
+    }
+}
+defined_text = {
+    name = bc_resource_minerals_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_minerals_t8_modifier } }
+        localization_key = bc_resource_minerals_t8
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_minerals_t8 }
+        localization_key = bc_resource_minerals_t8_b
+    }
+}
+defined_text = {
+    name = bc_resource_minerals_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_minerals_t9_modifier } }
+        localization_key = bc_resource_minerals_t9
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_minerals_t9 }
+        localization_key = bc_resource_minerals_t9_b
+    }
+}
+defined_text = {
+    name = bc_resource_minerals_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_minerals_t10_modifier } }
+        localization_key = bc_resource_minerals_t10
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_minerals_t10 }
+        localization_key = bc_resource_minerals_t10_b
+    }
+}
+
+######################################## Energy ######################################
+defined_text = {
+    name = bccheatinterface_2_energy_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = bc_has_resource_energy_t1_modifier
+                has_country_flag = bc_has_resource_energy_t2_modifier
+                has_country_flag = bc_has_resource_energy_t3_modifier
+                has_country_flag = bc_has_resource_energy_t4_modifier
+                has_country_flag = bc_has_resource_energy_t5_modifier
+                has_country_flag = bc_has_resource_energy_t6_modifier
+                has_country_flag = bc_has_resource_energy_t7_modifier
+                has_country_flag = bc_has_resource_energy_t8_modifier
+                has_country_flag = bc_has_resource_energy_t9_modifier
+                has_country_flag = bc_has_resource_energy_t10_modifier
+
+            }
+        }
+        localization_key = bccheatinterface_2_energy
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = bc_resource_energy_t1
+                has_modifier = bc_resource_energy_t2
+                has_modifier = bc_resource_energy_t3
+                has_modifier = bc_resource_energy_t4
+                has_modifier = bc_resource_energy_t5
+                has_modifier = bc_resource_energy_t6
+                has_modifier = bc_resource_energy_t7
+                has_modifier = bc_resource_energy_t8
+                has_modifier = bc_resource_energy_t9
+                has_modifier = bc_resource_energy_t10
+            }
+        }
+        localization_key = bccheatinterface_2_energy_b
+    }
+}
+
+defined_text = {
+    name = bc_resource_energy_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_energy_t1_modifier } }
+        localization_key = bc_resource_energy_t1
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_energy_t1 }
+        localization_key = bc_resource_energy_t1_b
+    }
+}
+defined_text = {
+    name = bc_resource_energy_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_energy_t2_modifier } }
+        localization_key = bc_resource_energy_t2
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_energy_t2 }
+        localization_key = bc_resource_energy_t2_b
+    }
+}
+defined_text = {
+    name = bc_resource_energy_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_energy_t3_modifier } }
+        localization_key = bc_resource_energy_t3
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_energy_t3 }
+        localization_key = bc_resource_energy_t3_b
+    }
+}
+defined_text = {
+    name = bc_resource_energy_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_energy_t4_modifier } }
+        localization_key = bc_resource_energy_t4
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_energy_t4 }
+        localization_key = bc_resource_energy_t4_b
+    }
+}
+defined_text = {
+    name = bc_resource_energy_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_energy_t5_modifier } }
+        localization_key = bc_resource_energy_t5
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_energy_t5 }
+        localization_key = bc_resource_energy_t5_b
+    }
+}
+defined_text = {
+    name = bc_resource_energy_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_energy_t6_modifier } }
+        localization_key = bc_resource_energy_t6
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_energy_t6 }
+        localization_key = bc_resource_energy_t6_b
+    }
+}
+defined_text = {
+    name = bc_resource_energy_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_energy_t7_modifier } }
+        localization_key = bc_resource_energy_t7
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_energy_t7 }
+        localization_key = bc_resource_energy_t7_b
+    }
+}
+defined_text = {
+    name = bc_resource_energy_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_energy_t8_modifier } }
+        localization_key = bc_resource_energy_t8
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_energy_t8 }
+        localization_key = bc_resource_energy_t8_b
+    }
+}
+defined_text = {
+    name = bc_resource_energy_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_energy_t9_modifier } }
+        localization_key = bc_resource_energy_t9
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_energy_t9 }
+        localization_key = bc_resource_energy_t9_b
+    }
+}
+defined_text = {
+    name = bc_resource_energy_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_energy_t10_modifier } }
+        localization_key = bc_resource_energy_t10
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_energy_t10 }
+        localization_key = bc_resource_energy_t10_b
+    }
+}
+
+######################################## Food ######################################
+defined_text = {
+    name = bccheatinterface_2_food_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = bc_has_resource_food_t1_modifier
+                has_country_flag = bc_has_resource_food_t2_modifier
+                has_country_flag = bc_has_resource_food_t3_modifier
+                has_country_flag = bc_has_resource_food_t4_modifier
+                has_country_flag = bc_has_resource_food_t5_modifier
+                has_country_flag = bc_has_resource_food_t6_modifier
+                has_country_flag = bc_has_resource_food_t7_modifier
+                has_country_flag = bc_has_resource_food_t8_modifier
+                has_country_flag = bc_has_resource_food_t9_modifier
+                has_country_flag = bc_has_resource_food_t10_modifier
+
+            }
+        }
+        localization_key = bccheatinterface_2_food
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = bc_resource_food_t1
+                has_modifier = bc_resource_food_t2
+                has_modifier = bc_resource_food_t3
+                has_modifier = bc_resource_food_t4
+                has_modifier = bc_resource_food_t5
+                has_modifier = bc_resource_food_t6
+                has_modifier = bc_resource_food_t7
+                has_modifier = bc_resource_food_t8
+                has_modifier = bc_resource_food_t9
+                has_modifier = bc_resource_food_t10
+            }
+        }
+        localization_key = bccheatinterface_2_food_b
+    }
+}
+
+defined_text = {
+    name = bc_resource_food_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_food_t1_modifier } }
+        localization_key = bc_resource_food_t1
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_food_t1 }
+        localization_key = bc_resource_food_t1_b
+    }
+}
+defined_text = {
+    name = bc_resource_food_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_food_t2_modifier } }
+        localization_key = bc_resource_food_t2
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_food_t2 }
+        localization_key = bc_resource_food_t2_b
+    }
+}
+defined_text = {
+    name = bc_resource_food_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_food_t3_modifier } }
+        localization_key = bc_resource_food_t3
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_food_t3 }
+        localization_key = bc_resource_food_t3_b
+    }
+}
+defined_text = {
+    name = bc_resource_food_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_food_t4_modifier } }
+        localization_key = bc_resource_food_t4
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_food_t4 }
+        localization_key = bc_resource_food_t4_b
+    }
+}
+defined_text = {
+    name = bc_resource_food_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_food_t5_modifier } }
+        localization_key = bc_resource_food_t5
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_food_t5 }
+        localization_key = bc_resource_food_t5_b
+    }
+}
+defined_text = {
+    name = bc_resource_food_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_food_t6_modifier } }
+        localization_key = bc_resource_food_t6
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_food_t6 }
+        localization_key = bc_resource_food_t6_b
+    }
+}
+defined_text = {
+    name = bc_resource_food_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_food_t7_modifier } }
+        localization_key = bc_resource_food_t7
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_food_t7 }
+        localization_key = bc_resource_food_t7_b
+    }
+}
+defined_text = {
+    name = bc_resource_food_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_food_t8_modifier } }
+        localization_key = bc_resource_food_t8
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_food_t8 }
+        localization_key = bc_resource_food_t8_b
+    }
+}
+defined_text = {
+    name = bc_resource_food_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_food_t9_modifier } }
+        localization_key = bc_resource_food_t9
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_food_t9 }
+        localization_key = bc_resource_food_t9_b
+    }
+}
+defined_text = {
+    name = bc_resource_food_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_food_t10_modifier } }
+        localization_key = bc_resource_food_t10
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_food_t10 }
+        localization_key = bc_resource_food_t10_b
+    }
+}
+
+######################################## Consumer Goods ######################################
+defined_text = {
+    name = bccheatinterface_2_consumer_goods_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = bc_has_resource_consumer_goods_t1_modifier
+                has_country_flag = bc_has_resource_consumer_goods_t2_modifier
+                has_country_flag = bc_has_resource_consumer_goods_t3_modifier
+                has_country_flag = bc_has_resource_consumer_goods_t4_modifier
+                has_country_flag = bc_has_resource_consumer_goods_t5_modifier
+                has_country_flag = bc_has_resource_consumer_goods_t6_modifier
+                has_country_flag = bc_has_resource_consumer_goods_t7_modifier
+                has_country_flag = bc_has_resource_consumer_goods_t8_modifier
+                has_country_flag = bc_has_resource_consumer_goods_t9_modifier
+                has_country_flag = bc_has_resource_consumer_goods_t10_modifier
+
+            }
+        }
+        localization_key = bccheatinterface_2_consumer_goods
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = bc_resource_consumer_goods_t1
+                has_modifier = bc_resource_consumer_goods_t2
+                has_modifier = bc_resource_consumer_goods_t3
+                has_modifier = bc_resource_consumer_goods_t4
+                has_modifier = bc_resource_consumer_goods_t5
+                has_modifier = bc_resource_consumer_goods_t6
+                has_modifier = bc_resource_consumer_goods_t7
+                has_modifier = bc_resource_consumer_goods_t8
+                has_modifier = bc_resource_consumer_goods_t9
+                has_modifier = bc_resource_consumer_goods_t10
+            }
+        }
+        localization_key = bccheatinterface_2_consumer_goods_b
+    }
+}
+
+defined_text = {
+    name = bc_resource_consumer_goods_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_consumer_goods_t1_modifier } }
+        localization_key = bc_resource_consumer_goods_t1
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_consumer_goods_t1 }
+        localization_key = bc_resource_consumer_goods_t1_b
+    }
+}
+defined_text = {
+    name = bc_resource_consumer_goods_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_consumer_goods_t2_modifier } }
+        localization_key = bc_resource_consumer_goods_t2
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_consumer_goods_t2 }
+        localization_key = bc_resource_consumer_goods_t2_b
+    }
+}
+defined_text = {
+    name = bc_resource_consumer_goods_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_consumer_goods_t3_modifier } }
+        localization_key = bc_resource_consumer_goods_t3
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_consumer_goods_t3 }
+        localization_key = bc_resource_consumer_goods_t3_b
+    }
+}
+defined_text = {
+    name = bc_resource_consumer_goods_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_consumer_goods_t4_modifier } }
+        localization_key = bc_resource_consumer_goods_t4
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_consumer_goods_t4 }
+        localization_key = bc_resource_consumer_goods_t4_b
+    }
+}
+defined_text = {
+    name = bc_resource_consumer_goods_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_consumer_goods_t5_modifier } }
+        localization_key = bc_resource_consumer_goods_t5
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_consumer_goods_t5 }
+        localization_key = bc_resource_consumer_goods_t5_b
+    }
+}
+defined_text = {
+    name = bc_resource_consumer_goods_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_consumer_goods_t6_modifier } }
+        localization_key = bc_resource_consumer_goods_t6
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_consumer_goods_t6 }
+        localization_key = bc_resource_consumer_goods_t6_b
+    }
+}
+defined_text = {
+    name = bc_resource_consumer_goods_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_consumer_goods_t7_modifier } }
+        localization_key = bc_resource_consumer_goods_t7
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_consumer_goods_t7 }
+        localization_key = bc_resource_consumer_goods_t7_b
+    }
+}
+defined_text = {
+    name = bc_resource_consumer_goods_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_consumer_goods_t8_modifier } }
+        localization_key = bc_resource_consumer_goods_t8
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_consumer_goods_t8 }
+        localization_key = bc_resource_consumer_goods_t8_b
+    }
+}
+defined_text = {
+    name = bc_resource_consumer_goods_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_consumer_goods_t9_modifier } }
+        localization_key = bc_resource_consumer_goods_t9
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_consumer_goods_t9 }
+        localization_key = bc_resource_consumer_goods_t9_b
+    }
+}
+defined_text = {
+    name = bc_resource_consumer_goods_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_resource_consumer_goods_t10_modifier } }
+        localization_key = bc_resource_consumer_goods_t10
+    }
+    text = {
+        trigger = { has_modifier = bc_resource_consumer_goods_t10 }
+        localization_key = bc_resource_consumer_goods_t10_b
+    }
+}
+
+######################################################################################
+
+
+
+
+######################################################################################
+#                               Resource Titles END                                  #
+######################################################################################
+
+######################################################################################
+#                               Ship Titles                                          #
+######################################################################################
 
 ############################### Ship Base Speed Titles ###############################
+defined_text = {
+    name = bccheatinterface_2_ship_base_speed_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = bc_has_base_ship_speed_t1_modifier
+                has_country_flag = bc_has_base_ship_speed_t2_modifier
+                has_country_flag = bc_has_base_ship_speed_t3_modifier
+                has_country_flag = bc_has_base_ship_speed_t4_modifier
+                has_country_flag = bc_has_base_ship_speed_t5_modifier
+                has_country_flag = bc_has_base_ship_speed_t6_modifier
+                has_country_flag = bc_has_base_ship_speed_t7_modifier
+                has_country_flag = bc_has_base_ship_speed_t8_modifier
+                has_country_flag = bc_has_base_ship_speed_t9_modifier
+                has_country_flag = bc_has_base_ship_speed_t10_modifier
+
+            }
+        }
+        localization_key = bccheatinterface_2_ship_base_speed
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = bc_ship_base_speed_t1
+                has_modifier = bc_ship_base_speed_t2
+                has_modifier = bc_ship_base_speed_t3
+                has_modifier = bc_ship_base_speed_t4
+                has_modifier = bc_ship_base_speed_t5
+                has_modifier = bc_ship_base_speed_t6
+                has_modifier = bc_ship_base_speed_t7
+                has_modifier = bc_ship_base_speed_t8
+                has_modifier = bc_ship_base_speed_t9
+                has_modifier = bc_ship_base_speed_t10
+            }
+        }
+        localization_key = bccheatinterface_2_ship_base_speed_b
+    }
+}
+
 defined_text = {
     name = bc_ship_base_speed_t1_title
     text = {
@@ -112,7 +771,46 @@ defined_text = {
 }
 ######################################################################################
 
-############################### Ship Base Speed Titles ###############################
+############################### Ship FTL Speed Titles ###############################
+defined_text = {
+    name = bccheatinterface_2_ship_ftl_speed_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = bc_has_ftl_ship_speed_t1_modifier
+                has_country_flag = bc_has_ftl_ship_speed_t2_modifier
+                has_country_flag = bc_has_ftl_ship_speed_t3_modifier
+                has_country_flag = bc_has_ftl_ship_speed_t4_modifier
+                has_country_flag = bc_has_ftl_ship_speed_t5_modifier
+                has_country_flag = bc_has_ftl_ship_speed_t6_modifier
+                has_country_flag = bc_has_ftl_ship_speed_t7_modifier
+                has_country_flag = bc_has_ftl_ship_speed_t8_modifier
+                has_country_flag = bc_has_ftl_ship_speed_t9_modifier
+                has_country_flag = bc_has_ftl_ship_speed_t10_modifier
+
+            }
+        }
+        localization_key = bccheatinterface_2_ship_ftl_speed
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = bc_ship_ftl_speed_t1
+                has_modifier = bc_ship_ftl_speed_t2
+                has_modifier = bc_ship_ftl_speed_t3
+                has_modifier = bc_ship_ftl_speed_t4
+                has_modifier = bc_ship_ftl_speed_t5
+                has_modifier = bc_ship_ftl_speed_t6
+                has_modifier = bc_ship_ftl_speed_t7
+                has_modifier = bc_ship_ftl_speed_t8
+                has_modifier = bc_ship_ftl_speed_t9
+                has_modifier = bc_ship_ftl_speed_t10
+            }
+        }
+        localization_key = bccheatinterface_2_ship_ftl_speed_b
+    }
+}
+
 defined_text = {
     name = bc_ship_ftl_speed_t1_title
     text = {
@@ -227,6 +925,45 @@ defined_text = {
 
 ############################### Ship Armor Regeneration Titles ###############################
 defined_text = {
+    name = bccheatinterface_2_ship_armor_regeneration_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = bc_has_armor_regeneration_t1_modifier
+                has_country_flag = bc_has_armor_regeneration_t2_modifier
+                has_country_flag = bc_has_armor_regeneration_t3_modifier
+                has_country_flag = bc_has_armor_regeneration_t4_modifier
+                has_country_flag = bc_has_armor_regeneration_t5_modifier
+                has_country_flag = bc_has_armor_regeneration_t6_modifier
+                has_country_flag = bc_has_armor_regeneration_t7_modifier
+                has_country_flag = bc_has_armor_regeneration_t8_modifier
+                has_country_flag = bc_has_armor_regeneration_t9_modifier
+                has_country_flag = bc_has_armor_regeneration_t10_modifier
+
+            }
+        }
+        localization_key = bccheatinterface_2_ship_armor_regeneration
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = bc_ship_armor_regeneration_t1
+                has_modifier = bc_ship_armor_regeneration_t2
+                has_modifier = bc_ship_armor_regeneration_t3
+                has_modifier = bc_ship_armor_regeneration_t4
+                has_modifier = bc_ship_armor_regeneration_t5
+                has_modifier = bc_ship_armor_regeneration_t6
+                has_modifier = bc_ship_armor_regeneration_t7
+                has_modifier = bc_ship_armor_regeneration_t8
+                has_modifier = bc_ship_armor_regeneration_t9
+                has_modifier = bc_ship_armor_regeneration_t10
+            }
+        }
+        localization_key = bccheatinterface_2_ship_armor_regeneration_b
+    }
+}
+
+defined_text = {
     name = bc_ship_armor_regeneration_t1_title
     text = {
         trigger = { NOT = { has_country_flag = bc_has_armor_regeneration_t1_modifier } }
@@ -337,3 +1074,311 @@ defined_text = {
     }
 }
 ##########################################################################
+
+############################### Ship Hull Regeneration Titles ###############################
+defined_text = {
+    name = bccheatinterface_2_ship_hull_regeneration_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = bc_has_hull_regeneration_t1_modifier
+                has_country_flag = bc_has_hull_regeneration_t2_modifier
+                has_country_flag = bc_has_hull_regeneration_t3_modifier
+                has_country_flag = bc_has_hull_regeneration_t4_modifier
+                has_country_flag = bc_has_hull_regeneration_t5_modifier
+                has_country_flag = bc_has_hull_regeneration_t6_modifier
+                has_country_flag = bc_has_hull_regeneration_t7_modifier
+                has_country_flag = bc_has_hull_regeneration_t8_modifier
+                has_country_flag = bc_has_hull_regeneration_t9_modifier
+                has_country_flag = bc_has_hull_regeneration_t10_modifier
+
+            }
+        }
+        localization_key = bccheatinterface_2_ship_hull_regeneration
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = bc_ship_hull_regeneration_t1
+                has_modifier = bc_ship_hull_regeneration_t2
+                has_modifier = bc_ship_hull_regeneration_t3
+                has_modifier = bc_ship_hull_regeneration_t4
+                has_modifier = bc_ship_hull_regeneration_t5
+                has_modifier = bc_ship_hull_regeneration_t6
+                has_modifier = bc_ship_hull_regeneration_t7
+                has_modifier = bc_ship_hull_regeneration_t8
+                has_modifier = bc_ship_hull_regeneration_t9
+                has_modifier = bc_ship_hull_regeneration_t10
+            }
+        }
+        localization_key = bccheatinterface_2_ship_hull_regeneration_b
+    }
+}
+
+defined_text = {
+    name = bc_ship_hull_regeneration_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_hull_regeneration_t1_modifier } }
+        localization_key = bc_ship_hull_regeneration_t1
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_hull_regeneration_t1 }
+        localization_key = bc_ship_hull_regeneration_t1_b
+    }
+}
+defined_text = {
+    name = bc_ship_hull_regeneration_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_hull_regeneration_t2_modifier } }
+        localization_key = bc_ship_hull_regeneration_t2
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_hull_regeneration_t2 }
+        localization_key = bc_ship_hull_regeneration_t2_b
+    }
+}
+defined_text = {
+    name = bc_ship_hull_regeneration_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_hull_regeneration_t3_modifier } }
+        localization_key = bc_ship_hull_regeneration_t3
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_hull_regeneration_t3 }
+        localization_key = bc_ship_hull_regeneration_t3_b
+    }
+}
+defined_text = {
+    name = bc_ship_hull_regeneration_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_hull_regeneration_t4_modifier } }
+        localization_key = bc_ship_hull_regeneration_t4
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_hull_regeneration_t4 }
+        localization_key = bc_ship_hull_regeneration_t4_b
+    }
+}
+defined_text = {
+    name = bc_ship_hull_regeneration_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_hull_regeneration_t5_modifier } }
+        localization_key = bc_ship_hull_regeneration_t5
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_hull_regeneration_t5 }
+        localization_key = bc_ship_hull_regeneration_t5_b
+    }
+}
+defined_text = {
+    name = bc_ship_hull_regeneration_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_hull_regeneration_t6_modifier } }
+        localization_key = bc_ship_hull_regeneration_t6
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_hull_regeneration_t6 }
+        localization_key = bc_ship_hull_regeneration_t6_b
+    }
+}
+defined_text = {
+    name = bc_ship_hull_regeneration_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_hull_regeneration_t7_modifier } }
+        localization_key = bc_ship_hull_regeneration_t7
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_hull_regeneration_t7 }
+        localization_key = bc_ship_hull_regeneration_t7_b
+    }
+}
+defined_text = {
+    name = bc_ship_hull_regeneration_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_hull_regeneration_t8_modifier } }
+        localization_key = bc_ship_hull_regeneration_t8
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_hull_regeneration_t8 }
+        localization_key = bc_ship_hull_regeneration_t8_b
+    }
+}
+defined_text = {
+    name = bc_ship_hull_regeneration_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_hull_regeneration_t9_modifier } }
+        localization_key = bc_ship_hull_regeneration_t9
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_hull_regeneration_t9 }
+        localization_key = bc_ship_hull_regeneration_t9_b
+    }
+}
+defined_text = {
+    name = bc_ship_hull_regeneration_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_hull_regeneration_t10_modifier } }
+        localization_key = bc_ship_hull_regeneration_t10
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_hull_regeneration_t10 }
+        localization_key = bc_ship_hull_regeneration_t10_b
+    }
+}
+##########################################################################
+
+############################### Ship Shield Regeneration Titles ###############################
+defined_text = {
+    name = bccheatinterface_2_ship_shield_regeneration_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = bc_has_shield_regeneration_t1_modifier
+                has_country_flag = bc_has_shield_regeneration_t2_modifier
+                has_country_flag = bc_has_shield_regeneration_t3_modifier
+                has_country_flag = bc_has_shield_regeneration_t4_modifier
+                has_country_flag = bc_has_shield_regeneration_t5_modifier
+                has_country_flag = bc_has_shield_regeneration_t6_modifier
+                has_country_flag = bc_has_shield_regeneration_t7_modifier
+                has_country_flag = bc_has_shield_regeneration_t8_modifier
+                has_country_flag = bc_has_shield_regeneration_t9_modifier
+                has_country_flag = bc_has_shield_regeneration_t10_modifier
+
+            }
+        }
+        localization_key = bccheatinterface_2_ship_shield_regeneration
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = bc_ship_shield_regeneration_t1
+                has_modifier = bc_ship_shield_regeneration_t2
+                has_modifier = bc_ship_shield_regeneration_t3
+                has_modifier = bc_ship_shield_regeneration_t4
+                has_modifier = bc_ship_shield_regeneration_t5
+                has_modifier = bc_ship_shield_regeneration_t6
+                has_modifier = bc_ship_shield_regeneration_t7
+                has_modifier = bc_ship_shield_regeneration_t8
+                has_modifier = bc_ship_shield_regeneration_t9
+                has_modifier = bc_ship_shield_regeneration_t10
+            }
+        }
+        localization_key = bccheatinterface_2_ship_shield_regeneration_b
+    }
+}
+
+defined_text = {
+    name = bc_ship_shield_regeneration_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_shield_regeneration_t1_modifier } }
+        localization_key = bc_ship_shield_regeneration_t1
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_shield_regeneration_t1 }
+        localization_key = bc_ship_shield_regeneration_t1_b
+    }
+}
+defined_text = {
+    name = bc_ship_shield_regeneration_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_shield_regeneration_t2_modifier } }
+        localization_key = bc_ship_shield_regeneration_t2
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_shield_regeneration_t2 }
+        localization_key = bc_ship_shield_regeneration_t2_b
+    }
+}
+defined_text = {
+    name = bc_ship_shield_regeneration_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_shield_regeneration_t3_modifier } }
+        localization_key = bc_ship_shield_regeneration_t3
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_shield_regeneration_t3 }
+        localization_key = bc_ship_shield_regeneration_t3_b
+    }
+}
+defined_text = {
+    name = bc_ship_shield_regeneration_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_shield_regeneration_t4_modifier } }
+        localization_key = bc_ship_shield_regeneration_t4
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_shield_regeneration_t4 }
+        localization_key = bc_ship_shield_regeneration_t4_b
+    }
+}
+defined_text = {
+    name = bc_ship_shield_regeneration_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_shield_regeneration_t5_modifier } }
+        localization_key = bc_ship_shield_regeneration_t5
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_shield_regeneration_t5 }
+        localization_key = bc_ship_shield_regeneration_t5_b
+    }
+}
+defined_text = {
+    name = bc_ship_shield_regeneration_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_shield_regeneration_t6_modifier } }
+        localization_key = bc_ship_shield_regeneration_t6
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_shield_regeneration_t6 }
+        localization_key = bc_ship_shield_regeneration_t6_b
+    }
+}
+defined_text = {
+    name = bc_ship_shield_regeneration_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_shield_regeneration_t7_modifier } }
+        localization_key = bc_ship_shield_regeneration_t7
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_shield_regeneration_t7 }
+        localization_key = bc_ship_shield_regeneration_t7_b
+    }
+}
+defined_text = {
+    name = bc_ship_shield_regeneration_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_shield_regeneration_t8_modifier } }
+        localization_key = bc_ship_shield_regeneration_t8
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_shield_regeneration_t8 }
+        localization_key = bc_ship_shield_regeneration_t8_b
+    }
+}
+defined_text = {
+    name = bc_ship_shield_regeneration_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_shield_regeneration_t9_modifier } }
+        localization_key = bc_ship_shield_regeneration_t9
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_shield_regeneration_t9 }
+        localization_key = bc_ship_shield_regeneration_t9_b
+    }
+}
+defined_text = {
+    name = bc_ship_shield_regeneration_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = bc_has_shield_regeneration_t10_modifier } }
+        localization_key = bc_ship_shield_regeneration_t10
+    }
+    text = {
+        trigger = { has_modifier = bc_ship_shield_regeneration_t10 }
+        localization_key = bc_ship_shield_regeneration_t10_b
+    }
+}
+##########################################################################
+
+######################################################################################
+#                               Ship Titles END                                      #
+######################################################################################

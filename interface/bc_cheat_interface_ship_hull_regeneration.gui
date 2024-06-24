@@ -2,7 +2,7 @@ guiTypes = {
     @hidden_ui_items = -10000
 
     containerWindowType = {
-        name = "bc_cheat_interface_ship_armor_regeneration"
+        name = "bc_cheat_interface_ship_hull_regeneration"
         orientation = center
         origo = center
         moveable = yes
@@ -30,7 +30,7 @@ guiTypes = {
         instantTextBoxType = {
             name = "irm_some_header"
             font = "malgun_goth_24"
-            text = "bccheatinterface_2_ship_armor_regeneration"    # header text
+            text = "bccheatinterface_2_ship_hull_regeneration"    # header text
             position = { x = 20 y = 5 }
             maxWidth = 250
             maxHeight = 22
@@ -386,101 +386,101 @@ guiTypes = {
             }
             # Ship Base Speed Tier I Button
             effectButtonType = {
-                name = "bc_cheatinterface_button_ship_armor_regeneration_t1"
+                name = "bc_cheatinterface_button_ship_hull_regeneration_t1"
                 quadTextureSprite = "GFX_standard_button_240_34_button"
                 position = { x = 0 y = 0 }
-                effect = "bc_cheatinterface_button_ship_armor_regeneration_t1"
+                effect = "bc_cheatinterface_button_ship_hull_regeneration_t1"
                 buttonFont = "cg_16b"
-                buttonText = "bc_ship_armor_regeneration_t1_title"
+                buttonText = "bc_ship_hull_regeneration_t1_title"
             }
             # Ship Base Speed Tier II Button
             effectButtonType = {
-                name = "bc_cheatinterface_button_ship_ftl_speed_t2"
+                name = "bc_cheatinterface_button_ship_hull_regeneration_t2"
                 quadTextureSprite = "GFX_standard_button_240_34_button"
                 position = { x = 0 y = 40 }
-                effect = "bc_cheatinterface_button_ship_armor_regeneration_t2"
+                effect = "bc_cheatinterface_button_ship_hull_regeneration_t2"
                 buttonFont = "cg_16b"
-                buttonText = "bc_ship_armor_regeneration_t2_title"
+                buttonText = "bc_ship_hull_regeneration_t2_title"
             }
 
             # Ship Base Speed Tier III Button
             effectButtonType = {
-                name = "bc_cheatinterface_button_ship_ftl_speed_t3"
+                name = "bc_cheatinterface_button_ship_hull_regeneration_t3"
                 quadTextureSprite = "GFX_standard_button_240_34_button"
                 position = { x = 0 y = 80 }
-                effect = "bc_cheatinterface_button_ship_armor_regeneration_t3"
+                effect = "bc_cheatinterface_button_ship_hull_regeneration_t3"
                 buttonFont = "cg_16b"
-                buttonText = "bc_ship_armor_regeneration_t3_title"
+                buttonText = "bc_ship_hull_regeneration_t3_title"
             }
 
             # Ship Base Speed Tier IV Button
             effectButtonType = {
-                name = "bc_cheatinterface_button_ship_ftl_speed_t4"
+                name = "bc_cheatinterface_button_ship_hull_regeneration_t4"
                 quadTextureSprite = "GFX_standard_button_240_34_button"
                 position = { x = 0 y = 120 }
-                effect = "bc_cheatinterface_button_ship_armor_regeneration_t4"
+                effect = "bc_cheatinterface_button_ship_hull_regeneration_t4"
                 buttonFont = "cg_16b"
-                buttonText = "bc_ship_armor_regeneration_t4_title"
+                buttonText = "bc_ship_hull_regeneration_t4_title"
             }
 
             # Ship Base Speed Tier V Button
             effectButtonType = {
-                name = "bc_cheatinterface_button_ship_ftl_speed_t5"
+                name = "bc_cheatinterface_button_ship_hull_regeneration_t5"
                 quadTextureSprite = "GFX_standard_button_240_34_button"
                 position = { x = 0 y = 160 }
-                effect = "bc_cheatinterface_button_ship_armor_regeneration_t5"
+                effect = "bc_cheatinterface_button_ship_hull_regeneration_t5"
                 buttonFont = "cg_16b"
-                buttonText = "bc_ship_armor_regeneration_t5_title"
+                buttonText = "bc_ship_hull_regeneration_t5_title"
             }
 
             # Ship Base Speed Tier VI Button
             effectButtonType = {
-                name = "bc_cheatinterface_button_ship_ftl_speed_t6"
+                name = "bc_cheatinterface_button_ship_hull_regeneration_t6"
                 quadTextureSprite = "GFX_standard_button_240_34_button"
                 position = { x = 0 y = 200 }
-                effect = "bc_cheatinterface_button_ship_armor_regeneration_t6"
+                effect = "bc_cheatinterface_button_ship_hull_regeneration_t6"
                 buttonFont = "cg_16b"
-                buttonText = "bc_ship_armor_regeneration_t6_title"
+                buttonText = "bc_ship_hull_regeneration_t6_title"
             }
 
             # Ship Base Speed Tier VII Button
             effectButtonType = {
-                name = "bc_cheatinterface_button_ship_ftl_speed_t7"
+                name = "bc_cheatinterface_button_ship_hull_regeneration_t7"
                 quadTextureSprite = "GFX_standard_button_240_34_button"
                 position = { x = 0 y = 240 }
-                effect = "bc_cheatinterface_button_ship_armor_regeneration_t7"
+                effect = "bc_cheatinterface_button_ship_hull_regeneration_t7"
                 buttonFont = "cg_16b"
-                buttonText = "bc_ship_armor_regeneration_t7_title"
+                buttonText = "bc_ship_hull_regeneration_t7_title"
             }
 
             # Ship Base Speed Tier VIII Button
             effectButtonType = {
-                name = "bc_cheatinterface_button_ship_ftl_speed_t8"
+                name = "bc_cheatinterface_button_ship_hull_regeneration_t8"
                 quadTextureSprite = "GFX_standard_button_240_34_button"
                 position = { x = 0 y = 280 }
-                effect = "bc_cheatinterface_button_ship_armor_regeneration_t8"
+                effect = "bc_cheatinterface_button_ship_hull_regeneration_t8"
                 buttonFont = "cg_16b"
-                buttonText = "bc_ship_armor_regeneration_t8_title"
+                buttonText = "bc_ship_hull_regeneration_t8_title"
             }
 
             # Ship Base Speed Tier IX Button
             effectButtonType = {
-                name = "bc_cheatinterface_button_ship_ftl_speed_t9"
+                name = "bc_cheatinterface_button_ship_hull_regeneration_t9"
                 quadTextureSprite = "GFX_standard_button_240_34_button"
                 position = { x = 0 y = 320 }
-                effect = "bc_cheatinterface_button_ship_armor_regeneration_t9"
+                effect = "bc_cheatinterface_button_ship_hull_regeneration_t9"
                 buttonFont = "cg_16b"
-                buttonText = "bc_ship_armor_regeneration_t9_title"
+                buttonText = "bc_ship_hull_regeneration_t9_title"
             }
 
             # Ship Base Speed Tier X Button
             effectButtonType = {
-                name = "bc_cheatinterface_button_ship_ftl_speed_t10"
+                name = "bc_cheatinterface_button_ship_hull_regeneration_t10"
                 quadTextureSprite = "GFX_standard_button_240_34_button"
                 position = { x = 0 y = 360 }
-                effect = "bc_cheatinterface_button_ship_armor_regeneration_t10"
+                effect = "bc_cheatinterface_button_ship_hull_regeneration_t10"
                 buttonFont = "cg_16b"
-                buttonText = "bc_ship_armor_regeneration_t10_title"
+                buttonText = "bc_ship_hull_regeneration_t10_title"
             }
         }
     }

@@ -86,11 +86,141 @@ country_event = {
             remove_country_flag = bc_is_in_menu
             remove_country_flag = bc_is_in_ship_base_speed_interface
             remove_country_flag = bc_is_in_ship_ftl_speed_interface
+            remove_country_flag = bc_is_in_ship_armor_regeneration_interface
+        }
+    }
+}
+######################################################################################
+#                               Resource Events                                      #
+######################################################################################
+### Better Cheats Resource Minerals Screen ###
+country_event = {
+    id = bccheatinterface.1001
+    title = "bccheatinterface_2_minerals_title"
+    desc = "bccheatinterface_2_minerals"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_minerals_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_minerals"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_minerals_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_minerals_interface
         }
     }
 }
 #########################################
 
+### Better Cheats Resource Energy Screen ###
+country_event = {
+    id = bccheatinterface.1002
+    title = "bccheatinterface_2_energy"
+    desc = "bccheatinterface_2_energy"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_energy_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_energy"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_energy_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_energy_interface
+        }
+    }
+}
+#########################################
+
+### Better Cheats Resource Food Screen ###
+country_event = {
+    id = bccheatinterface.1003
+    title = "bccheatinterface_2_food"
+    desc = "bccheatinterface_2_food"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_food_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_food"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_food_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_food_interface
+        }
+    }
+}
+#########################################
+
+### Better Cheats Resource Consumer Goods Screen ###
+country_event = {
+    id = bccheatinterface.1004
+    title = "bccheatinterface_2_consumer_goods"
+    desc = "bccheatinterface_2_consumer_goods"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_consumer_goods_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_consumer_goods"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_consumer_goods_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_consumer_goods_interface
+        }
+    }
+}
+#########################################
+
+
+######################################################################################
+#                               Ship Events                                          #
+######################################################################################
 ### Better Cheats Ship Base Speed Screen ###
 country_event = {
     id = bccheatinterface.3001
@@ -144,6 +274,93 @@ country_event =  {
         default_hide_option = yes
         hidden_effect = {
             remove_country_flag = bc_is_in_ship_ftl_speed_interface
+        }
+    }
+}
+#########################################
+
+### Better Cheats Ship Armor Regeneration Screen ###
+country_event =  {
+    id = bccheatinterface.3003
+    title = "bccheatinterface_2_ship_armor_regeneration"
+    desc = "bccheatinterface_2_ship_armor_regeneration"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_ship_armor_regeneration_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_ship_armor_regeneration"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_ship_armor_regeneration_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_ship_armor_regeneration_interface
+        }
+    }
+}
+#########################################
+
+### Better Cheats Ship Hull Regeneration Screen ###
+country_event =  {
+    id = bccheatinterface.3004
+    title = "bccheatinterface_2_ship_hull_regeneration"
+    desc = "bccheatinterface_2_ship_hull_regeneration"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_ship_hull_regeneration_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_ship_hull_regeneration"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_ship_hull_regeneration_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_ship_hull_regeneration_interface
+        }
+    }
+}
+#########################################
+
+### Better Cheats Ship Shield Regeneration Screen ###
+country_event =  {
+    id = bccheatinterface.3005
+    title = "bccheatinterface_2_ship_shield_regeneration"
+    desc = "bccheatinterface_2_ship_shield_regeneration"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_ship_shield_regeneration_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_ship_shield_regeneration"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_ship_shield_regeneration_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_ship_shield_regeneration_interface
         }
     }
 }

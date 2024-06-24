@@ -386,7 +386,7 @@ guiTypes = {
             }
             # Ship Base Speed Tier I Button
             effectButtonType = {
-                name = "bccheatinterface_2_ship_ftl_speed"
+                name = "bc_cheatinterface_button_ship_ftl_speed_t1"
                 quadTextureSprite = "GFX_standard_button_200_34_button"
                 position = { x = 0 y = 0 }
                 effect = "bc_cheatinterface_button_ship_ftl_speed_t1"

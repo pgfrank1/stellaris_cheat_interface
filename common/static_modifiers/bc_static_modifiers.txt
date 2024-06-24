@@ -1239,7 +1239,7 @@ bc_happiness_t10 = {
 }
 ###############################
 
-#### ship_base_speed TIER SELECTOR ####
+#### ship_speed TIER SELECTOR ####
 bc_ship_speed_t1 = {
 	ship_base_speed_mult = 0.15
 	ship_interstellar_speed_mult = 0.15
@@ -1280,8 +1280,141 @@ bc_ship_speed_t10 = {
 	ship_base_speed_mult = 500.00
 	ship_interstellar_speed_mult = 500.00
 }
+###############################
 
-#### ship_speed TIER SELECTOR ####
+#### resource minerals TIER SELECTOR ####
+bc_resource_minerals_t1 = {
+	country_minerals_produces_mult = 0.15
+}
+bc_resource_minerals_t2 = {
+	country_minerals_produces_mult = 0.50
+}
+bc_resource_minerals_t3 = {
+	country_minerals_produces_mult = 1.00
+}
+bc_resource_minerals_t4 = {
+	country_minerals_produces_mult = 2.50
+}
+bc_resource_minerals_t5 = {
+	country_minerals_produces_mult = 5.00
+}
+bc_resource_minerals_t6 = {
+	country_minerals_produces_mult = 10.00
+}
+bc_resource_minerals_t7 = {
+	country_minerals_produces_mult = 50.00
+}
+bc_resource_minerals_t8 = {
+	country_minerals_produces_mult = 100.00
+}
+bc_resource_minerals_t9 = {
+	country_minerals_produces_mult = 250.00
+}
+bc_resource_minerals_t10 = {
+	country_minerals_produces_mult = 500.00
+}
+###############################
+
+#### resource energy TIER SELECTOR ####
+bc_resource_energy_t1 = {
+	country_energy_produces_mult = 0.15
+}
+bc_resource_energy_t2 = {
+	country_energy_produces_mult = 0.50
+}
+bc_resource_energy_t3 = {
+	country_energy_produces_mult = 1.00
+}
+bc_resource_energy_t4 = {
+	country_energy_produces_mult = 2.50
+}
+bc_resource_energy_t5 = {
+	country_energy_produces_mult = 5.00
+}
+bc_resource_energy_t6 = {
+	country_energy_produces_mult = 10.00
+}
+bc_resource_energy_t7 = {
+	country_energy_produces_mult = 50.00
+}
+bc_resource_energy_t8 = {
+	country_energy_produces_mult = 100.00
+}
+bc_resource_energy_t9 = {
+	country_energy_produces_mult = 250.00
+}
+bc_resource_energy_t10 = {
+	country_energy_produces_mult = 500.00
+}
+###############################
+
+#### resource food TIER SELECTOR ####
+bc_resource_food_t1 = {
+	country_food_produces_mult = 0.15
+}
+bc_resource_food_t2 = {
+	country_food_produces_mult = 0.50
+}
+bc_resource_food_t3 = {
+	country_food_produces_mult = 1.00
+}
+bc_resource_food_t4 = {
+	country_food_produces_mult = 2.50
+}
+bc_resource_food_t5 = {
+	country_food_produces_mult = 5.00
+}
+bc_resource_food_t6 = {
+	country_food_produces_mult = 10.00
+}
+bc_resource_food_t7 = {
+	country_food_produces_mult = 50.00
+}
+bc_resource_food_t8 = {
+	country_food_produces_mult = 100.00
+}
+bc_resource_food_t9 = {
+	country_food_produces_mult = 250.00
+}
+bc_resource_food_t10 = {
+	country_food_produces_mult = 500.00
+}
+###############################
+
+#### resource Consumer Goods TIER SELECTOR ####
+bc_resource_consumer_goods_t1 = {
+	country_consumer_goods_produces_mult = 0.15
+}
+bc_resource_consumer_goods_t2 = {
+	country_consumer_goods_produces_mult = 0.50
+}
+bc_resource_consumer_goods_t3 = {
+	country_consumer_goods_produces_mult = 1.00
+}
+bc_resource_consumer_goods_t4 = {
+	country_consumer_goods_produces_mult = 2.50
+}
+bc_resource_consumer_goods_t5 = {
+	country_consumer_goods_produces_mult = 5.00
+}
+bc_resource_consumer_goods_t6 = {
+	country_consumer_goods_produces_mult = 10.00
+}
+bc_resource_consumer_goods_t7 = {
+	country_consumer_goods_produces_mult = 50.00
+}
+bc_resource_consumer_goods_t8 = {
+	country_consumer_goods_produces_mult = 100.00
+}
+bc_resource_consumer_goods_t9 = {
+	country_consumer_goods_produces_mult = 250.00
+}
+bc_resource_consumer_goods_t10 = {
+	country_consumer_goods_produces_mult = 500.00
+}
+###############################
+
+#### ship_base_speed TIER SELECTOR ####
 bc_ship_base_speed_t1 = {
 	ship_base_speed_mult = 0.15
 }
@@ -1314,40 +1447,139 @@ bc_ship_base_speed_t10 = {
 }
 ###############################
 
-#### ship_armor_regen_speed TIER SELECTOR ####
-bc_ship_armor_regen_speed_t1 = {
-    ship_armor_regen_add_perc = 0.15
+#### ship_regen TIER SELECTOR ####
+bc_ship_ftl_speed_t1 = {
+	ship_interstellar_speed_mult = 0.15
 }
-bc_ship_armor_regen_speed_t2 = {
-    ship_armor_regen_add_perc = 0.50
+bc_ship_ftl_speed_t2 = {
+    ship_interstellar_speed_mult = 0.50
 }
-bc_ship_armor_regen_speed_t3 = {
-    ship_armor_regen_add_perc = 1.00
+bc_ship_ftl_speed_t3 = {
+    ship_interstellar_speed_mult = 1.00
 }
-bc_ship_armor_regen_speed_t4 = {
-    ship_armor_regen_add_perc = 2.50
+bc_ship_ftl_speed_t4 = {
+    ship_interstellar_speed_mult = 2.50
 }
-bc_ship_armor_regen_speed_t5 = {
-    ship_armor_regen_add_perc = 5.00
+bc_ship_ftl_speed_t5 = {
+    ship_interstellar_speed_mult = 5.00
 }
-bc_ship_armor_regen_speed_t6 = {
-    ship_armor_regen_add_perc = 10.00
+bc_ship_ftl_speed_t6 = {
+    ship_interstellar_speed_mult = 10.00
 }
-bc_ship_armor_regen_speed_t7 = {
-    ship_armor_regen_add_perc = 50.00
+bc_ship_ftl_speed_t7 = {
+    ship_interstellar_speed_mult = 50.00
 }
-bc_ship_armor_regen_speed_t8 = {
-    ship_armor_regen_add_perc = 100.00
+bc_ship_ftl_speed_t8 = {
+    ship_interstellar_speed_mult = 100.00
 }
-bc_ship_armor_regen_speed_t9 = {
-    ship_armor_regen_add_perc = 250.00
+bc_ship_ftl_speed_t9 = {
+    ship_interstellar_speed_mult = 250.00
 }
-bc_ship_armor_regen_speed_t10 = {
-    ship_armor_regen_add_perc = 500.00
+bc_ship_ftl_speed_t10 = {
+    ship_interstellar_speed_mult = 500.00
 }
 ###############################
 
-#### ship_regen TIER SELECTOR ####
+#### ship_armor_regen_speed TIER SELECTOR ####
+bc_ship_armor_regeneration_t1 = {
+	ship_armor_regen_add_perc = 0.15
+}
+bc_ship_armor_regeneration_t2 = {
+	ship_armor_regen_add_perc = 0.50
+}
+bc_ship_armor_regeneration_t3 = {
+	ship_armor_regen_add_perc = 1.00
+}
+bc_ship_armor_regeneration_t4 = {
+	ship_armor_regen_add_perc = 2.50
+}
+bc_ship_armor_regeneration_t5 = {
+	ship_armor_regen_add_perc = 5.00
+}
+bc_ship_armor_regeneration_t6 = {
+	ship_armor_regen_add_perc = 10.00
+}
+bc_ship_armor_regeneration_t7 = {
+	ship_armor_regen_add_perc = 50.00
+}
+bc_ship_armor_regeneration_t8 = {
+	ship_armor_regen_add_perc = 100.00
+}
+bc_ship_armor_regeneration_t9 = {
+	ship_armor_regen_add_perc = 250.00
+}
+bc_ship_armor_regeneration_t10 = {
+	ship_armor_regen_add_perc = 500.00
+}
+###############################
+
+#### ship_hull_regen_speed TIER SELECTOR ####
+bc_ship_hull_regeneration_t1 = {
+    ship_hull_regen_add_perc = 0.15
+}
+bc_ship_hull_regeneration_t2 = {
+    ship_hull_regen_add_perc = 0.50
+}
+bc_ship_hull_regeneration_t3 = {
+    ship_hull_regen_add_perc = 1.00
+}
+bc_ship_hull_regeneration_t4 = {
+    ship_hull_regen_add_perc = 2.50
+}
+bc_ship_hull_regeneration_t5 = {
+    ship_hull_regen_add_perc = 5.00
+}
+bc_ship_hull_regeneration_t6 = {
+    ship_hull_regen_add_perc = 10.00
+}
+bc_ship_hull_regeneration_t7 = {
+    ship_hull_regen_add_perc = 50.00
+}
+bc_ship_hull_regeneration_t8 = {
+    ship_hull_regen_add_perc = 100.00
+}
+bc_ship_hull_regeneration_t9 = {
+    ship_hull_regen_add_perc = 250.00
+}
+bc_ship_hull_regeneration_t10 = {
+    ship_hull_regen_add_perc = 500.00
+}
+###############################
+
+#### ship_shield_regen_speed TIER SELECTOR ####
+bc_ship_shield_regeneration_t1 = {
+	ship_shield_regen_add_perc = 0.15
+}
+bc_ship_shield_regeneration_t2 = {
+	ship_shield_regen_add_perc = 0.50
+}
+bc_ship_shield_regeneration_t3 = {
+	ship_shield_regen_add_perc = 1.00
+}
+bc_ship_shield_regeneration_t4 = {
+	ship_shield_regen_add_perc = 2.50
+}
+bc_ship_shield_regeneration_t5 = {
+	ship_shield_regen_add_perc = 5.00
+}
+bc_ship_shield_regeneration_t6 = {
+	ship_shield_regen_add_perc = 10.00
+}
+bc_ship_shield_regeneration_t7 = {
+	ship_shield_regen_add_perc = 50.00
+}
+bc_ship_shield_regeneration_t8 = {
+	ship_shield_regen_add_perc = 100.00
+}
+bc_ship_shield_regeneration_t9 = {
+	ship_shield_regen_add_perc = 250.00
+}
+bc_ship_shield_regeneration_t10 = {
+	ship_shield_regen_add_perc = 500.00
+}
+###############################
+
+#### ship_regen_speed TIER SELECTOR ####
 bc_ship_regen_t1 = {
 	ship_armor_regen_add_static = 0.50
 	ship_hull_regen_add_static = 0.50
