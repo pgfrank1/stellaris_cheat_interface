@@ -625,9 +625,9 @@ guiTypes = {
                     name = "bccheatinterface_2_diplomatic_weight"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 0 }
-                    effect = "bc_cheatinterface_button_effect"
+                    effect = "bc_cheatinterface_button_empire_diplomatic_weight_positive"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_diplomatic_weight"
+                    buttonText = "bccheatinterface_2_diplomatic_weight_title"
                 }
                 # Energy Button
                 effectButtonType = {

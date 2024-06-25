@@ -554,7 +554,7 @@ country_event = {
         not = { has_country_flag = bc_is_in_diplomatic_weight_interface}
     }
     diplomatic = yes
-    custom_gui = "bc_cheat_interface_diplomatic_weight"
+    custom_gui = "bc_cheat_interface_empire_diplomatic_weight"
     immediate = {
         hidden_effect = {
             set_country_flag = bc_is_in_diplomatic_weight_interface

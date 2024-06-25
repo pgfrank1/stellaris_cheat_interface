@@ -1744,6 +1744,72 @@ bc_resource_nanites_t10 = {
 }
 ###############################
 
+#### empire_diplomatic_weight_positive TIER POSITIVE SELECTOR ####
+bc_empire_diplomatic_weight_positive_t1 = {
+	diplo_weight_mult = 0.15
+}
+bc_empire_diplomatic_weight_positive_t2 = {
+	diplo_weight_mult = 0.50
+}
+bc_empire_diplomatic_weight_positive_t3 = {
+	diplo_weight_mult = 1.00
+}
+bc_empire_diplomatic_weight_positive_t4 = {
+	diplo_weight_mult = 2.50
+}
+bc_empire_diplomatic_weight_positive_t5 = {
+	diplo_weight_mult = 5.00
+}
+bc_empire_diplomatic_weight_positive_t6 = {
+	diplo_weight_mult = 10.00
+}
+bc_empire_diplomatic_weight_positive_t7 = {
+	diplo_weight_mult = 50.00
+}
+bc_empire_diplomatic_weight_positive_t8 = {
+	diplo_weight_mult = 100.00
+}
+bc_empire_diplomatic_weight_positive_t9 = {
+	diplo_weight_mult = 250.00
+}
+bc_empire_diplomatic_weight_positive_t10 = {
+	diplo_weight_mult = 500.00
+}
+###############################
+
+#### empire_empire_diplomatic_weight_negative TIER NEGATIVE SELECTOR ####
+bc_empire_diplomatic_weight_negative_t1 = {
+	diplo_weight_mult = -0.15
+}
+bc_empire_diplomatic_weight_negative_t2 = {
+	diplo_weight_mult = -0.50
+}
+bc_empire_diplomatic_weight_negative_t3 = {
+	diplo_weight_mult = -1.00
+}
+bc_empire_diplomatic_weight_negative_t4 = {
+	diplo_weight_mult = -2.50
+}
+bc_empire_diplomatic_weight_negative_t5 = {
+	diplo_weight_mult = -5.00
+}
+bc_empire_diplomatic_weight_negative_t6 = {
+	diplo_weight_mult = -10.00
+}
+bc_empire_diplomatic_weight_negative_t7 = {
+	diplo_weight_mult = -50.00
+}
+bc_empire_diplomatic_weight_negative_t8 = {
+	diplo_weight_mult = -100.00
+}
+bc_empire_diplomatic_weight_negative_t9 = {
+	diplo_weight_mult = -250.00
+}
+bc_empire_diplomatic_weight_negative_t10 = {
+	diplo_weight_mult = -500.00
+}
+###############################
+
 #### ship_base_speed TIER SELECTOR ####
 bc_ship_base_speed_t1 = {
 	ship_base_speed_mult = 0.15
