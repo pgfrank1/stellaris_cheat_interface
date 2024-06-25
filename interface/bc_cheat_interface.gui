@@ -620,7 +620,8 @@ guiTypes = {
                     name = "bccheatinterface_empire_column_scrollbar"
                     startValue = 0
                 }
-                # Minerals Button
+
+                # Diplomatic Weight Button
                 effectButtonType = {
                     name = "bccheatinterface_2_diplomatic_weight"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
@@ -629,14 +630,14 @@ guiTypes = {
                     buttonFont = "cg_16b"
                     buttonText = "bccheatinterface_2_diplomatic_weight_title"
                 }
-                # Energy Button
+                # Monthly Loyalty Button
                 effectButtonType = {
                     name = "bccheatinterface_2_monthly_loyalty"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 40 }
-                    effect = "bc_cheatinterface_button_effect"
+                    effect = "bc_cheatinterface_button_empire_monthly_loyalty"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_monthly_loyalty"
+                    buttonText = "bccheatinterface_2_monthly_loyalty_title"
                 }
 
                 # Food Button

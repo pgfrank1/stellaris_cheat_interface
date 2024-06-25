@@ -1810,6 +1810,49 @@ bc_empire_diplomatic_weight_negative_t10 = {
 }
 ###############################
 
+#### monthly loyalty TIER SELECTOR ####
+bc_empire_monthly_loyalty_t1 = {
+	monthly_loyalty = 0.15
+	monthly_loyalty_from_subjects = 0.15
+}
+bc_empire_monthly_loyalty_t2 = {
+	monthly_loyalty = 0.50
+	monthly_loyalty_from_subjects = 0.50
+}
+bc_empire_monthly_loyalty_t3 = {
+	monthly_loyalty = 1.00
+	monthly_loyalty_from_subjects = 1.00
+}
+bc_empire_monthly_loyalty_t4 = {
+	monthly_loyalty = 2.50
+	monthly_loyalty_from_subjects = 2.50
+}
+bc_empire_monthly_loyalty_t5 = {
+	monthly_loyalty = 5.00
+	monthly_loyalty_from_subjects = 5.00
+}
+bc_empire_monthly_loyalty_t6 = {
+	monthly_loyalty = 10.00
+	monthly_loyalty_from_subjects = 10.00
+}
+bc_empire_monthly_loyalty_t7 = {
+	monthly_loyalty = 50.00
+	monthly_loyalty_from_subjects = 50.00
+}
+bc_empire_monthly_loyalty_t8 = {
+	monthly_loyalty = 100.00
+	monthly_loyalty_from_subjects = 100.00
+}
+bc_empire_monthly_loyalty_t9 = {
+	monthly_loyalty = 250.00
+	monthly_loyalty_from_subjects = 250.00
+}
+bc_empire_monthly_loyalty_t10 = {
+	monthly_loyalty = 500.00
+	monthly_loyalty_from_subjects = 500.00
+}
+###############################
+
 #### ship_base_speed TIER SELECTOR ####
 bc_ship_base_speed_t1 = {
 	ship_base_speed_mult = 0.15

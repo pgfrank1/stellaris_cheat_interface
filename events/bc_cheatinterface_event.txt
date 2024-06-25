@@ -281,7 +281,6 @@ country_event = {
 }
 #########################################
 
-#TODO
 ### Better Cheats Resource Unity Screen ###
 country_event = {
     id = bccheatinterface.1007
@@ -313,7 +312,6 @@ country_event = {
 }
 #########################################
 
-#TODO
 ### Better Cheats Resource Volatile Motes Screen ###
 country_event = {
     id = bccheatinterface.1008
@@ -345,7 +343,6 @@ country_event = {
 }
 #########################################
 
-#TODO
 ### Better Cheats Resource Exotic Gases Screen ###
 country_event = {
     id = bccheatinterface.1009
@@ -377,7 +374,6 @@ country_event = {
 }
 #########################################
 
-#TODO
 ### Better Cheats Resource Rare Crystals Screen ###
 country_event = {
     id = bccheatinterface.1010
@@ -409,7 +405,6 @@ country_event = {
 }
 #########################################
 
-#TODO
 ### Better Cheats Resource Living Metal Screen ###
 country_event = {
     id = bccheatinterface.1011
@@ -441,7 +436,6 @@ country_event = {
 }
 #########################################
 
-#TODO
 ### Better Cheats Resource Zro Screen ###
 country_event = {
     id = bccheatinterface.1012
@@ -473,7 +467,6 @@ country_event = {
 }
 #########################################
 
-#TODO
 ### Better Cheats Resource Dark Matter Screen ###
 country_event = {
     id = bccheatinterface.1013
@@ -505,7 +498,6 @@ country_event = {
 }
 #########################################
 
-#TODO
 ### Better Cheats Resource Nanites Screen ###
 country_event = {
     id = bccheatinterface.1014
@@ -584,7 +576,7 @@ country_event = {
         not = { has_country_flag = bc_is_in_monthly_loyalty_interface}
     }
     diplomatic = yes
-    custom_gui = "bc_cheat_interface_monthly_loyalty"
+    custom_gui = "bc_cheat_interface_empire_monthly_loyalty"
     immediate = {
         hidden_effect = {
             set_country_flag = bc_is_in_monthly_loyalty_interface
