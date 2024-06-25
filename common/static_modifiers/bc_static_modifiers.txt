@@ -1480,6 +1480,270 @@ bc_resource_influence_t10 = {
 }
 ###############################
 
+#### resource Unity TIER SELECTOR ####
+bc_resource_unity_t1 = {
+	country_unity_produces_mult = 0.15
+}
+bc_resource_unity_t2 = {
+	country_unity_produces_mult = 0.50
+}
+bc_resource_unity_t3 = {
+	country_unity_produces_mult = 1.00
+}
+bc_resource_unity_t4 = {
+	country_unity_produces_mult = 2.50
+}
+bc_resource_unity_t5 = {
+	country_unity_produces_mult = 5.00
+}
+bc_resource_unity_t6 = {
+	country_unity_produces_mult = 10.00
+}
+bc_resource_unity_t7 = {
+	country_unity_produces_mult = 50.00
+}
+bc_resource_unity_t8 = {
+	country_unity_produces_mult = 100.00
+}
+bc_resource_unity_t9 = {
+	country_unity_produces_mult = 250.00
+}
+bc_resource_unity_t10 = {
+	country_unity_produces_mult = 500.00
+}
+###############################
+
+#### resource Volatile Motes TIER SELECTOR ####
+bc_resource_volatile_motes_t1 = {
+	country_volatile_motes_produces_mult = 0.15
+}
+bc_resource_volatile_motes_t2 = {
+	country_volatile_motes_produces_mult = 0.50
+}
+bc_resource_volatile_motes_t3 = {
+	country_volatile_motes_produces_mult = 1.00
+}
+bc_resource_volatile_motes_t4 = {
+	country_volatile_motes_produces_mult = 2.50
+}
+bc_resource_volatile_motes_t5 = {
+	country_volatile_motes_produces_mult = 5.00
+}
+bc_resource_volatile_motes_t6 = {
+	country_volatile_motes_produces_mult = 10.00
+}
+bc_resource_volatile_motes_t7 = {
+	country_volatile_motes_produces_mult = 50.00
+}
+bc_resource_volatile_motes_t8 = {
+	country_volatile_motes_produces_mult = 100.00
+}
+bc_resource_volatile_motes_t9 = {
+	country_volatile_motes_produces_mult = 250.00
+}
+bc_resource_volatile_motes_t10 = {
+	country_volatile_motes_produces_mult = 500.00
+}
+###############################
+
+#### resource Exotic Gases TIER SELECTOR ####
+bc_resource_exotic_gases_t1 = {
+	country_exotic_gases_produces_mult = 0.15
+}
+bc_resource_exotic_gases_t2 = {
+	country_exotic_gases_produces_mult = 0.50
+}
+bc_resource_exotic_gases_t3 = {
+	country_exotic_gases_produces_mult = 1.00
+}
+bc_resource_exotic_gases_t4 = {
+	country_exotic_gases_produces_mult = 2.50
+}
+bc_resource_exotic_gases_t5 = {
+	country_exotic_gases_produces_mult = 5.00
+}
+bc_resource_exotic_gases_t6 = {
+	country_exotic_gases_produces_mult = 10.00
+}
+bc_resource_exotic_gases_t7 = {
+	country_exotic_gases_produces_mult = 50.00
+}
+bc_resource_exotic_gases_t8 = {
+	country_exotic_gases_produces_mult = 100.00
+}
+bc_resource_exotic_gases_t9 = {
+	country_exotic_gases_produces_mult = 250.00
+}
+bc_resource_exotic_gases_t10 = {
+	country_exotic_gases_produces_mult = 500.00
+}
+###############################
+
+#### resource Rare Crystals TIER SELECTOR ####
+bc_resource_rare_crystals_t1 = {
+	country_rare_crystals_produces_mult = 0.15
+}
+bc_resource_rare_crystals_t2 = {
+	country_rare_crystals_produces_mult = 0.50
+}
+bc_resource_rare_crystals_t3 = {
+	country_rare_crystals_produces_mult = 1.00
+}
+bc_resource_rare_crystals_t4 = {
+	country_rare_crystals_produces_mult = 2.50
+}
+bc_resource_rare_crystals_t5 = {
+	country_rare_crystals_produces_mult = 5.00
+}
+bc_resource_rare_crystals_t6 = {
+	country_rare_crystals_produces_mult = 10.00
+}
+bc_resource_rare_crystals_t7 = {
+	country_rare_crystals_produces_mult = 50.00
+}
+bc_resource_rare_crystals_t8 = {
+	country_rare_crystals_produces_mult = 100.00
+}
+bc_resource_rare_crystals_t9 = {
+	country_rare_crystals_produces_mult = 250.00
+}
+bc_resource_rare_crystals_t10 = {
+	country_rare_crystals_produces_mult = 500.00
+}
+###############################
+
+#### resource Living Metal TIER SELECTOR ####
+bc_resource_living_metal_t1 = {
+	country_sr_living_metal_produces_mult = 0.15
+}
+bc_resource_living_metal_t2 = {
+	country_sr_living_metal_produces_mult = 0.50
+}
+bc_resource_living_metal_t3 = {
+	country_sr_living_metal_produces_mult = 1.00
+}
+bc_resource_living_metal_t4 = {
+	country_sr_living_metal_produces_mult = 2.50
+}
+bc_resource_living_metal_t5 = {
+	country_sr_living_metal_produces_mult = 5.00
+}
+bc_resource_living_metal_t6 = {
+	country_sr_living_metal_produces_mult = 10.00
+}
+bc_resource_living_metal_t7 = {
+	country_sr_living_metal_produces_mult = 50.00
+}
+bc_resource_living_metal_t8 = {
+	country_sr_living_metal_produces_mult = 100.00
+}
+bc_resource_living_metal_t9 = {
+	country_sr_living_metal_produces_mult = 250.00
+}
+bc_resource_living_metal_t10 = {
+	country_sr_living_metal_produces_mult = 500.00
+}
+###############################
+
+#### resource Dark Matter TIER SELECTOR ####
+bc_resource_dark_matter_t1 = {
+	country_sr_dark_matter_produces_mult = 0.15
+}
+bc_resource_dark_matter_t2 = {
+	country_sr_dark_matter_produces_mult = 0.50
+}
+bc_resource_dark_matter_t3 = {
+	country_sr_dark_matter_produces_mult = 1.00
+}
+bc_resource_dark_matter_t4 = {
+	country_sr_dark_matter_produces_mult = 2.50
+}
+bc_resource_dark_matter_t5 = {
+	country_sr_dark_matter_produces_mult = 5.00
+}
+bc_resource_dark_matter_t6 = {
+	country_sr_dark_matter_produces_mult = 10.00
+}
+bc_resource_dark_matter_t7 = {
+	country_sr_dark_matter_produces_mult = 50.00
+}
+bc_resource_dark_matter_t8 = {
+	country_sr_dark_matter_produces_mult = 100.00
+}
+bc_resource_dark_matter_t9 = {
+	country_sr_dark_matter_produces_mult = 250.00
+}
+bc_resource_dark_matter_t10 = {
+	country_sr_dark_matter_produces_mult = 500.00
+}
+###############################
+
+#### resource Zro TIER SELECTOR ####
+bc_resource_zro_t1 = {
+	country_sr_zro_produces_mult = 0.15
+}
+bc_resource_zro_t2 = {
+	country_sr_zro_produces_mult = 0.50
+}
+bc_resource_zro_t3 = {
+	country_sr_zro_produces_mult = 1.00
+}
+bc_resource_zro_t4 = {
+	country_sr_zro_produces_mult = 2.50
+}
+bc_resource_zro_t5 = {
+	country_sr_zro_produces_mult = 5.00
+}
+bc_resource_zro_t6 = {
+	country_sr_zro_produces_mult = 10.00
+}
+bc_resource_zro_t7 = {
+	country_sr_zro_produces_mult = 50.00
+}
+bc_resource_zro_t8 = {
+	country_sr_zro_produces_mult = 100.00
+}
+bc_resource_zro_t9 = {
+	country_sr_zro_produces_mult = 250.00
+}
+bc_resource_zro_t10 = {
+	country_sr_zro_produces_mult = 500.00
+}
+###############################
+
+#### resource Nanites TIER SELECTOR ####
+bc_resource_nanites_t1 = {
+	country_nanites_produces_mult = 0.15
+}
+bc_resource_nanites_t2 = {
+	country_nanites_produces_mult = 0.50
+}
+bc_resource_nanites_t3 = {
+	country_nanites_produces_mult = 1.00
+}
+bc_resource_nanites_t4 = {
+	country_nanites_produces_mult = 2.50
+}
+bc_resource_nanites_t5 = {
+	country_nanites_produces_mult = 5.00
+}
+bc_resource_nanites_t6 = {
+	country_nanites_produces_mult = 10.00
+}
+bc_resource_nanites_t7 = {
+	country_nanites_produces_mult = 50.00
+}
+bc_resource_nanites_t8 = {
+	country_nanites_produces_mult = 100.00
+}
+bc_resource_nanites_t9 = {
+	country_nanites_produces_mult = 250.00
+}
+bc_resource_nanites_t10 = {
+	country_nanites_produces_mult = 500.00
+}
+###############################
+
 #### ship_base_speed TIER SELECTOR ####
 bc_ship_base_speed_t1 = {
 	ship_base_speed_mult = 0.15

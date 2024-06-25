@@ -250,7 +250,6 @@ country_event = {
 }
 #########################################
 
-#TODO
 ### Better Cheats Resource Influence Screen ###
 country_event = {
     id = bccheatinterface.1006
@@ -475,9 +474,41 @@ country_event = {
 #########################################
 
 #TODO
-### Better Cheats Resource Nanites Screen ###
+### Better Cheats Resource Dark Matter Screen ###
 country_event = {
     id = bccheatinterface.1013
+    title = "bccheatinterface_2_dark_matter"
+    desc = "bccheatinterface_2_dark_matter"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_dark_matter_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_dark_matter"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_dark_matter_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_dark_matter_interface
+        }
+    }
+}
+#########################################
+
+#TODO
+### Better Cheats Resource Nanites Screen ###
+country_event = {
+    id = bccheatinterface.1014
     title = "bccheatinterface_2_nanites"
     desc = "bccheatinterface_2_nanites"
     is_triggered_only = yes
