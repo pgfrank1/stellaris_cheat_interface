@@ -1447,6 +1447,39 @@ bc_resource_alloys_t10 = {
 }
 ###############################
 
+#### resource Influence TIER SELECTOR ####
+bc_resource_influence_t1 = {
+	country_influence_produces_mult = 0.15
+}
+bc_resource_influence_t2 = {
+	country_influence_produces_mult = 0.50
+}
+bc_resource_influence_t3 = {
+	country_influence_produces_mult = 1.00
+}
+bc_resource_influence_t4 = {
+	country_influence_produces_mult = 2.50
+}
+bc_resource_influence_t5 = {
+	country_influence_produces_mult = 5.00
+}
+bc_resource_influence_t6 = {
+	country_influence_produces_mult = 10.00
+}
+bc_resource_influence_t7 = {
+	country_influence_produces_mult = 50.00
+}
+bc_resource_influence_t8 = {
+	country_influence_produces_mult = 100.00
+}
+bc_resource_influence_t9 = {
+	country_influence_produces_mult = 250.00
+}
+bc_resource_influence_t10 = {
+	country_influence_produces_mult = 500.00
+}
+###############################
+
 #### ship_base_speed TIER SELECTOR ####
 bc_ship_base_speed_t1 = {
 	ship_base_speed_mult = 0.15

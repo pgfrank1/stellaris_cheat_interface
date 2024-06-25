@@ -219,7 +219,6 @@ country_event = {
 }
 #########################################
 
-#TODO
 ### Better Cheats Resource Alloys Screen ###
 country_event = {
     id = bccheatinterface.1005
