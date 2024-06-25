@@ -1481,11 +1481,12 @@
  bccheatinterface_2_title:0               "BetterCheats Cheating Interface"
 
  ####### Resources Column #######
- bccheatinterface_2_resources:0            "Resources £basic_resources£"
- bccheatinterface_2_minerals_title:0       "[owner.bccheatinterface_2_minerals_title]"
- bccheatinterface_2_energy_title:0         "[owner.bccheatinterface_2_energy_title]"
- bccheatinterface_2_food_title:0           "[owner.bccheatinterface_2_food_title]"
- bccheatinterface_2_consumer_goods_title:0 "[owner.bccheatinterface_2_consumer_goods_title]"
+ bccheatinterface_2_resources:0             "Resources £basic_resources£"
+ bccheatinterface_2_minerals_title:0        "[owner.bccheatinterface_2_minerals_title]"
+ bccheatinterface_2_energy_title:0          "[owner.bccheatinterface_2_energy_title]"
+ bccheatinterface_2_food_title:0            "[owner.bccheatinterface_2_food_title]"
+ bccheatinterface_2_consumer_goods_title:0  "[owner.bccheatinterface_2_consumer_goods_title]"
+ bccheatinterface_2_alloys_title:0          "[owner.bccheatinterface_2_alloys_title]"
 
  bccheatinterface_2_minerals:0            "Minerals £mod_minerals_produces_mult£"
  bccheatinterface_2_minerals_b:0          "§GMinerals §W£mod_minerals_produces_mult£"
@@ -1616,7 +1617,7 @@
  bc_resource_food_t10_b:0                      "§GFood Tier X§W"
  ##############################
 
- # Food
+ # Consumer Goods
  bc_resource_consumer_goods_t1_title:0                  "[owner.bc_resource_consumer_goods_t1_title]"
  bc_resource_consumer_goods_t2_title:0                  "[owner.bc_resource_consumer_goods_t2_title]"
  bc_resource_consumer_goods_t3_title:0                  "[owner.bc_resource_consumer_goods_t3_title]"
@@ -1648,6 +1649,38 @@
  bc_resource_consumer_goods_t10:0                       "Consumer Goods Tier X"
  bc_resource_consumer_goods_t10_b:0                      "§GConsumer Goods Tier X§W"
  ##############################
+
+  # Alloys
+ bc_resource_alloys_t1_title:0                  "[owner.bc_resource_alloys_t1_title]"
+ bc_resource_alloys_t2_title:0                  "[owner.bc_resource_alloys_t2_title]"
+ bc_resource_alloys_t3_title:0                  "[owner.bc_resource_alloys_t3_title]"
+ bc_resource_alloys_t4_title:0                  "[owner.bc_resource_alloys_t4_title]"
+ bc_resource_alloys_t5_title:0                  "[owner.bc_resource_alloys_t5_title]"
+ bc_resource_alloys_t6_title:0                  "[owner.bc_resource_alloys_t6_title]"
+ bc_resource_alloys_t7_title:0                  "[owner.bc_resource_alloys_t7_title]"
+ bc_resource_alloys_t8_title:0                  "[owner.bc_resource_alloys_t8_title]"
+ bc_resource_alloys_t9_title:0                  "[owner.bc_resource_alloys_t9_title]"
+ bc_resource_alloys_t10_title:0                 "[owner.bc_resource_alloys_t10_title]"
+ bc_resource_alloys_t1:0                        "Alloys Tier I"
+ bc_resource_alloys_t1_b:0                      "§GAlloys Tier I§W"
+ bc_resource_alloys_t2:0                        "Alloys Tier II"
+ bc_resource_alloys_t2_b:0                      "§GAlloys Tier II§W"
+ bc_resource_alloys_t3:0                        "Alloys Tier III"
+ bc_resource_alloys_t3_b:0                      "§GAlloys Tier III§W"
+ bc_resource_alloys_t4:0                        "Alloys Tier IV"
+ bc_resource_alloys_t4_b:0                      "§GAlloys Tier IV§W"
+ bc_resource_alloys_t5:0                        "Alloys Tier V"
+ bc_resource_alloys_t5_b:0                      "§GAlloys Tier V§W"
+ bc_resource_alloys_t6:0                        "Alloys Tier VI"
+ bc_resource_alloys_t6_b:0                      "§GAlloys Tier VI§W"
+ bc_resource_alloys_t7:0                        "Alloys Tier VII"
+ bc_resource_alloys_t7_b:0                      "§GAlloys Tier VII§W"
+ bc_resource_alloys_t8:0                        "Alloys Tier VIII"
+ bc_resource_alloys_t8_b:0                      "§GAlloys Tier VIII§W"
+ bc_resource_alloys_t9:0                        "Alloys Tier IX"
+ bc_resource_alloys_t9_b:0                      "§GAlloys Tier IX§W"
+ bc_resource_alloys_t10:0                       "Alloys Tier X"
+ bc_resource_alloys_t10_b:0                      "§GAlloys Tier X§W"
 
  ####### Empire Column #######
  bccheatinterface_2_empire:0                     "Empire £empire£"

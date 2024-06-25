@@ -90,9 +90,11 @@ country_event = {
         }
     }
 }
+
 ######################################################################################
 #                               Resource Events                                      #
 ######################################################################################
+
 ### Better Cheats Resource Minerals Screen ###
 country_event = {
     id = bccheatinterface.1001
@@ -212,6 +214,449 @@ country_event = {
         default_hide_option = yes
         hidden_effect = {
             remove_country_flag = bc_is_in_resource_consumer_goods_interface
+        }
+    }
+}
+#########################################
+
+#TODO
+### Better Cheats Resource Alloys Screen ###
+country_event = {
+    id = bccheatinterface.1005
+    title = "bccheatinterface_2_alloys"
+    desc = "bccheatinterface_2_alloys"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_alloys_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_alloys"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_alloys_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_alloys_interface
+        }
+    }
+}
+#########################################
+
+#TODO
+### Better Cheats Resource Influence Screen ###
+country_event = {
+    id = bccheatinterface.1006
+    title = "bccheatinterface_2_influence"
+    desc = "bccheatinterface_2_influence"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_influence_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_influence"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_influence_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_influence_interface
+        }
+    }
+}
+#########################################
+
+#TODO
+### Better Cheats Resource Unity Screen ###
+country_event = {
+    id = bccheatinterface.1007
+    title = "bccheatinterface_2_unity"
+    desc = "bccheatinterface_2_unity"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_unity_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_unity"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_unity_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_unity_interface
+        }
+    }
+}
+#########################################
+
+#TODO
+### Better Cheats Resource Volatile Motes Screen ###
+country_event = {
+    id = bccheatinterface.1008
+    title = "bccheatinterface_2_volatile_motes"
+    desc = "bccheatinterface_2_volatile_motes"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_volatile_motes_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_volatile_motes"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_volatile_motes_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_volatile_motes_interface
+        }
+    }
+}
+#########################################
+
+#TODO
+### Better Cheats Resource Exotic Gases Screen ###
+country_event = {
+    id = bccheatinterface.1009
+    title = "bccheatinterface_2_exotic_gases"
+    desc = "bccheatinterface_2_exotic_gases"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_exotic_gases_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_exotic_gases"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_exotic_gases_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_exotic_gases_interface
+        }
+    }
+}
+#########################################
+
+#TODO
+### Better Cheats Resource Rare Crystals Screen ###
+country_event = {
+    id = bccheatinterface.1010
+    title = "bccheatinterface_2_rare_crystals"
+    desc = "bccheatinterface_2_rare_crystals"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_rare_crystals_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_rare_crystals"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_rare_crystals_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_rare_crystals_interface
+        }
+    }
+}
+#########################################
+
+#TODO
+### Better Cheats Resource Living Metal Screen ###
+country_event = {
+    id = bccheatinterface.1011
+    title = "bccheatinterface_2_living_metal"
+    desc = "bccheatinterface_2_living_metal"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_living_metal_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_living_metal"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_living_metal_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_living_metal_interface
+        }
+    }
+}
+#########################################
+
+#TODO
+### Better Cheats Resource Zro Screen ###
+country_event = {
+    id = bccheatinterface.1012
+    title = "bccheatinterface_2_zro"
+    desc = "bccheatinterface_2_zro"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_zro_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_zro"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_zro_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_zro_interface
+        }
+    }
+}
+#########################################
+
+#TODO
+### Better Cheats Resource Nanites Screen ###
+country_event = {
+    id = bccheatinterface.1013
+    title = "bccheatinterface_2_nanites"
+    desc = "bccheatinterface_2_nanites"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_nanites_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_nanites"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_nanites_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_nanites_interface
+        }
+    }
+}
+#########################################
+
+
+######################################################################################
+#                               Empire Events                                        #
+######################################################################################
+
+#TODO
+### Better Cheats Diplomatic Weight Screen ###
+country_event = {
+    id = bccheatinterface.2001
+    title = "bccheatinterface_2_diplomatic_weight"
+    desc = "bccheatinterface_2_diplomatic_weight"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_diplomatic_weight_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_diplomatic_weight"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_diplomatic_weight_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_diplomatic_weight_interface
+        }
+    }
+}
+#########################################
+
+#TODO
+### Better Cheats Monthly Loyalty Screen ###
+country_event = {
+    id = bccheatinterface.2002
+    title = "bccheatinterface_2_monthly_loyalty"
+    desc = "bccheatinterface_2_monthly_loyalty"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_monthly_loyalty_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_monthly_loyalty"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_monthly_loyalty_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_monthly_loyalty_interface
+        }
+    }
+}
+#########################################
+
+#TODO
+### Better Cheats Planetary Decision Screen ###
+country_event = {
+    id = bccheatinterface.2003
+    title = "bccheatinterface_2_planetary_decision"
+    desc = "bccheatinterface_2_planetary_decision"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_planetary_decision_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_planetary_decision"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_planetary_decision_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_planetary_decision_interface
+        }
+    }
+}
+#########################################
+
+#TODO
+### Better Cheats Research Screen ###
+country_event = {
+    id = bccheatinterface.2004
+    title = "bccheatinterface_2_research"
+    desc = "bccheatinterface_2_research"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_research_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_research"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_research_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_research_interface
+        }
+    }
+}
+#########################################
+
+#TODO
+### Better Cheats Colony Development Screen ###
+country_event = {
+    id = bccheatinterface.2005
+    title = "bccheatinterface_2_colony_development"
+    desc = "bccheatinterface_2_colony_development"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_colony_development_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_colony_development"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_colony_development_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_colony_development_interface
         }
     }
 }
