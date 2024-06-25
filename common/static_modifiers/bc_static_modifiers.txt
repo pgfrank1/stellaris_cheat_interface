@@ -1853,6 +1853,138 @@ bc_empire_monthly_loyalty_t10 = {
 }
 ###############################
 
+#### Planetary Decision Speed TIER SELECTOR ####
+bc_empire_planetary_decision_t1 = {
+	planet_decision_enact_speed_mult = 0.15
+}
+bc_empire_planetary_decision_t2 = {
+	planet_decision_enact_speed_mult = 0.50
+}
+bc_empire_planetary_decision_t3 = {
+	planet_decision_enact_speed_mult = 1.00
+}
+bc_empire_planetary_decision_t4 = {
+	planet_decision_enact_speed_mult = 2.50
+}
+bc_empire_planetary_decision_t5 = {
+	planet_decision_enact_speed_mult = 5.00
+}
+bc_empire_planetary_decision_t6 = {
+	planet_decision_enact_speed_mult = 10.00
+}
+bc_empire_planetary_decision_t7 = {
+	planet_decision_enact_speed_mult = 50.00
+}
+bc_empire_planetary_decision_t8 = {
+	planet_decision_enact_speed_mult = 100.00
+}
+bc_empire_planetary_decision_t9 = {
+	planet_decision_enact_speed_mult = 250.00
+}
+bc_empire_planetary_decision_t10 = {
+	planet_decision_enact_speed_mult = 500.00
+}
+###############################
+
+#### Research Physics TIER SELECTOR ####
+bc_empire_research_physics_t1 = {
+	country_physics_research_produces_mult = 0.15
+}
+bc_empire_research_physics_t2 = {
+	country_physics_research_produces_mult = 0.50
+}
+bc_empire_research_physics_t3 = {
+	country_physics_research_produces_mult = 1.00
+}
+bc_empire_research_physics_t4 = {
+	country_physics_research_produces_mult = 2.50
+}
+bc_empire_research_physics_t5 = {
+	country_physics_research_produces_mult = 5.00
+}
+bc_empire_research_physics_t6 = {
+	country_physics_research_produces_mult = 10.00
+}
+bc_empire_research_physics_t7 = {
+	country_physics_research_produces_mult = 50.00
+}
+bc_empire_research_physics_t8 = {
+	country_physics_research_produces_mult = 100.00
+}
+bc_empire_research_physics_t9 = {
+	country_physics_research_produces_mult = 250.00
+}
+bc_empire_research_physics_t10 = {
+	country_physics_research_produces_mult = 500.00
+}
+###############################
+
+#### Research Society TIER SELECTOR ####
+bc_empire_research_society_t1 = {
+	country_society_research_produces_mult = 0.15
+}
+bc_empire_research_society_t2 = {
+	country_society_research_produces_mult = 0.50
+}
+bc_empire_research_society_t3 = {
+	country_society_research_produces_mult = 1.00
+}
+bc_empire_research_society_t4 = {
+	country_society_research_produces_mult = 2.50
+}
+bc_empire_research_society_t5 = {
+	country_society_research_produces_mult = 5.00
+}
+bc_empire_research_society_t6 = {
+	country_society_research_produces_mult = 10.00
+}
+bc_empire_research_society_t7 = {
+	country_society_research_produces_mult = 50.00
+}
+bc_empire_research_society_t8 = {
+	country_society_research_produces_mult = 100.00
+}
+bc_empire_research_society_t9 = {
+	country_society_research_produces_mult = 250.00
+}
+bc_empire_research_society_t10 = {
+	country_society_research_produces_mult = 500.00
+}
+###############################
+
+#### Research engineering TIER SELECTOR ####
+bc_empire_research_engineering_t1 = {
+	country_engineering_research_produces_mult = 0.15
+}
+bc_empire_research_engineering_t2 = {
+	country_engineering_research_produces_mult = 0.50
+}
+bc_empire_research_engineering_t3 = {
+	country_engineering_research_produces_mult = 1.00
+}
+bc_empire_research_engineering_t4 = {
+	country_engineering_research_produces_mult = 2.50
+}
+bc_empire_research_engineering_t5 = {
+	country_engineering_research_produces_mult = 5.00
+}
+bc_empire_research_engineering_t6 = {
+	country_engineering_research_produces_mult = 10.00
+}
+bc_empire_research_engineering_t7 = {
+	country_engineering_research_produces_mult = 50.00
+}
+bc_empire_research_engineering_t8 = {
+	country_engineering_research_produces_mult = 100.00
+}
+bc_empire_research_engineering_t9 = {
+	country_engineering_research_produces_mult = 250.00
+}
+bc_empire_research_engineering_t10 = {
+	country_engineering_research_produces_mult = 500.00
+}
+###############################
+
 #### ship_base_speed TIER SELECTOR ####
 bc_ship_base_speed_t1 = {
 	ship_base_speed_mult = 0.15

@@ -606,7 +606,7 @@ country_event = {
         not = { has_country_flag = bc_is_in_planetary_decision_interface}
     }
     diplomatic = yes
-    custom_gui = "bc_cheat_interface_planetary_decision"
+    custom_gui = "bc_cheat_interface_empire_planetary_decision"
     immediate = {
         hidden_effect = {
             set_country_flag = bc_is_in_planetary_decision_interface
@@ -636,7 +636,7 @@ country_event = {
         not = { has_country_flag = bc_is_in_research_interface}
     }
     diplomatic = yes
-    custom_gui = "bc_cheat_interface_research"
+    custom_gui = "bc_cheat_interface_empire_research"
     immediate = {
         hidden_effect = {
             set_country_flag = bc_is_in_research_interface
