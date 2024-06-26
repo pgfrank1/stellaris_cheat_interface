@@ -1979,8 +1979,11 @@
  bc_resource_nanites_t10:0                       "Nanites Tier X"
  bc_resource_nanites_t10_b:0                      "§GNanites Tier X§W"
 
+ ######################################################################################################################
+                                            ####### Empire Column #######
+ ######################################################################################################################
 
- ####### Empire Column #######
+ bccheatinterface_2_empire_title:0               "[owner.bccheatinterface_2_empire_title]"
  bccheatinterface_2_empire:0                     "Empire £empire£"
  bccheatinterface_2_diplomatic_weight_title:0    "[owner.bccheatinterface_2_diplomatic_weight_title]"
  bccheatinterface_2_monthly_loyalty_title:0      "[owner.bccheatinterface_2_monthly_loyalty_title]"
@@ -1989,6 +1992,7 @@
  bccheatinterface_2_colony_development_title:0   "[owner.bccheatinterface_2_colony_development_title]"
  bccheatinterface_2_terraforming_speed_title:0   "[owner.bccheatinterface_2_terraforming_speed_title]"
  bccheatinterface_2_terraforming_cost_title:0   "[owner.bccheatinterface_2_terraforming_cost_title]"
+ bccheatinterface_2_ethics_shift_speed_title:0   "[owner.bccheatinterface_2_ethics_shift_speed_title]"
 
  bccheatinterface_2_diplomatic_weight:0          "Diplomatic Weight £mod_diplo_weight_mult£"
  bccheatinterface_2_diplomatic_weight_b:0        "§GDiplomatic Weight §W£mod_diplo_weight_mult£"
@@ -2007,6 +2011,8 @@
  bccheatinterface_2_terraforming_speed_b:0       "§GTerraforming Speed §W£mod_country_terraform_speed_mult£"
  bccheatinterface_2_terraforming_cost:0         "Terraforming Cost £mod_country_terraforming_cost_mult£"
  bccheatinterface_2_terraforming_cost_b:0       "§GTerraforming Cost §W£mod_country_terraforming_cost_mult£"
+ bccheatinterface_2_ethics_shift_speed:0         "Ethics Shift Speed £mod_pop_ethics_shift_speed£"
+ bccheatinterface_2_ethics_shift_speed_b:0       "§GEthics Shift Speed §W£mod_pop_ethics_shift_speed£"
 
 
  # Diplomatic Weight Positive
@@ -2330,6 +2336,39 @@
  bc_empire_terraforming_cost_t9_b:0                      "§GTerraforming Cost Tier IX§W"
  bc_empire_terraforming_cost_t10:0                       "Terraforming Cost Tier X"
  bc_empire_terraforming_cost_t10_b:0                     "§GTerraforming Cost Tier X§W"
+ ##############################
+
+ # Ethics Shift Speed
+ bc_empire_ethics_shift_speed_t1_title:0                  "[owner.bc_empire_ethics_shift_speed_t1_title]"
+ bc_empire_ethics_shift_speed_t2_title:0                  "[owner.bc_empire_ethics_shift_speed_t2_title]"
+ bc_empire_ethics_shift_speed_t3_title:0                  "[owner.bc_empire_ethics_shift_speed_t3_title]"
+ bc_empire_ethics_shift_speed_t4_title:0                  "[owner.bc_empire_ethics_shift_speed_t4_title]"
+ bc_empire_ethics_shift_speed_t5_title:0                  "[owner.bc_empire_ethics_shift_speed_t5_title]"
+ bc_empire_ethics_shift_speed_t6_title:0                  "[owner.bc_empire_ethics_shift_speed_t6_title]"
+ bc_empire_ethics_shift_speed_t7_title:0                  "[owner.bc_empire_ethics_shift_speed_t7_title]"
+ bc_empire_ethics_shift_speed_t8_title:0                  "[owner.bc_empire_ethics_shift_speed_t8_title]"
+ bc_empire_ethics_shift_speed_t9_title:0                  "[owner.bc_empire_ethics_shift_speed_t9_title]"
+ bc_empire_ethics_shift_speed_t10_title:0                 "[owner.bc_empire_ethics_shift_speed_t10_title]"
+ bc_empire_ethics_shift_speed_t1:0                        "Ethics Shift Speed Tier I"
+ bc_empire_ethics_shift_speed_t1_b:0                      "§GEthics Shift Speed Tier I§W"
+ bc_empire_ethics_shift_speed_t2:0                        "Ethics Shift Speed Tier II"
+ bc_empire_ethics_shift_speed_t2_b:0                      "§GEthics Shift Speed Tier II§W"
+ bc_empire_ethics_shift_speed_t3:0                        "Ethics Shift Speed Tier III"
+ bc_empire_ethics_shift_speed_t3_b:0                      "§GEthics Shift Speed Tier III§W"
+ bc_empire_ethics_shift_speed_t4:0                        "Ethics Shift Speed Tier IV"
+ bc_empire_ethics_shift_speed_t4_b:0                      "§GEthics Shift Speed Tier IV§W"
+ bc_empire_ethics_shift_speed_t5:0                        "Ethics Shift Speed Tier V"
+ bc_empire_ethics_shift_speed_t5_b:0                      "§GEthics Shift Speed Tier V§W"
+ bc_empire_ethics_shift_speed_t6:0                        "Ethics Shift Speed Tier VI"
+ bc_empire_ethics_shift_speed_t6_b:0                      "§GEthics Shift Speed Tier VI§W"
+ bc_empire_ethics_shift_speed_t7:0                        "Ethics Shift Speed Tier VII"
+ bc_empire_ethics_shift_speed_t7_b:0                      "§GEthics Shift Speed Tier VII§W"
+ bc_empire_ethics_shift_speed_t8:0                        "Ethics Shift Speed Tier VIII"
+ bc_empire_ethics_shift_speed_t8_b:0                      "§GEthics Shift Speed Tier VIII§W"
+ bc_empire_ethics_shift_speed_t9:0                        "Ethics Shift Speed Tier IX"
+ bc_empire_ethics_shift_speed_t9_b:0                      "§GEthics Shift Speed Tier IX§W"
+ bc_empire_ethics_shift_speed_t10:0                       "Ethics Shift Speed Tier X"
+ bc_empire_ethics_shift_speed_t10_b:0                     "§GEthics Shift Speed Tier X§W"
  ##############################
 
 

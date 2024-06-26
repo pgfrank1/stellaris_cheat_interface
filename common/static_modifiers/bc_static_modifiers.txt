@@ -2084,6 +2084,39 @@ bc_empire_terraforming_cost_t10 = {
 }
 ###############################
 
+#### Ethics Shift Speed TIER SELECTOR ####
+bc_empire_ethics_shift_speed_t1 = {
+	pop_ethics_shift_speed_mult = 0.15
+}
+bc_empire_ethics_shift_speed_t2 = {
+	pop_ethics_shift_speed_mult = 0.50
+}
+bc_empire_ethics_shift_speed_t3 = {
+	pop_ethics_shift_speed_mult = 1.00
+}
+bc_empire_ethics_shift_speed_t4 = {
+	pop_ethics_shift_speed_mult = 2.50
+}
+bc_empire_ethics_shift_speed_t5 = {
+	pop_ethics_shift_speed_mult = 5.00
+}
+bc_empire_ethics_shift_speed_t6 = {
+	pop_ethics_shift_speed_mult = 10.00
+}
+bc_empire_ethics_shift_speed_t7 = {
+	pop_ethics_shift_speed_mult = 50.00
+}
+bc_empire_ethics_shift_speed_t8 = {
+	pop_ethics_shift_speed_mult = 100.00
+}
+bc_empire_ethics_shift_speed_t9 = {
+	pop_ethics_shift_speed_mult = 250.00
+}
+bc_empire_ethics_shift_speed_t10 = {
+	pop_ethics_shift_speed_mult = 500.00
+}
+###############################
+
 #### ship_base_speed TIER SELECTOR ####
 bc_ship_base_speed_t1 = {
 	ship_base_speed_mult = 0.15

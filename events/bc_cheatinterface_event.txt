@@ -737,6 +737,35 @@ country_event = {
 }
 #########################################
 
+### Better Cheats Terraforming Cost Screen ###
+country_event = {
+    id = bccheatinterface.2008
+    title = "bccheatinterface_2_ethics_shift_speed"
+    desc = "bccheatinterface_2_ethics_shift_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_ethics_shift_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_empire_ethics_shift_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_ethics_shift_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_ethics_shift_speed_interface
+        }
+    }
+}
+#########################################
+
 
 ######################################################################################
 #                               Ship Events                                          #
