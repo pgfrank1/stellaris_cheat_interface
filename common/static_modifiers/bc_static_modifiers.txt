@@ -2182,6 +2182,105 @@ bc_empire_envoys_t10 = {
 }
 ###############################
 
+#### Admin Cap Officials TIER SELECTOR ####
+bc_empire_admin_cap_officials_t1 = {
+	country_official_cap_add = 1
+}
+bc_empire_admin_cap_officials_t2 = {
+	country_official_cap_add = 2
+}
+bc_empire_admin_cap_officials_t3 = {
+	country_official_cap_add = 3
+}
+bc_empire_admin_cap_officials_t4 = {
+	country_official_cap_add = 4
+}
+bc_empire_admin_cap_officials_t5 = {
+	country_official_cap_add = 5
+}
+bc_empire_admin_cap_officials_t6 = {
+	country_official_cap_add = 10
+}
+bc_empire_admin_cap_officials_t7 = {
+	country_official_cap_add = 25
+}
+bc_empire_admin_cap_officials_t8 = {
+	country_official_cap_add = 50
+}
+bc_empire_admin_cap_officials_t9 = {
+	country_official_cap_add = 100
+}
+bc_empire_admin_cap_officials_t10 = {
+	country_official_cap_add = 250
+}
+###############################
+
+#### Admin Cap Commanders TIER SELECTOR ####
+bc_empire_admin_cap_commanders_t1 = {
+	country_commander_cap_add = 1
+}
+bc_empire_admin_cap_commanders_t2 = {
+	country_commander_cap_add = 2
+}
+bc_empire_admin_cap_commanders_t3 = {
+	country_commander_cap_add = 3
+}
+bc_empire_admin_cap_commanders_t4 = {
+	country_commander_cap_add = 4
+}
+bc_empire_admin_cap_commanders_t5 = {
+	country_commander_cap_add = 5
+}
+bc_empire_admin_cap_commanders_t6 = {
+	country_commander_cap_add = 10
+}
+bc_empire_admin_cap_commanders_t7 = {
+	country_commander_cap_add = 25
+}
+bc_empire_admin_cap_commanders_t8 = {
+	country_commander_cap_add = 50
+}
+bc_empire_admin_cap_commanders_t9 = {
+	country_commander_cap_add = 100
+}
+bc_empire_admin_cap_commanders_t10 = {
+	country_commander_cap_add = 250
+}
+###############################
+
+#### Admin Cap Scientists TIER SELECTOR ####
+bc_empire_admin_cap_scientists_t1 = {
+	country_scientist_cap_add = 1
+}
+bc_empire_admin_cap_scientists_t2 = {
+	country_scientist_cap_add = 2
+}
+bc_empire_admin_cap_scientists_t3 = {
+	country_scientist_cap_add = 3
+}
+bc_empire_admin_cap_scientists_t4 = {
+	country_scientist_cap_add = 4
+}
+bc_empire_admin_cap_scientists_t5 = {
+	country_scientist_cap_add = 5
+}
+bc_empire_admin_cap_scientists_t6 = {
+	country_scientist_cap_add = 10
+}
+bc_empire_admin_cap_scientists_t7 = {
+	country_scientist_cap_add = 25
+}
+bc_empire_admin_cap_scientists_t8 = {
+	country_scientist_cap_add = 50
+}
+bc_empire_admin_cap_scientists_t9 = {
+	country_scientist_cap_add = 100
+}
+bc_empire_admin_cap_scientists_t10 = {
+	country_scientist_cap_add = 250
+}
+###############################
+
 #### ship_base_speed TIER SELECTOR ####
 bc_ship_base_speed_t1 = {
 	ship_base_speed_mult = 0.15

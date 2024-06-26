@@ -824,6 +824,35 @@ country_event = {
 }
 #########################################
 
+### Better Cheats Admin Cap Screen ###
+country_event = {
+    id = bccheatinterface.2011
+    title = "bccheatinterface_2_admin_cap"
+    desc = "bccheatinterface_2_admin_cap"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_admin_cap_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_empire_admin_cap"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_admin_cap_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_admin_cap_interface
+        }
+    }
+}
+#########################################
+
 
 ######################################################################################
 #                               Ship Events                                          #
