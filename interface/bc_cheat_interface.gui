@@ -608,7 +608,7 @@ guiTypes = {
             }
             containerWindowType = {
                 name = "empire_buttons"
-                size = { width = 100% height = 496 }
+                size = { width = 100% height = 80% }
                 #dynamic_extra_y = 0.5
                 position = { x = 0 y = 58 }
                 background = {
@@ -668,6 +668,16 @@ guiTypes = {
                     effect = "bc_cheatinterface_button_empire_colony_development"
                     buttonFont = "cg_16b"
                     buttonText = "bccheatinterface_2_colony_development_title"
+                }
+
+                # Terraforming Speed Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_terraforming_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 200 }
+                    effect = "bc_cheatinterface_button_empire_terraforming_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_terraforming_speed_title"
                 }
 
                 # # Influence Button
@@ -810,7 +820,7 @@ guiTypes = {
             # Ship Column Buttons
             containerWindowType = {
                 name = "ship_buttons"
-                size = { width = 100% height = 496 }
+                size = { width = 100% height = 80% }
                 #dynamic_extra_y = 0.5
                 position = { x = 0 y = 58 }
                 background = {
@@ -1271,9 +1281,406 @@ guiTypes = {
         }
         #############################################################################
         ################################ Leader Column ################################
+        containerWindowType = {
+            @bc_cheatinterface_leader_column_width = 225
+            @bc_cheatinterface_leader_column_height = 275
+            @bc_cheatinterface_leader_column_title_width = 165
+            @bc_cheatinterface_leader_column_title_height = 55
+            @bc_cheatinterface_leader_column_main_width = 780
 
+            #@bc_cheatinterface_width  = 800
+            #@bc_cheatinterface_height = 615
+            #@bc_cheatinterface_main_width = 780
+            #@bc_cheatinterface_main_height =
+
+            name = "bccheatinterface_leader_column"
+            size = { width = @bc_cheatinterface_leader_column_width height = @bc_cheatinterface_leader_column_height }
+            background = {
+                name = "bc_cheatinterface_leader_column_title_background"
+                quadTextureSprite = "GFX_bg_area_light"
+            }
+            #movable = yes
+            position = { x = 660 y = 335 }
+
+            # Ship Column Title
+            containerWindowType = {
+                #orientation = centerup
+                # origo = centerup
+                size = { width = @bc_cheatinterface_leader_column_width height = @bc_cheatinterface_leader_column_title_height }
+                alwaysTransparent = yes
+                name = "bccheatinterface_2_leader_title_container"
+                background = {
+                    name = "bc_cheatinterface_leader_column_title_background"
+                    quadTextureSprite = "GFX_bg_area_light"
+                }
+                # Ship Column Title Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_leader_column_title"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    #position = { x = 0 y = 0 }
+                    effect = "bc_cheatinterface_button_effect"
+                    buttonFont = "malgun_goth_24"
+                    buttonText = "bccheatinterface_2_leader"
+                    alwaysTransparent = yes
+                }
+            }
+
+            # Ship Column Buttons
+            containerWindowType = {
+                name = "ship_buttons"
+                size = { width = 100% height = 496 }
+                #dynamic_extra_y = 0.5
+                position = { x = 0 y = 58 }
+                background = {
+                    name = "bccheatinterface_leader_background"
+                    quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+                }
+                verticalScrollbar = "right_vertical_slider"
+                extendedScrollbarType = {
+                    name = "bccheatinterface_leader_column_scrollbar"
+                    startValue = 0
+                }
+                # Ship Base Speed Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_ship_base_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 0 }
+                    effect = "bc_cheatinterface_button_ship_base_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_ship_base_speed_title"
+                }
+                # Ship FTL Speed Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_ship_ftl_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 40 }
+                    effect = "bc_cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_ship_ftl_speed_title"
+                }
+
+                # Ship Armor Regeneration Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_ship_armor_regeneration"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 80 }
+                    effect = "bc_cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_ship_armor_regeneration_title"
+                }
+
+                # Ship Hull Regeneration Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_ship_hull_regeneration"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 120 }
+                    effect = "bc_cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_ship_hull_regeneration_title"
+                }
+
+                # Ship Shield Regeneration Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_leader_shield_regen"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 160 }
+                    effect = "bc_cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_building_shield_regen"
+                }
+
+                # # Influence Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_influence"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 200 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_influence"
+                # }
+                #
+                # # Unity Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_unity"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 240 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_unity"
+                # }
+                #
+                # # Volatile Motes Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_volatile_motes"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 280 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_volatile_motes"
+                # }
+                #
+                # # Exotic Gases Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_exotic_gases"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 320 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_exotic_gases"
+                # }
+                #
+                # # Rare Crystals Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_rare_crystals"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 360 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_rare_crystals"
+                # }
+                #
+                # # Living Metal Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_living_metal"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 400 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_living_metal"
+                # }
+                #
+                # # Zro Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_zro"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 440 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_zro"
+                # }
+                #
+                # # Dark Matter Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_dark_matter"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 480 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_dark_matter"
+                # }
+                #
+                # # Nanites Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_nanites"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 520 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_nanites"
+                # }
+            }
+        }
         #############################################################################
-        ################################ Research Column ################################
+        ################################ Population Column ################################
+        containerWindowType = {
+            @bc_cheatinterface_population_column_width = 225
+            @bc_cheatinterface_population_column_height = 275
+            @bc_cheatinterface_population_column_title_width = 165
+            @bc_cheatinterface_population_column_title_height = 55
+            @bc_cheatinterface_population_column_main_width = 780
+
+            #@bc_cheatinterface_width  = 800
+            #@bc_cheatinterface_height = 615
+            #@bc_cheatinterface_main_width = 780
+            #@bc_cheatinterface_main_height =
+
+            name = "bccheatinterface_population_column"
+            size = { width = @bc_cheatinterface_population_column_width height = @bc_cheatinterface_population_column_height }
+            background = {
+                name = "bc_cheatinterface_population_column_title_background"
+                quadTextureSprite = "GFX_bg_area_light"
+            }
+            #movable = yes
+            position = { x = 660 y = 50 }
+
+            # Ship Column Title
+            containerWindowType = {
+                #orientation = centerup
+                # origo = centerup
+                size = { width = @bc_cheatinterface_population_column_width height = @bc_cheatinterface_population_column_title_height }
+                alwaysTransparent = yes
+                name = "bccheatinterface_2_population_title_container"
+                background = {
+                    name = "bc_cheatinterface_population_column_title_background"
+                    quadTextureSprite = "GFX_bg_area_light"
+                }
+                # Ship Column Title Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_population_column_title"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    #position = { x = 0 y = 0 }
+                    effect = "bc_cheatinterface_button_effect"
+                    buttonFont = "malgun_goth_24"
+                    buttonText = "bccheatinterface_2_population"
+                    alwaysTransparent = yes
+                }
+            }
+
+            # Ship Column Buttons
+            containerWindowType = {
+                name = "ship_buttons"
+                size = { width = 100% height = 496 }
+                #dynamic_extra_y = 0.5
+                position = { x = 0 y = 58 }
+                background = {
+                    name = "bccheatinterface_population_background"
+                    quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+                }
+                verticalScrollbar = "right_vertical_slider"
+                extendedScrollbarType = {
+                    name = "bccheatinterface_population_column_scrollbar"
+                    startValue = 0
+                }
+                # Ship Base Speed Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_ship_base_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 0 }
+                    effect = "bc_cheatinterface_button_ship_base_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_ship_base_speed_title"
+                }
+                # Ship FTL Speed Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_ship_ftl_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 40 }
+                    effect = "bc_cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_ship_ftl_speed_title"
+                }
+
+                # Ship Armor Regeneration Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_ship_armor_regeneration"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 80 }
+                    effect = "bc_cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_ship_armor_regeneration_title"
+                }
+
+                # Ship Hull Regeneration Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_ship_hull_regeneration"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 120 }
+                    effect = "bc_cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_ship_hull_regeneration_title"
+                }
+
+                # Ship Shield Regeneration Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_population_shield_regen"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 160 }
+                    effect = "bc_cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_building_shield_regen"
+                }
+
+                # # Influence Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_influence"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 200 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_influence"
+                # }
+                #
+                # # Unity Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_unity"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 240 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_unity"
+                # }
+                #
+                # # Volatile Motes Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_volatile_motes"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 280 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_volatile_motes"
+                # }
+                #
+                # # Exotic Gases Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_exotic_gases"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 320 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_exotic_gases"
+                # }
+                #
+                # # Rare Crystals Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_rare_crystals"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 360 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_rare_crystals"
+                # }
+                #
+                # # Living Metal Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_living_metal"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 400 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_living_metal"
+                # }
+                #
+                # # Zro Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_zro"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 440 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_zro"
+                # }
+                #
+                # # Dark Matter Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_dark_matter"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 480 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_dark_matter"
+                # }
+                #
+                # # Nanites Button
+                # effectButtonType = {
+                #     name = "bccheatinterface_2_nanites"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 520 }
+                #     effect = "bc_cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "bccheatinterface_2_nanites"
+                # }
+            }
+        }
 
         #############################################################################
         ################################ Population Column ################################

@@ -534,7 +534,6 @@ country_event = {
 #                               Empire Events                                        #
 ######################################################################################
 
-#TODO
 ### Better Cheats Diplomatic Weight Screen ###
 country_event = {
     id = bccheatinterface.2001
@@ -564,7 +563,6 @@ country_event = {
 }
 #########################################
 
-#TODO
 ### Better Cheats Monthly Loyalty Screen ###
 country_event = {
     id = bccheatinterface.2002
@@ -594,7 +592,6 @@ country_event = {
 }
 #########################################
 
-#TODO
 ### Better Cheats Planetary Decision Screen ###
 country_event = {
     id = bccheatinterface.2003
@@ -624,7 +621,6 @@ country_event = {
 }
 #########################################
 
-#TODO
 ### Better Cheats Research Screen ###
 country_event = {
     id = bccheatinterface.2004
@@ -654,7 +650,6 @@ country_event = {
 }
 #########################################
 
-#TODO
 ### Better Cheats Colony Development Screen ###
 country_event = {
     id = bccheatinterface.2005
@@ -670,6 +665,35 @@ country_event = {
     immediate = {
         hidden_effect = {
             set_country_flag = bc_is_in_colony_development_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_colony_development_interface
+        }
+    }
+}
+#########################################
+
+### Better Cheats Colony Development Screen ###
+country_event = {
+    id = bccheatinterface.2006
+    title = "bccheatinterface_2_terraforming_speed"
+    desc = "bccheatinterface_2_terraforming_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_terraforming_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_empire_terraforming_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_terraforming_speed_interface
         }
     }
 
