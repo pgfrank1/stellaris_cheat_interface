@@ -679,7 +679,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Colony Development Screen ###
+### Better Cheats Terraforming Speed Screen ###
 country_event = {
     id = bccheatinterface.2006
     title = "bccheatinterface_2_terraforming_speed"
@@ -702,7 +702,36 @@ country_event = {
         name = "bccheatmenu_close"
         default_hide_option = yes
         hidden_effect = {
-            remove_country_flag = bc_is_in_colony_development_interface
+            remove_country_flag = bc_is_in_terraforming_speed_interface
+        }
+    }
+}
+#########################################
+
+### Better Cheats Terraforming Cost Screen ###
+country_event = {
+    id = bccheatinterface.2007
+    title = "bccheatinterface_2_terraforming_cost"
+    desc = "bccheatinterface_2_terraforming_cost"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_terraforming_cost_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_empire_terraforming_cost"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_terraforming_cost_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_terraforming_cost_interface
         }
     }
 }

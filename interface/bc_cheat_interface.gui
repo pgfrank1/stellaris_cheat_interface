@@ -370,6 +370,8 @@ guiTypes = {
             @bc_cheatinterface_resource_column_title_width = 165
             @bc_cheatinterface_resource_column_title_height = 55
             @bc_cheatinterface_resource_column_main_width = 780
+            @bc_cheatinterface_resource_column_position_x = 10
+            @bc_cheatinterface_resource_column_position_y = 50
 
             #@bc_cheatinterface_width  = 800
             #@bc_cheatinterface_height = 615
@@ -383,7 +385,7 @@ guiTypes = {
                 quadTextureSprite = "GFX_bg_area_light"
             }
             #movable = yes
-            position = { x = 10 y = 50 }
+            position = { x = @bc_cheatinterface_resource_column_position_x y = @bc_cheatinterface_resource_column_position_y }
 
             containerWindowType = {
                 #orientation = centerup
@@ -570,6 +572,12 @@ guiTypes = {
             @bc_cheatinterface_empire_column_title_width = 165
             @bc_cheatinterface_empire_column_title_height = 55
             @bc_cheatinterface_empire_column_main_width = 780
+            @bc_cheatinterface_empire_column_position_x = 190
+            @bc_cheatinterface_empire_column_position_y = 50
+            @bc_cheatinterface_empire_column_button_size_width = 100%
+            @bc_cheatinterface_empire_column_button_size_height = 80%
+            @bc_cheatinterface_empire_column_button_position_x = 0
+            @bc_cheatinterface_empire_column_button_position_y = 58
 
             #@bc_cheatinterface_width  = 800
             #@bc_cheatinterface_height = 615
@@ -583,7 +591,7 @@ guiTypes = {
                 quadTextureSprite = "GFX_bg_area_light"
             }
             #movable = yes
-            position = { x = 190 y = 50 }
+            position = { x = @bc_cheatinterface_empire_column_position_x y = @bc_cheatinterface_empire_column_position_y }
 
             containerWindowType = {
                 #orientation = centerup
@@ -595,7 +603,7 @@ guiTypes = {
                     name = "bc_cheatinterface_empire_column_title_background"
                     quadTextureSprite = "GFX_bg_area_light"
                 }
-                # Minerals Button
+                # Empire Title
                 effectButtonType = {
                     name = "bccheatinterface_2_empire_column_title"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
@@ -608,9 +616,9 @@ guiTypes = {
             }
             containerWindowType = {
                 name = "empire_buttons"
-                size = { width = 100% height = 80% }
+                size = { width = @bc_cheatinterface_empire_column_button_size_width height = @bc_cheatinterface_empire_column_button_size_height }
                 #dynamic_extra_y = 0.5
-                position = { x = 0 y = 58 }
+                position = { x = @bc_cheatinterface_empire_column_button_position_x y = @bc_cheatinterface_empire_column_button_position_y }
                 background = {
                     name = "bccheatinterface_empire_background"
                     quadTextureSprite = "GFX_tiles_dark_area_cut_8"
@@ -680,95 +688,55 @@ guiTypes = {
                     buttonText = "bccheatinterface_2_terraforming_speed_title"
                 }
 
-                # # Influence Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_influence"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 200 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_influence"
-                # }
-                #
-                # # Unity Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_unity"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 240 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_unity"
-                # }
-                #
-                # # Volatile Motes Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_volatile_motes"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 280 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_volatile_motes"
-                # }
-                #
-                # # Exotic Gases Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_exotic_gases"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 320 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_exotic_gases"
-                # }
-                #
-                # # Rare Crystals Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_rare_crystals"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 360 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_rare_crystals"
-                # }
-                #
-                # # Living Metal Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_living_metal"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 400 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_living_metal"
-                # }
-                #
-                # # Zro Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_zro"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 440 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_zro"
-                # }
-                #
-                # # Dark Matter Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_dark_matter"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 480 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_dark_matter"
-                # }
-                #
-                # # Nanites Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_nanites"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 520 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_nanites"
-                # }
+                # Terraforming Cost Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_terraforming_cost"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 240 }
+                    effect = "bc_cheatinterface_button_empire_terraforming_cost"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_terraforming_cost_title"
+                }
+
+                # Ethics Shift Speed Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_ethics_shift_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 240 }
+                    effect = "bc_cheatinterface_button_empire_ethics_shift_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_ethics_shift_speed_title"
+                }
+
+                # Terraforming Cost Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_terraforming_cost"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 240 }
+                    effect = "bc_cheatinterface_button_empire_terraforming_cost"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_terraforming_cost_title"
+                }
+
+                # Terraforming Cost Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_terraforming_cost"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 240 }
+                    effect = "bc_cheatinterface_button_empire_terraforming_cost"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_terraforming_cost_title"
+                }
+
+                # Terraforming Cost Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_terraforming_cost"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 240 }
+                    effect = "bc_cheatinterface_button_empire_terraforming_cost"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_terraforming_cost_title"
+                }
             }
         }
         #############################################################################
