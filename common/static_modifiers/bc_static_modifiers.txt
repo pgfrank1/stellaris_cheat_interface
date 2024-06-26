@@ -1985,6 +1985,39 @@ bc_empire_research_engineering_t10 = {
 }
 ###############################
 
+#### Colony Development TIER SELECTOR ####
+bc_empire_colony_development_t1 = {
+	planet_colony_development_speed_mult = 0.15
+}
+bc_empire_colony_development_t2 = {
+	planet_colony_development_speed_mult = 0.50
+}
+bc_empire_colony_development_t3 = {
+	planet_colony_development_speed_mult = 1.00
+}
+bc_empire_colony_development_t4 = {
+	planet_colony_development_speed_mult = 2.50
+}
+bc_empire_colony_development_t5 = {
+	planet_colony_development_speed_mult = 5.00
+}
+bc_empire_colony_development_t6 = {
+	planet_colony_development_speed_mult = 10.00
+}
+bc_empire_colony_development_t7 = {
+	planet_colony_development_speed_mult = 50.00
+}
+bc_empire_colony_development_t8 = {
+	planet_colony_development_speed_mult = 100.00
+}
+bc_empire_colony_development_t9 = {
+	planet_colony_development_speed_mult = 250.00
+}
+bc_empire_colony_development_t10 = {
+	planet_colony_development_speed_mult = 500.00
+}
+###############################
+
 #### ship_base_speed TIER SELECTOR ####
 bc_ship_base_speed_t1 = {
 	ship_base_speed_mult = 0.15

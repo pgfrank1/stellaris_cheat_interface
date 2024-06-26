@@ -666,7 +666,7 @@ country_event = {
         not = { has_country_flag = bc_is_in_colony_development_interface}
     }
     diplomatic = yes
-    custom_gui = "bc_cheat_interface_colony_development"
+    custom_gui = "bc_cheat_interface_empire_colony_development"
     immediate = {
         hidden_effect = {
             set_country_flag = bc_is_in_colony_development_interface

@@ -660,14 +660,14 @@ guiTypes = {
                     buttonText = "bccheatinterface_2_research_title"
                 }
 
-                # Alloy Button
+                # Colony Development Button
                 effectButtonType = {
                     name = "bccheatinterface_2_colony_development"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 160 }
-                    effect = "bc_cheatinterface_button_effect"
+                    effect = "bc_cheatinterface_button_empire_colony_development"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_colony_development"
+                    buttonText = "bccheatinterface_2_colony_development_title"
                 }
 
                 # # Influence Button
