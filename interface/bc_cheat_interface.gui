@@ -718,7 +718,7 @@ guiTypes = {
                     buttonText = "bccheatinterface_2_trust_title"
                 }
 
-                # Terraforming Cost Button
+                # Envoys Button
                 effectButtonType = {
                     name = "bccheatinterface_2_envoys"
                     quadTextureSprite = "GFX_standard_button_200_34_button"

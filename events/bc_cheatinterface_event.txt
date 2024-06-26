@@ -766,7 +766,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Ethics Shift Speed Screen ###
+### Better Cheats Trust Screen ###
 country_event = {
     id = bccheatinterface.2009
     title = "bccheatinterface_2_trust"
@@ -790,6 +790,35 @@ country_event = {
         default_hide_option = yes
         hidden_effect = {
             remove_country_flag = bc_is_in_trust_interface
+        }
+    }
+}
+#########################################
+
+### Better Cheats Envoys Screen ###
+country_event = {
+    id = bccheatinterface.2010
+    title = "bccheatinterface_2_envoys"
+    desc = "bccheatinterface_2_envoys"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_envoys_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_empire_envoys"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_envoys_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_envoys_interface
         }
     }
 }

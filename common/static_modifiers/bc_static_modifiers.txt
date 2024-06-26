@@ -2149,6 +2149,39 @@ bc_empire_trust_t10 = {
 }
 ###############################
 
+#### Envoys TIER SELECTOR ####
+bc_empire_envoys_t1 = {
+	envoys_add = 1
+}
+bc_empire_envoys_t2 = {
+	envoys_add = 2
+}
+bc_empire_envoys_t3 = {
+	envoys_add = 3
+}
+bc_empire_envoys_t4 = {
+	envoys_add = 4
+}
+bc_empire_envoys_t5 = {
+	envoys_add = 5
+}
+bc_empire_envoys_t6 = {
+	envoys_add = 10
+}
+bc_empire_envoys_t7 = {
+	envoys_add = 15
+}
+bc_empire_envoys_t8 = {
+	envoys_add = 20
+}
+bc_empire_envoys_t9 = {
+	envoys_add = 25
+}
+bc_empire_envoys_t10 = {
+	envoys_add = 30
+}
+###############################
+
 #### ship_base_speed TIER SELECTOR ####
 bc_ship_base_speed_t1 = {
 	ship_base_speed_mult = 0.15
