@@ -737,7 +737,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Terraforming Cost Screen ###
+### Better Cheats Ethics Shift Speed Screen ###
 country_event = {
     id = bccheatinterface.2008
     title = "bccheatinterface_2_ethics_shift_speed"
@@ -761,6 +761,35 @@ country_event = {
         default_hide_option = yes
         hidden_effect = {
             remove_country_flag = bc_is_in_ethics_shift_speed_interface
+        }
+    }
+}
+#########################################
+
+### Better Cheats Ethics Shift Speed Screen ###
+country_event = {
+    id = bccheatinterface.2009
+    title = "bccheatinterface_2_trust"
+    desc = "bccheatinterface_2_trust"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_trust_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_empire_trust"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_trust_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_trust_interface
         }
     }
 }

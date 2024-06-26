@@ -2115,6 +2115,38 @@ bc_empire_ethics_shift_speed_t9 = {
 bc_empire_ethics_shift_speed_t10 = {
 	pop_ethics_shift_speed_mult = 500.00
 }
+
+#### Trust TIER SELECTOR ####
+bc_empire_trust_t1 = {
+	country_trust_growth = 0.15
+}
+bc_empire_trust_t2 = {
+	country_trust_growth = 0.50
+}
+bc_empire_trust_t3 = {
+	country_trust_growth = 1.00
+}
+bc_empire_trust_t4 = {
+	country_trust_growth = 2.50
+}
+bc_empire_trust_t5 = {
+	country_trust_growth = 5.00
+}
+bc_empire_trust_t6 = {
+	country_trust_growth = 10.00
+}
+bc_empire_trust_t7 = {
+	country_trust_growth = 50.00
+}
+bc_empire_trust_t8 = {
+	country_trust_growth = 100.00
+}
+bc_empire_trust_t9 = {
+	country_trust_growth = 250.00
+}
+bc_empire_trust_t10 = {
+	country_trust_growth = 500.00
+}
 ###############################
 
 #### ship_base_speed TIER SELECTOR ####

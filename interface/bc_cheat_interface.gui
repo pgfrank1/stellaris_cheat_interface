@@ -708,34 +708,34 @@ guiTypes = {
                     buttonText = "bccheatinterface_2_ethics_shift_speed_title"
                 }
 
-                # Terraforming Cost Button
+                # Trust Button
                 effectButtonType = {
-                    name = "bccheatinterface_2_terraforming_cost"
+                    name = "bccheatinterface_2_trust"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
-                    position = { x = 0 y = 240 }
-                    effect = "bc_cheatinterface_button_empire_terraforming_cost"
+                    position = { x = 0 y = 320 }
+                    effect = "bc_cheatinterface_button_empire_trust"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_terraforming_cost_title"
+                    buttonText = "bccheatinterface_2_trust_title"
                 }
 
                 # Terraforming Cost Button
                 effectButtonType = {
-                    name = "bccheatinterface_2_terraforming_cost"
+                    name = "bccheatinterface_2_envoys"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
-                    position = { x = 0 y = 240 }
-                    effect = "bc_cheatinterface_button_empire_terraforming_cost"
+                    position = { x = 0 y = 360 }
+                    effect = "bc_cheatinterface_button_empire_envoys"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_terraforming_cost_title"
+                    buttonText = "bccheatinterface_2_envoys_title"
                 }
 
                 # Terraforming Cost Button
                 effectButtonType = {
-                    name = "bccheatinterface_2_terraforming_cost"
+                    name = "bccheatinterface_2_admin_cap"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
-                    position = { x = 0 y = 240 }
-                    effect = "bc_cheatinterface_button_empire_terraforming_cost"
+                    position = { x = 0 y = 400 }
+                    effect = "bc_cheatinterface_button_empire_admin_cap"
                     buttonFont = "cg_16b"
-                    buttonText = "bccheatinterface_2_terraforming_cost_title"
+                    buttonText = "bccheatinterface_2_admin_cap_title"
                 }
             }
         }
