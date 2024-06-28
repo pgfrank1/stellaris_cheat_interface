@@ -737,6 +737,16 @@ guiTypes = {
                     buttonFont = "cg_16b"
                     buttonText = "bccheatinterface_2_admin_cap_title"
                 }
+
+                # Storage Cap Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_storage_cap"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 440 }
+                    effect = "bc_cheatinterface_button_resource_storage_cap"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_storage_cap_title"
+                }
             }
         }
         #############################################################################
@@ -906,7 +916,8 @@ guiTypes = {
                     name = "bccheatinterface_army_column_scrollbar"
                     startValue = 0
                 }
-                # Minerals Button
+
+                # Diplomatic Weight Button
                 effectButtonType = {
                     name = "bccheatinterface_2_diplomatic_weight"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
@@ -915,7 +926,8 @@ guiTypes = {
                     buttonFont = "cg_16b"
                     buttonText = "bccheatinterface_2_diplomatic_weight"
                 }
-                # Energy Button
+
+                # Monthly Loyalty Button
                 effectButtonType = {
                     name = "bccheatinterface_2_monthly_loyalty"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
@@ -925,7 +937,7 @@ guiTypes = {
                     buttonText = "bccheatinterface_2_monthly_loyalty"
                 }
 
-                # Food Button
+                # Planetary Decision Button
                 effectButtonType = {
                     name = "bccheatinterface_2_planetary_decision"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
@@ -935,7 +947,7 @@ guiTypes = {
                     buttonText = "bccheatinterface_2_planetary_decision"
                 }
 
-                # Consumer Goods Button
+                # Research Button
                 effectButtonType = {
                     name = "bccheatinterface_2_research"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
@@ -945,7 +957,7 @@ guiTypes = {
                     buttonText = "bccheatinterface_2_research"
                 }
 
-                # Alloy Button
+                # Colony Development Button
                 effectButtonType = {
                     name = "bccheatinterface_2_colony_development"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
@@ -954,96 +966,6 @@ guiTypes = {
                     buttonFont = "cg_16b"
                     buttonText = "bccheatinterface_2_colony_development"
                 }
-
-                # # Influence Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_influence"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 200 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_influence"
-                # }
-                #
-                # # Unity Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_unity"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 240 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_unity"
-                # }
-                #
-                # # Volatile Motes Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_volatile_motes"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 280 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_volatile_motes"
-                # }
-                #
-                # # Exotic Gases Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_exotic_gases"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 320 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_exotic_gases"
-                # }
-                #
-                # # Rare Crystals Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_rare_crystals"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 360 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_rare_crystals"
-                # }
-                #
-                # # Living Metal Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_living_metal"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 400 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_living_metal"
-                # }
-                #
-                # # Zro Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_zro"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 440 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_zro"
-                # }
-                #
-                # # Dark Matter Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_dark_matter"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 480 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_dark_matter"
-                # }
-                #
-                # # Nanites Button
-                # effectButtonType = {
-                #     name = "bccheatinterface_2_nanites"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 520 }
-                #     effect = "bc_cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "bccheatinterface_2_nanites"
-                # }
             }
         }
         #############################################################################

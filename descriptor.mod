@@ -5,5 +5,5 @@ tags={
 	"Fixes"
 }
 name="BetterCheats Patch"
-supported_version="3.12.5"
+supported_version="3.12.4"
 remote_file_id="3251732956"

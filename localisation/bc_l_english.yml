@@ -1496,6 +1496,7 @@
  bccheatinterface_2_zro_title:0              "[owner.bccheatinterface_2_zro_title]"
  bccheatinterface_2_dark_matter_title:0      "[owner.bccheatinterface_2_dark_matter_title]"
  bccheatinterface_2_nanites_title:0          "[owner.bccheatinterface_2_nanites_title]"
+ bccheatinterface_2_storage_cap_title:0          "[owner.bccheatinterface_2_storage_cap_title]"
 
  bccheatinterface_2_minerals:0            "Minerals £mod_minerals_produces_mult£"
  bccheatinterface_2_minerals_b:0          "§GMinerals §W£mod_minerals_produces_mult£"
@@ -1525,6 +1526,8 @@
  bccheatinterface_2_dark_matter_b:0       "§GDark Matter §W£mod_sr_dark_matter_produces_mult£"
  bccheatinterface_2_nanites:0             "Nanites £mod_nanites_produces_mult£"
  bccheatinterface_2_nanites_b:0           "§GNanites §W£mod_nanites_produces_mult£"
+ bccheatinterface_2_storage_cap:0             "Storage Cap £mod_country_resource_max_add£"
+ bccheatinterface_2_storage_cap_b:0           "§GStorage Cap §W£mod_country_resource_max_add£"
 
 
   # Minerals
@@ -1979,6 +1982,38 @@
  bc_resource_nanites_t10:0                       "Nanites Tier X"
  bc_resource_nanites_t10_b:0                      "§GNanites Tier X§W"
 
+   # Resource Storage Capacity
+ bc_resource_storage_cap_t1_title:0                  "[owner.bc_resource_storage_cap_t1_title]"
+ bc_resource_storage_cap_t2_title:0                  "[owner.bc_resource_storage_cap_t2_title]"
+ bc_resource_storage_cap_t3_title:0                  "[owner.bc_resource_storage_cap_t3_title]"
+ bc_resource_storage_cap_t4_title:0                  "[owner.bc_resource_storage_cap_t4_title]"
+ bc_resource_storage_cap_t5_title:0                  "[owner.bc_resource_storage_cap_t5_title]"
+ bc_resource_storage_cap_t6_title:0                  "[owner.bc_resource_storage_cap_t6_title]"
+ bc_resource_storage_cap_t7_title:0                  "[owner.bc_resource_storage_cap_t7_title]"
+ bc_resource_storage_cap_t8_title:0                  "[owner.bc_resource_storage_cap_t8_title]"
+ bc_resource_storage_cap_t9_title:0                  "[owner.bc_resource_storage_cap_t9_title]"
+ bc_resource_storage_cap_t10_title:0                 "[owner.bc_resource_storage_cap_t10_title]"
+ bc_resource_storage_cap_t1:0                        "Storage Cap Tier I"
+ bc_resource_storage_cap_t1_b:0                      "§GStorage Cap Tier I§W"
+ bc_resource_storage_cap_t2:0                        "Storage Cap Tier II"
+ bc_resource_storage_cap_t2_b:0                      "§GStorage Cap Tier II§W"
+ bc_resource_storage_cap_t3:0                        "Storage Cap Tier III"
+ bc_resource_storage_cap_t3_b:0                      "§GStorage Cap Tier III§W"
+ bc_resource_storage_cap_t4:0                        "Storage Cap Tier IV"
+ bc_resource_storage_cap_t4_b:0                      "§GStorage Cap Tier IV§W"
+ bc_resource_storage_cap_t5:0                        "Storage Cap Tier V"
+ bc_resource_storage_cap_t5_b:0                      "§GStorage Cap Tier V§W"
+ bc_resource_storage_cap_t6:0                        "Storage Cap Tier VI"
+ bc_resource_storage_cap_t6_b:0                      "§GStorage Cap Tier VI§W"
+ bc_resource_storage_cap_t7:0                        "Storage Cap Tier VII"
+ bc_resource_storage_cap_t7_b:0                      "§GStorage Cap Tier VII§W"
+ bc_resource_storage_cap_t8:0                        "Storage Cap Tier VIII"
+ bc_resource_storage_cap_t8_b:0                      "§GStorage Cap Tier VIII§W"
+ bc_resource_storage_cap_t9:0                        "Storage Cap Tier IX"
+ bc_resource_storage_cap_t9_b:0                      "§GStorage Cap Tier IX§W"
+ bc_resource_storage_cap_t10:0                       "Storage Cap Tier X"
+ bc_resource_storage_cap_t10_b:0                      "§GStorage Cap Tier X§W"
+
  ######################################################################################################################
                                             ####### Empire Column #######
  ######################################################################################################################
@@ -2025,12 +2060,12 @@
  bccheatinterface_2_envoys_b:0                    "§GEnvoys §W£mod_country_envoys_add£"
  bccheatinterface_2_admin_cap:0                      "Admin Cap £mod_country_admin_cap_add£"
  bccheatinterface_2_admin_cap_b:0                    "§GAdmin Cap §W£mod_country_admin_cap_add£"
- bccheatinterface_2_admin_cap_officials:0                      "Officials £mod_country_officials_add£"
- bccheatinterface_2_admin_cap_officials_b:0                    "§GOfficials §W£mod_country_officials_add£"
- bccheatinterface_2_admin_cap_commanders:0                      "Commanders £mod_country_commanders_add£"
- bccheatinterface_2_admin_cap_commanders_b:0                    "§GCommanders §W£mod_country_commanders_add£"
- bccheatinterface_2_admin_cap_scientists:0                      "Scientists £mod_country_scientists_add£"
- bccheatinterface_2_admin_cap_scientists_b:0                    "§GScientists §W£mod_country_scientists_add£"
+ bccheatinterface_2_admin_cap_officials:0                      "Officials £mod_country_official_cap_add£"
+ bccheatinterface_2_admin_cap_officials_b:0                    "§GOfficials §W£mod_country_official_cap_add£"
+ bccheatinterface_2_admin_cap_commanders:0                      "Commanders £mod_country_commander_cap_add£"
+ bccheatinterface_2_admin_cap_commanders_b:0                    "§GCommanders §W£mod_country_commander_cap_add£"
+ bccheatinterface_2_admin_cap_scientists:0                      "Scientists £mod_country_scientist_cap_add£"
+ bccheatinterface_2_admin_cap_scientists_b:0                    "§GScientists §W£mod_country_scientist_cap_add£"
 
 
  # Diplomatic Weight Positive
@@ -2751,7 +2786,6 @@
  # bccheatinterface_2_living_metal:0               "Living Metal £sr_living_metal£"
  # bccheatinterface_2_zro:0                        "Zro £zro£"
  # bccheatinterface_2_dark_matter:0                "Dark Matter £sr_dark_matter£"
- # bccheatinterface_2_nanites:0                    "Nanites £nanites£"
 
  ##############################
 
@@ -2774,7 +2808,6 @@
  # bccheatinterface_2_living_metal:0               "Living Metal £sr_living_metal£"
  # bccheatinterface_2_zro:0                        "Zro £zro£"
  # bccheatinterface_2_dark_matter:0                "Dark Matter £sr_dark_matter£"
- # bccheatinterface_2_nanites:0                    "Nanites £nanites£"
 
  ##############################
  ####### SYSTEM MENU #######

@@ -529,6 +529,37 @@ country_event = {
 }
 #########################################
 
+### Better Cheats Resource Storage Cap Screen ###
+country_event = {
+    id = bccheatinterface.1015
+    title = "bccheatinterface_2_storage_cap"
+    desc = "bccheatinterface_2_storage_cap"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = bc_is_in_resource_storage_cap_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_resource_storage_cap"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_resource_storage_cap_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_resource_storage_cap_interface
+        }
+    }
+}
+#########################################
+
 
 ######################################################################################
 #                               Empire Events                                        #
