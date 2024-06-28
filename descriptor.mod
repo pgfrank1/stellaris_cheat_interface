@@ -1,9 +1,8 @@
-version="1.1.2"
+version="1.0.0"
 tags={
 	"Utilities"
 	"Gameplay"
 	"Fixes"
 }
-name="BetterCheats Patch"
+name="Cheat Interface"
 supported_version="3.12.4"
-remote_file_id="3251732956"

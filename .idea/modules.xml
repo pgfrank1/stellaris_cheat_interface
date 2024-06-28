@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/better_cheats_patch_stellaris.iml" filepath="$PROJECT_DIR$/.idea/better_cheats_patch_stellaris.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cheatinterface.iml" filepath="$PROJECT_DIR$/.idea/cheatinterface.iml" />
     </modules>
   </component>
 </project>
