@@ -2,13 +2,13 @@ defined_text = {
 	name = GetHasCheatSelfFlag
 	text = {
 		trigger = {
-			has_country_flag = bc_allow_cheating_self
+			has_country_flag = cheatinterface_allow_cheating_self
 		}
 		localization_key = bccheatmenu_allowed
 	}
 	text = {
 		trigger = {
-			not = { has_country_flag = bc_allow_cheating_self }
+			not = { has_country_flag = cheatinterface_allow_cheating_self }
 		}
 		localization_key = bccheatmenu_not_allowed
 	}
@@ -18,13 +18,13 @@ defined_text = {
 	name = GetHasCheatOtherFlag
 	text = {
 		trigger = {
-			has_country_flag = bc_allow_cheating_other
+			has_country_flag = cheatinterface_allow_cheating_other
 		}
 		localization_key = bccheatmenu_allowed
 	}
 	text = {
 		trigger = {
-			not = { has_country_flag = bc_allow_cheating_other }
+			not = { has_country_flag = cheatinterface_allow_cheating_other }
 		}
 		localization_key = bccheatmenu_not_allowed
 	}
@@ -34,13 +34,13 @@ defined_text = {
 	name = GetHasCheatPlanetColonizedFlag
 	text = {
 		trigger = {
-			has_country_flag = bc_allow_planet_colonized
+			has_country_flag = cheatinterface_allow_planet_colonized
 		}
 		localization_key = bccheatmenu_allowed
 	}
 	text = {
 		trigger = {
-			not = { has_country_flag = bc_allow_planet_colonized }
+			not = { has_country_flag = cheatinterface_allow_planet_colonized }
 		}
 		localization_key = bccheatmenu_not_allowed
 	}
@@ -50,13 +50,13 @@ defined_text = {
 	name = GetHasCheatPlanetNonColonizedFlag
 	text = {
 		trigger = {
-			has_country_flag = bc_allow_planet_non_colonized
+			has_country_flag = cheatinterface_allow_planet_non_colonized
 		}
 		localization_key = bccheatmenu_allowed
 	}
 	text = {
 		trigger = {
-			not = { has_country_flag = bc_allow_planet_non_colonized }
+			not = { has_country_flag = cheatinterface_allow_planet_non_colonized }
 		}
 		localization_key = bccheatmenu_not_allowed
 	}

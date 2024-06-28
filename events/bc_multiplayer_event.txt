@@ -7,12 +7,12 @@ event = {
 	is_triggered_only = yes
 	trigger = {
 		or = {
-			not = { exists = event_target:bc_global_hosting_empire }
-			event_target:bc_global_hosting_empire = {
+			not = { exists = event_target:cheatinterface_global_hosting_empire }
+			event_target:cheatinterface_global_hosting_empire = {
 				is_ai = yes
 			}
 			#Unnecessary, look below for more information
-			#event_target:bc_global_hosting_empire = {
+			#event_target:cheatinterface_global_hosting_empire = {
 			#	num_pops < 2	
 			#}
 		}
@@ -20,9 +20,9 @@ event = {
 	immediate = {
 		log = "BetterCheats: bcmultiplayer.1 event called"
 		every_country = {
-			remove_country_flag = bc_hosting
+			remove_country_flag = cheatinterface_hosting
 		}
-		log = "BetterCheats: removed bc_hosting flag from every country"
+		log = "BetterCheats: removed cheatinterface_hosting flag from every country"
 		every_playable_country = {
 			limit = {
 				is_ai = no
@@ -46,13 +46,13 @@ country_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		not = { has_global_flag = bc_hosting_event_fired }
+		not = { has_global_flag = cheatinterface_hosting_event_fired }
 	}
 	immediate = {
-		log = "BetterCheats: Assinged bc_hosting flag to '[This.GetName]'"
-		set_country_flag = bc_hosting
-		set_timed_global_flag = { flag = "bc_hosting_event_fired" days = 10 }
-		save_global_event_target_as = bc_global_hosting_empire
+		log = "BetterCheats: Assinged cheatinterface_hosting flag to '[This.GetName]'"
+		set_country_flag = cheatinterface_hosting
+		set_timed_global_flag = { flag = "cheatinterface_hosting_event_fired" days = 10 }
+		save_global_event_target_as = cheatinterface_global_hosting_empire
 	}
 	after = {
 		country_event = {
@@ -71,12 +71,12 @@ country_event = {
 	picture = GFX_evt_busy_spaceport
 	trigger = {
 		is_multiplayer = yes
-		not = { has_country_flag = bc_hosting }
-		has_country_flag = bc_inform_permission_updated
+		not = { has_country_flag = cheatinterface_hosting }
+		has_country_flag = cheatinterface_inform_permission_updated
 	}
 	immediate = {
 		log = "BetterCheats: Showing updated permission to '[This.GetName]'"
-		remove_country_flag = bc_inform_permission_updated
+		remove_country_flag = cheatinterface_inform_permission_updated
 	}
 
 	# Close # 
@@ -95,11 +95,11 @@ country_event = {
 	picture = GFX_evt_busy_spaceport
 	trigger = {
 		is_multiplayer = yes
-		has_country_flag = bc_hosting
+		has_country_flag = cheatinterface_hosting
 	}
 	immediate = {
 		log = "BetterCheats: Showing updated host permission to '[This.GetName]'"
-		remove_country_flag = bc_inform_permission_updated
+		remove_country_flag = cheatinterface_inform_permission_updated
 	}
 
 	# Close # 

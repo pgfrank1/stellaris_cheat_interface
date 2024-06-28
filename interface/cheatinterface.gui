@@ -1,0 +1,1591 @@
+guiTypes = {
+    @hidden_ui_items = -10000
+    ### ENCLAVE CARAVANEER EVENT OPTION ###
+
+    # containerWindowType = {
+    #     name = "enclave_caravaneer_option"
+    #     position = { x=0 y=0 }
+    #     size = { width = 388 height = 30 }
+    #     moveable = no
+    #
+    #     buttonType = {
+    #         name = "option_button"
+    #         quadTextureSprite = "GFX_event_button_452_caravaneer"
+    #         position = { x=0 y=8 }
+    #         font = "cg_16b"
+    #         text = "OPTION_TEXT"
+    #     }
+    #
+    #     OverlappingElementsBoxType = {
+    #         name = "trigger_icons"
+    #         position = { x = 0  y = 10 }
+    #         size = { x=65 y= 28 }
+    #     }
+    # }
+
+    ### ENCLAVE CARAVANEER EVENT WINDOW ###
+
+    containerWindowType = {
+        name = "cheatinterface"
+        orientation = center
+        origo = center
+        moveable = yes
+        size = { width = 974 height = 620 }
+
+        background = {
+            name = "background"
+            quadTextureSprite ="GFX_tile_large_bg_caravaneer"
+        }
+
+        iconType = {
+            name = "hex_bg"
+            spriteType = "GFX_hex_bg_caravaneer"
+            position = { x = -10 y = -14 }
+            alwaysTransparent = yes
+        }
+
+        iconType = {
+            name = "empire_header_line"
+            quadTextureSprite = "GFX_line_long_caravaneer"
+            position = { x = 6 y = 22 }
+            alwaysTransparent = yes
+        }
+        # Custom header
+        instantTextBoxType = {
+            name = "irm_some_header"
+            font = "malgun_goth_24"
+            text = "cheatinterface_2_title"    # header text
+            position = { x = 20 y = 5 }
+            maxWidth = 543
+            maxHeight = 22
+            fixedSize = yes
+            alwaysTransparent = yes
+        }
+        ######## HIDDEN ########
+        buttonType = {
+            name = "focus_button"
+            position = { x = @hidden_ui_items y = @hidden_ui_items }
+            orientation = "UPPER_RIGHT"
+            spriteType = "GFX_fleetview_focus_caravaneer"
+            buttonFont = "cg_16b"
+            shortcut = "q"
+        }
+        ######## HIDDEN ########
+        buttonType = {
+            name = "tts_button"
+            position = { x = @hidden_ui_items y = @hidden_ui_items }
+            spriteType = "GFX_button_tts_start"
+            buttonFont = "cg_16b"
+            shortCut = "t"
+        }
+        ######## HIDDEN ########
+        buttonType = {
+            name = "close"
+            quadTextureSprite = "GFX_main_close_button_caravaneer"
+            position = { x= -45 y = 16 }
+            Orientation = "UPPER_RIGHT"
+            clicksound = "back_click"
+        }
+        ######## HIDDEN ########
+        instantTextBoxType = {
+            name = "heading"
+            font = "malgun_goth_24"
+            text = "DIPLOMACY"
+            position = { x = @hidden_ui_items y = @hidden_ui_items }
+            maxWidth = 543
+            maxHeight = 22
+            fixedSize = yes
+            alwaysTransparent = yes
+        }
+        ######## HIDDEN ########
+        buttonType = {
+            name = "alien_message_background"
+            size = { x = 485 y = 240 }
+            position = { x = @hidden_ui_items y = @hidden_ui_items }
+            spriteType = "GFX_tiles_dark_area_cut_8"
+            alwaysTransparent = yes
+        }
+        ######## HIDDEN ########
+        instantTextBoxType = {
+            name = "alien_message"
+            font = "cg_16b"
+            position = { x = @hidden_ui_items y = @hidden_ui_items }
+            maxWidth = 465
+            maxHeight = 220
+            format = left
+            scrollbartype = "standardtext_slider"
+        }
+        ######## HIDDEN ########
+        buttonType = {
+            name = "confirm_button"
+            quadTextureSprite = "GFX_standard_button_142_34_button"
+            position = { x= @hidden_ui_items y = @hidden_ui_items  }
+            Orientation = "UPPER_RIGHT"
+            font = "cg_16b"
+            text = "MESSAGE_OK"
+            clicksound = "confirmation"
+        }
+        ######## HIDDEN ########
+        containerWindowType = {
+            name = "portrait_background"
+            position = { x = @hidden_ui_items y = @hidden_ui_items }
+            size = { width = 964 height = 350 }
+            clipping = yes
+
+            iconType = {
+                name = "event_picture"
+                spriteType = "GFX_diplomacy_portrait_frame"
+                position = { x = @hidden_ui_items y = @hidden_ui_items }
+            }
+
+            iconType = {
+                name = "portrait"
+                position = { x = @hidden_ui_items y = @hidden_ui_items }
+                spriteType = "GFX_portrait_character"
+            }
+        }
+        ######## HIDDEN ########
+        containerWindowType = {
+            name = "portrait"
+            position = { x = @hidden_ui_items y = @hidden_ui_items }
+            size = { width = 964 height = 350 }
+            clipping = yes
+
+            iconType = {
+                name = "portrait"
+                spriteType = "GFX_portrait_gamesetup_mask"
+                alwaysTransparent = yes
+            }
+
+            iconType = {
+                name = "black_frame"
+                spriteType = "GFX_diplomacy_portrait_shadow_frame"
+                position = { x = -4 y = -5}
+                alwaysTransparent = yes
+            }
+
+            iconType = {
+                name = "stripes_1"
+                spriteType = "GFX_diplomacy_stripes_2"
+                alwaysTransparent = yes
+            }
+
+            iconType = {
+                name = "city_frame"
+                spriteType = "GFX_diplomacy_portrait_frame_caravaneer"
+                position = { x = -6 y = -5 }
+                alwaysTransparent = yes
+            }
+        }
+        ### EMPIRE INFO ###
+        ######## HIDDEN ########
+        iconType = {
+            name = "empire_info_bg"
+            spriteType = "GFX_diplomacy_dark_fade_bg"
+            position = { x = @hidden_ui_items y = @hidden_ui_items }
+            alwaysTransparent = yes
+        }
+        ######## HIDDEN ########
+        instantTextBoxType={
+            name = "empire_name"
+            font = "malgun_goth_24"
+            text = "Kammarian Galactic Concordat"
+            position = { x = @hidden_ui_items y = @hidden_ui_items }
+            maxWidth = 450
+            maxHeight = 16
+            format = LEFT
+            text_color_code = "E"
+            fixedsize = yes
+        }
+        ######## HIDDEN ########
+        instantTextBoxType={
+            name = "empire_government_type"
+            font = "cg_16b"
+            text = "Autocracy"
+            position = { x = @hidden_ui_items y = @hidden_ui_items	}
+            maxWidth = 250
+            maxHeight = 16
+            format = LEFT
+            fixedsize = yes
+            text_color_code = "Y"
+        }
+        ######## HIDDEN ########
+        instantTextBoxType={
+            name = "empire_personality_type"
+            font = "cg_16b"
+            text = "Despicable Neutrals"
+            position = { x = @hidden_ui_items y = @hidden_ui_items	}
+            maxWidth = 250
+            maxHeight = 16
+            format = LEFT
+            fixedsize = yes
+        }
+        ######## HIDDEN ########
+        OverlappingElementsBoxType = {
+            name = "empire_ethics_icons"
+            position = { x = @hidden_ui_items y = @hidden_ui_items }
+            size = { x = 240 y = 30 }
+            spacing = 2.0
+            format = left
+        }
+        ######## HIDDEN ########
+        buttonType = {
+            name = "empire_flag"
+            quadTextureSprite = "GFX_empire_flag_128_trader"
+            position = { x = @hidden_ui_items y = @hidden_ui_items }
+            orientation = UPPER_LEFT
+        }
+        ######## HIDDEN ########
+        containerWindowType = {
+            name = "leader_details"
+            position = { x = @hidden_ui_items y = @hidden_ui_items }
+
+            containerWindowType = {
+                name = "empire_traits_box"
+                position = { x = 0 y = -5 }
+                size = { width = 210 height = 75 }
+
+                background = {
+                    name = "ethics_bg"
+                    spriteType = "GFX_tiles_dark_area_cut_8"
+                }
+            }
+
+            instantTextBoxType = {
+                name = "empire_traits_label"
+                position = { x = 214 y = 37 }
+                font = "cg_16b"
+                maxWidth = 230
+                maxHeight = 20
+                fixedSize = yes
+                format = left
+                #text_color_code = "E"
+                text = "RULER_TRAITS"
+                alwaysTransparent = yes
+            }
+
+            overlappingElementsBoxType = {
+                name = "leader_traits"
+                position = { x = 215 y = 55 }
+                size = { x = 125 y = 330 }
+            }
+
+            instantTextBoxType = {
+                name = "leader_name"
+                position = { x = 10 y = 0 }
+                font = "cg_16b"
+                maxWidth = 330
+                maxHeight = 20
+                fixedSize = yes
+                format = left
+                text = "Leader Name"
+                text_color_code = "E"
+            }
+
+            instantTextBoxType = {
+                name = "leader_species"
+                position = { x = 10 y = 18 }
+                font = "cg_16b"
+                maxWidth = 330
+                maxHeight = 20
+                fixedSize = yes
+                text = "Leader Species"
+                format = left
+            }
+        }
+        ### OPINION
+        ######## HIDDEN ########
+        containerWindowType = {
+            name = "opinion_window"
+            position = { x = @hidden_ui_items y = @hidden_ui_items }
+            size = { width = 94 height = 30 }
+
+            # Use this for tooltip area, picture comes from somewhere else
+            background = {
+                name = "opinion_bg"
+                spriteType = "GFX_tiled_window_transparent"
+            }
+
+            iconType = {
+                name = "their_opinion_icon"
+                spriteType = "GFX_diplomacy_opinion"
+                position = { x = 7 y = 4 }
+                alwaysTransparent = yes
+            }
+
+            instantTextBoxType = {
+                name = "their_opinion"
+                font = "cg_16b"
+                maxWidth = 40
+                position = { x = 40 y = 7 }
+                format = left
+                text = "100"
+                alwaysTransparent = yes
+            }
+        }
+        ### EVENT DIPLO ###
+        ######## HIDDEN ########
+        containerWindowType = {
+            name = "EVENT_DIPLO"
+            position = { x = @hidden_ui_items y = @hidden_ui_items }
+            size = { width=563 height=280 }
+            moveable = no
+
+            instantTextBoxType = {
+                name = "action_title"
+                font = "malgun_goth_24"
+                position = { x = 20 y = 0 }
+                maxWidth = 450
+                alwaysTransparent = yes
+            }
+
+            instantTextBoxType = {
+                name = "action_desc"
+                font = "malgun_goth_24"
+                position = { x = 490 y = 0 }
+                maxWidth = 500
+                maxHeight = 180
+                Orientation = "UPPER_LEFT"
+                format = center
+                alwaysTransparent = yes
+                text_color_code = "H"
+            }
+
+            listboxType = {
+                name = "option_list"
+                position = { x = 500 y = 20 }
+                backGround=""
+                size = { x = 460 y = 240 }
+                spacing = 1
+                scrollbartype = "standardlistbox_slider"
+                borderSize = { x = 0 y = 0 }
+                Orientation = "UPPER_LEFT"
+            }
+        }
+
+        ############################## Resource Column ##############################
+        containerWindowType = {
+            @cheatinterface_resource_column_width = 170
+            @cheatinterface_resource_column_height = 560
+            @cheatinterface_resource_column_title_width = 165
+            @cheatinterface_resource_column_title_height = 55
+            @cheatinterface_resource_column_main_width = 780
+            @cheatinterface_resource_column_position_x = 10
+            @cheatinterface_resource_column_position_y = 50
+
+            #@cheatinterface_width  = 800
+            #@cheatinterface_height = 615
+            #@cheatinterface_main_width = 780
+            #@cheatinterface_main_height =
+
+            name = "cheatinterface_resource_column"
+            size = { width = @cheatinterface_resource_column_width height = @cheatinterface_resource_column_height }
+            background = {
+                name = "cheatinterface_resource_column_title_background"
+                quadTextureSprite = "GFX_bg_area_light"
+            }
+            #movable = yes
+            position = { x = @cheatinterface_resource_column_position_x y = @cheatinterface_resource_column_position_y }
+
+            containerWindowType = {
+                #orientation = centerup
+                # origo = centerup
+                size = { width = @cheatinterface_resource_column_width height = @cheatinterface_resource_column_title_height }
+                alwaysTransparent = yes
+                name = "cheatinterface_2_resource_title_container"
+                background = {
+                    name = "cheatinterface_resource_column_title_background"
+                    quadTextureSprite = "GFX_bg_area_light"
+                }
+                # Minerals Button
+                effectButtonType = {
+                    name = "cheatinterface_2_minerals"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    #position = { x = 0 y = 0 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "malgun_goth_24"
+                    buttonText = "cheatinterface_2_resources"
+                    alwaysTransparent = yes
+                }
+            }
+            containerWindowType = {
+                name = "resource_buttons"
+                size = { width = 100% height = 496 }
+                #dynamic_extra_y = 0.5
+                position = { x = 0 y = 58 }
+                background = {
+                    name = "cheatinterface_resource_background"
+                    quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+                }
+                verticalScrollbar = "right_vertical_slider"
+                extendedScrollbarType = {
+                    name = "cheatinterface_resource_column_scrollbar"
+                    startValue = 0
+                }
+
+                # Minerals Button
+                effectButtonType = {
+                    name = "cheatinterface_2_minerals"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 0 }
+                    effect = "cheatinterface_button_resource_minerals"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_minerals_title"
+                }
+
+                # Energy Button
+                effectButtonType = {
+                    name = "cheatinterface_2_energy"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 40 }
+                    effect = "cheatinterface_button_resource_energy"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_energy_title"
+                }
+
+                # Food Button
+                effectButtonType = {
+                    name = "cheatinterface_2_food"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 80 }
+                    effect = "cheatinterface_button_resource_food"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_food_title"
+                }
+
+                # Consumer Goods Button
+                effectButtonType = {
+                    name = "cheatinterface_2_consumer_goods"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 120 }
+                    effect = "cheatinterface_button_resource_consumer_goods"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_consumer_goods_title"
+                }
+
+                # Alloy Button
+                effectButtonType = {
+                    name = "cheatinterface_2_alloys"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 160 }
+                    effect = "cheatinterface_button_resource_alloys"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_alloys_title"
+                }
+
+                # Influence Button
+                effectButtonType = {
+                    name = "cheatinterface_2_influence"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 200 }
+                    effect = "cheatinterface_button_resource_influence"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_influence_title"
+                }
+
+                # Unity Button
+                effectButtonType = {
+                    name = "cheatinterface_2_unity"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 240 }
+                    effect = "cheatinterface_button_resource_unity"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_unity_title"
+                }
+
+                # Volatile Motes Button
+                effectButtonType = {
+                    name = "cheatinterface_2_volatile_motes"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 280 }
+                    effect = "cheatinterface_button_resource_volatile_motes"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_volatile_motes_title"
+                }
+
+                # Exotic Gases Button
+                effectButtonType = {
+                    name = "cheatinterface_2_exotic_gases"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 320 }
+                    effect = "cheatinterface_button_resource_exotic_gases"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_exotic_gases_title"
+                }
+
+                # Rare Crystals Button
+                effectButtonType = {
+                    name = "cheatinterface_2_rare_crystals"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 360 }
+                    effect = "cheatinterface_button_resource_rare_crystals"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_rare_crystals_title"
+                }
+
+                # Living Metal Button
+                effectButtonType = {
+                    name = "cheatinterface_2_living_metal"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 400 }
+                    effect = "cheatinterface_button_resource_living_metal"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_living_metal_title"
+                }
+
+                # Zro Button
+                effectButtonType = {
+                    name = "cheatinterface_2_zro"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 440 }
+                    effect = "cheatinterface_button_resource_zro"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_zro_title"
+                }
+
+                # Dark Matter Button
+                effectButtonType = {
+                    name = "cheatinterface_2_dark_matter"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 480 }
+                    effect = "cheatinterface_button_resource_dark_matter"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_dark_matter_title"
+                }
+
+                # Nanites Button
+                effectButtonType = {
+                    name = "cheatinterface_2_nanites"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 520 }
+                    effect = "cheatinterface_button_resource_nanites"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_nanites_title"
+                }
+            }
+        }
+        #############################################################################
+        ############################### Empire Column ###############################
+        containerWindowType = {
+            @cheatinterface_empire_column_width = 225
+            @cheatinterface_empire_column_height = 275
+            @cheatinterface_empire_column_title_width = 165
+            @cheatinterface_empire_column_title_height = 55
+            @cheatinterface_empire_column_main_width = 780
+            @cheatinterface_empire_column_position_x = 190
+            @cheatinterface_empire_column_position_y = 50
+            @cheatinterface_empire_column_button_size_width = 100%
+            @cheatinterface_empire_column_button_size_height = 80%
+            @cheatinterface_empire_column_button_position_x = 0
+            @cheatinterface_empire_column_button_position_y = 58
+
+            #@cheatinterface_width  = 800
+            #@cheatinterface_height = 615
+            #@cheatinterface_main_width = 780
+            #@cheatinterface_main_height =
+
+            name = "cheatinterface_empire_column"
+            size = { width = @cheatinterface_empire_column_width height = @cheatinterface_empire_column_height }
+            background = {
+                name = "cheatinterface_empire_column_title_background"
+                quadTextureSprite = "GFX_bg_area_light"
+            }
+            #movable = yes
+            position = { x = @cheatinterface_empire_column_position_x y = @cheatinterface_empire_column_position_y }
+
+            containerWindowType = {
+                #orientation = centerup
+                # origo = centerup
+                size = { width = @cheatinterface_empire_column_width height = @cheatinterface_empire_column_title_height }
+                alwaysTransparent = yes
+                name = "cheatinterface_2_empire_title_container"
+                background = {
+                    name = "cheatinterface_empire_column_title_background"
+                    quadTextureSprite = "GFX_bg_area_light"
+                }
+                # Empire Title
+                effectButtonType = {
+                    name = "cheatinterface_2_empire_column_title"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    #position = { x = 0 y = 0 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "malgun_goth_24"
+                    buttonText = "cheatinterface_2_empire"
+                    alwaysTransparent = yes
+                }
+            }
+            containerWindowType = {
+                name = "empire_buttons"
+                size = { width = @cheatinterface_empire_column_button_size_width height = @cheatinterface_empire_column_button_size_height }
+                #dynamic_extra_y = 0.5
+                position = { x = @cheatinterface_empire_column_button_position_x y = @cheatinterface_empire_column_button_position_y }
+                background = {
+                    name = "cheatinterface_empire_background"
+                    quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+                }
+                verticalScrollbar = "right_vertical_slider"
+                extendedScrollbarType = {
+                    name = "cheatinterface_empire_column_scrollbar"
+                    startValue = 0
+                }
+
+                # Diplomatic Weight Button
+                effectButtonType = {
+                    name = "cheatinterface_2_diplomatic_weight"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 0 }
+                    effect = "cheatinterface_button_empire_diplomatic_weight_positive"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_diplomatic_weight_title"
+                }
+                # Monthly Loyalty Button
+                effectButtonType = {
+                    name = "cheatinterface_2_monthly_loyalty"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 40 }
+                    effect = "cheatinterface_button_empire_monthly_loyalty"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_monthly_loyalty_title"
+                }
+
+                # Planetary Decision Button
+                effectButtonType = {
+                    name = "cheatinterface_2_planetary_decision"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 80 }
+                    effect = "cheatinterface_button_empire_planetary_decision"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_planetary_decision_title"
+                }
+
+                # Research Button
+                effectButtonType = {
+                    name = "cheatinterface_2_research"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 120 }
+                    effect = "cheatinterface_button_empire_research"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_research_title"
+                }
+
+                # Colony Development Button
+                effectButtonType = {
+                    name = "cheatinterface_2_colony_development"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 160 }
+                    effect = "cheatinterface_button_empire_colony_development"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_colony_development_title"
+                }
+
+                # Terraforming Speed Button
+                effectButtonType = {
+                    name = "cheatinterface_2_terraforming_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 200 }
+                    effect = "cheatinterface_button_empire_terraforming_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_terraforming_speed_title"
+                }
+
+                # Terraforming Cost Button
+                effectButtonType = {
+                    name = "cheatinterface_2_terraforming_cost"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 240 }
+                    effect = "cheatinterface_button_empire_terraforming_cost"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_terraforming_cost_title"
+                }
+
+                # Ethics Shift Speed Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ethics_shift_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 280 }
+                    effect = "cheatinterface_button_empire_ethics_shift_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ethics_shift_speed_title"
+                }
+
+                # Trust Button
+                effectButtonType = {
+                    name = "cheatinterface_2_trust"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 320 }
+                    effect = "cheatinterface_button_empire_trust"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_trust_title"
+                }
+
+                # Envoys Button
+                effectButtonType = {
+                    name = "cheatinterface_2_envoys"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 360 }
+                    effect = "cheatinterface_button_empire_envoys"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_envoys_title"
+                }
+
+                # Admin Cap Button
+                effectButtonType = {
+                    name = "cheatinterface_2_admin_cap"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 400 }
+                    effect = "cheatinterface_button_empire_admin_cap"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_admin_cap_title"
+                }
+
+                # Storage Cap Button
+                effectButtonType = {
+                    name = "cheatinterface_2_storage_cap"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 440 }
+                    effect = "cheatinterface_button_resource_storage_cap"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_storage_cap_title"
+                }
+
+                # Trade Value Button
+                effectButtonType = {
+                    name = "cheatinterface_2_trade_value"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 480 }
+                    effect = "cheatinterface_button_empire_trade_value"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_trade_value_title"
+                }
+            }
+        }
+        #############################################################################
+        ################################ Ship Column ################################
+        containerWindowType = {
+            @cheatinterface_ship_column_width = 225
+            @cheatinterface_ship_column_height = 275
+            @cheatinterface_ship_column_title_width = 165
+            @cheatinterface_ship_column_title_height = 55
+            @cheatinterface_ship_column_main_width = 780
+
+            #@cheatinterface_width  = 800
+            #@cheatinterface_height = 615
+            #@cheatinterface_main_width = 780
+            #@cheatinterface_main_height =
+
+            name = "cheatinterface_ship_column"
+            size = { width = @cheatinterface_ship_column_width height = @cheatinterface_ship_column_height }
+            background = {
+                name = "cheatinterface_ship_column_title_background"
+                quadTextureSprite = "GFX_bg_area_light"
+            }
+            #movable = yes
+            position = { x = 190 y = 335 }
+
+            # Ship Column Title
+            containerWindowType = {
+                #orientation = centerup
+                # origo = centerup
+                size = { width = @cheatinterface_ship_column_width height = @cheatinterface_ship_column_title_height }
+                alwaysTransparent = yes
+                name = "cheatinterface_2_ship_title_container"
+                background = {
+                    name = "cheatinterface_ship_column_title_background"
+                    quadTextureSprite = "GFX_bg_area_light"
+                }
+                # Ship Column Title Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_column_title"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    #position = { x = 0 y = 0 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "malgun_goth_24"
+                    buttonText = "cheatinterface_2_ship"
+                    alwaysTransparent = yes
+                }
+            }
+
+            # Ship Column Buttons
+            containerWindowType = {
+                name = "ship_buttons"
+                size = { width = 100% height = 80% }
+                #dynamic_extra_y = 0.5
+                position = { x = 0 y = 58 }
+                background = {
+                    name = "cheatinterface_ship_background"
+                    quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+                }
+                verticalScrollbar = "right_vertical_slider"
+                extendedScrollbarType = {
+                    name = "cheatinterface_ship_column_scrollbar"
+                    startValue = 0
+                }
+
+                # Ship Base Speed Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_base_speed_title"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 0 }
+                    effect = "cheatinterface_button_ship_base_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_base_speed_title"
+                }
+                # Ship FTL Speed Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_ftl_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 40 }
+                    effect = "cheatinterface_button_ship_ftl_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_ftl_speed_title"
+                }
+                # Ship Armor Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_armor_regeneration"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 80 }
+                    effect = "cheatinterface_button_ship_armor_regeneration"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_armor_regeneration_title"
+                }
+                # Ship Hull Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_hull_regeneration"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 120 }
+                    effect = "cheatinterface_button_ship_hull_regeneration"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_hull_regeneration_title"
+                }
+                # Ship Shield Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_shield_regeneration"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 160 }
+                    effect = "cheatinterface_button_ship_shield_regeneration"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_shield_regeneration_title"
+                }
+            }
+        }
+        #############################################################################
+        ################################ Army Column ################################
+        containerWindowType = {
+            @cheatinterface_army_column_width = 225
+            @cheatinterface_army_column_height = 275
+            @cheatinterface_army_column_title_width = 165
+            @cheatinterface_army_column_title_height = 55
+            @cheatinterface_army_column_main_width = 780
+
+            #@cheatinterface_width  = 800
+            #@cheatinterface_height = 615
+            #@cheatinterface_main_width = 780
+            #@cheatinterface_main_height =
+
+            name = "cheatinterface_army_column"
+            size = { width = @cheatinterface_army_column_width height = @cheatinterface_army_column_height }
+            background = {
+                name = "cheatinterface_army_column_title_background"
+                quadTextureSprite = "GFX_bg_area_light"
+            }
+            #movable = yes
+            position = { x = 425 y = 50 }
+
+            containerWindowType = {
+                #orientation = centerup
+                # origo = centerup
+                size = { width = @cheatinterface_army_column_width height = @cheatinterface_army_column_title_height }
+                alwaysTransparent = yes
+                name = "cheatinterface_2_army_title_container"
+                background = {
+                    name = "cheatinterface_army_column_title_background"
+                    quadTextureSprite = "GFX_bg_area_light"
+                }
+                # Minerals Button
+                effectButtonType = {
+                    name = "cheatinterface_2_army_column_title"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    #position = { x = 0 y = 0 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "malgun_goth_24"
+                    buttonText = "cheatinterface_2_army"
+                    alwaysTransparent = yes
+                }
+            }
+            containerWindowType = {
+                name = "empire_buttons"
+                size = { width = 100% height = 496 }
+                #dynamic_extra_y = 0.5
+                position = { x = 0 y = 58 }
+                background = {
+                    name = "cheatinterface_army_background"
+                    quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+                }
+                verticalScrollbar = "right_vertical_slider"
+                extendedScrollbarType = {
+                    name = "cheatinterface_army_column_scrollbar"
+                    startValue = 0
+                }
+
+                # Diplomatic Weight Button
+                effectButtonType = {
+                    name = "cheatinterface_2_diplomatic_weight"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 0 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_diplomatic_weight"
+                }
+
+                # Monthly Loyalty Button
+                effectButtonType = {
+                    name = "cheatinterface_2_monthly_loyalty"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 40 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_monthly_loyalty"
+                }
+
+                # Planetary Decision Button
+                effectButtonType = {
+                    name = "cheatinterface_2_planetary_decision"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 80 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_planetary_decision"
+                }
+
+                # Research Button
+                effectButtonType = {
+                    name = "cheatinterface_2_research"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 120 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_research"
+                }
+
+                # Colony Development Button
+                effectButtonType = {
+                    name = "cheatinterface_2_colony_development"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 160 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_colony_development"
+                }
+            }
+        }
+        #############################################################################
+        ################################ Building Column ################################
+        containerWindowType = {
+            @cheatinterface_building_column_width = 225
+            @cheatinterface_building_column_height = 275
+            @cheatinterface_building_column_title_width = 165
+            @cheatinterface_building_column_title_height = 55
+            @cheatinterface_building_column_main_width = 780
+
+            #@cheatinterface_width  = 800
+            #@cheatinterface_height = 615
+            #@cheatinterface_main_width = 780
+            #@cheatinterface_main_height =
+
+            name = "cheatinterface_building_column"
+            size = { width = @cheatinterface_building_column_width height = @cheatinterface_building_column_height }
+            background = {
+                name = "cheatinterface_building_column_title_background"
+                quadTextureSprite = "GFX_bg_area_light"
+            }
+            #movable = yes
+            position = { x = 425 y = 335 }
+
+            # Ship Column Title
+            containerWindowType = {
+                #orientation = centerup
+                # origo = centerup
+                size = { width = @cheatinterface_building_column_width height = @cheatinterface_building_column_title_height }
+                alwaysTransparent = yes
+                name = "cheatinterface_2_building_title_container"
+                background = {
+                    name = "cheatinterface_building_column_title_background"
+                    quadTextureSprite = "GFX_bg_area_light"
+                }
+                # Ship Column Title Button
+                effectButtonType = {
+                    name = "cheatinterface_2_building_column_title"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    #position = { x = 0 y = 0 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "malgun_goth_24"
+                    buttonText = "cheatinterface_2_building"
+                    alwaysTransparent = yes
+                }
+            }
+
+            # Ship Column Buttons
+            containerWindowType = {
+                name = "ship_buttons"
+                size = { width = 100% height = 496 }
+                #dynamic_extra_y = 0.5
+                position = { x = 0 y = 58 }
+                background = {
+                    name = "cheatinterface_building_background"
+                    quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+                }
+                verticalScrollbar = "right_vertical_slider"
+                extendedScrollbarType = {
+                    name = "cheatinterface_building_column_scrollbar"
+                    startValue = 0
+                }
+                # Ship Base Speed Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_base_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 0 }
+                    effect = "cheatinterface_button_ship_base_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_base_speed_title"
+                }
+                # Ship FTL Speed Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_ftl_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 40 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_ftl_speed_title"
+                }
+
+                # Ship Armor Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_armor_regeneration"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 80 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_armor_regeneration_title"
+                }
+
+                # Ship Hull Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_hull_regeneration"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 120 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_hull_regeneration_title"
+                }
+
+                # Ship Shield Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_building_shield_regen"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 160 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_building_shield_regen"
+                }
+
+                # # Influence Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_influence"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 200 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_influence"
+                # }
+                #
+                # # Unity Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_unity"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 240 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_unity"
+                # }
+                #
+                # # Volatile Motes Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_volatile_motes"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 280 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_volatile_motes"
+                # }
+                #
+                # # Exotic Gases Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_exotic_gases"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 320 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_exotic_gases"
+                # }
+                #
+                # # Rare Crystals Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_rare_crystals"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 360 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_rare_crystals"
+                # }
+                #
+                # # Living Metal Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_living_metal"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 400 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_living_metal"
+                # }
+                #
+                # # Zro Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_zro"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 440 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_zro"
+                # }
+                #
+                # # Dark Matter Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_dark_matter"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 480 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_dark_matter"
+                # }
+                #
+                # # Nanites Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_nanites"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 520 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_nanites"
+                # }
+            }
+        }
+        #############################################################################
+        ################################ Leader Column ################################
+        containerWindowType = {
+            @cheatinterface_leader_column_width = 225
+            @cheatinterface_leader_column_height = 275
+            @cheatinterface_leader_column_title_width = 165
+            @cheatinterface_leader_column_title_height = 55
+            @cheatinterface_leader_column_main_width = 780
+
+            #@cheatinterface_width  = 800
+            #@cheatinterface_height = 615
+            #@cheatinterface_main_width = 780
+            #@cheatinterface_main_height =
+
+            name = "cheatinterface_leader_column"
+            size = { width = @cheatinterface_leader_column_width height = @cheatinterface_leader_column_height }
+            background = {
+                name = "cheatinterface_leader_column_title_background"
+                quadTextureSprite = "GFX_bg_area_light"
+            }
+            #movable = yes
+            position = { x = 660 y = 335 }
+
+            # Ship Column Title
+            containerWindowType = {
+                #orientation = centerup
+                # origo = centerup
+                size = { width = @cheatinterface_leader_column_width height = @cheatinterface_leader_column_title_height }
+                alwaysTransparent = yes
+                name = "cheatinterface_2_leader_title_container"
+                background = {
+                    name = "cheatinterface_leader_column_title_background"
+                    quadTextureSprite = "GFX_bg_area_light"
+                }
+                # Ship Column Title Button
+                effectButtonType = {
+                    name = "cheatinterface_2_leader_column_title"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    #position = { x = 0 y = 0 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "malgun_goth_24"
+                    buttonText = "cheatinterface_2_leader"
+                    alwaysTransparent = yes
+                }
+            }
+
+            # Ship Column Buttons
+            containerWindowType = {
+                name = "ship_buttons"
+                size = { width = 100% height = 496 }
+                #dynamic_extra_y = 0.5
+                position = { x = 0 y = 58 }
+                background = {
+                    name = "cheatinterface_leader_background"
+                    quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+                }
+                verticalScrollbar = "right_vertical_slider"
+                extendedScrollbarType = {
+                    name = "cheatinterface_leader_column_scrollbar"
+                    startValue = 0
+                }
+                # Ship Base Speed Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_base_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 0 }
+                    effect = "cheatinterface_button_ship_base_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_base_speed_title"
+                }
+                # Ship FTL Speed Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_ftl_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 40 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_ftl_speed_title"
+                }
+
+                # Ship Armor Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_armor_regeneration"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 80 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_armor_regeneration_title"
+                }
+
+                # Ship Hull Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_hull_regeneration"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 120 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_hull_regeneration_title"
+                }
+
+                # Ship Shield Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_leader_shield_regen"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 160 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_building_shield_regen"
+                }
+
+                # # Influence Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_influence"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 200 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_influence"
+                # }
+                #
+                # # Unity Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_unity"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 240 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_unity"
+                # }
+                #
+                # # Volatile Motes Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_volatile_motes"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 280 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_volatile_motes"
+                # }
+                #
+                # # Exotic Gases Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_exotic_gases"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 320 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_exotic_gases"
+                # }
+                #
+                # # Rare Crystals Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_rare_crystals"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 360 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_rare_crystals"
+                # }
+                #
+                # # Living Metal Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_living_metal"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 400 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_living_metal"
+                # }
+                #
+                # # Zro Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_zro"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 440 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_zro"
+                # }
+                #
+                # # Dark Matter Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_dark_matter"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 480 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_dark_matter"
+                # }
+                #
+                # # Nanites Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_nanites"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 520 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_nanites"
+                # }
+            }
+        }
+        #############################################################################
+        ################################ Population Column ################################
+        containerWindowType = {
+            @cheatinterface_population_column_width = 225
+            @cheatinterface_population_column_height = 275
+            @cheatinterface_population_column_title_width = 165
+            @cheatinterface_population_column_title_height = 55
+            @cheatinterface_population_column_main_width = 780
+
+            #@cheatinterface_width  = 800
+            #@cheatinterface_height = 615
+            #@cheatinterface_main_width = 780
+            #@cheatinterface_main_height =
+
+            name = "cheatinterface_population_column"
+            size = { width = @cheatinterface_population_column_width height = @cheatinterface_population_column_height }
+            background = {
+                name = "cheatinterface_population_column_title_background"
+                quadTextureSprite = "GFX_bg_area_light"
+            }
+            #movable = yes
+            position = { x = 660 y = 50 }
+
+            # Ship Column Title
+            containerWindowType = {
+                #orientation = centerup
+                # origo = centerup
+                size = { width = @cheatinterface_population_column_width height = @cheatinterface_population_column_title_height }
+                alwaysTransparent = yes
+                name = "cheatinterface_2_population_title_container"
+                background = {
+                    name = "cheatinterface_population_column_title_background"
+                    quadTextureSprite = "GFX_bg_area_light"
+                }
+                # Ship Column Title Button
+                effectButtonType = {
+                    name = "cheatinterface_2_population_column_title"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    #position = { x = 0 y = 0 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "malgun_goth_24"
+                    buttonText = "cheatinterface_2_population"
+                    alwaysTransparent = yes
+                }
+            }
+
+            # Ship Column Buttons
+            containerWindowType = {
+                name = "ship_buttons"
+                size = { width = 100% height = 496 }
+                #dynamic_extra_y = 0.5
+                position = { x = 0 y = 58 }
+                background = {
+                    name = "cheatinterface_population_background"
+                    quadTextureSprite = "GFX_tiles_dark_area_cut_8"
+                }
+                verticalScrollbar = "right_vertical_slider"
+                extendedScrollbarType = {
+                    name = "cheatinterface_population_column_scrollbar"
+                    startValue = 0
+                }
+                # Ship Base Speed Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_base_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 0 }
+                    effect = "cheatinterface_button_ship_base_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_base_speed_title"
+                }
+                # Ship FTL Speed Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_ftl_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 40 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_ftl_speed_title"
+                }
+
+                # Ship Armor Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_armor_regeneration"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 80 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_armor_regeneration_title"
+                }
+
+                # Ship Hull Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_hull_regeneration"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 120 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_hull_regeneration_title"
+                }
+
+                # Ship Shield Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_population_shield_regen"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 160 }
+                    effect = "cheatinterface_button_effect"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_building_shield_regen"
+                }
+
+                # # Influence Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_influence"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 200 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_influence"
+                # }
+                #
+                # # Unity Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_unity"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 240 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_unity"
+                # }
+                #
+                # # Volatile Motes Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_volatile_motes"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 280 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_volatile_motes"
+                # }
+                #
+                # # Exotic Gases Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_exotic_gases"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 320 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_exotic_gases"
+                # }
+                #
+                # # Rare Crystals Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_rare_crystals"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 360 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_rare_crystals"
+                # }
+                #
+                # # Living Metal Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_living_metal"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 400 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_living_metal"
+                # }
+                #
+                # # Zro Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_zro"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 440 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_zro"
+                # }
+                #
+                # # Dark Matter Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_dark_matter"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 480 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_dark_matter"
+                # }
+                #
+                # # Nanites Button
+                # effectButtonType = {
+                #     name = "cheatinterface_2_nanites"
+                #     quadTextureSprite = "GFX_standard_button_200_34_button"
+                #     position = { x = 0 y = 520 }
+                #     effect = "cheatinterface_button_effect"
+                #     buttonFont = "cg_16b"
+                #     buttonText = "cheatinterface_2_nanites"
+                # }
+            }
+        }
+
+        #############################################################################
+        ################################ Population Column ################################
+
+        #############################################################################
+        ################################ Special Column ################################
+    }
+}

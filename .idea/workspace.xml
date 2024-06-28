@@ -1,4 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Cheat Interface Init">
+      <change afterPath="$PROJECT_DIR$/common/static_modifiers/cheatinterface_static_modifiers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/localisation/cheatinterface_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/button_effects/bc_cheatinterface_button_effects.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/decisions/bc_planet_decisions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/decisions/bc_planet_decisions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/edicts/bc_base_edict.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/edicts/base_edict.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/planet_classes/bc_planet_classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/planet_classes/bc_planet_classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/scripted_loc/bc_cheat_interface_scripted_loc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/scripted_loc/bc_scripted_loc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/scripted_loc/bc_scripted_loc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/static_modifiers/bc_static_modifiers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/bc_cheatinterface_event.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/cheatinterface_event.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/bc_cheatmenu_event.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/bc_cheatmenu_event.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/bc_multiplayer_event.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/bc_multiplayer_event.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/bc_planetmenu_event.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/bc_planetmenu_event.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_empire_admin_cap.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_empire_admin_cap.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_empire_colony_development.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_empire_colony_development.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_empire_diplomatic_weight.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_empire_diplomatic_weight.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_empire_envoys.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_empire_envoys.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_empire_ethics_shift_speed.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_empire_ethics_shift_speed.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_empire_monthly_loyalty.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_empire_monthly_loyalty.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_empire_planetary_decision.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_empire_planetary_decision.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_empire_research.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_empire_research.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_empire_terraforming_cost.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_empire_terraforming_cost.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_empire_terraforming_speed.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_empire_terraforming_speed.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_empire_trade_value.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_empire_trade_value.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_empire_trust.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_empire_trust.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_alloys.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_alloys.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_consumer_goods.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_consumer_goods.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_dark_matter.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_dark_matter.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_energy.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_energy.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_exotic_gases.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_exotic_gases.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_food.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_food.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_influence.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_influence.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_living_metal.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_living_metal.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_minerals.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_minerals.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_nanites.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_nanites.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_rare_crystals.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_rare_crystals.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_storage_cap.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_storage_cap.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_unity.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_unity.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_volatile_motes.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_volatile_motes.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_resource_zro.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_zro.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_ship_armor_regeneration.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_ship_hull_regeneration.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_ship_base_speed.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_ship_ftl_speed.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_ship_ftl_speed.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_ship_base_speed.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_ship_hull_regeneration.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_ship_armor_regeneration.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bc_cheat_interface_ship_shield_regeneration.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_ship_shield_regeneration.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_braz_por.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/bc_l_braz_por.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_english.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_french.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/bc_l_french.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_german.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/bc_l_german.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_polish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/bc_l_polish.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_russian.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/bc_l_russian.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_simp_chinese.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/bc_l_simp_chinese.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_spanish.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/bc_l_spanish.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "pgfrank1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/pgfrank1/better_cheats_patch_stellaris.git",
+    "accountId": "ccf35059-20de-4d34-b8d2-99acb90577ca"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2iW2N4HNKnBN8B0a9RU0QA21Bg0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "cheatinterface",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "J:/SteamLibrary/steamapps/common/Stellaris",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="" />
+      <created>1719591969678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719591969678</updated>
+      <workItem from="1719591970905" duration="3999000" />
+    </task>
+    <task id="LOCAL-00001" summary="Cheat Interface Init">
+      <option name="closed" value="true" />
+      <created>1719592184029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719592184029</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="cheatinterface" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cheat Interface Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cheat Interface Init" />
+  </component>
 </project>

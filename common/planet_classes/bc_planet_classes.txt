@@ -4,7 +4,7 @@
 
 #Random list of all suns
 random_list = {
-	name = "bc_rl_all_suns"
+	name = "cheatinterface_rl_all_suns"
 	planets = {
 		"pc_pulsar"
 		"pc_neutron_star"

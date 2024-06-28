@@ -2,15 +2,15 @@
 ######### ###### ## # # # # # haha "funny" and "original" descriptions made by karotte313 at 4am with no sleep#
  #### GENERAL ####
 
- edict_bc_edict_1:0                 "Open BetterCheats Cheating Menu"
- edict_bc_edict_1_desc:0            "Opens the Cheatmenu\nkinda obvious, nh?\n\n(If it's checked, press it twice!)"
+ edict_cheatinterface_edict_1:0                 "Open BetterCheats Cheating Menu"
+ edict_cheatinterface_edict_1_desc:0            "Opens the Cheatmenu\nkinda obvious, nh?\n\n(If it's checked, press it twice!)"
 
- decision_bc_open_planetmenu:0      "Open BetterCheats PlanetEdit Menu"
- decision_bc_open_planetmenu_desc:0 "It opends the menu!\n\n(at least most of the time)"
- decision_bc_open_planetmenu_ct:0   "PlanetEdit allows you to change various options of this planet.\n§LI know, pretty unexpected.§W"
+ decision_cheatinterface_open_planetmenu:0      "Open BetterCheats PlanetEdit Menu"
+ decision_cheatinterface_open_planetmenu_desc:0 "It opends the menu!\n\n(at least most of the time)"
+ decision_cheatinterface_open_planetmenu_ct:0   "PlanetEdit allows you to change various options of this planet.\n§LI know, pretty unexpected.§W"
 
- decision_bc_open_systemmenu:0      "Open BetterCheats SystemEdit Menu (NYI)"
- decision_bc_open_systemmenu_desc:0 "This feature is §Pnot yet implemented!§W"
+ decision_cheatinterface_open_systemmenu:0      "Open BetterCheats SystemEdit Menu (NYI)"
+ decision_cheatinterface_open_systemmenu_desc:0 "This feature is §Pnot yet implemented!§W"
 
  bccheatmenu_close:0                "Close"
  bccheatmenu_back:0                 "Back"
@@ -27,11 +27,11 @@
 
  hosting:0                          "Hoster"
  IS_MULITPLAYER:0                   "Is in multiplayer game"
- bc_is_in_menu:0                    "Is in menu"
- bc_allow_cheating_self:0           "Cheating for themself permission"
- bc_allow_cheating_other:0           "Cheating for other empires permission"
- bc_allow_planet_colonized:0        "Edit own colonized planets permission"
- bc_allow_planet_non_colonized:0    "Edit own non colonized planets permission"
+ cheatinterface_is_in_menu:0                    "Is in menu"
+ cheatinterface_allow_cheating_self:0           "Cheating for themself permission"
+ cheatinterface_allow_cheating_other:0           "Cheating for other empires permission"
+ cheatinterface_allow_planet_colonized:0        "Edit own colonized planets permission"
+ cheatinterface_allow_planet_non_colonized:0    "Edit own non colonized planets permission"
 
  ###############################
 
@@ -189,16 +189,16 @@
  bccheatmenu_100_t9_desc:0           "Tier IX Description"
  bccheatmenu_100_t10_desc:0          "Tier X Description"
 
- bc_EXAMPLE_t1:0                        "Example Tier I"
- bc_EXAMPLE_t2:0                        "Example Tier II"
- bc_EXAMPLE_t3:0                        "Example Tier III"
- bc_EXAMPLE_t4:0                        "Example Tier IV"
- bc_EXAMPLE_t5:0                        "Example Tier V"
- bc_EXAMPLE_t6:0                        "Example Tier VI"
- bc_EXAMPLE_t7:0                        "Example Tier VII"
- bc_EXAMPLE_t8:0                        "Example Tier VIIGI"
- bc_EXAMPLE_t9:0                        "Example Tier IX"
- bc_EXAMPLE_t10:0                       "Example Tier X"
+ cheatinterface_EXAMPLE_t1:0                        "Example Tier I"
+ cheatinterface_EXAMPLE_t2:0                        "Example Tier II"
+ cheatinterface_EXAMPLE_t3:0                        "Example Tier III"
+ cheatinterface_EXAMPLE_t4:0                        "Example Tier IV"
+ cheatinterface_EXAMPLE_t5:0                        "Example Tier V"
+ cheatinterface_EXAMPLE_t6:0                        "Example Tier VI"
+ cheatinterface_EXAMPLE_t7:0                        "Example Tier VII"
+ cheatinterface_EXAMPLE_t8:0                        "Example Tier VIIGI"
+ cheatinterface_EXAMPLE_t9:0                        "Example Tier IX"
+ cheatinterface_EXAMPLE_t10:0                       "Example Tier X"
 
  ###############################
 
@@ -210,7 +210,7 @@
  bccheatmenu_101_activate_desc:0     "Activate Bool Selector"
  bccheatmenu_101_deactivate_desc:0   "Deactivate Bool Selector"
 
- bc_EXAMPLE2:0                          "Example2"
+ cheatinterface_EXAMPLE2:0                          "Example2"
 
  ###############################
 
@@ -230,16 +230,16 @@
  bccheatmenu_102_t9_desc:0           "This breaks the first law of Thermodynamics.\n\n"
  bccheatmenu_102_t10_desc:0          "Shaggy at 100% power.\n\n"
 
- bc_energy_t1:0                        "Energy Tier I"
- bc_energy_t2:0                        "Energy Tier II"
- bc_energy_t3:0                        "Energy Tier III"
- bc_energy_t4:0                        "Energy Tier IV"
- bc_energy_t5:0                        "Energy Tier V"
- bc_energy_t6:0                        "Energy Tier VI"
- bc_energy_t7:0                        "Energy Tier VII"
- bc_energy_t8:0                        "Energy Tier VIII"
- bc_energy_t9:0                        "Energy Tier IX"
- bc_energy_t10:0                       "Energy Tier X"
+ cheatinterface_energy_t1:0                        "Energy Tier I"
+ cheatinterface_energy_t2:0                        "Energy Tier II"
+ cheatinterface_energy_t3:0                        "Energy Tier III"
+ cheatinterface_energy_t4:0                        "Energy Tier IV"
+ cheatinterface_energy_t5:0                        "Energy Tier V"
+ cheatinterface_energy_t6:0                        "Energy Tier VI"
+ cheatinterface_energy_t7:0                        "Energy Tier VII"
+ cheatinterface_energy_t8:0                        "Energy Tier VIII"
+ cheatinterface_energy_t9:0                        "Energy Tier IX"
+ cheatinterface_energy_t10:0                       "Energy Tier X"
 
  ###############################
 
@@ -259,16 +259,16 @@
  bccheatmenu_103_t9_desc:0           "German engineering and efficiency.\n\n"
  bccheatmenu_103_t10_desc:0          "Iridium has a density of 22.56 g/cm3 making in the second densest element on earth after the denset one.\n\n"
 
- bc_alloys_t1:0                        "Alloys Tier I"
- bc_alloys_t2:0                        "Alloys Tier II"
- bc_alloys_t3:0                        "Alloys Tier III"
- bc_alloys_t4:0                        "Alloys Tier IV"
- bc_alloys_t5:0                        "Alloys Tier V"
- bc_alloys_t6:0                        "Alloys Tier VI"
- bc_alloys_t7:0                        "Alloys Tier VII"
- bc_alloys_t8:0                        "Alloys Tier VIII"
- bc_alloys_t9:0                        "Alloys Tier IX"
- bc_alloys_t10:0                       "Alloys Tier X"
+ cheatinterface_alloys_t1:0                        "Alloys Tier I"
+ cheatinterface_alloys_t2:0                        "Alloys Tier II"
+ cheatinterface_alloys_t3:0                        "Alloys Tier III"
+ cheatinterface_alloys_t4:0                        "Alloys Tier IV"
+ cheatinterface_alloys_t5:0                        "Alloys Tier V"
+ cheatinterface_alloys_t6:0                        "Alloys Tier VI"
+ cheatinterface_alloys_t7:0                        "Alloys Tier VII"
+ cheatinterface_alloys_t8:0                        "Alloys Tier VIII"
+ cheatinterface_alloys_t9:0                        "Alloys Tier IX"
+ cheatinterface_alloys_t10:0                       "Alloys Tier X"
 
  ###############################
 
@@ -280,7 +280,7 @@
  bccheatmenu_104_activate_desc:0     "You could just build more shipyards, you know?\n\n"
  bccheatmenu_104_deactivate_desc:0   "Quality over Quantity eventhough there never was lower quality\n\n"
 
- bc_millitary:0                          "Millitary"
+ cheatinterface_millitary:0                          "Millitary"
 
  ###############################
 
@@ -292,7 +292,7 @@
  bccheatmenu_105_activate_desc:0     "Maybe this will complete the BER.\n\n"
  bccheatmenu_105_deactivate_desc:0   "The seasonal workers must be gone again."
 
- bc_planatary_building:0                          "Planetary Building"
+ cheatinterface_planatary_building:0                          "Planetary Building"
 
  ###############################
 
@@ -304,7 +304,7 @@
  bccheatmenu_106_activate_desc:0     "Be sure to have the economy to support this."
  bccheatmenu_106_deactivate_desc:0   "Are you gonna chicken out now?"
 
- bc_megastructure_building:0                          "Megastructure Building"
+ cheatinterface_megastructure_building:0                          "Megastructure Building"
 
  ###############################
 
@@ -316,7 +316,7 @@
  bccheatmenu_107_activate_desc:0     "Time to upgrade your Fortress of Lies, am i right?\nJust watch out that no android will reveal the lies the fortress was build on...\n\n...wouldn't be the first time.\n\n"
  bccheatmenu_107_deactivate_desc:0   "Beware the over capacity costs.\n\n"
  
- bc_starbase_building:0                          "Starbase Building"
+ cheatinterface_starbase_building:0                          "Starbase Building"
 
  ###############################
 
@@ -336,16 +336,16 @@
  bccheatmenu_108_t9_desc:0           "Please be advised that a noticeable taste of blood is not part of any test protocol but is an unintended side effect of the Aperture Science Material Emancipation Grill, which may, in semi-rare cases, emancipate dental fillings, crowns, tooth enamel, and teeth.\n\n"
  bccheatmenu_108_t10_desc:0          "2 + 2 = 4 - 1 Thats 3 Quick Maff.\n\n"
 
- bc_research_t1:0                        "Research Tier I"
- bc_research_t2:0                        "Research Tier II"
- bc_research_t3:0                        "Research Tier III"
- bc_research_t4:0                        "Research Tier IV"
- bc_research_t5:0                        "Research Tier V"
- bc_research_t6:0                        "Research Tier VI"
- bc_research_t7:0                        "Research Tier VII"
- bc_research_t8:0                        "Research Tier VIII"
- bc_research_t9:0                        "Research Tier IX"
- bc_research_t10:0                       "Research Tier X"
+ cheatinterface_research_t1:0                        "Research Tier I"
+ cheatinterface_research_t2:0                        "Research Tier II"
+ cheatinterface_research_t3:0                        "Research Tier III"
+ cheatinterface_research_t4:0                        "Research Tier IV"
+ cheatinterface_research_t5:0                        "Research Tier V"
+ cheatinterface_research_t6:0                        "Research Tier VI"
+ cheatinterface_research_t7:0                        "Research Tier VII"
+ cheatinterface_research_t8:0                        "Research Tier VIII"
+ cheatinterface_research_t9:0                        "Research Tier IX"
+ cheatinterface_research_t10:0                       "Research Tier X"
 
  ###############################
 
@@ -365,16 +365,16 @@
  bccheatmenu_109_t9_desc:0           "Matter shouldn't be able to be created, or should it?\n\n"
  bccheatmenu_109_t10_desc:0          "Even this will not satisfy my iron needs in space engineers.\n\n"
 
- bc_minerals_t1:0                        "Minerals Tier I"
- bc_minerals_t2:0                        "Minerals Tier II"
- bc_minerals_t3:0                        "Minerals Tier III"
- bc_minerals_t4:0                        "Minerals Tier IV"
- bc_minerals_t5:0                        "Minerals Tier V"
- bc_minerals_t6:0                        "Minerals Tier VI"
- bc_minerals_t7:0                        "Minerals Tier VII"
- bc_minerals_t8:0                        "Minerals Tier VIII"
- bc_minerals_t9:0                        "Minerals Tier IX"
- bc_minerals_t10:0                       "Minerals Tier X"
+ cheatinterface_minerals_t1:0                        "Minerals Tier I"
+ cheatinterface_minerals_t2:0                        "Minerals Tier II"
+ cheatinterface_minerals_t3:0                        "Minerals Tier III"
+ cheatinterface_minerals_t4:0                        "Minerals Tier IV"
+ cheatinterface_minerals_t5:0                        "Minerals Tier V"
+ cheatinterface_minerals_t6:0                        "Minerals Tier VI"
+ cheatinterface_minerals_t7:0                        "Minerals Tier VII"
+ cheatinterface_minerals_t8:0                        "Minerals Tier VIII"
+ cheatinterface_minerals_t9:0                        "Minerals Tier IX"
+ cheatinterface_minerals_t10:0                       "Minerals Tier X"
 
  ###############################
 
@@ -386,7 +386,7 @@
  bccheatmenu_110_activate_desc:0     "Wouldn't it be smarter if you invest the resources instead of hoarding them.\n\n"
  bccheatmenu_110_deactivate_desc:0   "Feels like my space engineers inventory.\n\n"
 
- bc_resource_cap:0                          "Resource Capacity"
+ cheatinterface_resource_cap:0                          "Resource Capacity"
 
  ###############################
 
@@ -398,7 +398,7 @@
  bccheatmenu_111_activate_desc:0     "Overwhelming in numbers?\n\n"
  bccheatmenu_111_deactivate_desc:0   "Overwhelming in power?\n\n"
 
- bc_fleet_limit:0                          "Fleet Limit"
+ cheatinterface_fleet_limit:0                          "Fleet Limit"
 
  ###############################
 
@@ -418,16 +418,16 @@
  bccheatmenu_112_t9_desc:0           "If you want to rule everything, rule the rulers.\n\n"
  bccheatmenu_112_t10_desc:0          "Great Britain at its height!\n\n"
 
- bc_colony_t1:0                        "Colony Tier I"
- bc_colony_t2:0                        "Colony Tier II"
- bc_colony_t3:0                        "Colony Tier III"
- bc_colony_t4:0                        "Colony Tier IV"
- bc_colony_t5:0                        "Colony Tier V"
- bc_colony_t6:0                        "Colony Tier VI"
- bc_colony_t7:0                        "Colony Tier VII"
- bc_colony_t8:0                        "Colony Tier VIII"
- bc_colony_t9:0                        "Colony Tier IX"
- bc_colony_t10:0                       "Colony Tier X"
+ cheatinterface_colony_t1:0                        "Colony Tier I"
+ cheatinterface_colony_t2:0                        "Colony Tier II"
+ cheatinterface_colony_t3:0                        "Colony Tier III"
+ cheatinterface_colony_t4:0                        "Colony Tier IV"
+ cheatinterface_colony_t5:0                        "Colony Tier V"
+ cheatinterface_colony_t6:0                        "Colony Tier VI"
+ cheatinterface_colony_t7:0                        "Colony Tier VII"
+ cheatinterface_colony_t8:0                        "Colony Tier VIII"
+ cheatinterface_colony_t9:0                        "Colony Tier IX"
+ cheatinterface_colony_t10:0                       "Colony Tier X"
 
  ###############################
 
@@ -447,16 +447,16 @@
  bccheatmenu_113_t9_desc:0           "Do you remember Wall-E? This is your future.\n\n"
  bccheatmenu_113_t10_desc:0          "America and their fast food chains.\n\n"
 
- bc_consumer_goods_t1:0                        "Consumer Goods Tier I"
- bc_consumer_goods_t2:0                        "Consumer Goods Tier II"
- bc_consumer_goods_t3:0                        "Consumer Goods Tier III"
- bc_consumer_goods_t4:0                        "Consumer Goods Tier IV"
- bc_consumer_goods_t5:0                        "Consumer Goods Tier V"
- bc_consumer_goods_t6:0                        "Consumer Goods Tier VI"
- bc_consumer_goods_t7:0                        "Consumer Goods Tier VII"
- bc_consumer_goods_t8:0                        "Consumer Goods Tier VIII"
- bc_consumer_goods_t9:0                        "Consumer Goods Tier IX"
- bc_consumer_goods_t10:0                       "Consumer Goods Tier X"
+ cheatinterface_consumer_goods_t1:0                        "Consumer Goods Tier I"
+ cheatinterface_consumer_goods_t2:0                        "Consumer Goods Tier II"
+ cheatinterface_consumer_goods_t3:0                        "Consumer Goods Tier III"
+ cheatinterface_consumer_goods_t4:0                        "Consumer Goods Tier IV"
+ cheatinterface_consumer_goods_t5:0                        "Consumer Goods Tier V"
+ cheatinterface_consumer_goods_t6:0                        "Consumer Goods Tier VI"
+ cheatinterface_consumer_goods_t7:0                        "Consumer Goods Tier VII"
+ cheatinterface_consumer_goods_t8:0                        "Consumer Goods Tier VIII"
+ cheatinterface_consumer_goods_t9:0                        "Consumer Goods Tier IX"
+ cheatinterface_consumer_goods_t10:0                       "Consumer Goods Tier X"
 
  ###############################
 
@@ -476,16 +476,16 @@
  bccheatmenu_114_t9_desc:0           "Bakuretsu! Bakuretsu! La La La!\n\n"
  bccheatmenu_114_t10_desc:0          "Not even flextape can fix this.\n\n"
 
- bc_damage_t1:0                        "Damage Tier I"
- bc_damage_t2:0                        "Damage Tier II"
- bc_damage_t3:0                        "Damage Tier III"
- bc_damage_t4:0                        "Damage Tier IV"
- bc_damage_t5:0                        "Damage Tier V"
- bc_damage_t6:0                        "Damage Tier VI"
- bc_damage_t7:0                        "Damage Tier VII"
- bc_damage_t8:0                        "Damage Tier VIII"
- bc_damage_t9:0                        "Damage Tier IX"
- bc_damage_t10:0                       "Damage Tier X"
+ cheatinterface_damage_t1:0                        "Damage Tier I"
+ cheatinterface_damage_t2:0                        "Damage Tier II"
+ cheatinterface_damage_t3:0                        "Damage Tier III"
+ cheatinterface_damage_t4:0                        "Damage Tier IV"
+ cheatinterface_damage_t5:0                        "Damage Tier V"
+ cheatinterface_damage_t6:0                        "Damage Tier VI"
+ cheatinterface_damage_t7:0                        "Damage Tier VII"
+ cheatinterface_damage_t8:0                        "Damage Tier VIII"
+ cheatinterface_damage_t9:0                        "Damage Tier IX"
+ cheatinterface_damage_t10:0                       "Damage Tier X"
 
  ###############################
 
@@ -505,16 +505,16 @@
  bccheatmenu_115_t9_desc:0           "Balance of power has been removed\n\n"
  bccheatmenu_115_t10_desc:0          "I have the biggest and reddest button of them all.\n\n"
 
- bc_diplomatic_weight_t1:0                        "Diplomatic Weight Tier I"
- bc_diplomatic_weight_t2:0                        "Diplomatic Weight Tier II"
- bc_diplomatic_weight_t3:0                        "Diplomatic Weight Tier III"
- bc_diplomatic_weight_t4:0                        "Diplomatic Weight Tier IV"
- bc_diplomatic_weight_t5:0                        "Diplomatic Weight Tier V"
- bc_diplomatic_weight_t6:0                        "Diplomatic Weight Tier VI"
- bc_diplomatic_weight_t7:0                        "Diplomatic Weight Tier VII"
- bc_diplomatic_weight_t8:0                        "Diplomatic Weight Tier VIII"
- bc_diplomatic_weight_t9:0                        "Diplomatic Weight Tier IX"
- bc_diplomatic_weight_t10:0                       "Diplomatic Weight Tier X"
+ cheatinterface_diplomatic_weight_t1:0                        "Diplomatic Weight Tier I"
+ cheatinterface_diplomatic_weight_t2:0                        "Diplomatic Weight Tier II"
+ cheatinterface_diplomatic_weight_t3:0                        "Diplomatic Weight Tier III"
+ cheatinterface_diplomatic_weight_t4:0                        "Diplomatic Weight Tier IV"
+ cheatinterface_diplomatic_weight_t5:0                        "Diplomatic Weight Tier V"
+ cheatinterface_diplomatic_weight_t6:0                        "Diplomatic Weight Tier VI"
+ cheatinterface_diplomatic_weight_t7:0                        "Diplomatic Weight Tier VII"
+ cheatinterface_diplomatic_weight_t8:0                        "Diplomatic Weight Tier VIII"
+ cheatinterface_diplomatic_weight_t9:0                        "Diplomatic Weight Tier IX"
+ cheatinterface_diplomatic_weight_t10:0                       "Diplomatic Weight Tier X"
 
  ###############################
 
@@ -526,7 +526,7 @@
  bccheatmenu_116_activate_desc:0     "With the power of trust and friendship we will overcome this final boss!"
  bccheatmenu_116_deactivate_desc:0   "Betray me like Anakin did."
 
- bc_diplomacy:0                          "Diplomacy"
+ cheatinterface_diplomacy:0                          "Diplomacy"
 
  ###############################
 
@@ -538,7 +538,7 @@
  bccheatmenu_117_activate_desc:0     "No skills required."
  bccheatmenu_117_deactivate_desc:0   "Envoyn't."
 
- bc_envoys:0                          "Envoys"
+ cheatinterface_envoys:0                          "Envoys"
 
  ###############################
 
@@ -558,16 +558,16 @@
  bccheatmenu_118_t9_desc:0           "You are the IMF and World Bank merged into one!\n\n"
  bccheatmenu_118_t10_desc:0          "A 5 letter word for happiness: MONEY.\n\n"
 
- bc_trade_value_t1:0                        "Trade Value Tier I"
- bc_trade_value_t2:0                        "Trade Value Tier II"
- bc_trade_value_t3:0                        "Trade Value Tier III"
- bc_trade_value_t4:0                        "Trade Value Tier IV"
- bc_trade_value_t5:0                        "Trade Value Tier V"
- bc_trade_value_t6:0                        "Trade Value Tier VI"
- bc_trade_value_t7:0                        "Trade Value Tier VII"
- bc_trade_value_t8:0                        "Trade Value Tier VIII"
- bc_trade_value_t9:0                        "Trade Value Tier IX"
- bc_trade_value_t10:0                       "Trade Value Tier X"
+ cheatinterface_trade_value_t1:0                        "Trade Value Tier I"
+ cheatinterface_trade_value_t2:0                        "Trade Value Tier II"
+ cheatinterface_trade_value_t3:0                        "Trade Value Tier III"
+ cheatinterface_trade_value_t4:0                        "Trade Value Tier IV"
+ cheatinterface_trade_value_t5:0                        "Trade Value Tier V"
+ cheatinterface_trade_value_t6:0                        "Trade Value Tier VI"
+ cheatinterface_trade_value_t7:0                        "Trade Value Tier VII"
+ cheatinterface_trade_value_t8:0                        "Trade Value Tier VIII"
+ cheatinterface_trade_value_t9:0                        "Trade Value Tier IX"
+ cheatinterface_trade_value_t10:0                       "Trade Value Tier X"
 
  ###############################
 
@@ -587,16 +587,16 @@
  bccheatmenu_119_t9_desc:0           "We are one giant glob of yello now.\n\n"
  bccheatmenu_119_t10_desc:0          "Rimurus town.\n\n"
 
- bc_unity_t1:0                        "Unity Tier I"
- bc_unity_t2:0                        "Unity Tier II"
- bc_unity_t3:0                        "Unity Tier III"
- bc_unity_t4:0                        "Unity Tier IV"
- bc_unity_t5:0                        "Unity Tier V"
- bc_unity_t6:0                        "Unity Tier VI"
- bc_unity_t7:0                        "Unity Tier VII"
- bc_unity_t8:0                        "Unity Tier VIII"
- bc_unity_t9:0                        "Unity Tier IX"
- bc_unity_t10:0                       "Unity Tier X"
+ cheatinterface_unity_t1:0                        "Unity Tier I"
+ cheatinterface_unity_t2:0                        "Unity Tier II"
+ cheatinterface_unity_t3:0                        "Unity Tier III"
+ cheatinterface_unity_t4:0                        "Unity Tier IV"
+ cheatinterface_unity_t5:0                        "Unity Tier V"
+ cheatinterface_unity_t6:0                        "Unity Tier VI"
+ cheatinterface_unity_t7:0                        "Unity Tier VII"
+ cheatinterface_unity_t8:0                        "Unity Tier VIII"
+ cheatinterface_unity_t9:0                        "Unity Tier IX"
+ cheatinterface_unity_t10:0                       "Unity Tier X"
 
  ###############################
 
@@ -616,16 +616,16 @@
  bccheatmenu_120_t9_desc:0           "3 cubic acres (of Money)\n\n"
  bccheatmenu_120_t10_desc:0          "How is it even poissible to need this tier.\n\n"
 
- bc_upkeep_t1:0                        "Upkeep Tier I"
- bc_upkeep_t2:0                        "Upkeep Tier II"
- bc_upkeep_t3:0                        "Upkeep Tier III"
- bc_upkeep_t4:0                        "Upkeep Tier IV"
- bc_upkeep_t5:0                        "Upkeep Tier V"
- bc_upkeep_t6:0                        "Upkeep Tier VI"
- bc_upkeep_t7:0                        "Upkeep Tier VII"
- bc_upkeep_t8:0                        "Upkeep Tier VIII"
- bc_upkeep_t9:0                        "Upkeep Tier IX"
- bc_upkeep_t10:0                       "Upkeep Tier X"
+ cheatinterface_upkeep_t1:0                        "Upkeep Tier I"
+ cheatinterface_upkeep_t2:0                        "Upkeep Tier II"
+ cheatinterface_upkeep_t3:0                        "Upkeep Tier III"
+ cheatinterface_upkeep_t4:0                        "Upkeep Tier IV"
+ cheatinterface_upkeep_t5:0                        "Upkeep Tier V"
+ cheatinterface_upkeep_t6:0                        "Upkeep Tier VI"
+ cheatinterface_upkeep_t7:0                        "Upkeep Tier VII"
+ cheatinterface_upkeep_t8:0                        "Upkeep Tier VIII"
+ cheatinterface_upkeep_t9:0                        "Upkeep Tier IX"
+ cheatinterface_upkeep_t10:0                       "Upkeep Tier X"
 
  ###############################
 
@@ -637,7 +637,7 @@
  bccheatmenu_121_activate_desc:0     "Researching tier V before tier 2?\n\n"
  bccheatmenu_121_deactivate_desc:0   "As effective as alternative medicine."
 
- bc_tech_alt:0                          "Tech alternatives"
+ cheatinterface_tech_alt:0                          "Tech alternatives"
 
  ###############################
 
@@ -657,16 +657,16 @@
  bccheatmenu_122_t9_desc:0           "Your mom is an anomaly (Im seriously running out of ideas for these descriptions)\n\n"
  bccheatmenu_122_t10_desc:0          "The towel is everywhere.\n\n"
 
- bc_anomalys_t1:0                        "Survey Tier I"
- bc_anomalys_t2:0                        "Survey Tier II"
- bc_anomalys_t3:0                        "Survey Tier III"
- bc_anomalys_t4:0                        "Survey Tier IV"
- bc_anomalys_t5:0                        "Survey Tier V"
- bc_anomalys_t6:0                        "Survey Tier VI"
- bc_anomalys_t7:0                        "Survey Tier VII"
- bc_anomalys_t8:0                        "Survey Tier VIII"
- bc_anomalys_t9:0                        "Survey Tier IX"
- bc_anomalys_t10:0                       "Survey Tier X"
+ cheatinterface_anomalys_t1:0                        "Survey Tier I"
+ cheatinterface_anomalys_t2:0                        "Survey Tier II"
+ cheatinterface_anomalys_t3:0                        "Survey Tier III"
+ cheatinterface_anomalys_t4:0                        "Survey Tier IV"
+ cheatinterface_anomalys_t5:0                        "Survey Tier V"
+ cheatinterface_anomalys_t6:0                        "Survey Tier VI"
+ cheatinterface_anomalys_t7:0                        "Survey Tier VII"
+ cheatinterface_anomalys_t8:0                        "Survey Tier VIII"
+ cheatinterface_anomalys_t9:0                        "Survey Tier IX"
+ cheatinterface_anomalys_t10:0                       "Survey Tier X"
 
  ###############################
 
@@ -678,7 +678,7 @@
  bccheatmenu_123_activate_desc:0     "If eveything is an anomaly nothing is.\n\n"
  bccheatmenu_123_deactivate_desc:0   "Tired of clicking?"
 
- bc_anomaly_gen:0                          "Anomaly gerneration"
+ cheatinterface_anomaly_gen:0                          "Anomaly gerneration"
 
  ###############################
 
@@ -698,16 +698,16 @@
  bccheatmenu_124_t9_desc:0           "Invention of the 'Flint Lockwood Diatonic Super Mutating Dynamic Food Replicator' (FLDSMDFR).\n\n"
  bccheatmenu_124_t10_desc:0          "Erbs-Suppe for everyone\n\n"
 
- bc_food_t1:0                        "Food Tier I"
- bc_food_t2:0                        "Food Tier II"
- bc_food_t3:0                        "Food Tier III"
- bc_food_t4:0                        "Food Tier IV"
- bc_food_t5:0                        "Food Tier V"
- bc_food_t6:0                        "Food Tier VI"
- bc_food_t7:0                        "Food Tier VII"
- bc_food_t8:0                        "Food Tier VIII"
- bc_food_t9:0                        "Food Tier IX"
- bc_food_t10:0                       "Food Tier X"
+ cheatinterface_food_t1:0                        "Food Tier I"
+ cheatinterface_food_t2:0                        "Food Tier II"
+ cheatinterface_food_t3:0                        "Food Tier III"
+ cheatinterface_food_t4:0                        "Food Tier IV"
+ cheatinterface_food_t5:0                        "Food Tier V"
+ cheatinterface_food_t6:0                        "Food Tier VI"
+ cheatinterface_food_t7:0                        "Food Tier VII"
+ cheatinterface_food_t8:0                        "Food Tier VIII"
+ cheatinterface_food_t9:0                        "Food Tier IX"
+ cheatinterface_food_t10:0                       "Food Tier X"
 
  ###############################
 
@@ -727,16 +727,16 @@
  bccheatmenu_125_t9_desc:0           "Induced Acromegaly\n\n"
  bccheatmenu_125_t10_desc:0          "This isn't interspecies reviews...\n\n"
 
- bc_bio_pop_t1:0                        "Bio-Pop growth Tier I"
- bc_bio_pop_t2:0                        "Bio-Pop growth Tier II"
- bc_bio_pop_t3:0                        "Bio-Pop growth Tier III"
- bc_bio_pop_t4:0                        "Bio-Pop growth Tier IV"
- bc_bio_pop_t5:0                        "Bio-Pop growth Tier V"
- bc_bio_pop_t6:0                        "Bio-Pop growth Tier VI"
- bc_bio_pop_t7:0                        "Bio-Pop growth Tier VII"
- bc_bio_pop_t8:0                        "Bio-Pop growth Tier VIII"
- bc_bio_pop_t9:0                        "Bio-Pop growth Tier IX"
- bc_bio_pop_t10:0                       "Bio-Pop growth Tier X"
+ cheatinterface_bio_pop_t1:0                        "Bio-Pop growth Tier I"
+ cheatinterface_bio_pop_t2:0                        "Bio-Pop growth Tier II"
+ cheatinterface_bio_pop_t3:0                        "Bio-Pop growth Tier III"
+ cheatinterface_bio_pop_t4:0                        "Bio-Pop growth Tier IV"
+ cheatinterface_bio_pop_t5:0                        "Bio-Pop growth Tier V"
+ cheatinterface_bio_pop_t6:0                        "Bio-Pop growth Tier VI"
+ cheatinterface_bio_pop_t7:0                        "Bio-Pop growth Tier VII"
+ cheatinterface_bio_pop_t8:0                        "Bio-Pop growth Tier VIII"
+ cheatinterface_bio_pop_t9:0                        "Bio-Pop growth Tier IX"
+ cheatinterface_bio_pop_t10:0                       "Bio-Pop growth Tier X"
 
  ###############################
 
@@ -756,16 +756,16 @@
  bccheatmenu_126_t9_desc:0           "I wonder what happens if the windows update hits my pops.\n\n"
  bccheatmenu_126_t10_desc:0          "Mega shipyards for pop construction.\n\n"
 
- bc_bot_pop_t1:0                        "Pop assembly speed Tier I"
- bc_bot_pop_t2:0                        "Pop assembly speed Tier II"
- bc_bot_pop_t3:0                        "Pop assembly speed Tier III"
- bc_bot_pop_t4:0                        "Pop assembly speed Tier IV"
- bc_bot_pop_t5:0                        "Pop assembly speed Tier V"
- bc_bot_pop_t6:0                        "Pop assembly speed Tier VI"
- bc_bot_pop_t7:0                        "Pop assembly speed Tier VII"
- bc_bot_pop_t8:0                        "Pop assembly speed Tier VIII"
- bc_bot_pop_t9:0                        "Pop assembly speed Tier IX"
- bc_bot_pop_t10:0                       "Pop assembly speed Tier X"
+ cheatinterface_bot_pop_t1:0                        "Pop assembly speed Tier I"
+ cheatinterface_bot_pop_t2:0                        "Pop assembly speed Tier II"
+ cheatinterface_bot_pop_t3:0                        "Pop assembly speed Tier III"
+ cheatinterface_bot_pop_t4:0                        "Pop assembly speed Tier IV"
+ cheatinterface_bot_pop_t5:0                        "Pop assembly speed Tier V"
+ cheatinterface_bot_pop_t6:0                        "Pop assembly speed Tier VI"
+ cheatinterface_bot_pop_t7:0                        "Pop assembly speed Tier VII"
+ cheatinterface_bot_pop_t8:0                        "Pop assembly speed Tier VIII"
+ cheatinterface_bot_pop_t9:0                        "Pop assembly speed Tier IX"
+ cheatinterface_bot_pop_t10:0                       "Pop assembly speed Tier X"
 
  ###############################
 
@@ -785,16 +785,16 @@
  bccheatmenu_127_t9_desc:0           "Just like robots.\n\n"
  bccheatmenu_127_t10_desc:0          "§BR§EA§GI§LN§MB§PO§SW §YW§BO§ER§GL§LD§MS§P!§W\n\n"
 
- bc_habitability_t1:0                        "Habitability Tier I"
- bc_habitability_t2:0                        "Habitability Tier II"
- bc_habitability_t3:0                        "Habitability Tier III"
- bc_habitability_t4:0                        "Habitability Tier IV"
- bc_habitability_t5:0                        "Habitability Tier V"
- bc_habitability_t6:0                        "Habitability Tier VI"
- bc_habitability_t7:0                        "Habitability Tier VII"
- bc_habitability_t8:0                        "Habitability Tier VIII"
- bc_habitability_t9:0                        "Habitability Tier IX"
- bc_habitability_t10:0                       "Habitability Tier X"
+ cheatinterface_habitability_t1:0                        "Habitability Tier I"
+ cheatinterface_habitability_t2:0                        "Habitability Tier II"
+ cheatinterface_habitability_t3:0                        "Habitability Tier III"
+ cheatinterface_habitability_t4:0                        "Habitability Tier IV"
+ cheatinterface_habitability_t5:0                        "Habitability Tier V"
+ cheatinterface_habitability_t6:0                        "Habitability Tier VI"
+ cheatinterface_habitability_t7:0                        "Habitability Tier VII"
+ cheatinterface_habitability_t8:0                        "Habitability Tier VIII"
+ cheatinterface_habitability_t9:0                        "Habitability Tier IX"
+ cheatinterface_habitability_t10:0                       "Habitability Tier X"
 
  ###############################
 
@@ -814,16 +814,16 @@
  bccheatmenu_128_t9_desc:0           "What are you an empire leader?\nOh wait...\n\n"
  bccheatmenu_128_t10_desc:0          "At this point you are megalomaniacal\n\n"
 
- bc_influence_t1:0                        "Influence Tier I"
- bc_influence_t2:0                        "Influence Tier II"
- bc_influence_t3:0                        "Influence Tier III"
- bc_influence_t4:0                        "Influence Tier IV"
- bc_influence_t5:0                        "Influence Tier V"
- bc_influence_t6:0                        "Influence Tier VI"
- bc_influence_t7:0                        "Influence Tier VII"
- bc_influence_t8:0                        "Influence Tier VIII"
- bc_influence_t9:0                        "Influence Tier IX"
- bc_influence_t10:0                       "Influence Tier X"
+ cheatinterface_influence_t1:0                        "Influence Tier I"
+ cheatinterface_influence_t2:0                        "Influence Tier II"
+ cheatinterface_influence_t3:0                        "Influence Tier III"
+ cheatinterface_influence_t4:0                        "Influence Tier IV"
+ cheatinterface_influence_t5:0                        "Influence Tier V"
+ cheatinterface_influence_t6:0                        "Influence Tier VI"
+ cheatinterface_influence_t7:0                        "Influence Tier VII"
+ cheatinterface_influence_t8:0                        "Influence Tier VIII"
+ cheatinterface_influence_t9:0                        "Influence Tier IX"
+ cheatinterface_influence_t10:0                       "Influence Tier X"
 
  ###############################
 
@@ -843,16 +843,16 @@
  bccheatmenu_129_t9_desc:0           "When your rare crystals turn into common crystals\n\n"
  bccheatmenu_129_t10_desc:0          "Bananas used to be considered exotic.\n\n"
 
- bc_strategic_resources_t1:0                        "Strategic resources Tier I"
- bc_strategic_resources_t2:0                        "Strategic resources Tier II"
- bc_strategic_resources_t3:0                        "Strategic resources Tier III"
- bc_strategic_resources_t4:0                        "Strategic resources Tier IV"
- bc_strategic_resources_t5:0                        "Strategic resources Tier V"
- bc_strategic_resources_t6:0                        "Strategic resources Tier VI"
- bc_strategic_resources_t7:0                        "Strategic resources Tier VII"
- bc_strategic_resources_t8:0                        "Strategic resources Tier VIII"
- bc_strategic_resources_t9:0                        "Strategic resources Tier IX"
- bc_strategic_resources_t10:0                       "Strategic resources Tier X"
+ cheatinterface_strategic_resources_t1:0                        "Strategic resources Tier I"
+ cheatinterface_strategic_resources_t2:0                        "Strategic resources Tier II"
+ cheatinterface_strategic_resources_t3:0                        "Strategic resources Tier III"
+ cheatinterface_strategic_resources_t4:0                        "Strategic resources Tier IV"
+ cheatinterface_strategic_resources_t5:0                        "Strategic resources Tier V"
+ cheatinterface_strategic_resources_t6:0                        "Strategic resources Tier VI"
+ cheatinterface_strategic_resources_t7:0                        "Strategic resources Tier VII"
+ cheatinterface_strategic_resources_t8:0                        "Strategic resources Tier VIII"
+ cheatinterface_strategic_resources_t9:0                        "Strategic resources Tier IX"
+ cheatinterface_strategic_resources_t10:0                       "Strategic resources Tier X"
 
  ###############################
 
@@ -872,16 +872,16 @@
  bccheatmenu_130_t9_desc:0           "I am the Senate!\n\n"
  bccheatmenu_130_t10_desc:0          "Power! Unlimited power!\n\n"
 
- bc_admin_cap_t1:0                        "Admin cap Tier I"
- bc_admin_cap_t2:0                        "Admin cap Tier II"
- bc_admin_cap_t3:0                        "Admin cap Tier III"
- bc_admin_cap_t4:0                        "Admin cap Tier IV"
- bc_admin_cap_t5:0                        "Admin cap Tier V"
- bc_admin_cap_t6:0                        "Admin cap Tier VI"
- bc_admin_cap_t7:0                        "Admin cap Tier VII"
- bc_admin_cap_t8:0                        "Admin cap Tier VIII"
- bc_admin_cap_t9:0                        "Admin cap Tier IX"
- bc_admin_cap_t10:0                       "Admin cap Tier X"
+ cheatinterface_admin_cap_t1:0                        "Admin cap Tier I"
+ cheatinterface_admin_cap_t2:0                        "Admin cap Tier II"
+ cheatinterface_admin_cap_t3:0                        "Admin cap Tier III"
+ cheatinterface_admin_cap_t4:0                        "Admin cap Tier IV"
+ cheatinterface_admin_cap_t5:0                        "Admin cap Tier V"
+ cheatinterface_admin_cap_t6:0                        "Admin cap Tier VI"
+ cheatinterface_admin_cap_t7:0                        "Admin cap Tier VII"
+ cheatinterface_admin_cap_t8:0                        "Admin cap Tier VIII"
+ cheatinterface_admin_cap_t9:0                        "Admin cap Tier IX"
+ cheatinterface_admin_cap_t10:0                       "Admin cap Tier X"
 
  ###############################
 
@@ -901,16 +901,16 @@
  bccheatmenu_131_t9_desc:0           "Your population has some strong and wierd needs...\n\n"
  bccheatmenu_131_t10_desc:0          "What kind of greedy pops do you have?\n\n"
 
- bc_amenities_t1:0                        "Amenities Tier I"
- bc_amenities_t2:0                        "Amenities Tier II"
- bc_amenities_t3:0                        "Amenities Tier III"
- bc_amenities_t4:0                        "Amenities Tier IV"
- bc_amenities_t5:0                        "Amenities Tier V"
- bc_amenities_t6:0                        "Amenities Tier VI"
- bc_amenities_t7:0                        "Amenities Tier VII"
- bc_amenities_t8:0                        "Amenities Tier VIII"
- bc_amenities_t9:0                        "Amenities Tier IX"
- bc_amenities_t10:0                       "Amenities Tier X"
+ cheatinterface_amenities_t1:0                        "Amenities Tier I"
+ cheatinterface_amenities_t2:0                        "Amenities Tier II"
+ cheatinterface_amenities_t3:0                        "Amenities Tier III"
+ cheatinterface_amenities_t4:0                        "Amenities Tier IV"
+ cheatinterface_amenities_t5:0                        "Amenities Tier V"
+ cheatinterface_amenities_t6:0                        "Amenities Tier VI"
+ cheatinterface_amenities_t7:0                        "Amenities Tier VII"
+ cheatinterface_amenities_t8:0                        "Amenities Tier VIII"
+ cheatinterface_amenities_t9:0                        "Amenities Tier IX"
+ cheatinterface_amenities_t10:0                       "Amenities Tier X"
 
  ###############################
 
@@ -930,16 +930,16 @@
  bccheatmenu_132_t9_desc:0           "'Insert generic laugh track here'\n\n"
  bccheatmenu_132_t10_desc:0          "Touko Nanami and Yuu Koito.\n\n"
 
- bc_happiness_t1:0                        "Happiness Tier I"
- bc_happiness_t2:0                        "Happiness Tier II"
- bc_happiness_t3:0                        "Happiness Tier III"
- bc_happiness_t4:0                        "Happiness Tier IV"
- bc_happiness_t5:0                        "Happiness Tier V"
- bc_happiness_t6:0                        "Happiness Tier VI"
- bc_happiness_t7:0                        "Happiness Tier VII"
- bc_happiness_t8:0                        "Happiness Tier VIII"
- bc_happiness_t9:0                        "Happiness Tier IX"
- bc_happiness_t10:0                       "Happiness Tier X"
+ cheatinterface_happiness_t1:0                        "Happiness Tier I"
+ cheatinterface_happiness_t2:0                        "Happiness Tier II"
+ cheatinterface_happiness_t3:0                        "Happiness Tier III"
+ cheatinterface_happiness_t4:0                        "Happiness Tier IV"
+ cheatinterface_happiness_t5:0                        "Happiness Tier V"
+ cheatinterface_happiness_t6:0                        "Happiness Tier VI"
+ cheatinterface_happiness_t7:0                        "Happiness Tier VII"
+ cheatinterface_happiness_t8:0                        "Happiness Tier VIII"
+ cheatinterface_happiness_t9:0                        "Happiness Tier IX"
+ cheatinterface_happiness_t10:0                       "Happiness Tier X"
 
  ###############################
 
@@ -951,7 +951,7 @@
  bccheatmenu_133_activate_desc:0     "Force them like China does\n\n"
  bccheatmenu_133_deactivate_desc:0   "'Beware if revolutions.'\n\n-That french guy"
 
- bc_ethics_gov:0                          "Government ethics"
+ cheatinterface_ethics_gov:0                          "Government ethics"
 
  ###############################
 
@@ -963,7 +963,7 @@
  bccheatmenu_134_activate_desc:0     "Viva la no revolution!\n\n"
  bccheatmenu_134_deactivate_desc:0   "Viva la revolution!\n\n"
 
- bc_ethics_shift:0                          "Ethics shift speed"
+ cheatinterface_ethics_shift:0                          "Ethics shift speed"
 
  ###############################
 
@@ -983,16 +983,16 @@
  bccheatmenu_135_t9_desc:0           "I really don't know what to write anymore.\n\n"
  bccheatmenu_135_t10_desc:0          "Switzerland?\n\n"
 
- bc_stability_t1:0                        "Stability Tier I"
- bc_stability_t2:0                        "Stability Tier II"
- bc_stability_t3:0                        "Stability Tier III"
- bc_stability_t4:0                        "Stability Tier IV"
- bc_stability_t5:0                        "Stability Tier V"
- bc_stability_t6:0                        "Stability Tier VI"
- bc_stability_t7:0                        "Stability Tier VII"
- bc_stability_t8:0                        "Stability Tier VIII"
- bc_stability_t9:0                        "Stability Tier IX"
- bc_stability_t10:0                       "Stability Tier X"
+ cheatinterface_stability_t1:0                        "Stability Tier I"
+ cheatinterface_stability_t2:0                        "Stability Tier II"
+ cheatinterface_stability_t3:0                        "Stability Tier III"
+ cheatinterface_stability_t4:0                        "Stability Tier IV"
+ cheatinterface_stability_t5:0                        "Stability Tier V"
+ cheatinterface_stability_t6:0                        "Stability Tier VI"
+ cheatinterface_stability_t7:0                        "Stability Tier VII"
+ cheatinterface_stability_t8:0                        "Stability Tier VIII"
+ cheatinterface_stability_t9:0                        "Stability Tier IX"
+ cheatinterface_stability_t10:0                       "Stability Tier X"
 
  ###############################
 
@@ -1004,7 +1004,7 @@
  bccheatmenu_136_activate_desc:0     "Eat some Mario shrooms."
  bccheatmenu_136_deactivate_desc:0   "leader level'nt."
 
- bc_leader_level:0                          "Leader level"
+ cheatinterface_leader_level:0                          "Leader level"
 
  ###############################
 
@@ -1016,7 +1016,7 @@
  bccheatmenu_137_activate_desc:0     "Not that kind of pool party."
  bccheatmenu_137_deactivate_desc:0   "That kind of pool party ;)"
 
- bc_leader_pool:0                          "Leader pool"
+ cheatinterface_leader_pool:0                          "Leader pool"
 
  ###############################
 
@@ -1036,16 +1036,16 @@
  bccheatmenu_138_t9_desc:0           "'I swear she is legal! Shes 800 years old!'\n\n- Every anime ever\n\n"
  bccheatmenu_138_t10_desc:0          "The queen of England.\n\n"
 
- bc_leader_age_t1:0                        "Leader age Tier I"
- bc_leader_age_t2:0                        "Leader age Tier II"
- bc_leader_age_t3:0                        "Leader age Tier III"
- bc_leader_age_t4:0                        "Leader age Tier IV"
- bc_leader_age_t5:0                        "Leader age Tier V"
- bc_leader_age_t6:0                        "Leader age Tier VI"
- bc_leader_age_t7:0                        "Leader age Tier VII"
- bc_leader_age_t8:0                        "Leader age Tier VIII"
- bc_leader_age_t9:0                        "Leader age Tier IX"
- bc_leader_age_t10:0                       "Leader age Tier X"
+ cheatinterface_leader_age_t1:0                        "Leader age Tier I"
+ cheatinterface_leader_age_t2:0                        "Leader age Tier II"
+ cheatinterface_leader_age_t3:0                        "Leader age Tier III"
+ cheatinterface_leader_age_t4:0                        "Leader age Tier IV"
+ cheatinterface_leader_age_t5:0                        "Leader age Tier V"
+ cheatinterface_leader_age_t6:0                        "Leader age Tier VI"
+ cheatinterface_leader_age_t7:0                        "Leader age Tier VII"
+ cheatinterface_leader_age_t8:0                        "Leader age Tier VIII"
+ cheatinterface_leader_age_t9:0                        "Leader age Tier IX"
+ cheatinterface_leader_age_t10:0                       "Leader age Tier X"
 
  ###############################
 
@@ -1057,7 +1057,7 @@
  bccheatmenu_139_activate_desc:0     "Everybody working on your ships had a previous run in with Truck-kun"
  bccheatmenu_139_deactivate_desc:0   "Your staff gets isekaid back to where they belong."
 
- bc_ship_xp:0                          "Ship xp"
+ cheatinterface_ship_xp:0                          "Ship xp"
 
  ###############################
 
@@ -1077,16 +1077,16 @@
  bccheatmenu_140_t9_desc:0           "Faster than you finish in bed.\n\n"
  bccheatmenu_140_t10_desc:0          "The fast but not the furious.\n\n"
 
- bc_ship_speed_t1:0                        "Ship speed Tier I"
- bc_ship_speed_t2:0                        "Ship speed Tier II"
- bc_ship_speed_t3:0                        "Ship speed Tier III"
- bc_ship_speed_t4:0                        "Ship speed Tier IV"
- bc_ship_speed_t5:0                        "Ship speed Tier V"
- bc_ship_speed_t6:0                        "Ship speed Tier VI"
- bc_ship_speed_t7:0                        "Ship speed Tier VII"
- bc_ship_speed_t8:0                        "Ship speed Tier VIII"
- bc_ship_speed_t9:0                        "Ship speed Tier IX"
- bc_ship_speed_t10:0                       "Ship speed Tier X"
+ cheatinterface_ship_speed_t1:0                        "Ship speed Tier I"
+ cheatinterface_ship_speed_t2:0                        "Ship speed Tier II"
+ cheatinterface_ship_speed_t3:0                        "Ship speed Tier III"
+ cheatinterface_ship_speed_t4:0                        "Ship speed Tier IV"
+ cheatinterface_ship_speed_t5:0                        "Ship speed Tier V"
+ cheatinterface_ship_speed_t6:0                        "Ship speed Tier VI"
+ cheatinterface_ship_speed_t7:0                        "Ship speed Tier VII"
+ cheatinterface_ship_speed_t8:0                        "Ship speed Tier VIII"
+ cheatinterface_ship_speed_t9:0                        "Ship speed Tier IX"
+ cheatinterface_ship_speed_t10:0                       "Ship speed Tier X"
 
  ###############################
 
@@ -1106,16 +1106,16 @@
  bccheatmenu_141_t9_desc:0           "I wonder what a self healing hull would look like...\n\n"
  bccheatmenu_141_t10_desc:0          "Proabably heals more than it can get in damage...\n\n"
 
- bc_ship_regen_t1:0                        "Ship regen Tier I"
- bc_ship_regen_t2:0                        "Ship regen Tier II"
- bc_ship_regen_t3:0                        "Ship regen Tier III"
- bc_ship_regen_t4:0                        "Ship regen Tier IV"
- bc_ship_regen_t5:0                        "Ship regen Tier V"
- bc_ship_regen_t6:0                        "Ship regen Tier VI"
- bc_ship_regen_t7:0                        "Ship regen Tier VII"
- bc_ship_regen_t8:0                        "Ship regen Tier VIII"
- bc_ship_regen_t9:0                        "Ship regen Tier IX"
- bc_ship_regen_t10:0                       "Ship regen Tier X"
+ cheatinterface_ship_regen_t1:0                        "Ship regen Tier I"
+ cheatinterface_ship_regen_t2:0                        "Ship regen Tier II"
+ cheatinterface_ship_regen_t3:0                        "Ship regen Tier III"
+ cheatinterface_ship_regen_t4:0                        "Ship regen Tier IV"
+ cheatinterface_ship_regen_t5:0                        "Ship regen Tier V"
+ cheatinterface_ship_regen_t6:0                        "Ship regen Tier VI"
+ cheatinterface_ship_regen_t7:0                        "Ship regen Tier VII"
+ cheatinterface_ship_regen_t8:0                        "Ship regen Tier VIII"
+ cheatinterface_ship_regen_t9:0                        "Ship regen Tier IX"
+ cheatinterface_ship_regen_t10:0                       "Ship regen Tier X"
 
  ###############################
 
@@ -1129,7 +1129,7 @@
  bccheatmenu_142_activate_desc:0     "Activate Bool Selector"
  bccheatmenu_142_deactivate_desc:0   "Deactivate Bool Selector"
 
- bc_megastructure_cap:0                          "Megastructure cap"
+ cheatinterface_megastructure_cap:0                          "Megastructure cap"
 
  ###############################
 
@@ -1141,7 +1141,7 @@
  bccheatmenu_143_activate_desc:0     "Activate Bool Selector"
  bccheatmenu_143_deactivate_desc:0   "Deactivate Bool Selector"
 
- bc_starbase_cap:0                          "Starbase cap"
+ cheatinterface_starbase_cap:0                          "Starbase cap"
 
  ###############################
 
@@ -1153,7 +1153,7 @@
  bccheatmenu_144_activate_desc:0     "Activate Bool Selector"
  bccheatmenu_144_deactivate_desc:0   "Deactivate Bool Selector"
 
- bc_defence_platform_cap:0                          "Defence platform cap"
+ cheatinterface_defence_platform_cap:0                          "Defence platform cap"
 
  ###############################
 
@@ -1165,7 +1165,7 @@
  bccheatmenu_145_activate_desc:0     "Activate Bool Selector"
  bccheatmenu_145_deactivate_desc:0   "Deactivate Bool Selector"
 
- bc_trade_defence:0                          "Trade defence"
+ cheatinterface_trade_defence:0                          "Trade defence"
 
  ###############################
 
@@ -1177,7 +1177,7 @@
  bccheatmenu_146_activate_desc:0     "Activate Bool Selector"
  bccheatmenu_146_deactivate_desc:0   "Deactivate Bool Selector"
 
- bc_terraforming_speed:0                          "Terraforming speed"
+ cheatinterface_terraforming_speed:0                          "Terraforming speed"
 
  ###############################
 

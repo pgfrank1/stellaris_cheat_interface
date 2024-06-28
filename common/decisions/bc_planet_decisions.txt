@@ -1,4 +1,4 @@
-decision_bc_open_planetmenu = {
+decision_cheatinterface_open_planetmenu = {
 	owned_planets_only = no
 	icon = decision_consecrated_worlds
 	ai_weight = { weight = 0 }
@@ -14,10 +14,10 @@ decision_bc_open_planetmenu = {
 				SOLAR_SYSTEM = {
 					OWNER = {
 						is_ai = no
-						not = { has_country_flag = bc_is_in_menu }
+						not = { has_country_flag = cheatinterface_is_in_menu }
 						or = {
 							and = {
-								has_country_flag = bc_allow_planet_colonized
+								has_country_flag = cheatinterface_allow_planet_colonized
 								PREVPREV = {
 									OWNER = {
 										is_ai = no
@@ -25,7 +25,7 @@ decision_bc_open_planetmenu = {
 								}
 							}
 							and = {
-								has_country_flag = bc_allow_planet_non_colonized
+								has_country_flag = cheatinterface_allow_planet_non_colonized
 								PREVPREV = {
 									not = {
 										OWNER = {
@@ -47,7 +47,7 @@ decision_bc_open_planetmenu = {
 		}
 	}
 	effect = {
-		custom_tooltip = decision_bc_open_planetmenu_ct
+		custom_tooltip = decision_cheatinterface_open_planetmenu_ct
 		hidden_effect = {
 			SOLAR_SYSTEM = {
 				OWNER = {
@@ -61,7 +61,7 @@ decision_bc_open_planetmenu = {
 
 }
 
-decision_bc_open_systemmenu = {
+decision_cheatinterface_open_systemmenu = {
 	owned_planets_only = no
 	icon = decision_binary_stars
 	ai_weight = { weight = 0 }
@@ -74,7 +74,7 @@ decision_bc_open_systemmenu = {
 		hidden_trigger = {
 			SOLAR_SYSTEM = {
 				OWNER = {
-					has_country_flag = bc_allow_edit_system
+					has_country_flag = cheatinterface_allow_edit_system
 				}
 			}
 		}

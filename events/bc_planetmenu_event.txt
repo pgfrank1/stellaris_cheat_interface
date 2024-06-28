@@ -6,7 +6,7 @@ country_event = {
 	is_triggered_only = yes
 	hide_window = yes
 	trigger = {
-		not = { has_country_flag = bc_is_in_menu }
+		not = { has_country_flag = cheatinterface_is_in_menu }
 	}
 	immediate = {
 		#if = {
@@ -38,11 +38,11 @@ country_event = {
 	picture_event_data = { 
 		portrait = owner.ruler
 		planet_background = event_target:planet_selected
-		room = bc_planetmenu_room
+		room = cheatinterface_planetmenu_room
 	}
 
 	immediate = {
-		set_country_flag = bc_is_in_menu
+		set_country_flag = cheatinterface_is_in_menu
 	}
 
 	#### Planet Class ####
@@ -122,9 +122,9 @@ country_event = {
 		allow = {
 			hidden_trigger = {
 				or = {
-					has_country_flag = bc_allow_planet_colonized
+					has_country_flag = cheatinterface_allow_planet_colonized
 					is_multiplayer = no
-					has_country_flag = bc_hosting
+					has_country_flag = cheatinterface_hosting
 				}
 				event_target:planet_selected = {
 					not = { OWNER = { is_ai = no } }
@@ -149,7 +149,7 @@ country_event = {
 		name = "bccheatmenu_close"
 		default_hide_option = yes
 		hidden_effect = {
-			remove_country_flag = bc_is_in_menu
+			remove_country_flag = cheatinterface_is_in_menu
 		}
 	}
 }
@@ -164,7 +164,7 @@ country_event = {
 	picture_event_data = { 
 		portrait = owner.ruler
 		planet_background = event_target:planet_selected
-		room = bc_planetmenu_room
+		room = cheatinterface_planetmenu_room
 	}
 
 	#### Desert ####
@@ -703,7 +703,7 @@ country_event = {
 		hidden_effect = {
 			event_target:planet_selected = { 
 				change_pc = {
-					class = bc_rl_all_suns
+					class = cheatinterface_rl_all_suns
 					inherit_entity = no          
 				}
 			}
@@ -738,7 +738,7 @@ country_event = {
 	picture_event_data = { 
 		portrait = owner.ruler
 		planet_background = event_target:planet_selected
-		room = bc_planetmenu_room
+		room = cheatinterface_planetmenu_room
 	}
 
 	#### Set Size to 5 ####
@@ -1203,7 +1203,7 @@ country_event = {
 	picture_event_data = { 
 		portrait = owner.ruler
 		planet_background = event_target:planet_selected
-		room = bc_planetmenu_room
+		room = cheatinterface_planetmenu_room
 	}
 	# Back # 
 	option = {
@@ -1227,7 +1227,7 @@ country_event = {
 	picture_event_data = { 
 		portrait = owner.ruler
 		planet_background = event_target:planet_selected
-		room = bc_planetmenu_room
+		room = cheatinterface_planetmenu_room
 	}
 	#### Add Common features ####
 	option = {
@@ -1312,7 +1312,7 @@ country_event = {
 	picture_event_data = { 
 		portrait = owner.ruler
 		planet_background = event_target:planet_selected
-		room = bc_planetmenu_room
+		room = cheatinterface_planetmenu_room
 	}
 	#### d_arid_highlands ####
 	option = {
@@ -1726,7 +1726,7 @@ country_event = {
 	picture_event_data = { 
 		portrait = owner.ruler
 		planet_background = event_target:planet_selected
-		room = bc_planetmenu_room
+		room = cheatinterface_planetmenu_room
 	}
 	#### d_arid_highlands ####
 	option = {
@@ -2290,7 +2290,7 @@ country_event = {
 	picture_event_data = { 
 		portrait = owner.ruler
 		planet_background = event_target:planet_selected
-		room = bc_planetmenu_room
+		room = cheatinterface_planetmenu_room
 	}
 	#### d_dust_caverns ####
 	option = {
@@ -2379,7 +2379,7 @@ country_event = {
 	picture_event_data = { 
 		portrait = owner.ruler
 		planet_background = event_target:planet_selected
-		room = bc_planetmenu_room
+		room = cheatinterface_planetmenu_room
 	}
 	#### d_dust_caverns ####
 	option = {
@@ -2493,7 +2493,7 @@ country_event = {
 	picture_event_data = { 
 		portrait = owner.ruler
 		planet_background = event_target:planet_selected
-		room = bc_planetmenu_room
+		room = cheatinterface_planetmenu_room
 	}
 	# Back # 
 	option = {
@@ -2517,7 +2517,7 @@ country_event = {
 	picture_event_data = { 
 		portrait = owner.ruler
 		planet_background = event_target:planet_selected
-		room = bc_planetmenu_room
+		room = cheatinterface_planetmenu_room
 	}
 	# Back # 
 	option = {
