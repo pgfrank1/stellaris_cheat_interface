@@ -747,6 +747,16 @@ guiTypes = {
                     buttonFont = "cg_16b"
                     buttonText = "bccheatinterface_2_storage_cap_title"
                 }
+
+                # Trade Value Button
+                effectButtonType = {
+                    name = "bccheatinterface_2_trade_value"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 480 }
+                    effect = "bc_cheatinterface_button_empire_trade_value"
+                    buttonFont = "cg_16b"
+                    buttonText = "bccheatinterface_2_trade_value_title"
+                }
             }
         }
         #############################################################################

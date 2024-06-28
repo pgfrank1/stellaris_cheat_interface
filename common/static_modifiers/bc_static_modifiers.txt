@@ -2314,6 +2314,38 @@ bc_empire_admin_cap_scientists_t10 = {
 }
 ###############################
 
+#### Ethics Shift Speed TIER SELECTOR ####
+bc_empire_trade_value_t1 = {
+	trade_value_mult = 0.15
+}
+bc_empire_trade_value_t2 = {
+	trade_value_mult = 0.50
+}
+bc_empire_trade_value_t3 = {
+	trade_value_mult = 1.00
+}
+bc_empire_trade_value_t4 = {
+	trade_value_mult = 2.50
+}
+bc_empire_trade_value_t5 = {
+	trade_value_mult = 5.00
+}
+bc_empire_trade_value_t6 = {
+	trade_value_mult = 10.00
+}
+bc_empire_trade_value_t7 = {
+	trade_value_mult = 50.00
+}
+bc_empire_trade_value_t8 = {
+	trade_value_mult = 100.00
+}
+bc_empire_trade_value_t9 = {
+	trade_value_mult = 250.00
+}
+bc_empire_trade_value_t10 = {
+	trade_value_mult = 500.00
+}
+
 #### ship_base_speed TIER SELECTOR ####
 bc_ship_base_speed_t1 = {
 	ship_base_speed_mult = 0.15

@@ -884,6 +884,35 @@ country_event = {
 }
 #########################################
 
+### Better Cheats Admin Cap Screen ###
+country_event = {
+    id = bccheatinterface.2013
+    title = "bccheatinterface_2_trade_value"
+    desc = "bccheatinterface_2_trade_value"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = bc_is_in_trade_value_interface}
+    }
+    diplomatic = yes
+    custom_gui = "bc_cheat_interface_empire_trade_value"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = bc_is_in_trade_value_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "bccheatmenu_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = bc_is_in_trade_value_interface
+        }
+    }
+}
+#########################################
+
 
 ######################################################################################
 #                               Ship Events                                          #

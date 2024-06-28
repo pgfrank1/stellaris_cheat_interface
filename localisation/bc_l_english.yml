@@ -2034,6 +2034,7 @@
  bccheatinterface_2_admin_cap_officials_title:0  "[owner.bccheatinterface_2_admin_cap_officials_title]"
  bccheatinterface_2_admin_cap_commanders_title:0  "[owner.bccheatinterface_2_admin_cap_commanders_title]"
  bccheatinterface_2_admin_cap_scientists_title:0  "[owner.bccheatinterface_2_admin_cap_scientists_title]"
+ bccheatinterface_2_trade_value_title:0          "[owner.bccheatinterface_2_trade_value_title]"
 
  bccheatinterface_2_diplomatic_weight:0          "Diplomatic Weight £mod_diplo_weight_mult£"
  bccheatinterface_2_diplomatic_weight_b:0        "§GDiplomatic Weight §W£mod_diplo_weight_mult£"
@@ -2066,6 +2067,8 @@
  bccheatinterface_2_admin_cap_commanders_b:0                    "§GCommanders §W£mod_country_commander_cap_add£"
  bccheatinterface_2_admin_cap_scientists:0                      "Scientists £mod_country_scientist_cap_add£"
  bccheatinterface_2_admin_cap_scientists_b:0                    "§GScientists §W£mod_country_scientist_cap_add£"
+ bccheatinterface_2_trade_value:0                      "Trade Value £mod_trade_value_mult£"
+ bccheatinterface_2_trade_value_b:0                    "§GTrade Value §W£mod_trade_value_mult£"
 
 
  # Diplomatic Weight Positive
@@ -2585,6 +2588,38 @@
  bc_empire_admin_cap_scientists_t9_b:0                      "§GScientists Tier IX§W"
  bc_empire_admin_cap_scientists_t10:0                       "Scientists Tier X"
  bc_empire_admin_cap_scientists_t10_b:0                      "§GScientists Tier X§W"
+
+ # Trade Value
+ bc_empire_trade_value_t1_title:0                  "[owner.bc_empire_trade_value_t1_title]"
+ bc_empire_trade_value_t2_title:0                  "[owner.bc_empire_trade_value_t2_title]"
+ bc_empire_trade_value_t3_title:0                  "[owner.bc_empire_trade_value_t3_title]"
+ bc_empire_trade_value_t4_title:0                  "[owner.bc_empire_trade_value_t4_title]"
+ bc_empire_trade_value_t5_title:0                  "[owner.bc_empire_trade_value_t5_title]"
+ bc_empire_trade_value_t6_title:0                  "[owner.bc_empire_trade_value_t6_title]"
+ bc_empire_trade_value_t7_title:0                  "[owner.bc_empire_trade_value_t7_title]"
+ bc_empire_trade_value_t8_title:0                  "[owner.bc_empire_trade_value_t8_title]"
+ bc_empire_trade_value_t9_title:0                  "[owner.bc_empire_trade_value_t9_title]"
+ bc_empire_trade_value_t10_title:0                 "[owner.bc_empire_trade_value_t10_title]"
+ bc_empire_trade_value_t1:0                        "Trade Value Tier I"
+ bc_empire_trade_value_t1_b:0                      "§GTrade Value Tier I§W"
+ bc_empire_trade_value_t2:0                        "Trade Value Tier II"
+ bc_empire_trade_value_t2_b:0                      "§GTrade Value Tier II§W"
+ bc_empire_trade_value_t3:0                        "Trade Value Tier III"
+ bc_empire_trade_value_t3_b:0                      "§GTrade Value Tier III§W"
+ bc_empire_trade_value_t4:0                        "Trade Value Tier IV"
+ bc_empire_trade_value_t4_b:0                      "§GTrade Value Tier IV§W"
+ bc_empire_trade_value_t5:0                        "Trade Value Tier V"
+ bc_empire_trade_value_t5_b:0                      "§GTrade Value Tier V§W"
+ bc_empire_trade_value_t6:0                        "Trade Value Tier VI"
+ bc_empire_trade_value_t6_b:0                      "§GTrade Value Tier VI§W"
+ bc_empire_trade_value_t7:0                        "Trade Value Tier VII"
+ bc_empire_trade_value_t7_b:0                      "§GTrade Value Tier VII§W"
+ bc_empire_trade_value_t8:0                        "Trade Value Tier VIII"
+ bc_empire_trade_value_t8_b:0                      "§GTrade Value Tier VIII§W"
+ bc_empire_trade_value_t9:0                        "Trade Value Tier IX"
+ bc_empire_trade_value_t9_b:0                      "§GTrade Value Tier IX§W"
+ bc_empire_trade_value_t10:0                       "Trade Value Tier X"
+ bc_empire_trade_value_t10_b:0                      "§GTrade Value Tier X§W"
 
 
  ####### Ship Column #######
