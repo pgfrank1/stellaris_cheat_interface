@@ -884,6 +884,15 @@ guiTypes = {
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_ship_naval_capacity_title"
                 }
+                # Ship Fleet Limit Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_fleet_limit"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 280 }
+                    effect = "cheatinterface_button_ship_fleet_limit"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_fleet_limit_title"
+                }
             }
         }
         #############################################################################

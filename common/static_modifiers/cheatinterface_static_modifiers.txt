@@ -1323,3 +1323,36 @@ cheatinterface_ship_naval_capacity_t10 = {
 	country_naval_cap_mult = 500.00
 }
 ###############################
+
+#### ship_fleet_limit TIER SELECTOR ####
+cheatinterface_ship_fleet_limit_t1 = {
+	command_limit_mult = 0.15
+}
+cheatinterface_ship_fleet_limit_t2 = {
+	command_limit_mult = 0.50
+}
+cheatinterface_ship_fleet_limit_t3 = {
+	command_limit_mult = 1.00
+}
+cheatinterface_ship_fleet_limit_t4 = {
+	command_limit_mult = 2.50
+}
+cheatinterface_ship_fleet_limit_t5 = {
+	command_limit_mult = 5.00
+}
+cheatinterface_ship_fleet_limit_t6 = {
+	command_limit_mult = 10.00
+}
+cheatinterface_ship_fleet_limit_t7 = {
+	command_limit_mult = 50.00
+}
+cheatinterface_ship_fleet_limit_t8 = {
+	command_limit_mult = 100.00
+}
+cheatinterface_ship_fleet_limit_t9 = {
+	command_limit_mult = 250.00
+}
+cheatinterface_ship_fleet_limit_t10 = {
+	command_limit_mult = 500.00
+}
+###############################
