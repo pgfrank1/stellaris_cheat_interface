@@ -893,6 +893,33 @@ guiTypes = {
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_ship_fleet_limit_title"
                 }
+                # Ship Health Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_health"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 320 }
+                    effect = "cheatinterface_button_ship_health"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_health_title"
+                }
+                # Ship Experience Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_experience"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 360 }
+                    effect = "cheatinterface_button_ship_experience"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_experience_title"
+                }
+                # Ship Weapon Damage Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_weapon_damage"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 400 }
+                    effect = "cheatinterface_button_ship_weapon_damage"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_weapon_damage_title"
+                }
             }
         }
         #############################################################################

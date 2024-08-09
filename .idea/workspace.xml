@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Ship Naval Capacity working correctly">
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_ship_fleet_limit.gui" afterDir="false" />
+    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Ship Fleet Limit working correctly">
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_ship_experience.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_ship_health.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_ship_weapon_damage.gui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" afterDir="false" />
@@ -92,7 +94,7 @@
       <workItem from="1719863949865" duration="864000" />
       <workItem from="1722548920342" duration="316000" />
       <workItem from="1723219712284" duration="31000" />
-      <workItem from="1723219765448" duration="4594000" />
+      <workItem from="1723219765448" duration="7019000" />
     </task>
     <task id="LOCAL-00001" summary="Cheat Interface Init">
       <option name="closed" value="true" />
@@ -126,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723223432533</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ship Fleet Limit working correctly">
+      <option name="closed" value="true" />
+      <created>1723224397404</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723224397404</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +170,7 @@
     <MESSAGE value="Empire Colony Development and Storage Cap options standardized and working correctly." />
     <MESSAGE value="Ship Build Speed working correctly" />
     <MESSAGE value="Ship Naval Capacity working correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ship Naval Capacity working correctly" />
+    <MESSAGE value="Ship Fleet Limit working correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ship Fleet Limit working correctly" />
   </component>
 </project>

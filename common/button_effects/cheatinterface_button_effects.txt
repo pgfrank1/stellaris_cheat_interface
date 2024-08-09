@@ -19096,3 +19096,1404 @@ cheatinterface_button_ship_fleet_limit_t10 = {
     }
 }
 ################################################################################
+
+###################### Ship Health Button Effects ###########################
+cheatinterface_button_ship_health = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        country_event = {
+            id = "cheatinterface.3009"
+        }
+    }
+}
+
+cheatinterface_button_ship_health_t1 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_health_t1_modifier
+                has_modifier = cheatinterface_ship_health_t1
+            }
+            remove_country_flag = cheatinterface_has_health_t1_modifier
+            remove_modifier = cheatinterface_ship_health_t1
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_health_t1
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_health_t1_modifier
+                remove_country_flag = cheatinterface_has_health_t2_modifier
+                remove_country_flag = cheatinterface_has_health_t3_modifier
+                remove_country_flag = cheatinterface_has_health_t4_modifier
+                remove_country_flag = cheatinterface_has_health_t5_modifier
+                remove_country_flag = cheatinterface_has_health_t6_modifier
+                remove_country_flag = cheatinterface_has_health_t7_modifier
+                remove_country_flag = cheatinterface_has_health_t8_modifier
+                remove_country_flag = cheatinterface_has_health_t9_modifier
+                remove_country_flag = cheatinterface_has_health_t10_modifier
+                remove_modifier = cheatinterface_ship_health_t2
+                remove_modifier = cheatinterface_ship_health_t3
+                remove_modifier = cheatinterface_ship_health_t4
+                remove_modifier = cheatinterface_ship_health_t5
+                remove_modifier = cheatinterface_ship_health_t6
+                remove_modifier = cheatinterface_ship_health_t7
+                remove_modifier = cheatinterface_ship_health_t8
+                remove_modifier = cheatinterface_ship_health_t9
+                remove_modifier = cheatinterface_ship_health_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_health_t2 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_health_t2_modifier
+                has_modifier = cheatinterface_ship_health_t2
+            }
+            remove_country_flag = cheatinterface_has_health_t2_modifier
+            remove_modifier = cheatinterface_ship_health_t2
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_health_t2
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_health_t2_modifier
+                remove_country_flag = cheatinterface_has_health_t1_modifier
+                remove_country_flag = cheatinterface_has_health_t3_modifier
+                remove_country_flag = cheatinterface_has_health_t4_modifier
+                remove_country_flag = cheatinterface_has_health_t5_modifier
+                remove_country_flag = cheatinterface_has_health_t6_modifier
+                remove_country_flag = cheatinterface_has_health_t7_modifier
+                remove_country_flag = cheatinterface_has_health_t8_modifier
+                remove_country_flag = cheatinterface_has_health_t9_modifier
+                remove_country_flag = cheatinterface_has_health_t10_modifier
+                remove_modifier = cheatinterface_ship_health_t1
+                remove_modifier = cheatinterface_ship_health_t3
+                remove_modifier = cheatinterface_ship_health_t4
+                remove_modifier = cheatinterface_ship_health_t5
+                remove_modifier = cheatinterface_ship_health_t6
+                remove_modifier = cheatinterface_ship_health_t7
+                remove_modifier = cheatinterface_ship_health_t8
+                remove_modifier = cheatinterface_ship_health_t9
+                remove_modifier = cheatinterface_ship_health_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_health_t3 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_health_t3_modifier
+                has_modifier = cheatinterface_ship_health_t3
+            }
+            remove_country_flag = cheatinterface_has_health_t3_modifier
+            remove_modifier = cheatinterface_ship_health_t3
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_health_t3
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_health_t3_modifier
+                remove_country_flag = cheatinterface_has_health_t1_modifier
+                remove_country_flag = cheatinterface_has_health_t2_modifier
+                remove_country_flag = cheatinterface_has_health_t4_modifier
+                remove_country_flag = cheatinterface_has_health_t5_modifier
+                remove_country_flag = cheatinterface_has_health_t6_modifier
+                remove_country_flag = cheatinterface_has_health_t7_modifier
+                remove_country_flag = cheatinterface_has_health_t8_modifier
+                remove_country_flag = cheatinterface_has_health_t9_modifier
+                remove_country_flag = cheatinterface_has_health_t10_modifier
+                remove_modifier = cheatinterface_ship_health_t1
+                remove_modifier = cheatinterface_ship_health_t2
+                remove_modifier = cheatinterface_ship_health_t4
+                remove_modifier = cheatinterface_ship_health_t5
+                remove_modifier = cheatinterface_ship_health_t6
+                remove_modifier = cheatinterface_ship_health_t7
+                remove_modifier = cheatinterface_ship_health_t8
+                remove_modifier = cheatinterface_ship_health_t9
+                remove_modifier = cheatinterface_ship_health_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_health_t4 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_health_t4_modifier
+                has_modifier = cheatinterface_ship_health_t4
+            }
+            remove_country_flag = cheatinterface_has_health_t4_modifier
+            remove_modifier = cheatinterface_ship_health_t4
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_health_t4
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_health_t4_modifier
+                remove_country_flag = cheatinterface_has_health_t1_modifier
+                remove_country_flag = cheatinterface_has_health_t2_modifier
+                remove_country_flag = cheatinterface_has_health_t3_modifier
+                remove_country_flag = cheatinterface_has_health_t5_modifier
+                remove_country_flag = cheatinterface_has_health_t6_modifier
+                remove_country_flag = cheatinterface_has_health_t7_modifier
+                remove_country_flag = cheatinterface_has_health_t8_modifier
+                remove_country_flag = cheatinterface_has_health_t9_modifier
+                remove_country_flag = cheatinterface_has_health_t10_modifier
+                remove_modifier = cheatinterface_ship_health_t1
+                remove_modifier = cheatinterface_ship_health_t2
+                remove_modifier = cheatinterface_ship_health_t3
+                remove_modifier = cheatinterface_ship_health_t5
+                remove_modifier = cheatinterface_ship_health_t6
+                remove_modifier = cheatinterface_ship_health_t7
+                remove_modifier = cheatinterface_ship_health_t8
+                remove_modifier = cheatinterface_ship_health_t9
+                remove_modifier = cheatinterface_ship_health_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_health_t5 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_health_t5_modifier
+                has_modifier = cheatinterface_ship_health_t5
+            }
+            remove_country_flag = cheatinterface_has_health_t5_modifier
+            remove_modifier = cheatinterface_ship_health_t5
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_health_t5
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_health_t5_modifier
+                remove_country_flag = cheatinterface_has_health_t1_modifier
+                remove_country_flag = cheatinterface_has_health_t2_modifier
+                remove_country_flag = cheatinterface_has_health_t3_modifier
+                remove_country_flag = cheatinterface_has_health_t4_modifier
+                remove_country_flag = cheatinterface_has_health_t6_modifier
+                remove_country_flag = cheatinterface_has_health_t7_modifier
+                remove_country_flag = cheatinterface_has_health_t8_modifier
+                remove_country_flag = cheatinterface_has_health_t9_modifier
+                remove_country_flag = cheatinterface_has_health_t10_modifier
+                remove_modifier = cheatinterface_ship_health_t1
+                remove_modifier = cheatinterface_ship_health_t2
+                remove_modifier = cheatinterface_ship_health_t3
+                remove_modifier = cheatinterface_ship_health_t4
+                remove_modifier = cheatinterface_ship_health_t6
+                remove_modifier = cheatinterface_ship_health_t7
+                remove_modifier = cheatinterface_ship_health_t8
+                remove_modifier = cheatinterface_ship_health_t9
+                remove_modifier = cheatinterface_ship_health_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_health_t6 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_health_t6_modifier
+                has_modifier = cheatinterface_ship_health_t6
+            }
+            remove_country_flag = cheatinterface_has_health_t6_modifier
+            remove_modifier = cheatinterface_ship_health_t6
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_health_t6
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_health_t6_modifier
+                remove_country_flag = cheatinterface_has_health_t1_modifier
+                remove_country_flag = cheatinterface_has_health_t2_modifier
+                remove_country_flag = cheatinterface_has_health_t3_modifier
+                remove_country_flag = cheatinterface_has_health_t4_modifier
+                remove_country_flag = cheatinterface_has_health_t5_modifier
+                remove_country_flag = cheatinterface_has_health_t7_modifier
+                remove_country_flag = cheatinterface_has_health_t8_modifier
+                remove_country_flag = cheatinterface_has_health_t9_modifier
+                remove_country_flag = cheatinterface_has_health_t10_modifier
+                remove_modifier = cheatinterface_ship_health_t1
+                remove_modifier = cheatinterface_ship_health_t2
+                remove_modifier = cheatinterface_ship_health_t3
+                remove_modifier = cheatinterface_ship_health_t4
+                remove_modifier = cheatinterface_ship_health_t5
+                remove_modifier = cheatinterface_ship_health_t7
+                remove_modifier = cheatinterface_ship_health_t8
+                remove_modifier = cheatinterface_ship_health_t9
+                remove_modifier = cheatinterface_ship_health_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_health_t7 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_health_t7_modifier
+                has_modifier = cheatinterface_ship_health_t7
+            }
+            remove_country_flag = cheatinterface_has_health_t7_modifier
+            remove_modifier = cheatinterface_ship_health_t7
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_health_t7
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_health_t7_modifier
+                remove_country_flag = cheatinterface_has_health_t1_modifier
+                remove_country_flag = cheatinterface_has_health_t2_modifier
+                remove_country_flag = cheatinterface_has_health_t3_modifier
+                remove_country_flag = cheatinterface_has_health_t4_modifier
+                remove_country_flag = cheatinterface_has_health_t5_modifier
+                remove_country_flag = cheatinterface_has_health_t6_modifier
+                remove_country_flag = cheatinterface_has_health_t8_modifier
+                remove_country_flag = cheatinterface_has_health_t9_modifier
+                remove_country_flag = cheatinterface_has_health_t10_modifier
+                remove_modifier = cheatinterface_ship_health_t1
+                remove_modifier = cheatinterface_ship_health_t2
+                remove_modifier = cheatinterface_ship_health_t3
+                remove_modifier = cheatinterface_ship_health_t4
+                remove_modifier = cheatinterface_ship_health_t5
+                remove_modifier = cheatinterface_ship_health_t6
+                remove_modifier = cheatinterface_ship_health_t8
+                remove_modifier = cheatinterface_ship_health_t9
+                remove_modifier = cheatinterface_ship_health_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_health_t8 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_health_t8_modifier
+                has_modifier = cheatinterface_ship_health_t8
+            }
+            remove_country_flag = cheatinterface_has_health_t8_modifier
+            remove_modifier = cheatinterface_ship_health_t8
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_health_t8
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_health_t8_modifier
+                remove_country_flag = cheatinterface_has_health_t1_modifier
+                remove_country_flag = cheatinterface_has_health_t2_modifier
+                remove_country_flag = cheatinterface_has_health_t3_modifier
+                remove_country_flag = cheatinterface_has_health_t4_modifier
+                remove_country_flag = cheatinterface_has_health_t5_modifier
+                remove_country_flag = cheatinterface_has_health_t6_modifier
+                remove_country_flag = cheatinterface_has_health_t7_modifier
+                remove_country_flag = cheatinterface_has_health_t9_modifier
+                remove_country_flag = cheatinterface_has_health_t10_modifier
+                remove_modifier = cheatinterface_ship_health_t1
+                remove_modifier = cheatinterface_ship_health_t2
+                remove_modifier = cheatinterface_ship_health_t3
+                remove_modifier = cheatinterface_ship_health_t4
+                remove_modifier = cheatinterface_ship_health_t5
+                remove_modifier = cheatinterface_ship_health_t6
+                remove_modifier = cheatinterface_ship_health_t7
+                remove_modifier = cheatinterface_ship_health_t9
+                remove_modifier = cheatinterface_ship_health_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_health_t9 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_health_t9_modifier
+                has_modifier = cheatinterface_ship_health_t9
+            }
+            remove_country_flag = cheatinterface_has_health_t9_modifier
+            remove_modifier = cheatinterface_ship_health_t9
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_health_t9
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_health_t9_modifier
+                remove_country_flag = cheatinterface_has_health_t1_modifier
+                remove_country_flag = cheatinterface_has_health_t2_modifier
+                remove_country_flag = cheatinterface_has_health_t3_modifier
+                remove_country_flag = cheatinterface_has_health_t4_modifier
+                remove_country_flag = cheatinterface_has_health_t5_modifier
+                remove_country_flag = cheatinterface_has_health_t6_modifier
+                remove_country_flag = cheatinterface_has_health_t7_modifier
+                remove_country_flag = cheatinterface_has_health_t8_modifier
+                remove_country_flag = cheatinterface_has_health_t10_modifier
+                remove_modifier = cheatinterface_ship_health_t1
+                remove_modifier = cheatinterface_ship_health_t2
+                remove_modifier = cheatinterface_ship_health_t3
+                remove_modifier = cheatinterface_ship_health_t4
+                remove_modifier = cheatinterface_ship_health_t5
+                remove_modifier = cheatinterface_ship_health_t6
+                remove_modifier = cheatinterface_ship_health_t7
+                remove_modifier = cheatinterface_ship_health_t8
+                remove_modifier = cheatinterface_ship_health_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_health_t10 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_health_t10_modifier
+                has_modifier = cheatinterface_ship_health_t10
+            }
+            remove_country_flag = cheatinterface_has_health_t10_modifier
+            remove_modifier = cheatinterface_ship_health_t10
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_health_t10
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_health_t10_modifier
+                remove_country_flag = cheatinterface_has_health_t1_modifier
+                remove_country_flag = cheatinterface_has_health_t2_modifier
+                remove_country_flag = cheatinterface_has_health_t3_modifier
+                remove_country_flag = cheatinterface_has_health_t4_modifier
+                remove_country_flag = cheatinterface_has_health_t5_modifier
+                remove_country_flag = cheatinterface_has_health_t6_modifier
+                remove_country_flag = cheatinterface_has_health_t7_modifier
+                remove_country_flag = cheatinterface_has_health_t8_modifier
+                remove_country_flag = cheatinterface_has_health_t9_modifier
+                remove_modifier = cheatinterface_ship_health_t1
+                remove_modifier = cheatinterface_ship_health_t2
+                remove_modifier = cheatinterface_ship_health_t3
+                remove_modifier = cheatinterface_ship_health_t4
+                remove_modifier = cheatinterface_ship_health_t5
+                remove_modifier = cheatinterface_ship_health_t6
+                remove_modifier = cheatinterface_ship_health_t7
+                remove_modifier = cheatinterface_ship_health_t8
+                remove_modifier = cheatinterface_ship_health_t9
+            }
+        }
+    }
+}
+################################################################################
+
+###################### Ship Experience Button Effects ###########################
+cheatinterface_button_ship_experience = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        country_event = {
+            id = "cheatinterface.3010"
+        }
+    }
+}
+
+cheatinterface_button_ship_experience_t1 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_experience_t1_modifier
+                has_modifier = cheatinterface_ship_experience_t1
+            }
+            remove_country_flag = cheatinterface_has_experience_t1_modifier
+            remove_modifier = cheatinterface_ship_experience_t1
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_experience_t1
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_experience_t1_modifier
+                remove_country_flag = cheatinterface_has_experience_t2_modifier
+                remove_country_flag = cheatinterface_has_experience_t3_modifier
+                remove_country_flag = cheatinterface_has_experience_t4_modifier
+                remove_country_flag = cheatinterface_has_experience_t5_modifier
+                remove_country_flag = cheatinterface_has_experience_t6_modifier
+                remove_country_flag = cheatinterface_has_experience_t7_modifier
+                remove_country_flag = cheatinterface_has_experience_t8_modifier
+                remove_country_flag = cheatinterface_has_experience_t9_modifier
+                remove_country_flag = cheatinterface_has_experience_t10_modifier
+                remove_modifier = cheatinterface_ship_experience_t2
+                remove_modifier = cheatinterface_ship_experience_t3
+                remove_modifier = cheatinterface_ship_experience_t4
+                remove_modifier = cheatinterface_ship_experience_t5
+                remove_modifier = cheatinterface_ship_experience_t6
+                remove_modifier = cheatinterface_ship_experience_t7
+                remove_modifier = cheatinterface_ship_experience_t8
+                remove_modifier = cheatinterface_ship_experience_t9
+                remove_modifier = cheatinterface_ship_experience_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_experience_t2 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_experience_t2_modifier
+                has_modifier = cheatinterface_ship_experience_t2
+            }
+            remove_country_flag = cheatinterface_has_experience_t2_modifier
+            remove_modifier = cheatinterface_ship_experience_t2
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_experience_t2
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_experience_t2_modifier
+                remove_country_flag = cheatinterface_has_experience_t1_modifier
+                remove_country_flag = cheatinterface_has_experience_t3_modifier
+                remove_country_flag = cheatinterface_has_experience_t4_modifier
+                remove_country_flag = cheatinterface_has_experience_t5_modifier
+                remove_country_flag = cheatinterface_has_experience_t6_modifier
+                remove_country_flag = cheatinterface_has_experience_t7_modifier
+                remove_country_flag = cheatinterface_has_experience_t8_modifier
+                remove_country_flag = cheatinterface_has_experience_t9_modifier
+                remove_country_flag = cheatinterface_has_experience_t10_modifier
+                remove_modifier = cheatinterface_ship_experience_t1
+                remove_modifier = cheatinterface_ship_experience_t3
+                remove_modifier = cheatinterface_ship_experience_t4
+                remove_modifier = cheatinterface_ship_experience_t5
+                remove_modifier = cheatinterface_ship_experience_t6
+                remove_modifier = cheatinterface_ship_experience_t7
+                remove_modifier = cheatinterface_ship_experience_t8
+                remove_modifier = cheatinterface_ship_experience_t9
+                remove_modifier = cheatinterface_ship_experience_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_experience_t3 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_experience_t3_modifier
+                has_modifier = cheatinterface_ship_experience_t3
+            }
+            remove_country_flag = cheatinterface_has_experience_t3_modifier
+            remove_modifier = cheatinterface_ship_experience_t3
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_experience_t3
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_experience_t3_modifier
+                remove_country_flag = cheatinterface_has_experience_t1_modifier
+                remove_country_flag = cheatinterface_has_experience_t2_modifier
+                remove_country_flag = cheatinterface_has_experience_t4_modifier
+                remove_country_flag = cheatinterface_has_experience_t5_modifier
+                remove_country_flag = cheatinterface_has_experience_t6_modifier
+                remove_country_flag = cheatinterface_has_experience_t7_modifier
+                remove_country_flag = cheatinterface_has_experience_t8_modifier
+                remove_country_flag = cheatinterface_has_experience_t9_modifier
+                remove_country_flag = cheatinterface_has_experience_t10_modifier
+                remove_modifier = cheatinterface_ship_experience_t1
+                remove_modifier = cheatinterface_ship_experience_t2
+                remove_modifier = cheatinterface_ship_experience_t4
+                remove_modifier = cheatinterface_ship_experience_t5
+                remove_modifier = cheatinterface_ship_experience_t6
+                remove_modifier = cheatinterface_ship_experience_t7
+                remove_modifier = cheatinterface_ship_experience_t8
+                remove_modifier = cheatinterface_ship_experience_t9
+                remove_modifier = cheatinterface_ship_experience_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_experience_t4 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_experience_t4_modifier
+                has_modifier = cheatinterface_ship_experience_t4
+            }
+            remove_country_flag = cheatinterface_has_experience_t4_modifier
+            remove_modifier = cheatinterface_ship_experience_t4
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_experience_t4
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_experience_t4_modifier
+                remove_country_flag = cheatinterface_has_experience_t1_modifier
+                remove_country_flag = cheatinterface_has_experience_t2_modifier
+                remove_country_flag = cheatinterface_has_experience_t3_modifier
+                remove_country_flag = cheatinterface_has_experience_t5_modifier
+                remove_country_flag = cheatinterface_has_experience_t6_modifier
+                remove_country_flag = cheatinterface_has_experience_t7_modifier
+                remove_country_flag = cheatinterface_has_experience_t8_modifier
+                remove_country_flag = cheatinterface_has_experience_t9_modifier
+                remove_country_flag = cheatinterface_has_experience_t10_modifier
+                remove_modifier = cheatinterface_ship_experience_t1
+                remove_modifier = cheatinterface_ship_experience_t2
+                remove_modifier = cheatinterface_ship_experience_t3
+                remove_modifier = cheatinterface_ship_experience_t5
+                remove_modifier = cheatinterface_ship_experience_t6
+                remove_modifier = cheatinterface_ship_experience_t7
+                remove_modifier = cheatinterface_ship_experience_t8
+                remove_modifier = cheatinterface_ship_experience_t9
+                remove_modifier = cheatinterface_ship_experience_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_experience_t5 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_experience_t5_modifier
+                has_modifier = cheatinterface_ship_experience_t5
+            }
+            remove_country_flag = cheatinterface_has_experience_t5_modifier
+            remove_modifier = cheatinterface_ship_experience_t5
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_experience_t5
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_experience_t5_modifier
+                remove_country_flag = cheatinterface_has_experience_t1_modifier
+                remove_country_flag = cheatinterface_has_experience_t2_modifier
+                remove_country_flag = cheatinterface_has_experience_t3_modifier
+                remove_country_flag = cheatinterface_has_experience_t4_modifier
+                remove_country_flag = cheatinterface_has_experience_t6_modifier
+                remove_country_flag = cheatinterface_has_experience_t7_modifier
+                remove_country_flag = cheatinterface_has_experience_t8_modifier
+                remove_country_flag = cheatinterface_has_experience_t9_modifier
+                remove_country_flag = cheatinterface_has_experience_t10_modifier
+                remove_modifier = cheatinterface_ship_experience_t1
+                remove_modifier = cheatinterface_ship_experience_t2
+                remove_modifier = cheatinterface_ship_experience_t3
+                remove_modifier = cheatinterface_ship_experience_t4
+                remove_modifier = cheatinterface_ship_experience_t6
+                remove_modifier = cheatinterface_ship_experience_t7
+                remove_modifier = cheatinterface_ship_experience_t8
+                remove_modifier = cheatinterface_ship_experience_t9
+                remove_modifier = cheatinterface_ship_experience_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_experience_t6 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_experience_t6_modifier
+                has_modifier = cheatinterface_ship_experience_t6
+            }
+            remove_country_flag = cheatinterface_has_experience_t6_modifier
+            remove_modifier = cheatinterface_ship_experience_t6
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_experience_t6
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_experience_t6_modifier
+                remove_country_flag = cheatinterface_has_experience_t1_modifier
+                remove_country_flag = cheatinterface_has_experience_t2_modifier
+                remove_country_flag = cheatinterface_has_experience_t3_modifier
+                remove_country_flag = cheatinterface_has_experience_t4_modifier
+                remove_country_flag = cheatinterface_has_experience_t5_modifier
+                remove_country_flag = cheatinterface_has_experience_t7_modifier
+                remove_country_flag = cheatinterface_has_experience_t8_modifier
+                remove_country_flag = cheatinterface_has_experience_t9_modifier
+                remove_country_flag = cheatinterface_has_experience_t10_modifier
+                remove_modifier = cheatinterface_ship_experience_t1
+                remove_modifier = cheatinterface_ship_experience_t2
+                remove_modifier = cheatinterface_ship_experience_t3
+                remove_modifier = cheatinterface_ship_experience_t4
+                remove_modifier = cheatinterface_ship_experience_t5
+                remove_modifier = cheatinterface_ship_experience_t7
+                remove_modifier = cheatinterface_ship_experience_t8
+                remove_modifier = cheatinterface_ship_experience_t9
+                remove_modifier = cheatinterface_ship_experience_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_experience_t7 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_experience_t7_modifier
+                has_modifier = cheatinterface_ship_experience_t7
+            }
+            remove_country_flag = cheatinterface_has_experience_t7_modifier
+            remove_modifier = cheatinterface_ship_experience_t7
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_experience_t7
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_experience_t7_modifier
+                remove_country_flag = cheatinterface_has_experience_t1_modifier
+                remove_country_flag = cheatinterface_has_experience_t2_modifier
+                remove_country_flag = cheatinterface_has_experience_t3_modifier
+                remove_country_flag = cheatinterface_has_experience_t4_modifier
+                remove_country_flag = cheatinterface_has_experience_t5_modifier
+                remove_country_flag = cheatinterface_has_experience_t6_modifier
+                remove_country_flag = cheatinterface_has_experience_t8_modifier
+                remove_country_flag = cheatinterface_has_experience_t9_modifier
+                remove_country_flag = cheatinterface_has_experience_t10_modifier
+                remove_modifier = cheatinterface_ship_experience_t1
+                remove_modifier = cheatinterface_ship_experience_t2
+                remove_modifier = cheatinterface_ship_experience_t3
+                remove_modifier = cheatinterface_ship_experience_t4
+                remove_modifier = cheatinterface_ship_experience_t5
+                remove_modifier = cheatinterface_ship_experience_t6
+                remove_modifier = cheatinterface_ship_experience_t8
+                remove_modifier = cheatinterface_ship_experience_t9
+                remove_modifier = cheatinterface_ship_experience_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_experience_t8 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_experience_t8_modifier
+                has_modifier = cheatinterface_ship_experience_t8
+            }
+            remove_country_flag = cheatinterface_has_experience_t8_modifier
+            remove_modifier = cheatinterface_ship_experience_t8
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_experience_t8
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_experience_t8_modifier
+                remove_country_flag = cheatinterface_has_experience_t1_modifier
+                remove_country_flag = cheatinterface_has_experience_t2_modifier
+                remove_country_flag = cheatinterface_has_experience_t3_modifier
+                remove_country_flag = cheatinterface_has_experience_t4_modifier
+                remove_country_flag = cheatinterface_has_experience_t5_modifier
+                remove_country_flag = cheatinterface_has_experience_t6_modifier
+                remove_country_flag = cheatinterface_has_experience_t7_modifier
+                remove_country_flag = cheatinterface_has_experience_t9_modifier
+                remove_country_flag = cheatinterface_has_experience_t10_modifier
+                remove_modifier = cheatinterface_ship_experience_t1
+                remove_modifier = cheatinterface_ship_experience_t2
+                remove_modifier = cheatinterface_ship_experience_t3
+                remove_modifier = cheatinterface_ship_experience_t4
+                remove_modifier = cheatinterface_ship_experience_t5
+                remove_modifier = cheatinterface_ship_experience_t6
+                remove_modifier = cheatinterface_ship_experience_t7
+                remove_modifier = cheatinterface_ship_experience_t9
+                remove_modifier = cheatinterface_ship_experience_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_experience_t9 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_experience_t9_modifier
+                has_modifier = cheatinterface_ship_experience_t9
+            }
+            remove_country_flag = cheatinterface_has_experience_t9_modifier
+            remove_modifier = cheatinterface_ship_experience_t9
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_experience_t9
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_experience_t9_modifier
+                remove_country_flag = cheatinterface_has_experience_t1_modifier
+                remove_country_flag = cheatinterface_has_experience_t2_modifier
+                remove_country_flag = cheatinterface_has_experience_t3_modifier
+                remove_country_flag = cheatinterface_has_experience_t4_modifier
+                remove_country_flag = cheatinterface_has_experience_t5_modifier
+                remove_country_flag = cheatinterface_has_experience_t6_modifier
+                remove_country_flag = cheatinterface_has_experience_t7_modifier
+                remove_country_flag = cheatinterface_has_experience_t8_modifier
+                remove_country_flag = cheatinterface_has_experience_t10_modifier
+                remove_modifier = cheatinterface_ship_experience_t1
+                remove_modifier = cheatinterface_ship_experience_t2
+                remove_modifier = cheatinterface_ship_experience_t3
+                remove_modifier = cheatinterface_ship_experience_t4
+                remove_modifier = cheatinterface_ship_experience_t5
+                remove_modifier = cheatinterface_ship_experience_t6
+                remove_modifier = cheatinterface_ship_experience_t7
+                remove_modifier = cheatinterface_ship_experience_t8
+                remove_modifier = cheatinterface_ship_experience_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_experience_t10 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_experience_t10_modifier
+                has_modifier = cheatinterface_ship_experience_t10
+            }
+            remove_country_flag = cheatinterface_has_experience_t10_modifier
+            remove_modifier = cheatinterface_ship_experience_t10
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_experience_t10
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_experience_t10_modifier
+                remove_country_flag = cheatinterface_has_experience_t1_modifier
+                remove_country_flag = cheatinterface_has_experience_t2_modifier
+                remove_country_flag = cheatinterface_has_experience_t3_modifier
+                remove_country_flag = cheatinterface_has_experience_t4_modifier
+                remove_country_flag = cheatinterface_has_experience_t5_modifier
+                remove_country_flag = cheatinterface_has_experience_t6_modifier
+                remove_country_flag = cheatinterface_has_experience_t7_modifier
+                remove_country_flag = cheatinterface_has_experience_t8_modifier
+                remove_country_flag = cheatinterface_has_experience_t9_modifier
+                remove_modifier = cheatinterface_ship_experience_t1
+                remove_modifier = cheatinterface_ship_experience_t2
+                remove_modifier = cheatinterface_ship_experience_t3
+                remove_modifier = cheatinterface_ship_experience_t4
+                remove_modifier = cheatinterface_ship_experience_t5
+                remove_modifier = cheatinterface_ship_experience_t6
+                remove_modifier = cheatinterface_ship_experience_t7
+                remove_modifier = cheatinterface_ship_experience_t8
+                remove_modifier = cheatinterface_ship_experience_t9
+            }
+        }
+    }
+}
+################################################################################
+
+###################### Ship Weapon Damage Button Effects ###########################
+cheatinterface_button_ship_weapon_damage = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        country_event = {
+            id = "cheatinterface.3011"
+        }
+    }
+}
+
+cheatinterface_button_ship_weapon_damage_t1 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_weapon_damage_t1_modifier
+                has_modifier = cheatinterface_ship_weapon_damage_t1
+            }
+            remove_country_flag = cheatinterface_has_weapon_damage_t1_modifier
+            remove_modifier = cheatinterface_ship_weapon_damage_t1
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_weapon_damage_t1
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_weapon_damage_t1_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t2_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t3_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t4_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t5_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t6_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t7_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t8_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t9_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t10_modifier
+                remove_modifier = cheatinterface_ship_weapon_damage_t2
+                remove_modifier = cheatinterface_ship_weapon_damage_t3
+                remove_modifier = cheatinterface_ship_weapon_damage_t4
+                remove_modifier = cheatinterface_ship_weapon_damage_t5
+                remove_modifier = cheatinterface_ship_weapon_damage_t6
+                remove_modifier = cheatinterface_ship_weapon_damage_t7
+                remove_modifier = cheatinterface_ship_weapon_damage_t8
+                remove_modifier = cheatinterface_ship_weapon_damage_t9
+                remove_modifier = cheatinterface_ship_weapon_damage_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_weapon_damage_t2 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_weapon_damage_t2_modifier
+                has_modifier = cheatinterface_ship_weapon_damage_t2
+            }
+            remove_country_flag = cheatinterface_has_weapon_damage_t2_modifier
+            remove_modifier = cheatinterface_ship_weapon_damage_t2
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_weapon_damage_t2
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_weapon_damage_t2_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t1_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t3_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t4_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t5_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t6_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t7_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t8_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t9_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t10_modifier
+                remove_modifier = cheatinterface_ship_weapon_damage_t1
+                remove_modifier = cheatinterface_ship_weapon_damage_t3
+                remove_modifier = cheatinterface_ship_weapon_damage_t4
+                remove_modifier = cheatinterface_ship_weapon_damage_t5
+                remove_modifier = cheatinterface_ship_weapon_damage_t6
+                remove_modifier = cheatinterface_ship_weapon_damage_t7
+                remove_modifier = cheatinterface_ship_weapon_damage_t8
+                remove_modifier = cheatinterface_ship_weapon_damage_t9
+                remove_modifier = cheatinterface_ship_weapon_damage_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_weapon_damage_t3 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_weapon_damage_t3_modifier
+                has_modifier = cheatinterface_ship_weapon_damage_t3
+            }
+            remove_country_flag = cheatinterface_has_weapon_damage_t3_modifier
+            remove_modifier = cheatinterface_ship_weapon_damage_t3
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_weapon_damage_t3
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_weapon_damage_t3_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t1_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t2_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t4_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t5_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t6_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t7_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t8_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t9_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t10_modifier
+                remove_modifier = cheatinterface_ship_weapon_damage_t1
+                remove_modifier = cheatinterface_ship_weapon_damage_t2
+                remove_modifier = cheatinterface_ship_weapon_damage_t4
+                remove_modifier = cheatinterface_ship_weapon_damage_t5
+                remove_modifier = cheatinterface_ship_weapon_damage_t6
+                remove_modifier = cheatinterface_ship_weapon_damage_t7
+                remove_modifier = cheatinterface_ship_weapon_damage_t8
+                remove_modifier = cheatinterface_ship_weapon_damage_t9
+                remove_modifier = cheatinterface_ship_weapon_damage_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_weapon_damage_t4 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_weapon_damage_t4_modifier
+                has_modifier = cheatinterface_ship_weapon_damage_t4
+            }
+            remove_country_flag = cheatinterface_has_weapon_damage_t4_modifier
+            remove_modifier = cheatinterface_ship_weapon_damage_t4
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_weapon_damage_t4
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_weapon_damage_t4_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t1_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t2_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t3_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t5_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t6_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t7_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t8_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t9_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t10_modifier
+                remove_modifier = cheatinterface_ship_weapon_damage_t1
+                remove_modifier = cheatinterface_ship_weapon_damage_t2
+                remove_modifier = cheatinterface_ship_weapon_damage_t3
+                remove_modifier = cheatinterface_ship_weapon_damage_t5
+                remove_modifier = cheatinterface_ship_weapon_damage_t6
+                remove_modifier = cheatinterface_ship_weapon_damage_t7
+                remove_modifier = cheatinterface_ship_weapon_damage_t8
+                remove_modifier = cheatinterface_ship_weapon_damage_t9
+                remove_modifier = cheatinterface_ship_weapon_damage_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_weapon_damage_t5 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_weapon_damage_t5_modifier
+                has_modifier = cheatinterface_ship_weapon_damage_t5
+            }
+            remove_country_flag = cheatinterface_has_weapon_damage_t5_modifier
+            remove_modifier = cheatinterface_ship_weapon_damage_t5
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_weapon_damage_t5
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_weapon_damage_t5_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t1_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t2_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t3_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t4_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t6_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t7_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t8_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t9_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t10_modifier
+                remove_modifier = cheatinterface_ship_weapon_damage_t1
+                remove_modifier = cheatinterface_ship_weapon_damage_t2
+                remove_modifier = cheatinterface_ship_weapon_damage_t3
+                remove_modifier = cheatinterface_ship_weapon_damage_t4
+                remove_modifier = cheatinterface_ship_weapon_damage_t6
+                remove_modifier = cheatinterface_ship_weapon_damage_t7
+                remove_modifier = cheatinterface_ship_weapon_damage_t8
+                remove_modifier = cheatinterface_ship_weapon_damage_t9
+                remove_modifier = cheatinterface_ship_weapon_damage_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_weapon_damage_t6 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_weapon_damage_t6_modifier
+                has_modifier = cheatinterface_ship_weapon_damage_t6
+            }
+            remove_country_flag = cheatinterface_has_weapon_damage_t6_modifier
+            remove_modifier = cheatinterface_ship_weapon_damage_t6
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_weapon_damage_t6
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_weapon_damage_t6_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t1_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t2_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t3_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t4_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t5_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t7_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t8_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t9_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t10_modifier
+                remove_modifier = cheatinterface_ship_weapon_damage_t1
+                remove_modifier = cheatinterface_ship_weapon_damage_t2
+                remove_modifier = cheatinterface_ship_weapon_damage_t3
+                remove_modifier = cheatinterface_ship_weapon_damage_t4
+                remove_modifier = cheatinterface_ship_weapon_damage_t5
+                remove_modifier = cheatinterface_ship_weapon_damage_t7
+                remove_modifier = cheatinterface_ship_weapon_damage_t8
+                remove_modifier = cheatinterface_ship_weapon_damage_t9
+                remove_modifier = cheatinterface_ship_weapon_damage_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_weapon_damage_t7 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_weapon_damage_t7_modifier
+                has_modifier = cheatinterface_ship_weapon_damage_t7
+            }
+            remove_country_flag = cheatinterface_has_weapon_damage_t7_modifier
+            remove_modifier = cheatinterface_ship_weapon_damage_t7
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_weapon_damage_t7
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_weapon_damage_t7_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t1_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t2_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t3_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t4_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t5_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t6_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t8_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t9_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t10_modifier
+                remove_modifier = cheatinterface_ship_weapon_damage_t1
+                remove_modifier = cheatinterface_ship_weapon_damage_t2
+                remove_modifier = cheatinterface_ship_weapon_damage_t3
+                remove_modifier = cheatinterface_ship_weapon_damage_t4
+                remove_modifier = cheatinterface_ship_weapon_damage_t5
+                remove_modifier = cheatinterface_ship_weapon_damage_t6
+                remove_modifier = cheatinterface_ship_weapon_damage_t8
+                remove_modifier = cheatinterface_ship_weapon_damage_t9
+                remove_modifier = cheatinterface_ship_weapon_damage_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_weapon_damage_t8 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_weapon_damage_t8_modifier
+                has_modifier = cheatinterface_ship_weapon_damage_t8
+            }
+            remove_country_flag = cheatinterface_has_weapon_damage_t8_modifier
+            remove_modifier = cheatinterface_ship_weapon_damage_t8
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_weapon_damage_t8
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_weapon_damage_t8_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t1_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t2_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t3_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t4_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t5_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t6_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t7_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t9_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t10_modifier
+                remove_modifier = cheatinterface_ship_weapon_damage_t1
+                remove_modifier = cheatinterface_ship_weapon_damage_t2
+                remove_modifier = cheatinterface_ship_weapon_damage_t3
+                remove_modifier = cheatinterface_ship_weapon_damage_t4
+                remove_modifier = cheatinterface_ship_weapon_damage_t5
+                remove_modifier = cheatinterface_ship_weapon_damage_t6
+                remove_modifier = cheatinterface_ship_weapon_damage_t7
+                remove_modifier = cheatinterface_ship_weapon_damage_t9
+                remove_modifier = cheatinterface_ship_weapon_damage_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_weapon_damage_t9 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_weapon_damage_t9_modifier
+                has_modifier = cheatinterface_ship_weapon_damage_t9
+            }
+            remove_country_flag = cheatinterface_has_weapon_damage_t9_modifier
+            remove_modifier = cheatinterface_ship_weapon_damage_t9
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_weapon_damage_t9
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_weapon_damage_t9_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t1_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t2_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t3_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t4_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t5_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t6_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t7_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t8_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t10_modifier
+                remove_modifier = cheatinterface_ship_weapon_damage_t1
+                remove_modifier = cheatinterface_ship_weapon_damage_t2
+                remove_modifier = cheatinterface_ship_weapon_damage_t3
+                remove_modifier = cheatinterface_ship_weapon_damage_t4
+                remove_modifier = cheatinterface_ship_weapon_damage_t5
+                remove_modifier = cheatinterface_ship_weapon_damage_t6
+                remove_modifier = cheatinterface_ship_weapon_damage_t7
+                remove_modifier = cheatinterface_ship_weapon_damage_t8
+                remove_modifier = cheatinterface_ship_weapon_damage_t10
+            }
+        }
+    }
+}
+cheatinterface_button_ship_weapon_damage_t10 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_weapon_damage_t10_modifier
+                has_modifier = cheatinterface_ship_weapon_damage_t10
+            }
+            remove_country_flag = cheatinterface_has_weapon_damage_t10_modifier
+            remove_modifier = cheatinterface_ship_weapon_damage_t10
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_ship_weapon_damage_t10
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_weapon_damage_t10_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t1_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t2_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t3_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t4_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t5_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t6_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t7_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t8_modifier
+                remove_country_flag = cheatinterface_has_weapon_damage_t9_modifier
+                remove_modifier = cheatinterface_ship_weapon_damage_t1
+                remove_modifier = cheatinterface_ship_weapon_damage_t2
+                remove_modifier = cheatinterface_ship_weapon_damage_t3
+                remove_modifier = cheatinterface_ship_weapon_damage_t4
+                remove_modifier = cheatinterface_ship_weapon_damage_t5
+                remove_modifier = cheatinterface_ship_weapon_damage_t6
+                remove_modifier = cheatinterface_ship_weapon_damage_t7
+                remove_modifier = cheatinterface_ship_weapon_damage_t8
+                remove_modifier = cheatinterface_ship_weapon_damage_t9
+            }
+        }
+    }
+}
+################################################################################

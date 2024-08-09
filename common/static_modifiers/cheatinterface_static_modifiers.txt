@@ -1356,3 +1356,123 @@ cheatinterface_ship_fleet_limit_t10 = {
 	command_limit_mult = 500.00
 }
 ###############################
+
+#### resource storage cap TIER SELECTOR ####
+cheatinterface_ship_weapon_damage_t1 = {
+	ship_weapon_damage = 0.15
+
+}
+cheatinterface_ship_weapon_damage_t2 = {
+	ship_weapon_damage = 0.50
+}
+cheatinterface_ship_weapon_damage_t3 = {
+	ship_weapon_damage = 1.00
+}
+cheatinterface_ship_weapon_damage_t4 = {
+	ship_weapon_damage = 2.50
+}
+cheatinterface_ship_weapon_damage_t5 = {
+	ship_weapon_damage = 5.00
+}
+cheatinterface_ship_weapon_damage_t6 = {
+	ship_weapon_damage = 10.00
+}
+cheatinterface_ship_weapon_damage_t7 = {
+	ship_weapon_damage = 50.00
+}
+cheatinterface_ship_weapon_damage_t8 = {
+	ship_weapon_damage = 100.00
+}
+cheatinterface_ship_weapon_damage_t9 = {
+	ship_weapon_damage = 250.00
+}
+cheatinterface_ship_weapon_damage_t10 = {
+	ship_weapon_damage = 500.00
+}
+###############################
+
+#### ship_experience TIER SELECTOR ####
+cheatinterface_ship_experience_t1 = {
+	ship_experience_gain_mult = 0.15
+}
+cheatinterface_ship_experience_t2 = {
+	ship_experience_gain_mult = 0.50
+}
+cheatinterface_ship_experience_t3 = {
+	ship_experience_gain_mult = 1.00
+}
+cheatinterface_ship_experience_t4 = {
+	ship_experience_gain_mult = 2.50
+}
+cheatinterface_ship_experience_t5 = {
+	ship_experience_gain_mult = 5.00
+}
+cheatinterface_ship_experience_t6 = {
+	ship_experience_gain_mult = 10.00
+}
+cheatinterface_ship_experience_t7 = {
+	ship_experience_gain_mult = 50.00
+}
+cheatinterface_ship_experience_t8 = {
+	ship_experience_gain_mult = 100.00
+}
+cheatinterface_ship_experience_t9 = {
+	ship_experience_gain_mult = 250.00
+}
+cheatinterface_ship_experience_t10 = {
+	ship_experience_gain_mult = 500.00
+}
+###############################
+
+#### ship_health TIER SELECTOR ####
+cheatinterface_ship_health_t1 = {
+	ship_hull_mult = 0.15
+	ship_shield_mult = 0.15
+	ship_armor_mult = 0.15
+}
+cheatinterface_ship_health_t2 = {
+	ship_hull_mult = 0.50
+	ship_shield_mult = 0.50
+	ship_armor_mult = 0.50
+}
+cheatinterface_ship_health_t3 = {
+	ship_hull_mult = 1.00
+	ship_shield_mult = 1.00
+	ship_armor_mult = 1.00
+}
+cheatinterface_ship_health_t4 = {
+	ship_hull_mult = 2.50
+	ship_shield_mult = 2.50
+	ship_armor_mult = 2.50
+}
+cheatinterface_ship_health_t5 = {
+	ship_hull_mult = 5.00
+	ship_shield_mult = 5.00
+	ship_armor_mult = 5.00
+}
+cheatinterface_ship_health_t6 = {
+	ship_hull_mult = 10.00
+	ship_shield_mult = 10.00
+	ship_armor_mult = 10.00
+}
+cheatinterface_ship_health_t7 = {
+	ship_hull_mult = 50.00
+	ship_shield_mult = 50.00
+	ship_armor_mult = 50.00
+}
+cheatinterface_ship_health_t8 = {
+	ship_hull_mult = 100.00
+	ship_shield_mult = 100.00
+	ship_armor_mult = 100.00
+}
+cheatinterface_ship_health_t9 = {
+	ship_hull_mult = 250.00
+	ship_shield_mult = 250.00
+	ship_armor_mult = 250.00
+}
+cheatinterface_ship_health_t10 = {
+	ship_hull_mult = 500.00
+	ship_shield_mult = 500.00
+	ship_armor_mult = 500.00
+}
+###############################
