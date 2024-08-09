@@ -2,7 +2,7 @@ guiTypes = {
     @hidden_ui_items = -10000
 
     containerWindowType = {
-        name = "cheatinterface_resource_storage_cap"
+        name = "cheatinterface_empire_storage_cap"
         orientation = center
         origo = center
         moveable = yes
@@ -386,101 +386,101 @@ guiTypes = {
             }
             # Ship Resource storage_cap Tier I Button
             effectButtonType = {
-                name = "cheatinterface_2_resource_storage_cap"
+                name = "cheatinterface_2_empire_storage_cap"
                 quadTextureSprite = "GFX_standard_button_200_34_button"
                 position = { x = 0 y = 0 }
-                effect = "cheatinterface_button_resource_storage_cap_t1"
+                effect = "cheatinterface_button_empire_storage_cap_t1"
                 buttonFont = "cg_16b"
-                buttonText = "cheatinterface_resource_storage_cap_t1_title"
+                buttonText = "cheatinterface_empire_storage_cap_t1_title"
             }
             # Ship Resource storage_cap Tier II Button
             effectButtonType = {
-                name = "cheatinterface_button_resource_storage_cap_t2"
+                name = "cheatinterface_button_empire_storage_cap_t2"
                 quadTextureSprite = "GFX_standard_button_200_34_button"
                 position = { x = 0 y = 40 }
-                effect = "cheatinterface_button_resource_storage_cap_t2"
+                effect = "cheatinterface_button_empire_storage_cap_t2"
                 buttonFont = "cg_16b"
-                buttonText = "cheatinterface_resource_storage_cap_t2_title"
+                buttonText = "cheatinterface_empire_storage_cap_t2_title"
             }
 
             # Ship Resource storage_cap Tier III Button
             effectButtonType = {
-                name = "cheatinterface_button_resource_storage_cap_t3"
+                name = "cheatinterface_button_empire_storage_cap_t3"
                 quadTextureSprite = "GFX_standard_button_200_34_button"
                 position = { x = 0 y = 80 }
-                effect = "cheatinterface_button_resource_storage_cap_t3"
+                effect = "cheatinterface_button_empire_storage_cap_t3"
                 buttonFont = "cg_16b"
-                buttonText = "cheatinterface_resource_storage_cap_t3_title"
+                buttonText = "cheatinterface_empire_storage_cap_t3_title"
             }
 
             # Ship Resource storage_cap Tier IV Button
             effectButtonType = {
-                name = "cheatinterface_button_resource_storage_cap_t4"
+                name = "cheatinterface_button_empire_storage_cap_t4"
                 quadTextureSprite = "GFX_standard_button_200_34_button"
                 position = { x = 0 y = 120 }
-                effect = "cheatinterface_button_resource_storage_cap_t4"
+                effect = "cheatinterface_button_empire_storage_cap_t4"
                 buttonFont = "cg_16b"
-                buttonText = "cheatinterface_resource_storage_cap_t4_title"
+                buttonText = "cheatinterface_empire_storage_cap_t4_title"
             }
 
             # Ship Resource storage_cap Tier V Button
             effectButtonType = {
-                name = "cheatinterface_button_resource_storage_cap_t5"
+                name = "cheatinterface_button_empire_storage_cap_t5"
                 quadTextureSprite = "GFX_standard_button_200_34_button"
                 position = { x = 0 y = 160 }
-                effect = "cheatinterface_button_resource_storage_cap_t5"
+                effect = "cheatinterface_button_empire_storage_cap_t5"
                 buttonFont = "cg_16b"
-                buttonText = "cheatinterface_resource_storage_cap_t5_title"
+                buttonText = "cheatinterface_empire_storage_cap_t5_title"
             }
 
             # Ship Resource storage_cap Tier VI Button
             effectButtonType = {
-                name = "cheatinterface_button_resource_storage_cap_t6"
+                name = "cheatinterface_button_empire_storage_cap_t6"
                 quadTextureSprite = "GFX_standard_button_200_34_button"
                 position = { x = 0 y = 200 }
-                effect = "cheatinterface_button_resource_storage_cap_t6"
+                effect = "cheatinterface_button_empire_storage_cap_t6"
                 buttonFont = "cg_16b"
-                buttonText = "cheatinterface_resource_storage_cap_t6_title"
+                buttonText = "cheatinterface_empire_storage_cap_t6_title"
             }
 
             # Ship Resource storage_cap Tier VII Button
             effectButtonType = {
-                name = "cheatinterface_button_resource_storage_cap_t7"
+                name = "cheatinterface_button_empire_storage_cap_t7"
                 quadTextureSprite = "GFX_standard_button_200_34_button"
                 position = { x = 0 y = 240 }
-                effect = "cheatinterface_button_resource_storage_cap_t7"
+                effect = "cheatinterface_button_empire_storage_cap_t7"
                 buttonFont = "cg_16b"
-                buttonText = "cheatinterface_resource_storage_cap_t7_title"
+                buttonText = "cheatinterface_empire_storage_cap_t7_title"
             }
 
             # Ship Resource storage_cap Tier VIII Button
             effectButtonType = {
-                name = "cheatinterface_button_resource_storage_cap_t8"
+                name = "cheatinterface_button_empire_storage_cap_t8"
                 quadTextureSprite = "GFX_standard_button_200_34_button"
                 position = { x = 0 y = 280 }
-                effect = "cheatinterface_button_resource_storage_cap_t8"
+                effect = "cheatinterface_button_empire_storage_cap_t8"
                 buttonFont = "cg_16b"
-                buttonText = "cheatinterface_resource_storage_cap_t8_title"
+                buttonText = "cheatinterface_empire_storage_cap_t8_title"
             }
 
             # Ship Resource storage_cap Tier IX Button
             effectButtonType = {
-                name = "cheatinterface_button_resource_storage_cap_t9"
+                name = "cheatinterface_button_empire_storage_cap_t9"
                 quadTextureSprite = "GFX_standard_button_200_34_button"
                 position = { x = 0 y = 320 }
-                effect = "cheatinterface_button_resource_storage_cap_t9"
+                effect = "cheatinterface_button_empire_storage_cap_t9"
                 buttonFont = "cg_16b"
-                buttonText = "cheatinterface_resource_storage_cap_t9_title"
+                buttonText = "cheatinterface_empire_storage_cap_t9_title"
             }
 
             # Ship Resource storage_cap Tier X Button
             effectButtonType = {
-                name = "cheatinterface_button_resource_storage_cap_t10"
+                name = "cheatinterface_button_empire_storage_cap_t10"
                 quadTextureSprite = "GFX_standard_button_200_34_button"
                 position = { x = 0 y = 360 }
-                effect = "cheatinterface_button_resource_storage_cap_t10"
+                effect = "cheatinterface_button_empire_storage_cap_t10"
                 buttonFont = "cg_16b"
-                buttonText = "cheatinterface_resource_storage_cap_t10_title"
+                buttonText = "cheatinterface_empire_storage_cap_t10_title"
             }
         }
     }

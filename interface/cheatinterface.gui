@@ -743,7 +743,7 @@ guiTypes = {
                     name = "cheatinterface_2_storage_cap"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 440 }
-                    effect = "cheatinterface_button_resource_storage_cap"
+                    effect = "cheatinterface_button_empire_storage_cap"
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_storage_cap_title"
                 }

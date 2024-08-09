@@ -462,34 +462,34 @@ cheatinterface_resource_nanites_t10 = {
 ###############################
 
 #### resource storage cap TIER SELECTOR ####
-cheatinterface_resource_storage_cap_t1 = {
+cheatinterface_empire_storage_cap_t1 = {
 	country_resource_max_add = 1000
 }
-cheatinterface_resource_storage_cap_t2 = {
+cheatinterface_empire_storage_cap_t2 = {
 	country_resource_max_add = 2500
 }
-cheatinterface_resource_storage_cap_t3 = {
+cheatinterface_empire_storage_cap_t3 = {
 	country_resource_max_add = 5000
 }
-cheatinterface_resource_storage_cap_t4 = {
+cheatinterface_empire_storage_cap_t4 = {
 	country_resource_max_add = 10000
 }
-cheatinterface_resource_storage_cap_t5 = {
+cheatinterface_empire_storage_cap_t5 = {
 	country_resource_max_add = 25000
 }
-cheatinterface_resource_storage_cap_t6 = {
+cheatinterface_empire_storage_cap_t6 = {
 	country_resource_max_add = 50000
 }
-cheatinterface_resource_storage_cap_t7 = {
+cheatinterface_empire_storage_cap_t7 = {
 	country_resource_max_add = 100000
 }
-cheatinterface_resource_storage_cap_t8 = {
+cheatinterface_empire_storage_cap_t8 = {
 	country_resource_max_add = 250000
 }
-cheatinterface_resource_storage_cap_t9 = {
+cheatinterface_empire_storage_cap_t9 = {
 	country_resource_max_add = 500000
 }
-cheatinterface_resource_storage_cap_t10 = {
+cheatinterface_empire_storage_cap_t10 = {
 	country_resource_max_add = 1000000
 }
 ###############################

@@ -6565,7 +6565,7 @@ cheatinterface_button_resource_nanites_t10 = {
 
 ############################### Resource Storage Cap #################################
 
-cheatinterface_button_resource_storage_cap = {
+cheatinterface_button_empire_storage_cap = {
     potential = {
         always = yes
     }
@@ -6579,7 +6579,7 @@ cheatinterface_button_resource_storage_cap = {
     }
 }
 
-cheatinterface_button_resource_storage_cap_t1 = {
+cheatinterface_button_empire_storage_cap_t1 = {
     potential = {
         always = yes
     }
@@ -6589,42 +6589,42 @@ cheatinterface_button_resource_storage_cap_t1 = {
     effect = {
         if = {
             limit = {
-                has_country_flag = cheatinterface_has_resource_storage_cap_t1_modifier
-                has_modifier = cheatinterface_resource_storage_cap_t1
+                has_country_flag = cheatinterface_has_empire_storage_cap_t1_modifier
+                has_modifier = cheatinterface_empire_storage_cap_t1
             }
-            remove_country_flag = cheatinterface_has_resource_storage_cap_t1_modifier
-            remove_modifier = cheatinterface_resource_storage_cap_t1
+            remove_country_flag = cheatinterface_has_empire_storage_cap_t1_modifier
+            remove_modifier = cheatinterface_empire_storage_cap_t1
         }
         else = {
             add_modifier = {
-                modifier = cheatinterface_resource_storage_cap_t1
+                modifier = cheatinterface_empire_storage_cap_t1
                 days = -1
             }
             hidden_effect = {
-                set_country_flag = cheatinterface_has_resource_storage_cap_t1_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t2_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t3_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t4_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t5_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t6_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t7_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t8_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t9_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t10_modifier
-                remove_modifier = cheatinterface_resource_storage_cap_t2
-                remove_modifier = cheatinterface_resource_storage_cap_t3
-                remove_modifier = cheatinterface_resource_storage_cap_t4
-                remove_modifier = cheatinterface_resource_storage_cap_t5
-                remove_modifier = cheatinterface_resource_storage_cap_t6
-                remove_modifier = cheatinterface_resource_storage_cap_t7
-                remove_modifier = cheatinterface_resource_storage_cap_t8
-                remove_modifier = cheatinterface_resource_storage_cap_t9
-                remove_modifier = cheatinterface_resource_storage_cap_t10
+                set_country_flag = cheatinterface_has_empire_storage_cap_t1_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t2_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t3_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t4_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t5_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t6_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t7_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t8_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t9_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t10_modifier
+                remove_modifier = cheatinterface_empire_storage_cap_t2
+                remove_modifier = cheatinterface_empire_storage_cap_t3
+                remove_modifier = cheatinterface_empire_storage_cap_t4
+                remove_modifier = cheatinterface_empire_storage_cap_t5
+                remove_modifier = cheatinterface_empire_storage_cap_t6
+                remove_modifier = cheatinterface_empire_storage_cap_t7
+                remove_modifier = cheatinterface_empire_storage_cap_t8
+                remove_modifier = cheatinterface_empire_storage_cap_t9
+                remove_modifier = cheatinterface_empire_storage_cap_t10
             }
         }
     }
 }
-cheatinterface_button_resource_storage_cap_t2 = {
+cheatinterface_button_empire_storage_cap_t2 = {
     potential = {
         always = yes
     }
@@ -6634,42 +6634,42 @@ cheatinterface_button_resource_storage_cap_t2 = {
     effect = {
         if = {
             limit = {
-                has_country_flag = cheatinterface_has_resource_storage_cap_t2_modifier
-                has_modifier = cheatinterface_resource_storage_cap_t2
+                has_country_flag = cheatinterface_has_empire_storage_cap_t2_modifier
+                has_modifier = cheatinterface_empire_storage_cap_t2
             }
-            remove_country_flag = cheatinterface_has_resource_storage_cap_t2_modifier
-            remove_modifier = cheatinterface_resource_storage_cap_t2
+            remove_country_flag = cheatinterface_has_empire_storage_cap_t2_modifier
+            remove_modifier = cheatinterface_empire_storage_cap_t2
         }
         else = {
             add_modifier = {
-                modifier = cheatinterface_resource_storage_cap_t2
+                modifier = cheatinterface_empire_storage_cap_t2
                 days = -1
             }
             hidden_effect = {
-                set_country_flag = cheatinterface_has_resource_storage_cap_t2_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t1_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t3_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t4_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t5_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t6_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t7_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t8_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t9_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t10_modifier
-                remove_modifier = cheatinterface_resource_storage_cap_t1
-                remove_modifier = cheatinterface_resource_storage_cap_t3
-                remove_modifier = cheatinterface_resource_storage_cap_t4
-                remove_modifier = cheatinterface_resource_storage_cap_t5
-                remove_modifier = cheatinterface_resource_storage_cap_t6
-                remove_modifier = cheatinterface_resource_storage_cap_t7
-                remove_modifier = cheatinterface_resource_storage_cap_t8
-                remove_modifier = cheatinterface_resource_storage_cap_t9
-                remove_modifier = cheatinterface_resource_storage_cap_t10
+                set_country_flag = cheatinterface_has_empire_storage_cap_t2_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t1_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t3_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t4_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t5_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t6_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t7_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t8_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t9_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t10_modifier
+                remove_modifier = cheatinterface_empire_storage_cap_t1
+                remove_modifier = cheatinterface_empire_storage_cap_t3
+                remove_modifier = cheatinterface_empire_storage_cap_t4
+                remove_modifier = cheatinterface_empire_storage_cap_t5
+                remove_modifier = cheatinterface_empire_storage_cap_t6
+                remove_modifier = cheatinterface_empire_storage_cap_t7
+                remove_modifier = cheatinterface_empire_storage_cap_t8
+                remove_modifier = cheatinterface_empire_storage_cap_t9
+                remove_modifier = cheatinterface_empire_storage_cap_t10
             }
         }
     }
 }
-cheatinterface_button_resource_storage_cap_t3 = {
+cheatinterface_button_empire_storage_cap_t3 = {
     potential = {
         always = yes
     }
@@ -6679,42 +6679,42 @@ cheatinterface_button_resource_storage_cap_t3 = {
     effect = {
         if = {
             limit = {
-                has_country_flag = cheatinterface_has_resource_storage_cap_t3_modifier
-                has_modifier = cheatinterface_resource_storage_cap_t3
+                has_country_flag = cheatinterface_has_empire_storage_cap_t3_modifier
+                has_modifier = cheatinterface_empire_storage_cap_t3
             }
-            remove_country_flag = cheatinterface_has_resource_storage_cap_t3_modifier
-            remove_modifier = cheatinterface_resource_storage_cap_t3
+            remove_country_flag = cheatinterface_has_empire_storage_cap_t3_modifier
+            remove_modifier = cheatinterface_empire_storage_cap_t3
         }
         else = {
             add_modifier = {
-                modifier = cheatinterface_resource_storage_cap_t3
+                modifier = cheatinterface_empire_storage_cap_t3
                 days = -1
             }
             hidden_effect = {
-                set_country_flag = cheatinterface_has_resource_storage_cap_t3_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t1_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t2_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t4_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t5_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t6_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t7_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t8_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t9_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t10_modifier
-                remove_modifier = cheatinterface_resource_storage_cap_t1
-                remove_modifier = cheatinterface_resource_storage_cap_t2
-                remove_modifier = cheatinterface_resource_storage_cap_t4
-                remove_modifier = cheatinterface_resource_storage_cap_t5
-                remove_modifier = cheatinterface_resource_storage_cap_t6
-                remove_modifier = cheatinterface_resource_storage_cap_t7
-                remove_modifier = cheatinterface_resource_storage_cap_t8
-                remove_modifier = cheatinterface_resource_storage_cap_t9
-                remove_modifier = cheatinterface_resource_storage_cap_t10
+                set_country_flag = cheatinterface_has_empire_storage_cap_t3_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t1_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t2_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t4_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t5_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t6_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t7_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t8_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t9_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t10_modifier
+                remove_modifier = cheatinterface_empire_storage_cap_t1
+                remove_modifier = cheatinterface_empire_storage_cap_t2
+                remove_modifier = cheatinterface_empire_storage_cap_t4
+                remove_modifier = cheatinterface_empire_storage_cap_t5
+                remove_modifier = cheatinterface_empire_storage_cap_t6
+                remove_modifier = cheatinterface_empire_storage_cap_t7
+                remove_modifier = cheatinterface_empire_storage_cap_t8
+                remove_modifier = cheatinterface_empire_storage_cap_t9
+                remove_modifier = cheatinterface_empire_storage_cap_t10
             }
         }
     }
 }
-cheatinterface_button_resource_storage_cap_t4 = {
+cheatinterface_button_empire_storage_cap_t4 = {
     potential = {
         always = yes
     }
@@ -6724,42 +6724,42 @@ cheatinterface_button_resource_storage_cap_t4 = {
     effect = {
         if = {
             limit = {
-                has_country_flag = cheatinterface_has_resource_storage_cap_t4_modifier
-                has_modifier = cheatinterface_resource_storage_cap_t4
+                has_country_flag = cheatinterface_has_empire_storage_cap_t4_modifier
+                has_modifier = cheatinterface_empire_storage_cap_t4
             }
-            remove_country_flag = cheatinterface_has_resource_storage_cap_t4_modifier
-            remove_modifier = cheatinterface_resource_storage_cap_t4
+            remove_country_flag = cheatinterface_has_empire_storage_cap_t4_modifier
+            remove_modifier = cheatinterface_empire_storage_cap_t4
         }
         else = {
             add_modifier = {
-                modifier = cheatinterface_resource_storage_cap_t4
+                modifier = cheatinterface_empire_storage_cap_t4
                 days = -1
             }
             hidden_effect = {
-                set_country_flag = cheatinterface_has_resource_storage_cap_t4_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t1_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t2_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t3_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t5_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t6_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t7_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t8_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t9_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t10_modifier
-                remove_modifier = cheatinterface_resource_storage_cap_t1
-                remove_modifier = cheatinterface_resource_storage_cap_t2
-                remove_modifier = cheatinterface_resource_storage_cap_t3
-                remove_modifier = cheatinterface_resource_storage_cap_t5
-                remove_modifier = cheatinterface_resource_storage_cap_t6
-                remove_modifier = cheatinterface_resource_storage_cap_t7
-                remove_modifier = cheatinterface_resource_storage_cap_t8
-                remove_modifier = cheatinterface_resource_storage_cap_t9
-                remove_modifier = cheatinterface_resource_storage_cap_t10
+                set_country_flag = cheatinterface_has_empire_storage_cap_t4_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t1_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t2_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t3_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t5_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t6_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t7_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t8_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t9_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t10_modifier
+                remove_modifier = cheatinterface_empire_storage_cap_t1
+                remove_modifier = cheatinterface_empire_storage_cap_t2
+                remove_modifier = cheatinterface_empire_storage_cap_t3
+                remove_modifier = cheatinterface_empire_storage_cap_t5
+                remove_modifier = cheatinterface_empire_storage_cap_t6
+                remove_modifier = cheatinterface_empire_storage_cap_t7
+                remove_modifier = cheatinterface_empire_storage_cap_t8
+                remove_modifier = cheatinterface_empire_storage_cap_t9
+                remove_modifier = cheatinterface_empire_storage_cap_t10
             }
         }
     }
 }
-cheatinterface_button_resource_storage_cap_t5 = {
+cheatinterface_button_empire_storage_cap_t5 = {
     potential = {
         always = yes
     }
@@ -6769,42 +6769,42 @@ cheatinterface_button_resource_storage_cap_t5 = {
     effect = {
         if = {
             limit = {
-                has_country_flag = cheatinterface_has_resource_storage_cap_t5_modifier
-                has_modifier = cheatinterface_resource_storage_cap_t5
+                has_country_flag = cheatinterface_has_empire_storage_cap_t5_modifier
+                has_modifier = cheatinterface_empire_storage_cap_t5
             }
-            remove_country_flag = cheatinterface_has_resource_storage_cap_t5_modifier
-            remove_modifier = cheatinterface_resource_storage_cap_t5
+            remove_country_flag = cheatinterface_has_empire_storage_cap_t5_modifier
+            remove_modifier = cheatinterface_empire_storage_cap_t5
         }
         else = {
             add_modifier = {
-                modifier = cheatinterface_resource_storage_cap_t5
+                modifier = cheatinterface_empire_storage_cap_t5
                 days = -1
             }
             hidden_effect = {
-                set_country_flag = cheatinterface_has_resource_storage_cap_t5_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t1_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t2_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t3_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t4_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t6_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t7_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t8_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t9_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t10_modifier
-                remove_modifier = cheatinterface_resource_storage_cap_t1
-                remove_modifier = cheatinterface_resource_storage_cap_t2
-                remove_modifier = cheatinterface_resource_storage_cap_t3
-                remove_modifier = cheatinterface_resource_storage_cap_t4
-                remove_modifier = cheatinterface_resource_storage_cap_t6
-                remove_modifier = cheatinterface_resource_storage_cap_t7
-                remove_modifier = cheatinterface_resource_storage_cap_t8
-                remove_modifier = cheatinterface_resource_storage_cap_t9
-                remove_modifier = cheatinterface_resource_storage_cap_t10
+                set_country_flag = cheatinterface_has_empire_storage_cap_t5_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t1_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t2_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t3_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t4_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t6_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t7_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t8_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t9_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t10_modifier
+                remove_modifier = cheatinterface_empire_storage_cap_t1
+                remove_modifier = cheatinterface_empire_storage_cap_t2
+                remove_modifier = cheatinterface_empire_storage_cap_t3
+                remove_modifier = cheatinterface_empire_storage_cap_t4
+                remove_modifier = cheatinterface_empire_storage_cap_t6
+                remove_modifier = cheatinterface_empire_storage_cap_t7
+                remove_modifier = cheatinterface_empire_storage_cap_t8
+                remove_modifier = cheatinterface_empire_storage_cap_t9
+                remove_modifier = cheatinterface_empire_storage_cap_t10
             }
         }
     }
 }
-cheatinterface_button_resource_storage_cap_t6 = {
+cheatinterface_button_empire_storage_cap_t6 = {
     potential = {
         always = yes
     }
@@ -6814,42 +6814,42 @@ cheatinterface_button_resource_storage_cap_t6 = {
     effect = {
         if = {
             limit = {
-                has_country_flag = cheatinterface_has_resource_storage_cap_t6_modifier
-                has_modifier = cheatinterface_resource_storage_cap_t6
+                has_country_flag = cheatinterface_has_empire_storage_cap_t6_modifier
+                has_modifier = cheatinterface_empire_storage_cap_t6
             }
-            remove_country_flag = cheatinterface_has_resource_storage_cap_t6_modifier
-            remove_modifier = cheatinterface_resource_storage_cap_t6
+            remove_country_flag = cheatinterface_has_empire_storage_cap_t6_modifier
+            remove_modifier = cheatinterface_empire_storage_cap_t6
         }
         else = {
             add_modifier = {
-                modifier = cheatinterface_resource_storage_cap_t6
+                modifier = cheatinterface_empire_storage_cap_t6
                 days = -1
             }
             hidden_effect = {
-                set_country_flag = cheatinterface_has_resource_storage_cap_t6_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t1_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t2_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t3_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t4_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t5_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t7_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t8_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t9_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t10_modifier
-                remove_modifier = cheatinterface_resource_storage_cap_t1
-                remove_modifier = cheatinterface_resource_storage_cap_t2
-                remove_modifier = cheatinterface_resource_storage_cap_t3
-                remove_modifier = cheatinterface_resource_storage_cap_t4
-                remove_modifier = cheatinterface_resource_storage_cap_t5
-                remove_modifier = cheatinterface_resource_storage_cap_t7
-                remove_modifier = cheatinterface_resource_storage_cap_t8
-                remove_modifier = cheatinterface_resource_storage_cap_t9
-                remove_modifier = cheatinterface_resource_storage_cap_t10
+                set_country_flag = cheatinterface_has_empire_storage_cap_t6_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t1_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t2_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t3_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t4_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t5_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t7_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t8_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t9_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t10_modifier
+                remove_modifier = cheatinterface_empire_storage_cap_t1
+                remove_modifier = cheatinterface_empire_storage_cap_t2
+                remove_modifier = cheatinterface_empire_storage_cap_t3
+                remove_modifier = cheatinterface_empire_storage_cap_t4
+                remove_modifier = cheatinterface_empire_storage_cap_t5
+                remove_modifier = cheatinterface_empire_storage_cap_t7
+                remove_modifier = cheatinterface_empire_storage_cap_t8
+                remove_modifier = cheatinterface_empire_storage_cap_t9
+                remove_modifier = cheatinterface_empire_storage_cap_t10
             }
         }
     }
 }
-cheatinterface_button_resource_storage_cap_t7 = {
+cheatinterface_button_empire_storage_cap_t7 = {
     potential = {
         always = yes
     }
@@ -6859,42 +6859,42 @@ cheatinterface_button_resource_storage_cap_t7 = {
     effect = {
         if = {
             limit = {
-                has_country_flag = cheatinterface_has_resource_storage_cap_t7_modifier
-                has_modifier = cheatinterface_resource_storage_cap_t7
+                has_country_flag = cheatinterface_has_empire_storage_cap_t7_modifier
+                has_modifier = cheatinterface_empire_storage_cap_t7
             }
-            remove_country_flag = cheatinterface_has_resource_storage_cap_t7_modifier
-            remove_modifier = cheatinterface_resource_storage_cap_t7
+            remove_country_flag = cheatinterface_has_empire_storage_cap_t7_modifier
+            remove_modifier = cheatinterface_empire_storage_cap_t7
         }
         else = {
             add_modifier = {
-                modifier = cheatinterface_resource_storage_cap_t7
+                modifier = cheatinterface_empire_storage_cap_t7
                 days = -1
             }
             hidden_effect = {
-                set_country_flag = cheatinterface_has_resource_storage_cap_t7_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t1_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t2_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t3_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t4_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t5_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t6_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t8_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t9_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t10_modifier
-                remove_modifier = cheatinterface_resource_storage_cap_t1
-                remove_modifier = cheatinterface_resource_storage_cap_t2
-                remove_modifier = cheatinterface_resource_storage_cap_t3
-                remove_modifier = cheatinterface_resource_storage_cap_t4
-                remove_modifier = cheatinterface_resource_storage_cap_t5
-                remove_modifier = cheatinterface_resource_storage_cap_t6
-                remove_modifier = cheatinterface_resource_storage_cap_t8
-                remove_modifier = cheatinterface_resource_storage_cap_t9
-                remove_modifier = cheatinterface_resource_storage_cap_t10
+                set_country_flag = cheatinterface_has_empire_storage_cap_t7_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t1_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t2_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t3_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t4_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t5_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t6_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t8_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t9_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t10_modifier
+                remove_modifier = cheatinterface_empire_storage_cap_t1
+                remove_modifier = cheatinterface_empire_storage_cap_t2
+                remove_modifier = cheatinterface_empire_storage_cap_t3
+                remove_modifier = cheatinterface_empire_storage_cap_t4
+                remove_modifier = cheatinterface_empire_storage_cap_t5
+                remove_modifier = cheatinterface_empire_storage_cap_t6
+                remove_modifier = cheatinterface_empire_storage_cap_t8
+                remove_modifier = cheatinterface_empire_storage_cap_t9
+                remove_modifier = cheatinterface_empire_storage_cap_t10
             }
         }
     }
 }
-cheatinterface_button_resource_storage_cap_t8 = {
+cheatinterface_button_empire_storage_cap_t8 = {
     potential = {
         always = yes
     }
@@ -6904,42 +6904,42 @@ cheatinterface_button_resource_storage_cap_t8 = {
     effect = {
         if = {
             limit = {
-                has_country_flag = cheatinterface_has_resource_storage_cap_t8_modifier
-                has_modifier = cheatinterface_resource_storage_cap_t8
+                has_country_flag = cheatinterface_has_empire_storage_cap_t8_modifier
+                has_modifier = cheatinterface_empire_storage_cap_t8
             }
-            remove_country_flag = cheatinterface_has_resource_storage_cap_t8_modifier
-            remove_modifier = cheatinterface_resource_storage_cap_t8
+            remove_country_flag = cheatinterface_has_empire_storage_cap_t8_modifier
+            remove_modifier = cheatinterface_empire_storage_cap_t8
         }
         else = {
             add_modifier = {
-                modifier = cheatinterface_resource_storage_cap_t8
+                modifier = cheatinterface_empire_storage_cap_t8
                 days = -1
             }
             hidden_effect = {
-                set_country_flag = cheatinterface_has_resource_storage_cap_t8_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t1_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t2_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t3_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t4_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t5_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t6_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t7_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t9_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t10_modifier
-                remove_modifier = cheatinterface_resource_storage_cap_t1
-                remove_modifier = cheatinterface_resource_storage_cap_t2
-                remove_modifier = cheatinterface_resource_storage_cap_t3
-                remove_modifier = cheatinterface_resource_storage_cap_t4
-                remove_modifier = cheatinterface_resource_storage_cap_t5
-                remove_modifier = cheatinterface_resource_storage_cap_t6
-                remove_modifier = cheatinterface_resource_storage_cap_t7
-                remove_modifier = cheatinterface_resource_storage_cap_t9
-                remove_modifier = cheatinterface_resource_storage_cap_t10
+                set_country_flag = cheatinterface_has_empire_storage_cap_t8_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t1_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t2_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t3_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t4_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t5_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t6_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t7_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t9_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t10_modifier
+                remove_modifier = cheatinterface_empire_storage_cap_t1
+                remove_modifier = cheatinterface_empire_storage_cap_t2
+                remove_modifier = cheatinterface_empire_storage_cap_t3
+                remove_modifier = cheatinterface_empire_storage_cap_t4
+                remove_modifier = cheatinterface_empire_storage_cap_t5
+                remove_modifier = cheatinterface_empire_storage_cap_t6
+                remove_modifier = cheatinterface_empire_storage_cap_t7
+                remove_modifier = cheatinterface_empire_storage_cap_t9
+                remove_modifier = cheatinterface_empire_storage_cap_t10
             }
         }
     }
 }
-cheatinterface_button_resource_storage_cap_t9 = {
+cheatinterface_button_empire_storage_cap_t9 = {
     potential = {
         always = yes
     }
@@ -6949,42 +6949,42 @@ cheatinterface_button_resource_storage_cap_t9 = {
     effect = {
         if = {
             limit = {
-                has_country_flag = cheatinterface_has_resource_storage_cap_t9_modifier
-                has_modifier = cheatinterface_resource_storage_cap_t9
+                has_country_flag = cheatinterface_has_empire_storage_cap_t9_modifier
+                has_modifier = cheatinterface_empire_storage_cap_t9
             }
-            remove_country_flag = cheatinterface_has_resource_storage_cap_t9_modifier
-            remove_modifier = cheatinterface_resource_storage_cap_t9
+            remove_country_flag = cheatinterface_has_empire_storage_cap_t9_modifier
+            remove_modifier = cheatinterface_empire_storage_cap_t9
         }
         else = {
             add_modifier = {
-                modifier = cheatinterface_resource_storage_cap_t9
+                modifier = cheatinterface_empire_storage_cap_t9
                 days = -1
             }
             hidden_effect = {
-                set_country_flag = cheatinterface_has_resource_storage_cap_t9_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t1_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t2_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t3_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t4_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t5_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t6_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t7_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t8_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t10_modifier
-                remove_modifier = cheatinterface_resource_storage_cap_t1
-                remove_modifier = cheatinterface_resource_storage_cap_t2
-                remove_modifier = cheatinterface_resource_storage_cap_t3
-                remove_modifier = cheatinterface_resource_storage_cap_t4
-                remove_modifier = cheatinterface_resource_storage_cap_t5
-                remove_modifier = cheatinterface_resource_storage_cap_t6
-                remove_modifier = cheatinterface_resource_storage_cap_t7
-                remove_modifier = cheatinterface_resource_storage_cap_t8
-                remove_modifier = cheatinterface_resource_storage_cap_t10
+                set_country_flag = cheatinterface_has_empire_storage_cap_t9_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t1_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t2_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t3_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t4_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t5_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t6_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t7_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t8_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t10_modifier
+                remove_modifier = cheatinterface_empire_storage_cap_t1
+                remove_modifier = cheatinterface_empire_storage_cap_t2
+                remove_modifier = cheatinterface_empire_storage_cap_t3
+                remove_modifier = cheatinterface_empire_storage_cap_t4
+                remove_modifier = cheatinterface_empire_storage_cap_t5
+                remove_modifier = cheatinterface_empire_storage_cap_t6
+                remove_modifier = cheatinterface_empire_storage_cap_t7
+                remove_modifier = cheatinterface_empire_storage_cap_t8
+                remove_modifier = cheatinterface_empire_storage_cap_t10
             }
         }
     }
 }
-cheatinterface_button_resource_storage_cap_t10 = {
+cheatinterface_button_empire_storage_cap_t10 = {
     potential = {
         always = yes
     }
@@ -6994,37 +6994,37 @@ cheatinterface_button_resource_storage_cap_t10 = {
     effect = {
         if = {
             limit = {
-                has_country_flag = cheatinterface_has_resource_storage_cap_t10_modifier
-                has_modifier = cheatinterface_resource_storage_cap_t10
+                has_country_flag = cheatinterface_has_empire_storage_cap_t10_modifier
+                has_modifier = cheatinterface_empire_storage_cap_t10
             }
-            remove_country_flag = cheatinterface_has_resource_storage_cap_t10_modifier
-            remove_modifier = cheatinterface_resource_storage_cap_t10
+            remove_country_flag = cheatinterface_has_empire_storage_cap_t10_modifier
+            remove_modifier = cheatinterface_empire_storage_cap_t10
         }
         else = {
             add_modifier = {
-                modifier = cheatinterface_resource_storage_cap_t10
+                modifier = cheatinterface_empire_storage_cap_t10
                 days = -1
             }
             hidden_effect = {
-                set_country_flag = cheatinterface_has_resource_storage_cap_t10_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t1_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t2_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t3_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t4_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t5_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t6_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t7_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t8_modifier
-                remove_country_flag = cheatinterface_has_resource_storage_cap_t9_modifier
-                remove_modifier = cheatinterface_resource_storage_cap_t1
-                remove_modifier = cheatinterface_resource_storage_cap_t2
-                remove_modifier = cheatinterface_resource_storage_cap_t3
-                remove_modifier = cheatinterface_resource_storage_cap_t4
-                remove_modifier = cheatinterface_resource_storage_cap_t5
-                remove_modifier = cheatinterface_resource_storage_cap_t6
-                remove_modifier = cheatinterface_resource_storage_cap_t7
-                remove_modifier = cheatinterface_resource_storage_cap_t8
-                remove_modifier = cheatinterface_resource_storage_cap_t9
+                set_country_flag = cheatinterface_has_empire_storage_cap_t10_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t1_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t2_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t3_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t4_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t5_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t6_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t7_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t8_modifier
+                remove_country_flag = cheatinterface_has_empire_storage_cap_t9_modifier
+                remove_modifier = cheatinterface_empire_storage_cap_t1
+                remove_modifier = cheatinterface_empire_storage_cap_t2
+                remove_modifier = cheatinterface_empire_storage_cap_t3
+                remove_modifier = cheatinterface_empire_storage_cap_t4
+                remove_modifier = cheatinterface_empire_storage_cap_t5
+                remove_modifier = cheatinterface_empire_storage_cap_t6
+                remove_modifier = cheatinterface_empire_storage_cap_t7
+                remove_modifier = cheatinterface_empire_storage_cap_t8
+                remove_modifier = cheatinterface_empire_storage_cap_t9
             }
         }
     }

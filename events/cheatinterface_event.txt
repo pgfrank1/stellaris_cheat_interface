@@ -80,7 +80,7 @@ country_event = {
 #                               Resource Events                                      #
 ######################################################################################
 
-### Better Cheats Resource Minerals Screen ###
+### Cheat Interface Resource Minerals Screen ###
 country_event = {
     id = cheatinterface.1001
     title = "cheatinterface_2_minerals_title"
@@ -111,7 +111,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Resource Energy Screen ###
+### Cheat Interface Resource Energy Screen ###
 country_event = {
     id = cheatinterface.1002
     title = "cheatinterface_2_energy"
@@ -142,7 +142,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Resource Food Screen ###
+### Cheat Interface Resource Food Screen ###
 country_event = {
     id = cheatinterface.1003
     title = "cheatinterface_2_food"
@@ -173,7 +173,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Resource Consumer Goods Screen ###
+### Cheat Interface Resource Consumer Goods Screen ###
 country_event = {
     id = cheatinterface.1004
     title = "cheatinterface_2_consumer_goods"
@@ -204,7 +204,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Resource Alloys Screen ###
+### Cheat Interface Resource Alloys Screen ###
 country_event = {
     id = cheatinterface.1005
     title = "cheatinterface_2_alloys"
@@ -235,7 +235,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Resource Influence Screen ###
+### Cheat Interface Resource Influence Screen ###
 country_event = {
     id = cheatinterface.1006
     title = "cheatinterface_2_influence"
@@ -266,7 +266,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Resource Unity Screen ###
+### Cheat Interface Resource Unity Screen ###
 country_event = {
     id = cheatinterface.1007
     title = "cheatinterface_2_unity"
@@ -297,7 +297,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Resource Volatile Motes Screen ###
+### Cheat Interface Resource Volatile Motes Screen ###
 country_event = {
     id = cheatinterface.1008
     title = "cheatinterface_2_volatile_motes"
@@ -328,7 +328,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Resource Exotic Gases Screen ###
+### Cheat Interface Resource Exotic Gases Screen ###
 country_event = {
     id = cheatinterface.1009
     title = "cheatinterface_2_exotic_gases"
@@ -359,7 +359,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Resource Rare Crystals Screen ###
+### Cheat Interface Resource Rare Crystals Screen ###
 country_event = {
     id = cheatinterface.1010
     title = "cheatinterface_2_rare_crystals"
@@ -390,7 +390,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Resource Living Metal Screen ###
+### Cheat Interface Resource Living Metal Screen ###
 country_event = {
     id = cheatinterface.1011
     title = "cheatinterface_2_living_metal"
@@ -421,7 +421,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Resource Zro Screen ###
+### Cheat Interface Resource Zro Screen ###
 country_event = {
     id = cheatinterface.1012
     title = "cheatinterface_2_zro"
@@ -452,7 +452,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Resource Dark Matter Screen ###
+### Cheat Interface Resource Dark Matter Screen ###
 country_event = {
     id = cheatinterface.1013
     title = "cheatinterface_2_dark_matter"
@@ -483,7 +483,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Resource Nanites Screen ###
+### Cheat Interface Resource Nanites Screen ###
 country_event = {
     id = cheatinterface.1014
     title = "cheatinterface_2_nanites"
@@ -514,7 +514,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Resource Storage Cap Screen ###
+### Cheat Interface Resource Storage Cap Screen ###
 country_event = {
     id = cheatinterface.1015
     title = "cheatinterface_2_storage_cap"
@@ -523,14 +523,14 @@ country_event = {
     trigger = {
         is_ai = no
         not = {
-            has_country_flag = cheatinterface_is_in_resource_storage_cap_interface
+            has_country_flag = cheatinterface_is_in_empire_storage_cap_interface
         }
     }
     diplomatic = yes
-    custom_gui = "cheatinterface_resource_storage_cap"
+    custom_gui = "cheatinterface_empire_storage_cap"
     immediate = {
         hidden_effect = {
-            set_country_flag = cheatinterface_is_in_resource_storage_cap_interface
+            set_country_flag = cheatinterface_is_in_empire_storage_cap_interface
         }
     }
 
@@ -539,7 +539,7 @@ country_event = {
         name = "cheatinterface_close"
         default_hide_option = yes
         hidden_effect = {
-            remove_country_flag = cheatinterface_is_in_resource_storage_cap_interface
+            remove_country_flag = cheatinterface_is_in_empire_storage_cap_interface
         }
     }
 }
@@ -550,7 +550,7 @@ country_event = {
 #                               Empire Events                                        #
 ######################################################################################
 
-### Better Cheats Diplomatic Weight Screen ###
+### Cheat Interface Diplomatic Weight Screen ###
 country_event = {
     id = cheatinterface.2001
     title = "cheatinterface_2_diplomatic_weight"
@@ -579,7 +579,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Monthly Loyalty Screen ###
+### Cheat Interface Monthly Loyalty Screen ###
 country_event = {
     id = cheatinterface.2002
     title = "cheatinterface_2_monthly_loyalty"
@@ -608,7 +608,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Planetary Decision Screen ###
+### Cheat Interface Planetary Decision Screen ###
 country_event = {
     id = cheatinterface.2003
     title = "cheatinterface_2_planetary_decision"
@@ -637,7 +637,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Research Screen ###
+### Cheat Interface Research Screen ###
 country_event = {
     id = cheatinterface.2004
     title = "cheatinterface_2_research"
@@ -666,7 +666,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Colony Development Screen ###
+### Cheat Interface Colony Development Screen ###
 country_event = {
     id = cheatinterface.2005
     title = "cheatinterface_2_colony_development"
@@ -695,7 +695,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Terraforming Speed Screen ###
+### Cheat Interface Terraforming Speed Screen ###
 country_event = {
     id = cheatinterface.2006
     title = "cheatinterface_2_terraforming_speed"
@@ -724,7 +724,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Terraforming Cost Screen ###
+### Cheat Interface Terraforming Cost Screen ###
 country_event = {
     id = cheatinterface.2007
     title = "cheatinterface_2_terraforming_cost"
@@ -753,7 +753,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Ethics Shift Speed Screen ###
+### Cheat Interface Ethics Shift Speed Screen ###
 country_event = {
     id = cheatinterface.2008
     title = "cheatinterface_2_ethics_shift_speed"
@@ -782,7 +782,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Trust Screen ###
+### Cheat Interface Trust Screen ###
 country_event = {
     id = cheatinterface.2009
     title = "cheatinterface_2_trust"
@@ -811,7 +811,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Envoys Screen ###
+### Cheat Interface Envoys Screen ###
 country_event = {
     id = cheatinterface.2010
     title = "cheatinterface_2_envoys"
@@ -840,7 +840,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Admin Cap Screen ###
+### Cheat Interface Admin Cap Screen ###
 country_event = {
     id = cheatinterface.2011
     title = "cheatinterface_2_admin_cap"
@@ -869,7 +869,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Admin Cap Screen ###
+### Cheat Interface Admin Cap Screen ###
 country_event = {
     id = cheatinterface.2013
     title = "cheatinterface_2_trade_value"
@@ -902,7 +902,7 @@ country_event = {
 ######################################################################################
 #                               Ship Events                                          #
 ######################################################################################
-### Better Cheats Ship Base Speed Screen ###
+### Cheat Interface Ship Base Speed Screen ###
 country_event = {
     id = cheatinterface.3001
     title = "cheatinterface_2_ship_base_speed"
@@ -931,7 +931,7 @@ country_event = {
 }
 #########################################
 
-### Better Cheats Ship FTL Speed Screen ###
+### Cheat Interface Ship FTL Speed Screen ###
 country_event =  {
     id = cheatinterface.3002
     title = "cheatinterface_2_ship_ftl_speed"
@@ -960,7 +960,7 @@ country_event =  {
 }
 #########################################
 
-### Better Cheats Ship Armor Regeneration Screen ###
+### Cheat Interface Ship Armor Regeneration Screen ###
 country_event =  {
     id = cheatinterface.3003
     title = "cheatinterface_2_ship_armor_regeneration"
@@ -989,7 +989,7 @@ country_event =  {
 }
 #########################################
 
-### Better Cheats Ship Hull Regeneration Screen ###
+### Cheat Interface Ship Hull Regeneration Screen ###
 country_event =  {
     id = cheatinterface.3004
     title = "cheatinterface_2_ship_hull_regeneration"
@@ -1018,7 +1018,7 @@ country_event =  {
 }
 #########################################
 
-### Better Cheats Ship Shield Regeneration Screen ###
+### Cheat Interface Ship Shield Regeneration Screen ###
 country_event =  {
     id = cheatinterface.3005
     title = "cheatinterface_2_ship_shield_regeneration"

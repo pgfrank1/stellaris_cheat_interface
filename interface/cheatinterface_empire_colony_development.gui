@@ -360,28 +360,28 @@ guiTypes = {
         }
         ################################  colony_development Column ################################
         containerWindowType = {
-            @cheatinterface_ship_column_width = 226
-            @cheatinterface_ship_column_height = 100%
-            @cheatinterface_ship_column_title_width = 165
-            @cheatinterface_ship_column_title_height = 55
-            @cheatinterface_ship_column_main_width = 780
+            @cheatinterface_empire_colony_development_column_width = 226
+            @cheatinterface_empire_colony_development_column_height = 100%
+            @cheatinterface_empire_colony_development_column_title_width = 165
+            @cheatinterface_empire_colony_development_column_title_height = 55
+            @cheatinterface_empire_colony_development_column_main_width = 780
 
             #@cheatinterface_width  = 800
             #@cheatinterface_height = 615
             #@cheatinterface_main_width = 780
             #@cheatinterface_main_height =
 
-            name = "cheatinterface_ship_column"
-            size = { width = @cheatinterface_ship_column_width height = @cheatinterface_ship_column_height }
+            name = "cheatinterface_empire_colony_development_column"
+            size = { width = @cheatinterface_empire_colony_development_column_width height = @cheatinterface_empire_colony_development_column_height }
             # background = {
-            #     name = "cheatinterface_ship_column_title_background"
+            #     name = "cheatinterface_empire_colony_development_column_title_background"
             #     quadTextureSprite = "GFX_bg_area_light"
             # }
             #movable = yes
             position = { x = 13 y = 62 }
             verticalScrollbar = "right_vertical_slider"
             extendedScrollbarType = {
-                name = "cheatinterface_ship_column_scrollbar"
+                name = "cheatinterface_empire_colony_development_column_scrollbar"
                 startValue = 0
             }
             #  colony_development Tier I Button
