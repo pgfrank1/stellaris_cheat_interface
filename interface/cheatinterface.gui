@@ -866,7 +866,7 @@ guiTypes = {
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_ship_shield_regeneration_title"
                 }
-                # Ship Shield Regeneration Button
+                # Ship Build Speed Button
                 effectButtonType = {
                     name = "cheatinterface_2_ship_build_speed"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
@@ -874,6 +874,15 @@ guiTypes = {
                     effect = "cheatinterface_button_ship_build_speed"
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_ship_build_speed_title"
+                }
+                # Ship Naval Capacity Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_naval_capacity"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 240 }
+                    effect = "cheatinterface_button_ship_naval_capacity"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_naval_capacity_title"
                 }
             }
         }

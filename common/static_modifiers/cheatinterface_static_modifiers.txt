@@ -1291,55 +1291,35 @@ cheatinterface_ship_build_speed_t10 = {
 }
 ###############################
 
-#### ship_regen_speed TIER SELECTOR ####
-cheatinterface_ship_regen_t1 = {
-	ship_armor_regen_add_static = 0.50
-	ship_hull_regen_add_static = 0.50
-	ship_shield_regen_add_static = 0.50
+#### ship_naval_capacity TIER SELECTOR ####
+cheatinterface_ship_naval_capacity_t1 = {
+	country_naval_cap_mult = 0.15
 }
-cheatinterface_ship_regen_t2 = {
-	ship_armor_regen_add_static = 1.00
-	ship_hull_regen_add_static = 1.00
-	ship_shield_regen_add_static = 1.00
+cheatinterface_ship_naval_capacity_t2 = {
+	country_naval_cap_mult = 0.50
 }
-cheatinterface_ship_regen_t3 = {
-	ship_armor_regen_add_static = 2.50
-	ship_hull_regen_add_static = 2.50
-	ship_shield_regen_add_static = 2.50
+cheatinterface_ship_naval_capacity_t3 = {
+	country_naval_cap_mult = 1.00
 }
-cheatinterface_ship_regen_t4 = {
-	ship_armor_regen_add_static = 5.00
-	ship_hull_regen_add_static = 5.00
-	ship_shield_regen_add_static = 5.00
+cheatinterface_ship_naval_capacity_t4 = {
+	country_naval_cap_mult = 2.50
 }
-cheatinterface_ship_regen_t5 = {
-	ship_armor_regen_add_static = 15.00
-	ship_hull_regen_add_static = 15.00
-	ship_shield_regen_add_static = 15.00
+cheatinterface_ship_naval_capacity_t5 = {
+	country_naval_cap_mult = 5.00
 }
-cheatinterface_ship_regen_t6 = {
-	ship_armor_regen_add_static = 50.00
-	ship_hull_regen_add_static = 50.00
-	ship_shield_regen_add_static = 50.00
+cheatinterface_ship_naval_capacity_t6 = {
+	country_naval_cap_mult = 10.00
 }
-cheatinterface_ship_regen_t7 = {
-	ship_armor_regen_add_static = 100.00
-	ship_hull_regen_add_static = 100.00
-	ship_shield_regen_add_static = 100.00
+cheatinterface_ship_naval_capacity_t7 = {
+	country_naval_cap_mult = 50.00
 }
-cheatinterface_ship_regen_t8 = {
-	ship_armor_regen_add_static = 500.00
-	ship_hull_regen_add_static = 500.00
-	ship_shield_regen_add_static = 500.00
+cheatinterface_ship_naval_capacity_t8 = {
+	country_naval_cap_mult = 100.00
 }
-cheatinterface_ship_regen_t9 = {
-	ship_armor_regen_add_static = 1000.00
-	ship_hull_regen_add_static = 1000.00
-	ship_shield_regen_add_static = 1000.00
+cheatinterface_ship_naval_capacity_t9 = {
+	country_naval_cap_mult = 250.00
 }
-cheatinterface_ship_regen_t10 = {
-	ship_armor_regen_add_static = 10000.00
-	ship_hull_regen_add_static = 10000.00
-	ship_shield_regen_add_static = 10000.00
+cheatinterface_ship_naval_capacity_t10 = {
+	country_naval_cap_mult = 500.00
 }
 ###############################

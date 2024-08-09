@@ -5681,6 +5681,158 @@ defined_text = {
 }
 ##########################################################################
 
+############################### Ship Naval Capacity Titles ###############################
+defined_text = {
+    name = cheatinterface_2_ship_naval_capacity_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_naval_capacity_t1_modifier
+                has_country_flag = cheatinterface_has_naval_capacity_t2_modifier
+                has_country_flag = cheatinterface_has_naval_capacity_t3_modifier
+                has_country_flag = cheatinterface_has_naval_capacity_t4_modifier
+                has_country_flag = cheatinterface_has_naval_capacity_t5_modifier
+                has_country_flag = cheatinterface_has_naval_capacity_t6_modifier
+                has_country_flag = cheatinterface_has_naval_capacity_t7_modifier
+                has_country_flag = cheatinterface_has_naval_capacity_t8_modifier
+                has_country_flag = cheatinterface_has_naval_capacity_t9_modifier
+                has_country_flag = cheatinterface_has_naval_capacity_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_ship_naval_capacity
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_ship_naval_capacity_t1
+                has_modifier = cheatinterface_ship_naval_capacity_t2
+                has_modifier = cheatinterface_ship_naval_capacity_t3
+                has_modifier = cheatinterface_ship_naval_capacity_t4
+                has_modifier = cheatinterface_ship_naval_capacity_t5
+                has_modifier = cheatinterface_ship_naval_capacity_t6
+                has_modifier = cheatinterface_ship_naval_capacity_t7
+                has_modifier = cheatinterface_ship_naval_capacity_t8
+                has_modifier = cheatinterface_ship_naval_capacity_t9
+                has_modifier = cheatinterface_ship_naval_capacity_t10
+            }
+        }
+        localization_key = cheatinterface_2_ship_naval_capacity_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_ship_naval_capacity_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_naval_capacity_t1_modifier } }
+        localization_key = cheatinterface_ship_naval_capacity_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_ship_naval_capacity_t1 }
+        localization_key = cheatinterface_ship_naval_capacity_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_ship_naval_capacity_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_naval_capacity_t2_modifier } }
+        localization_key = cheatinterface_ship_naval_capacity_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_ship_naval_capacity_t2 }
+        localization_key = cheatinterface_ship_naval_capacity_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_ship_naval_capacity_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_naval_capacity_t3_modifier } }
+        localization_key = cheatinterface_ship_naval_capacity_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_ship_naval_capacity_t3 }
+        localization_key = cheatinterface_ship_naval_capacity_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_ship_naval_capacity_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_naval_capacity_t4_modifier } }
+        localization_key = cheatinterface_ship_naval_capacity_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_ship_naval_capacity_t4 }
+        localization_key = cheatinterface_ship_naval_capacity_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_ship_naval_capacity_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_naval_capacity_t5_modifier } }
+        localization_key = cheatinterface_ship_naval_capacity_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_ship_naval_capacity_t5 }
+        localization_key = cheatinterface_ship_naval_capacity_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_ship_naval_capacity_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_naval_capacity_t6_modifier } }
+        localization_key = cheatinterface_ship_naval_capacity_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_ship_naval_capacity_t6 }
+        localization_key = cheatinterface_ship_naval_capacity_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_ship_naval_capacity_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_naval_capacity_t7_modifier } }
+        localization_key = cheatinterface_ship_naval_capacity_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_ship_naval_capacity_t7 }
+        localization_key = cheatinterface_ship_naval_capacity_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_ship_naval_capacity_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_naval_capacity_t8_modifier } }
+        localization_key = cheatinterface_ship_naval_capacity_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_ship_naval_capacity_t8 }
+        localization_key = cheatinterface_ship_naval_capacity_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_ship_naval_capacity_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_naval_capacity_t9_modifier } }
+        localization_key = cheatinterface_ship_naval_capacity_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_ship_naval_capacity_t9 }
+        localization_key = cheatinterface_ship_naval_capacity_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_ship_naval_capacity_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_naval_capacity_t10_modifier } }
+        localization_key = cheatinterface_ship_naval_capacity_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_ship_naval_capacity_t10 }
+        localization_key = cheatinterface_ship_naval_capacity_t10_b
+    }
+}
+##########################################################################
+
 ######################################################################################
 #                               Ship Titles END                                      #
 ######################################################################################
