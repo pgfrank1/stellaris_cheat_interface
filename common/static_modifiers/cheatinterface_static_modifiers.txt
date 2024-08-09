@@ -1228,6 +1228,69 @@ cheatinterface_ship_shield_regeneration_t10 = {
 }
 ###############################
 
+#### ship_build_speed TIER SELECTOR ####
+cheatinterface_ship_build_speed_t1 = {
+	shipclass_military_build_speed_mult = 0.15
+	shipclass_colonizer_build_speed_mult = 0.15
+	shipclass_science_ship_build_speed_mult = 0.15
+	shipclass_constructor_build_speed_mult = 0.15
+}
+cheatinterface_ship_build_speed_t2 = {
+	shipclass_military_build_speed_mult = 0.50
+	shipclass_colonizer_build_speed_mult = 0.50
+	shipclass_science_ship_build_speed_mult = 0.50
+	shipclass_constructor_build_speed_mult = 0.50
+}
+cheatinterface_ship_build_speed_t3 = {
+	shipclass_military_build_speed_mult = 1.00
+	shipclass_colonizer_build_speed_mult = 1.00
+	shipclass_science_ship_build_speed_mult = 1.00
+	shipclass_constructor_build_speed_mult = 1.00
+}
+cheatinterface_ship_build_speed_t4 = {
+	shipclass_military_build_speed_mult = 2.50
+	shipclass_colonizer_build_speed_mult = 2.50
+	shipclass_science_ship_build_speed_mult = 2.50
+	shipclass_constructor_build_speed_mult = 2.50
+}
+cheatinterface_ship_build_speed_t5 = {
+	shipclass_military_build_speed_mult = 5.00
+	shipclass_colonizer_build_speed_mult = 5.00
+	shipclass_science_ship_build_speed_mult = 5.00
+	shipclass_constructor_build_speed_mult = 5.00
+}
+cheatinterface_ship_build_speed_t6 = {
+	shipclass_military_build_speed_mult = 10.00
+	shipclass_colonizer_build_speed_mult = 10.00
+	shipclass_science_ship_build_speed_mult = 10.00
+	shipclass_constructor_build_speed_mult = 10.00
+}
+cheatinterface_ship_build_speed_t7 = {
+	shipclass_military_build_speed_mult = 50.00
+	shipclass_colonizer_build_speed_mult = 50.00
+	shipclass_science_ship_build_speed_mult = 50.00
+	shipclass_constructor_build_speed_mult = 50.00
+}
+cheatinterface_ship_build_speed_t8 = {
+	shipclass_military_build_speed_mult = 100.00
+	shipclass_colonizer_build_speed_mult = 100.00
+	shipclass_science_ship_build_speed_mult = 100.00
+	shipclass_constructor_build_speed_mult = 100.00
+}
+cheatinterface_ship_build_speed_t9 = {
+	shipclass_military_build_speed_mult = 250.00
+	shipclass_colonizer_build_speed_mult = 250.00
+	shipclass_science_ship_build_speed_mult = 250.00
+	shipclass_constructor_build_speed_mult = 250.00
+}
+cheatinterface_ship_build_speed_t10 = {
+	shipclass_military_build_speed_mult = 500.00
+	shipclass_colonizer_build_speed_mult = 500.00
+	shipclass_science_ship_build_speed_mult = 500.00
+	shipclass_constructor_build_speed_mult = 500.00
+}
+###############################
+
 #### ship_regen_speed TIER SELECTOR ####
 cheatinterface_ship_regen_t1 = {
 	ship_armor_regen_add_static = 0.50

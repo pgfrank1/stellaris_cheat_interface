@@ -866,6 +866,15 @@ guiTypes = {
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_ship_shield_regeneration_title"
                 }
+                # Ship Shield Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_ship_build_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 200 }
+                    effect = "cheatinterface_button_ship_build_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_ship_build_speed_title"
+                }
             }
         }
         #############################################################################

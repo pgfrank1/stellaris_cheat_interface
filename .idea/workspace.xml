@@ -4,25 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="BetterCheats has been mostly removed from Cheat Interface. Cheat Interface appears to be working correctly.">
+    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Empire Colony Development and Storage Cap options standardized and working correctly.">
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_ship_build_speed.gui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/decisions/bc_planet_decisions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/on_actions/bc_on_actions.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/planet_classes/bc_planet_classes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/scripted_loc/bc_scripted_loc.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/static_modifiers/cheatinterface_static_modifiers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/static_modifiers/cheatinterface_static_modifiers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/bc_cheatmenu_event.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/bc_multiplayer_event.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/bc_planetmenu_event.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/events/cheatinterface_event.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/cheatinterface_event.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/portraits/city_sets/bc_planetmenu_room.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/portraits/city_sets/bc_planetmenu_room_old.dds" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/interface/cheatinterface.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface.gui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/cheatinterface_empire_colony_development.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_empire_colony_development.gui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/cheatinterface_resource_living_metal.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_living_metal.gui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/cheatinterface_resource_storage_cap.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface_empire_storage_cap.gui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/localisation/cheatinterface_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/cheatinterface_l_english.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,21 +51,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;cheatinterface__freshstart&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/patri/Documents/Paradox Interactive/Stellaris/mod/cheatinterface/events&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "cheatinterface__freshstart",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/patri/Documents/Paradox Interactive/Stellaris/mod/cheatinterface/interface",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\patri\Documents\Paradox Interactive\Stellaris\mod\cheatinterface\interface" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -98,7 +92,7 @@
       <workItem from="1719863949865" duration="864000" />
       <workItem from="1722548920342" duration="316000" />
       <workItem from="1723219712284" duration="31000" />
-      <workItem from="1723219765448" duration="708000" />
+      <workItem from="1723219765448" duration="2554000" />
     </task>
     <task id="LOCAL-00001" summary="Cheat Interface Init">
       <option name="closed" value="true" />
@@ -108,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719592184029</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Empire Colony Development and Storage Cap options standardized and working correctly.">
+      <option name="closed" value="true" />
+      <created>1723220681329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723220681329</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cheat Interface Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cheat Interface Init" />
+    <MESSAGE value="Empire Colony Development and Storage Cap options standardized and working correctly." />
+    <option name="LAST_COMMIT_MESSAGE" value="Empire Colony Development and Storage Cap options standardized and working correctly." />
   </component>
 </project>
