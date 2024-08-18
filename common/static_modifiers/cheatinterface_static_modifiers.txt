@@ -1,463 +1,496 @@
+@t1p_mult = 0.15
+@t2p_mult = 0.50
+@t3p_mult = 1.00
+@t4p_mult = 2.50
+@t5p_mult = 5.00
+@t6p_mult = 10.00
+@t7p_mult = 50.00
+@t8p_mult = 100.00
+@t9p_mult = 250.00
+@t10p_mult = 500.00
+
+@t1n_mult = -0.15
+@t2n_mult = -0.50
+@t3n_mult = -1.00
+@t4n_mult = -2.50
+@t5n_mult = -5.00
+@t6n_mult = -10.00
+@t7n_mult = -50.00
+@t8n_mult = -100.00
+@t9n_mult = -250.00
+@t10n_mult = -500.00
+
+@t1_cap = 1000
+@t2_cap = 2500
+@t3_cap = 5000
+@t4_cap = 10000
+@t5_cap = 25000
+@t6_cap = 50000
+@t7_cap = 100000
+@t8_cap = 250000
+@t9_cap = 500000
+@t10_cap = 1000000
+
 
 #### resource minerals TIER SELECTOR ####
 cheatinterface_resource_minerals_t1 = {
-	country_minerals_produces_mult = 0.15
+	country_minerals_produces_mult = @t1p_mult
 }
 cheatinterface_resource_minerals_t2 = {
-	country_minerals_produces_mult = 0.50
+	country_minerals_produces_mult = @t2p_mult
 }
 cheatinterface_resource_minerals_t3 = {
-	country_minerals_produces_mult = 1.00
+	country_minerals_produces_mult = @t3p_mult
 }
 cheatinterface_resource_minerals_t4 = {
-	country_minerals_produces_mult = 2.50
+	country_minerals_produces_mult = @t4p_mult
 }
 cheatinterface_resource_minerals_t5 = {
-	country_minerals_produces_mult = 5.00
+	country_minerals_produces_mult = @t5p_mult
 }
 cheatinterface_resource_minerals_t6 = {
-	country_minerals_produces_mult = 10.00
+	country_minerals_produces_mult = @t6p_mult
 }
 cheatinterface_resource_minerals_t7 = {
-	country_minerals_produces_mult = 50.00
+	country_minerals_produces_mult = @t7p_mult
 }
 cheatinterface_resource_minerals_t8 = {
-	country_minerals_produces_mult = 100.00
+	country_minerals_produces_mult = @t8p_mult
 }
 cheatinterface_resource_minerals_t9 = {
-	country_minerals_produces_mult = 250.00
+	country_minerals_produces_mult = @t9p_mult
 }
 cheatinterface_resource_minerals_t10 = {
-	country_minerals_produces_mult = 500.00
+	country_minerals_produces_mult = @t10p_mult
 }
 ###############################
 
 #### resource energy TIER SELECTOR ####
 cheatinterface_resource_energy_t1 = {
-	country_energy_produces_mult = 0.15
+	country_energy_produces_mult = @t1p_mult
 }
 cheatinterface_resource_energy_t2 = {
-	country_energy_produces_mult = 0.50
+	country_energy_produces_mult = @t2p_mult
 }
 cheatinterface_resource_energy_t3 = {
-	country_energy_produces_mult = 1.00
+	country_energy_produces_mult = @t3p_mult
 }
 cheatinterface_resource_energy_t4 = {
-	country_energy_produces_mult = 2.50
+	country_energy_produces_mult = @t4p_mult
 }
 cheatinterface_resource_energy_t5 = {
-	country_energy_produces_mult = 5.00
+	country_energy_produces_mult = @t5p_mult
 }
 cheatinterface_resource_energy_t6 = {
-	country_energy_produces_mult = 10.00
+	country_energy_produces_mult = @t6p_mult
 }
 cheatinterface_resource_energy_t7 = {
-	country_energy_produces_mult = 50.00
+	country_energy_produces_mult = @t7p_mult
 }
 cheatinterface_resource_energy_t8 = {
-	country_energy_produces_mult = 100.00
+	country_energy_produces_mult = @t8p_mult
 }
 cheatinterface_resource_energy_t9 = {
-	country_energy_produces_mult = 250.00
+	country_energy_produces_mult = @t9p_mult
 }
 cheatinterface_resource_energy_t10 = {
-	country_energy_produces_mult = 500.00
+	country_energy_produces_mult = @t10p_mult
 }
 ###############################
 
 #### resource food TIER SELECTOR ####
 cheatinterface_resource_food_t1 = {
-	country_food_produces_mult = 0.15
+	country_food_produces_mult = @t1p_mult
 }
 cheatinterface_resource_food_t2 = {
-	country_food_produces_mult = 0.50
+	country_food_produces_mult = @t2p_mult
 }
 cheatinterface_resource_food_t3 = {
-	country_food_produces_mult = 1.00
+	country_food_produces_mult = @t3p_mult
 }
 cheatinterface_resource_food_t4 = {
-	country_food_produces_mult = 2.50
+	country_food_produces_mult = @t4p_mult
 }
 cheatinterface_resource_food_t5 = {
-	country_food_produces_mult = 5.00
+	country_food_produces_mult = @t5p_mult
 }
 cheatinterface_resource_food_t6 = {
-	country_food_produces_mult = 10.00
+	country_food_produces_mult = @t6p_mult
 }
 cheatinterface_resource_food_t7 = {
-	country_food_produces_mult = 50.00
+	country_food_produces_mult = @t7p_mult
 }
 cheatinterface_resource_food_t8 = {
-	country_food_produces_mult = 100.00
+	country_food_produces_mult = @t8p_mult
 }
 cheatinterface_resource_food_t9 = {
-	country_food_produces_mult = 250.00
+	country_food_produces_mult = @t9p_mult
 }
 cheatinterface_resource_food_t10 = {
-	country_food_produces_mult = 500.00
+	country_food_produces_mult = @t10p_mult
 }
 ###############################
 
 #### resource Consumer Goods TIER SELECTOR ####
 cheatinterface_resource_consumer_goods_t1 = {
-	country_consumer_goods_produces_mult = 0.15
+	country_consumer_goods_produces_mult = @t1p_mult
 }
 cheatinterface_resource_consumer_goods_t2 = {
-	country_consumer_goods_produces_mult = 0.50
+	country_consumer_goods_produces_mult = @t2p_mult
 }
 cheatinterface_resource_consumer_goods_t3 = {
-	country_consumer_goods_produces_mult = 1.00
+	country_consumer_goods_produces_mult = @t3p_mult
 }
 cheatinterface_resource_consumer_goods_t4 = {
-	country_consumer_goods_produces_mult = 2.50
+	country_consumer_goods_produces_mult = @t4p_mult
 }
 cheatinterface_resource_consumer_goods_t5 = {
-	country_consumer_goods_produces_mult = 5.00
+	country_consumer_goods_produces_mult = @t5p_mult
 }
 cheatinterface_resource_consumer_goods_t6 = {
-	country_consumer_goods_produces_mult = 10.00
+	country_consumer_goods_produces_mult = @t6p_mult
 }
 cheatinterface_resource_consumer_goods_t7 = {
-	country_consumer_goods_produces_mult = 50.00
+	country_consumer_goods_produces_mult = @t7p_mult
 }
 cheatinterface_resource_consumer_goods_t8 = {
-	country_consumer_goods_produces_mult = 100.00
+	country_consumer_goods_produces_mult = @t8p_mult
 }
 cheatinterface_resource_consumer_goods_t9 = {
-	country_consumer_goods_produces_mult = 250.00
+	country_consumer_goods_produces_mult = @t9p_mult
 }
 cheatinterface_resource_consumer_goods_t10 = {
-	country_consumer_goods_produces_mult = 500.00
+	country_consumer_goods_produces_mult = @t10p_mult
 }
 ###############################
 
 #### resource Alloys TIER SELECTOR ####
 cheatinterface_resource_alloys_t1 = {
-	country_alloys_produces_mult = 0.15
+	country_alloys_produces_mult = @t1p_mult
 }
 cheatinterface_resource_alloys_t2 = {
-	country_alloys_produces_mult = 0.50
+	country_alloys_produces_mult = @t2p_mult
 }
 cheatinterface_resource_alloys_t3 = {
-	country_alloys_produces_mult = 1.00
+	country_alloys_produces_mult = @t3p_mult
 }
 cheatinterface_resource_alloys_t4 = {
-	country_alloys_produces_mult = 2.50
+	country_alloys_produces_mult = @t4p_mult
 }
 cheatinterface_resource_alloys_t5 = {
-	country_alloys_produces_mult = 5.00
+	country_alloys_produces_mult = @t5p_mult
 }
 cheatinterface_resource_alloys_t6 = {
-	country_alloys_produces_mult = 10.00
+	country_alloys_produces_mult = @t6p_mult
 }
 cheatinterface_resource_alloys_t7 = {
-	country_alloys_produces_mult = 50.00
+	country_alloys_produces_mult = @t7p_mult
 }
 cheatinterface_resource_alloys_t8 = {
-	country_alloys_produces_mult = 100.00
+	country_alloys_produces_mult = @t8p_mult
 }
 cheatinterface_resource_alloys_t9 = {
-	country_alloys_produces_mult = 250.00
+	country_alloys_produces_mult = @t9p_mult
 }
 cheatinterface_resource_alloys_t10 = {
-	country_alloys_produces_mult = 500.00
+	country_alloys_produces_mult = @t10p_mult
 }
 ###############################
 
 #### resource Influence TIER SELECTOR ####
 cheatinterface_resource_influence_t1 = {
-	country_influence_produces_mult = 0.15
+	country_influence_produces_mult = @t1p_mult
 }
 cheatinterface_resource_influence_t2 = {
-	country_influence_produces_mult = 0.50
+	country_influence_produces_mult = @t2p_mult
 }
 cheatinterface_resource_influence_t3 = {
-	country_influence_produces_mult = 1.00
+	country_influence_produces_mult = @t3p_mult
 }
 cheatinterface_resource_influence_t4 = {
-	country_influence_produces_mult = 2.50
+	country_influence_produces_mult = @t4p_mult
 }
 cheatinterface_resource_influence_t5 = {
-	country_influence_produces_mult = 5.00
+	country_influence_produces_mult = @t5p_mult
 }
 cheatinterface_resource_influence_t6 = {
-	country_influence_produces_mult = 10.00
+	country_influence_produces_mult = @t6p_mult
 }
 cheatinterface_resource_influence_t7 = {
-	country_influence_produces_mult = 50.00
+	country_influence_produces_mult = @t7p_mult
 }
 cheatinterface_resource_influence_t8 = {
-	country_influence_produces_mult = 100.00
+	country_influence_produces_mult = @t8p_mult
 }
 cheatinterface_resource_influence_t9 = {
-	country_influence_produces_mult = 250.00
+	country_influence_produces_mult = @t9p_mult
 }
 cheatinterface_resource_influence_t10 = {
-	country_influence_produces_mult = 500.00
+	country_influence_produces_mult = @t10p_mult
 }
 ###############################
 
 #### resource Unity TIER SELECTOR ####
 cheatinterface_resource_unity_t1 = {
-	country_unity_produces_mult = 0.15
+	country_unity_produces_mult = @t1p_mult
 }
 cheatinterface_resource_unity_t2 = {
-	country_unity_produces_mult = 0.50
+	country_unity_produces_mult = @t2p_mult
 }
 cheatinterface_resource_unity_t3 = {
-	country_unity_produces_mult = 1.00
+	country_unity_produces_mult = @t3p_mult
 }
 cheatinterface_resource_unity_t4 = {
-	country_unity_produces_mult = 2.50
+	country_unity_produces_mult = @t4p_mult
 }
 cheatinterface_resource_unity_t5 = {
-	country_unity_produces_mult = 5.00
+	country_unity_produces_mult = @t5p_mult
 }
 cheatinterface_resource_unity_t6 = {
-	country_unity_produces_mult = 10.00
+	country_unity_produces_mult = @t6p_mult
 }
 cheatinterface_resource_unity_t7 = {
-	country_unity_produces_mult = 50.00
+	country_unity_produces_mult = @t7p_mult
 }
 cheatinterface_resource_unity_t8 = {
-	country_unity_produces_mult = 100.00
+	country_unity_produces_mult = @t8p_mult
 }
 cheatinterface_resource_unity_t9 = {
-	country_unity_produces_mult = 250.00
+	country_unity_produces_mult = @t9p_mult
 }
 cheatinterface_resource_unity_t10 = {
-	country_unity_produces_mult = 500.00
+	country_unity_produces_mult = @t10p_mult
 }
 ###############################
 
 #### resource Volatile Motes TIER SELECTOR ####
 cheatinterface_resource_volatile_motes_t1 = {
-	country_volatile_motes_produces_mult = 0.15
+	country_volatile_motes_produces_mult = @t1p_mult
 }
 cheatinterface_resource_volatile_motes_t2 = {
-	country_volatile_motes_produces_mult = 0.50
+	country_volatile_motes_produces_mult = @t2p_mult
 }
 cheatinterface_resource_volatile_motes_t3 = {
-	country_volatile_motes_produces_mult = 1.00
+	country_volatile_motes_produces_mult = @t3p_mult
 }
 cheatinterface_resource_volatile_motes_t4 = {
-	country_volatile_motes_produces_mult = 2.50
+	country_volatile_motes_produces_mult = @t4p_mult
 }
 cheatinterface_resource_volatile_motes_t5 = {
-	country_volatile_motes_produces_mult = 5.00
+	country_volatile_motes_produces_mult = @t5p_mult
 }
 cheatinterface_resource_volatile_motes_t6 = {
-	country_volatile_motes_produces_mult = 10.00
+	country_volatile_motes_produces_mult = @t6p_mult
 }
 cheatinterface_resource_volatile_motes_t7 = {
-	country_volatile_motes_produces_mult = 50.00
+	country_volatile_motes_produces_mult = @t7p_mult
 }
 cheatinterface_resource_volatile_motes_t8 = {
-	country_volatile_motes_produces_mult = 100.00
+	country_volatile_motes_produces_mult = @t8p_mult
 }
 cheatinterface_resource_volatile_motes_t9 = {
-	country_volatile_motes_produces_mult = 250.00
+	country_volatile_motes_produces_mult = @t9p_mult
 }
 cheatinterface_resource_volatile_motes_t10 = {
-	country_volatile_motes_produces_mult = 500.00
+	country_volatile_motes_produces_mult = @t10p_mult
 }
 ###############################
 
 #### resource Exotic Gases TIER SELECTOR ####
 cheatinterface_resource_exotic_gases_t1 = {
-	country_exotic_gases_produces_mult = 0.15
+	country_exotic_gases_produces_mult = @t1p_mult
 }
 cheatinterface_resource_exotic_gases_t2 = {
-	country_exotic_gases_produces_mult = 0.50
+	country_exotic_gases_produces_mult = @t2p_mult
 }
 cheatinterface_resource_exotic_gases_t3 = {
-	country_exotic_gases_produces_mult = 1.00
+	country_exotic_gases_produces_mult = @t3p_mult
 }
 cheatinterface_resource_exotic_gases_t4 = {
-	country_exotic_gases_produces_mult = 2.50
+	country_exotic_gases_produces_mult = @t4p_mult
 }
 cheatinterface_resource_exotic_gases_t5 = {
-	country_exotic_gases_produces_mult = 5.00
+	country_exotic_gases_produces_mult = @t5p_mult
 }
 cheatinterface_resource_exotic_gases_t6 = {
-	country_exotic_gases_produces_mult = 10.00
+	country_exotic_gases_produces_mult = @t6p_mult
 }
 cheatinterface_resource_exotic_gases_t7 = {
-	country_exotic_gases_produces_mult = 50.00
+	country_exotic_gases_produces_mult = @t7p_mult
 }
 cheatinterface_resource_exotic_gases_t8 = {
-	country_exotic_gases_produces_mult = 100.00
+	country_exotic_gases_produces_mult = @t8p_mult
 }
 cheatinterface_resource_exotic_gases_t9 = {
-	country_exotic_gases_produces_mult = 250.00
+	country_exotic_gases_produces_mult = @t9p_mult
 }
 cheatinterface_resource_exotic_gases_t10 = {
-	country_exotic_gases_produces_mult = 500.00
+	country_exotic_gases_produces_mult = @t10p_mult
 }
 ###############################
 
 #### resource Rare Crystals TIER SELECTOR ####
 cheatinterface_resource_rare_crystals_t1 = {
-	country_rare_crystals_produces_mult = 0.15
+	country_rare_crystals_produces_mult = @t1p_mult
 }
 cheatinterface_resource_rare_crystals_t2 = {
-	country_rare_crystals_produces_mult = 0.50
+	country_rare_crystals_produces_mult = @t2p_mult
 }
 cheatinterface_resource_rare_crystals_t3 = {
-	country_rare_crystals_produces_mult = 1.00
+	country_rare_crystals_produces_mult = @t3p_mult
 }
 cheatinterface_resource_rare_crystals_t4 = {
-	country_rare_crystals_produces_mult = 2.50
+	country_rare_crystals_produces_mult = @t4p_mult
 }
 cheatinterface_resource_rare_crystals_t5 = {
-	country_rare_crystals_produces_mult = 5.00
+	country_rare_crystals_produces_mult = @t5p_mult
 }
 cheatinterface_resource_rare_crystals_t6 = {
-	country_rare_crystals_produces_mult = 10.00
+	country_rare_crystals_produces_mult = @t6p_mult
 }
 cheatinterface_resource_rare_crystals_t7 = {
-	country_rare_crystals_produces_mult = 50.00
+	country_rare_crystals_produces_mult = @t7p_mult
 }
 cheatinterface_resource_rare_crystals_t8 = {
-	country_rare_crystals_produces_mult = 100.00
+	country_rare_crystals_produces_mult = @t8p_mult
 }
 cheatinterface_resource_rare_crystals_t9 = {
-	country_rare_crystals_produces_mult = 250.00
+	country_rare_crystals_produces_mult = @t9p_mult
 }
 cheatinterface_resource_rare_crystals_t10 = {
-	country_rare_crystals_produces_mult = 500.00
+	country_rare_crystals_produces_mult = @t10p_mult
 }
 ###############################
 
 #### resource Living Metal TIER SELECTOR ####
 cheatinterface_resource_living_metal_t1 = {
-	country_sr_living_metal_produces_mult = 0.15
+	country_sr_living_metal_produces_mult = @t1p_mult
 }
 cheatinterface_resource_living_metal_t2 = {
-	country_sr_living_metal_produces_mult = 0.50
+	country_sr_living_metal_produces_mult = @t2p_mult
 }
 cheatinterface_resource_living_metal_t3 = {
-	country_sr_living_metal_produces_mult = 1.00
+	country_sr_living_metal_produces_mult = @t3p_mult
 }
 cheatinterface_resource_living_metal_t4 = {
-	country_sr_living_metal_produces_mult = 2.50
+	country_sr_living_metal_produces_mult = @t4p_mult
 }
 cheatinterface_resource_living_metal_t5 = {
-	country_sr_living_metal_produces_mult = 5.00
+	country_sr_living_metal_produces_mult = @t5p_mult
 }
 cheatinterface_resource_living_metal_t6 = {
-	country_sr_living_metal_produces_mult = 10.00
+	country_sr_living_metal_produces_mult = @t6p_mult
 }
 cheatinterface_resource_living_metal_t7 = {
-	country_sr_living_metal_produces_mult = 50.00
+	country_sr_living_metal_produces_mult = @t7p_mult
 }
 cheatinterface_resource_living_metal_t8 = {
-	country_sr_living_metal_produces_mult = 100.00
+	country_sr_living_metal_produces_mult = @t8p_mult
 }
 cheatinterface_resource_living_metal_t9 = {
-	country_sr_living_metal_produces_mult = 250.00
+	country_sr_living_metal_produces_mult = @t9p_mult
 }
 cheatinterface_resource_living_metal_t10 = {
-	country_sr_living_metal_produces_mult = 500.00
+	country_sr_living_metal_produces_mult = @t10p_mult
 }
 ###############################
 
 #### resource Dark Matter TIER SELECTOR ####
 cheatinterface_resource_dark_matter_t1 = {
-	country_sr_dark_matter_produces_mult = 0.15
+	country_sr_dark_matter_produces_mult = @t1p_mult
 }
 cheatinterface_resource_dark_matter_t2 = {
-	country_sr_dark_matter_produces_mult = 0.50
+	country_sr_dark_matter_produces_mult = @t2p_mult
 }
 cheatinterface_resource_dark_matter_t3 = {
-	country_sr_dark_matter_produces_mult = 1.00
+	country_sr_dark_matter_produces_mult = @t3p_mult
 }
 cheatinterface_resource_dark_matter_t4 = {
-	country_sr_dark_matter_produces_mult = 2.50
+	country_sr_dark_matter_produces_mult = @t4p_mult
 }
 cheatinterface_resource_dark_matter_t5 = {
-	country_sr_dark_matter_produces_mult = 5.00
+	country_sr_dark_matter_produces_mult = @t5p_mult
 }
 cheatinterface_resource_dark_matter_t6 = {
-	country_sr_dark_matter_produces_mult = 10.00
+	country_sr_dark_matter_produces_mult = @t6p_mult
 }
 cheatinterface_resource_dark_matter_t7 = {
-	country_sr_dark_matter_produces_mult = 50.00
+	country_sr_dark_matter_produces_mult = @t7p_mult
 }
 cheatinterface_resource_dark_matter_t8 = {
-	country_sr_dark_matter_produces_mult = 100.00
+	country_sr_dark_matter_produces_mult = @t8p_mult
 }
 cheatinterface_resource_dark_matter_t9 = {
-	country_sr_dark_matter_produces_mult = 250.00
+	country_sr_dark_matter_produces_mult = @t9p_mult
 }
 cheatinterface_resource_dark_matter_t10 = {
-	country_sr_dark_matter_produces_mult = 500.00
+	country_sr_dark_matter_produces_mult = @t10p_mult
 }
 ###############################
 
 #### resource Zro TIER SELECTOR ####
 cheatinterface_resource_zro_t1 = {
-	country_sr_zro_produces_mult = 0.15
+	country_sr_zro_produces_mult = @t1p_mult
 }
 cheatinterface_resource_zro_t2 = {
-	country_sr_zro_produces_mult = 0.50
+	country_sr_zro_produces_mult = @t2p_mult
 }
 cheatinterface_resource_zro_t3 = {
-	country_sr_zro_produces_mult = 1.00
+	country_sr_zro_produces_mult = @t3p_mult
 }
 cheatinterface_resource_zro_t4 = {
-	country_sr_zro_produces_mult = 2.50
+	country_sr_zro_produces_mult = @t4p_mult
 }
 cheatinterface_resource_zro_t5 = {
-	country_sr_zro_produces_mult = 5.00
+	country_sr_zro_produces_mult = @t5p_mult
 }
 cheatinterface_resource_zro_t6 = {
-	country_sr_zro_produces_mult = 10.00
+	country_sr_zro_produces_mult = @t6p_mult
 }
 cheatinterface_resource_zro_t7 = {
-	country_sr_zro_produces_mult = 50.00
+	country_sr_zro_produces_mult = @t7p_mult
 }
 cheatinterface_resource_zro_t8 = {
-	country_sr_zro_produces_mult = 100.00
+	country_sr_zro_produces_mult = @t8p_mult
 }
 cheatinterface_resource_zro_t9 = {
-	country_sr_zro_produces_mult = 250.00
+	country_sr_zro_produces_mult = @t9p_mult
 }
 cheatinterface_resource_zro_t10 = {
-	country_sr_zro_produces_mult = 500.00
+	country_sr_zro_produces_mult = @t10p_mult
 }
 ###############################
 
 #### resource Nanites TIER SELECTOR ####
 cheatinterface_resource_nanites_t1 = {
-	country_nanites_produces_mult = 0.15
+	country_nanites_produces_mult = @t1p_mult
 }
 cheatinterface_resource_nanites_t2 = {
-	country_nanites_produces_mult = 0.50
+	country_nanites_produces_mult = @t2p_mult
 }
 cheatinterface_resource_nanites_t3 = {
-	country_nanites_produces_mult = 1.00
+	country_nanites_produces_mult = @t3p_mult
 }
 cheatinterface_resource_nanites_t4 = {
-	country_nanites_produces_mult = 2.50
+	country_nanites_produces_mult = @t4p_mult
 }
 cheatinterface_resource_nanites_t5 = {
-	country_nanites_produces_mult = 5.00
+	country_nanites_produces_mult = @t5p_mult
 }
 cheatinterface_resource_nanites_t6 = {
-	country_nanites_produces_mult = 10.00
+	country_nanites_produces_mult = @t6p_mult
 }
 cheatinterface_resource_nanites_t7 = {
-	country_nanites_produces_mult = 50.00
+	country_nanites_produces_mult = @t7p_mult
 }
 cheatinterface_resource_nanites_t8 = {
-	country_nanites_produces_mult = 100.00
+	country_nanites_produces_mult = @t8p_mult
 }
 cheatinterface_resource_nanites_t9 = {
-	country_nanites_produces_mult = 250.00
+	country_nanites_produces_mult = @t9p_mult
 }
 cheatinterface_resource_nanites_t10 = {
-	country_nanites_produces_mult = 500.00
+	country_nanites_produces_mult = @t10p_mult
 }
 ###############################
 
@@ -496,34 +529,34 @@ cheatinterface_empire_storage_cap_t10 = {
 
 #### empire_diplomatic_weight_positive TIER POSITIVE SELECTOR ####
 cheatinterface_empire_diplomatic_weight_positive_t1 = {
-	diplo_weight_mult = 0.15
+	diplo_weight_mult = @t1p_mult
 }
 cheatinterface_empire_diplomatic_weight_positive_t2 = {
-	diplo_weight_mult = 0.50
+	diplo_weight_mult = @t2p_mult
 }
 cheatinterface_empire_diplomatic_weight_positive_t3 = {
-	diplo_weight_mult = 1.00
+	diplo_weight_mult = @t3p_mult
 }
 cheatinterface_empire_diplomatic_weight_positive_t4 = {
-	diplo_weight_mult = 2.50
+	diplo_weight_mult = @t4p_mult
 }
 cheatinterface_empire_diplomatic_weight_positive_t5 = {
-	diplo_weight_mult = 5.00
+	diplo_weight_mult = @t5p_mult
 }
 cheatinterface_empire_diplomatic_weight_positive_t6 = {
-	diplo_weight_mult = 10.00
+	diplo_weight_mult = @t6p_mult
 }
 cheatinterface_empire_diplomatic_weight_positive_t7 = {
-	diplo_weight_mult = 50.00
+	diplo_weight_mult = @t7p_mult
 }
 cheatinterface_empire_diplomatic_weight_positive_t8 = {
-	diplo_weight_mult = 100.00
+	diplo_weight_mult = @t8p_mult
 }
 cheatinterface_empire_diplomatic_weight_positive_t9 = {
-	diplo_weight_mult = 250.00
+	diplo_weight_mult = @t9p_mult
 }
 cheatinterface_empire_diplomatic_weight_positive_t10 = {
-	diplo_weight_mult = 500.00
+	diplo_weight_mult = @t10p_mult
 }
 ###############################
 
@@ -562,242 +595,242 @@ cheatinterface_empire_diplomatic_weight_negative_t10 = {
 
 #### monthly loyalty TIER SELECTOR ####
 cheatinterface_empire_monthly_loyalty_t1 = {
-	monthly_loyalty = 0.15
-	monthly_loyalty_from_subjects = 0.15
+	monthly_loyalty = @t1p_mult
+	monthly_loyalty_from_subjects = @t1p_mult
 }
 cheatinterface_empire_monthly_loyalty_t2 = {
-	monthly_loyalty = 0.50
-	monthly_loyalty_from_subjects = 0.50
+	monthly_loyalty = @t2p_mult
+	monthly_loyalty_from_subjects = @t2p_mult
 }
 cheatinterface_empire_monthly_loyalty_t3 = {
-	monthly_loyalty = 1.00
-	monthly_loyalty_from_subjects = 1.00
+	monthly_loyalty = @t3p_mult
+	monthly_loyalty_from_subjects = @t3p_mult
 }
 cheatinterface_empire_monthly_loyalty_t4 = {
-	monthly_loyalty = 2.50
-	monthly_loyalty_from_subjects = 2.50
+	monthly_loyalty = @t4p_mult
+	monthly_loyalty_from_subjects = @t4p_mult
 }
 cheatinterface_empire_monthly_loyalty_t5 = {
-	monthly_loyalty = 5.00
-	monthly_loyalty_from_subjects = 5.00
+	monthly_loyalty = @t5p_mult
+	monthly_loyalty_from_subjects = @t5p_mult
 }
 cheatinterface_empire_monthly_loyalty_t6 = {
-	monthly_loyalty = 10.00
-	monthly_loyalty_from_subjects = 10.00
+	monthly_loyalty = @t6p_mult
+	monthly_loyalty_from_subjects = @t6p_mult
 }
 cheatinterface_empire_monthly_loyalty_t7 = {
-	monthly_loyalty = 50.00
-	monthly_loyalty_from_subjects = 50.00
+	monthly_loyalty = @t7p_mult
+	monthly_loyalty_from_subjects = @t7p_mult
 }
 cheatinterface_empire_monthly_loyalty_t8 = {
-	monthly_loyalty = 100.00
-	monthly_loyalty_from_subjects = 100.00
+	monthly_loyalty = @t8p_mult
+	monthly_loyalty_from_subjects = @t8p_mult
 }
 cheatinterface_empire_monthly_loyalty_t9 = {
-	monthly_loyalty = 250.00
-	monthly_loyalty_from_subjects = 250.00
+	monthly_loyalty = @t9p_mult
+	monthly_loyalty_from_subjects = @t9p_mult
 }
 cheatinterface_empire_monthly_loyalty_t10 = {
-	monthly_loyalty = 500.00
-	monthly_loyalty_from_subjects = 500.00
+	monthly_loyalty = @t10p_mult
+	monthly_loyalty_from_subjects = @t10p_mult
 }
 ###############################
 
 #### Planetary Decision Speed TIER SELECTOR ####
 cheatinterface_empire_planetary_decision_t1 = {
-	planet_decision_enact_speed_mult = 0.15
+	planet_decision_enact_speed_mult = @t1p_mult
 }
 cheatinterface_empire_planetary_decision_t2 = {
-	planet_decision_enact_speed_mult = 0.50
+	planet_decision_enact_speed_mult = @t2p_mult
 }
 cheatinterface_empire_planetary_decision_t3 = {
-	planet_decision_enact_speed_mult = 1.00
+	planet_decision_enact_speed_mult = @t3p_mult
 }
 cheatinterface_empire_planetary_decision_t4 = {
-	planet_decision_enact_speed_mult = 2.50
+	planet_decision_enact_speed_mult = @t4p_mult
 }
 cheatinterface_empire_planetary_decision_t5 = {
-	planet_decision_enact_speed_mult = 5.00
+	planet_decision_enact_speed_mult = @t5p_mult
 }
 cheatinterface_empire_planetary_decision_t6 = {
-	planet_decision_enact_speed_mult = 10.00
+	planet_decision_enact_speed_mult = @t6p_mult
 }
 cheatinterface_empire_planetary_decision_t7 = {
-	planet_decision_enact_speed_mult = 50.00
+	planet_decision_enact_speed_mult = @t7p_mult
 }
 cheatinterface_empire_planetary_decision_t8 = {
-	planet_decision_enact_speed_mult = 100.00
+	planet_decision_enact_speed_mult = @t8p_mult
 }
 cheatinterface_empire_planetary_decision_t9 = {
-	planet_decision_enact_speed_mult = 250.00
+	planet_decision_enact_speed_mult = @t9p_mult
 }
 cheatinterface_empire_planetary_decision_t10 = {
-	planet_decision_enact_speed_mult = 500.00
+	planet_decision_enact_speed_mult = @t10p_mult
 }
 ###############################
 
 #### Research Physics TIER SELECTOR ####
 cheatinterface_empire_research_physics_t1 = {
-	country_physics_research_produces_mult = 0.15
+	country_physics_research_produces_mult = @t1p_mult
 }
 cheatinterface_empire_research_physics_t2 = {
-	country_physics_research_produces_mult = 0.50
+	country_physics_research_produces_mult = @t2p_mult
 }
 cheatinterface_empire_research_physics_t3 = {
-	country_physics_research_produces_mult = 1.00
+	country_physics_research_produces_mult = @t3p_mult
 }
 cheatinterface_empire_research_physics_t4 = {
-	country_physics_research_produces_mult = 2.50
+	country_physics_research_produces_mult = @t4p_mult
 }
 cheatinterface_empire_research_physics_t5 = {
-	country_physics_research_produces_mult = 5.00
+	country_physics_research_produces_mult = @t5p_mult
 }
 cheatinterface_empire_research_physics_t6 = {
-	country_physics_research_produces_mult = 10.00
+	country_physics_research_produces_mult = @t6p_mult
 }
 cheatinterface_empire_research_physics_t7 = {
-	country_physics_research_produces_mult = 50.00
+	country_physics_research_produces_mult = @t7p_mult
 }
 cheatinterface_empire_research_physics_t8 = {
-	country_physics_research_produces_mult = 100.00
+	country_physics_research_produces_mult = @t8p_mult
 }
 cheatinterface_empire_research_physics_t9 = {
-	country_physics_research_produces_mult = 250.00
+	country_physics_research_produces_mult = @t9p_mult
 }
 cheatinterface_empire_research_physics_t10 = {
-	country_physics_research_produces_mult = 500.00
+	country_physics_research_produces_mult = @t10p_mult
 }
 ###############################
 
 #### Research Society TIER SELECTOR ####
 cheatinterface_empire_research_society_t1 = {
-	country_society_research_produces_mult = 0.15
+	country_society_research_produces_mult = @t1p_mult
 }
 cheatinterface_empire_research_society_t2 = {
-	country_society_research_produces_mult = 0.50
+	country_society_research_produces_mult = @t2p_mult
 }
 cheatinterface_empire_research_society_t3 = {
-	country_society_research_produces_mult = 1.00
+	country_society_research_produces_mult = @t3p_mult
 }
 cheatinterface_empire_research_society_t4 = {
-	country_society_research_produces_mult = 2.50
+	country_society_research_produces_mult = @t4p_mult
 }
 cheatinterface_empire_research_society_t5 = {
-	country_society_research_produces_mult = 5.00
+	country_society_research_produces_mult = @t5p_mult
 }
 cheatinterface_empire_research_society_t6 = {
-	country_society_research_produces_mult = 10.00
+	country_society_research_produces_mult = @t6p_mult
 }
 cheatinterface_empire_research_society_t7 = {
-	country_society_research_produces_mult = 50.00
+	country_society_research_produces_mult = @t7p_mult
 }
 cheatinterface_empire_research_society_t8 = {
-	country_society_research_produces_mult = 100.00
+	country_society_research_produces_mult = @t8p_mult
 }
 cheatinterface_empire_research_society_t9 = {
-	country_society_research_produces_mult = 250.00
+	country_society_research_produces_mult = @t9p_mult
 }
 cheatinterface_empire_research_society_t10 = {
-	country_society_research_produces_mult = 500.00
+	country_society_research_produces_mult = @t10p_mult
 }
 ###############################
 
 #### Research engineering TIER SELECTOR ####
 cheatinterface_empire_research_engineering_t1 = {
-	country_engineering_research_produces_mult = 0.15
+	country_engineering_research_produces_mult = @t1p_mult
 }
 cheatinterface_empire_research_engineering_t2 = {
-	country_engineering_research_produces_mult = 0.50
+	country_engineering_research_produces_mult = @t2p_mult
 }
 cheatinterface_empire_research_engineering_t3 = {
-	country_engineering_research_produces_mult = 1.00
+	country_engineering_research_produces_mult = @t3p_mult
 }
 cheatinterface_empire_research_engineering_t4 = {
-	country_engineering_research_produces_mult = 2.50
+	country_engineering_research_produces_mult = @t4p_mult
 }
 cheatinterface_empire_research_engineering_t5 = {
-	country_engineering_research_produces_mult = 5.00
+	country_engineering_research_produces_mult = @t5p_mult
 }
 cheatinterface_empire_research_engineering_t6 = {
-	country_engineering_research_produces_mult = 10.00
+	country_engineering_research_produces_mult = @t6p_mult
 }
 cheatinterface_empire_research_engineering_t7 = {
-	country_engineering_research_produces_mult = 50.00
+	country_engineering_research_produces_mult = @t7p_mult
 }
 cheatinterface_empire_research_engineering_t8 = {
-	country_engineering_research_produces_mult = 100.00
+	country_engineering_research_produces_mult = @t8p_mult
 }
 cheatinterface_empire_research_engineering_t9 = {
-	country_engineering_research_produces_mult = 250.00
+	country_engineering_research_produces_mult = @t9p_mult
 }
 cheatinterface_empire_research_engineering_t10 = {
-	country_engineering_research_produces_mult = 500.00
+	country_engineering_research_produces_mult = @t10p_mult
 }
 ###############################
 
 #### Colony Development TIER SELECTOR ####
 cheatinterface_empire_colony_development_t1 = {
-	planet_colony_development_speed_mult = 0.15
+	planet_colony_development_speed_mult = @t1p_mult
 }
 cheatinterface_empire_colony_development_t2 = {
-	planet_colony_development_speed_mult = 0.50
+	planet_colony_development_speed_mult = @t2p_mult
 }
 cheatinterface_empire_colony_development_t3 = {
-	planet_colony_development_speed_mult = 1.00
+	planet_colony_development_speed_mult = @t3p_mult
 }
 cheatinterface_empire_colony_development_t4 = {
-	planet_colony_development_speed_mult = 2.50
+	planet_colony_development_speed_mult = @t4p_mult
 }
 cheatinterface_empire_colony_development_t5 = {
-	planet_colony_development_speed_mult = 5.00
+	planet_colony_development_speed_mult = @t5p_mult
 }
 cheatinterface_empire_colony_development_t6 = {
-	planet_colony_development_speed_mult = 10.00
+	planet_colony_development_speed_mult = @t6p_mult
 }
 cheatinterface_empire_colony_development_t7 = {
-	planet_colony_development_speed_mult = 50.00
+	planet_colony_development_speed_mult = @t7p_mult
 }
 cheatinterface_empire_colony_development_t8 = {
-	planet_colony_development_speed_mult = 100.00
+	planet_colony_development_speed_mult = @t8p_mult
 }
 cheatinterface_empire_colony_development_t9 = {
-	planet_colony_development_speed_mult = 250.00
+	planet_colony_development_speed_mult = @t9p_mult
 }
 cheatinterface_empire_colony_development_t10 = {
-	planet_colony_development_speed_mult = 500.00
+	planet_colony_development_speed_mult = @t10p_mult
 }
 ###############################
 
 #### Terraform Speed TIER SELECTOR ####
 cheatinterface_empire_terraforming_speed_t1 = {
-	terraform_speed_mult = 0.15
+	terraform_speed_mult = @t1p_mult
 }
 cheatinterface_empire_terraforming_speed_t2 = {
-	terraform_speed_mult = 0.50
+	terraform_speed_mult = @t2p_mult
 }
 cheatinterface_empire_terraforming_speed_t3 = {
-	terraform_speed_mult = 1.00
+	terraform_speed_mult = @t3p_mult
 }
 cheatinterface_empire_terraforming_speed_t4 = {
-	terraform_speed_mult = 2.50
+	terraform_speed_mult = @t4p_mult
 }
 cheatinterface_empire_terraforming_speed_t5 = {
-	terraform_speed_mult = 5.00
+	terraform_speed_mult = @t5p_mult
 }
 cheatinterface_empire_terraforming_speed_t6 = {
-	terraform_speed_mult = 10.00
+	terraform_speed_mult = @t6p_mult
 }
 cheatinterface_empire_terraforming_speed_t7 = {
-	terraform_speed_mult = 50.00
+	terraform_speed_mult = @t7p_mult
 }
 cheatinterface_empire_terraforming_speed_t8 = {
-	terraform_speed_mult = 100.00
+	terraform_speed_mult = @t8p_mult
 }
 cheatinterface_empire_terraforming_speed_t9 = {
-	terraform_speed_mult = 250.00
+	terraform_speed_mult = @t9p_mult
 }
 cheatinterface_empire_terraforming_speed_t10 = {
-	terraform_speed_mult = 500.00
+	terraform_speed_mult = @t10p_mult
 }
 ###############################
 
@@ -836,66 +869,66 @@ cheatinterface_empire_terraforming_cost_t10 = {
 
 #### Ethics Shift Speed TIER SELECTOR ####
 cheatinterface_empire_ethics_shift_speed_t1 = {
-	pop_ethics_shift_speed_mult = 0.15
+	pop_ethics_shift_speed_mult = @t1p_mult
 }
 cheatinterface_empire_ethics_shift_speed_t2 = {
-	pop_ethics_shift_speed_mult = 0.50
+	pop_ethics_shift_speed_mult = @t2p_mult
 }
 cheatinterface_empire_ethics_shift_speed_t3 = {
-	pop_ethics_shift_speed_mult = 1.00
+	pop_ethics_shift_speed_mult = @t3p_mult
 }
 cheatinterface_empire_ethics_shift_speed_t4 = {
-	pop_ethics_shift_speed_mult = 2.50
+	pop_ethics_shift_speed_mult = @t4p_mult
 }
 cheatinterface_empire_ethics_shift_speed_t5 = {
-	pop_ethics_shift_speed_mult = 5.00
+	pop_ethics_shift_speed_mult = @t5p_mult
 }
 cheatinterface_empire_ethics_shift_speed_t6 = {
-	pop_ethics_shift_speed_mult = 10.00
+	pop_ethics_shift_speed_mult = @t6p_mult
 }
 cheatinterface_empire_ethics_shift_speed_t7 = {
-	pop_ethics_shift_speed_mult = 50.00
+	pop_ethics_shift_speed_mult = @t7p_mult
 }
 cheatinterface_empire_ethics_shift_speed_t8 = {
-	pop_ethics_shift_speed_mult = 100.00
+	pop_ethics_shift_speed_mult = @t8p_mult
 }
 cheatinterface_empire_ethics_shift_speed_t9 = {
-	pop_ethics_shift_speed_mult = 250.00
+	pop_ethics_shift_speed_mult = @t9p_mult
 }
 cheatinterface_empire_ethics_shift_speed_t10 = {
-	pop_ethics_shift_speed_mult = 500.00
+	pop_ethics_shift_speed_mult = @t10p_mult
 }
 
 #### Trust TIER SELECTOR ####
 cheatinterface_empire_trust_t1 = {
-	country_trust_growth = 0.15
+	country_trust_growth = @t1p_mult
 }
 cheatinterface_empire_trust_t2 = {
-	country_trust_growth = 0.50
+	country_trust_growth = @t2p_mult
 }
 cheatinterface_empire_trust_t3 = {
-	country_trust_growth = 1.00
+	country_trust_growth = @t3p_mult
 }
 cheatinterface_empire_trust_t4 = {
-	country_trust_growth = 2.50
+	country_trust_growth = @t4p_mult
 }
 cheatinterface_empire_trust_t5 = {
-	country_trust_growth = 5.00
+	country_trust_growth = @t5p_mult
 }
 cheatinterface_empire_trust_t6 = {
-	country_trust_growth = 10.00
+	country_trust_growth = @t6p_mult
 }
 cheatinterface_empire_trust_t7 = {
-	country_trust_growth = 50.00
+	country_trust_growth = @t7p_mult
 }
 cheatinterface_empire_trust_t8 = {
-	country_trust_growth = 100.00
+	country_trust_growth = @t8p_mult
 }
 cheatinterface_empire_trust_t9 = {
-	country_trust_growth = 250.00
+	country_trust_growth = @t9p_mult
 }
 cheatinterface_empire_trust_t10 = {
-	country_trust_growth = 500.00
+	country_trust_growth = @t10p_mult
 }
 ###############################
 
@@ -1033,446 +1066,446 @@ cheatinterface_empire_admin_cap_scientists_t10 = {
 
 #### Ethics Shift Speed TIER SELECTOR ####
 cheatinterface_empire_trade_value_t1 = {
-	trade_value_mult = 0.15
+	trade_value_mult = @t1p_mult
 }
 cheatinterface_empire_trade_value_t2 = {
-	trade_value_mult = 0.50
+	trade_value_mult = @t2p_mult
 }
 cheatinterface_empire_trade_value_t3 = {
-	trade_value_mult = 1.00
+	trade_value_mult = @t3p_mult
 }
 cheatinterface_empire_trade_value_t4 = {
-	trade_value_mult = 2.50
+	trade_value_mult = @t4p_mult
 }
 cheatinterface_empire_trade_value_t5 = {
-	trade_value_mult = 5.00
+	trade_value_mult = @t5p_mult
 }
 cheatinterface_empire_trade_value_t6 = {
-	trade_value_mult = 10.00
+	trade_value_mult = @t6p_mult
 }
 cheatinterface_empire_trade_value_t7 = {
-	trade_value_mult = 50.00
+	trade_value_mult = @t7p_mult
 }
 cheatinterface_empire_trade_value_t8 = {
-	trade_value_mult = 100.00
+	trade_value_mult = @t8p_mult
 }
 cheatinterface_empire_trade_value_t9 = {
-	trade_value_mult = 250.00
+	trade_value_mult = @t9p_mult
 }
 cheatinterface_empire_trade_value_t10 = {
-	trade_value_mult = 500.00
+	trade_value_mult = @t10p_mult
 }
 
 #### ship_base_speed TIER SELECTOR ####
 cheatinterface_ship_base_speed_t1 = {
-	ship_base_speed_mult = 0.15
+	ship_base_speed_mult = @t1p_mult
 }
 cheatinterface_ship_base_speed_t2 = {
-	ship_base_speed_mult = 0.50
+	ship_base_speed_mult = @t2p_mult
 }
 cheatinterface_ship_base_speed_t3 = {
-	ship_base_speed_mult = 1.00
+	ship_base_speed_mult = @t3p_mult
 }
 cheatinterface_ship_base_speed_t4 = {
-	ship_base_speed_mult = 2.50
+	ship_base_speed_mult = @t4p_mult
 }
 cheatinterface_ship_base_speed_t5 = {
-	ship_base_speed_mult = 5.00
+	ship_base_speed_mult = @t5p_mult
 }
 cheatinterface_ship_base_speed_t6 = {
-	ship_base_speed_mult = 10.00
+	ship_base_speed_mult = @t6p_mult
 }
 cheatinterface_ship_base_speed_t7 = {
-	ship_base_speed_mult = 50.00
+	ship_base_speed_mult = @t7p_mult
 }
 cheatinterface_ship_base_speed_t8 = {
-	ship_base_speed_mult = 100.00
+	ship_base_speed_mult = @t8p_mult
 }
 cheatinterface_ship_base_speed_t9 = {
-	ship_base_speed_mult = 250.00
+	ship_base_speed_mult = @t9p_mult
 }
 cheatinterface_ship_base_speed_t10 = {
-	ship_base_speed_mult = 500.00
+	ship_base_speed_mult = @t10p_mult
 }
 ###############################
 
 #### ship_regen TIER SELECTOR ####
 cheatinterface_ship_ftl_speed_t1 = {
-	ship_interstellar_speed_mult = 0.15
+	ship_interstellar_speed_mult = @t1p_mult
 }
 cheatinterface_ship_ftl_speed_t2 = {
-    ship_interstellar_speed_mult = 0.50
+    ship_interstellar_speed_mult = @t2p_mult
 }
 cheatinterface_ship_ftl_speed_t3 = {
-    ship_interstellar_speed_mult = 1.00
+    ship_interstellar_speed_mult = @t3p_mult
 }
 cheatinterface_ship_ftl_speed_t4 = {
-    ship_interstellar_speed_mult = 2.50
+    ship_interstellar_speed_mult = @t4p_mult
 }
 cheatinterface_ship_ftl_speed_t5 = {
-    ship_interstellar_speed_mult = 5.00
+    ship_interstellar_speed_mult = @t5p_mult
 }
 cheatinterface_ship_ftl_speed_t6 = {
-    ship_interstellar_speed_mult = 10.00
+    ship_interstellar_speed_mult = @t6p_mult
 }
 cheatinterface_ship_ftl_speed_t7 = {
-    ship_interstellar_speed_mult = 50.00
+    ship_interstellar_speed_mult = @t7p_mult
 }
 cheatinterface_ship_ftl_speed_t8 = {
-    ship_interstellar_speed_mult = 100.00
+    ship_interstellar_speed_mult = @t8p_mult
 }
 cheatinterface_ship_ftl_speed_t9 = {
-    ship_interstellar_speed_mult = 250.00
+    ship_interstellar_speed_mult = @t9p_mult
 }
 cheatinterface_ship_ftl_speed_t10 = {
-    ship_interstellar_speed_mult = 500.00
+    ship_interstellar_speed_mult = @t10p_mult
 }
 ###############################
 
 #### ship_armor_regen_speed TIER SELECTOR ####
 cheatinterface_ship_armor_regeneration_t1 = {
-	ship_armor_regen_add_perc = 0.15
+	ship_armor_regen_add_perc = @t1p_mult
 }
 cheatinterface_ship_armor_regeneration_t2 = {
-	ship_armor_regen_add_perc = 0.50
+	ship_armor_regen_add_perc = @t2p_mult
 }
 cheatinterface_ship_armor_regeneration_t3 = {
-	ship_armor_regen_add_perc = 1.00
+	ship_armor_regen_add_perc = @t3p_mult
 }
 cheatinterface_ship_armor_regeneration_t4 = {
-	ship_armor_regen_add_perc = 2.50
+	ship_armor_regen_add_perc = @t4p_mult
 }
 cheatinterface_ship_armor_regeneration_t5 = {
-	ship_armor_regen_add_perc = 5.00
+	ship_armor_regen_add_perc = @t5p_mult
 }
 cheatinterface_ship_armor_regeneration_t6 = {
-	ship_armor_regen_add_perc = 10.00
+	ship_armor_regen_add_perc = @t6p_mult
 }
 cheatinterface_ship_armor_regeneration_t7 = {
-	ship_armor_regen_add_perc = 50.00
+	ship_armor_regen_add_perc = @t7p_mult
 }
 cheatinterface_ship_armor_regeneration_t8 = {
-	ship_armor_regen_add_perc = 100.00
+	ship_armor_regen_add_perc = @t8p_mult
 }
 cheatinterface_ship_armor_regeneration_t9 = {
-	ship_armor_regen_add_perc = 250.00
+	ship_armor_regen_add_perc = @t9p_mult
 }
 cheatinterface_ship_armor_regeneration_t10 = {
-	ship_armor_regen_add_perc = 500.00
+	ship_armor_regen_add_perc = @t10p_mult
 }
 ###############################
 
 #### ship_hull_regen_speed TIER SELECTOR ####
 cheatinterface_ship_hull_regeneration_t1 = {
-    ship_hull_regen_add_perc = 0.15
+    ship_hull_regen_add_perc = @t1p_mult
 }
 cheatinterface_ship_hull_regeneration_t2 = {
-    ship_hull_regen_add_perc = 0.50
+    ship_hull_regen_add_perc = @t2p_mult
 }
 cheatinterface_ship_hull_regeneration_t3 = {
-    ship_hull_regen_add_perc = 1.00
+    ship_hull_regen_add_perc = @t3p_mult
 }
 cheatinterface_ship_hull_regeneration_t4 = {
-    ship_hull_regen_add_perc = 2.50
+    ship_hull_regen_add_perc = @t4p_mult
 }
 cheatinterface_ship_hull_regeneration_t5 = {
-    ship_hull_regen_add_perc = 5.00
+    ship_hull_regen_add_perc = @t5p_mult
 }
 cheatinterface_ship_hull_regeneration_t6 = {
-    ship_hull_regen_add_perc = 10.00
+    ship_hull_regen_add_perc = @t6p_mult
 }
 cheatinterface_ship_hull_regeneration_t7 = {
-    ship_hull_regen_add_perc = 50.00
+    ship_hull_regen_add_perc = @t7p_mult
 }
 cheatinterface_ship_hull_regeneration_t8 = {
-    ship_hull_regen_add_perc = 100.00
+    ship_hull_regen_add_perc = @t8p_mult
 }
 cheatinterface_ship_hull_regeneration_t9 = {
-    ship_hull_regen_add_perc = 250.00
+    ship_hull_regen_add_perc = @t9p_mult
 }
 cheatinterface_ship_hull_regeneration_t10 = {
-    ship_hull_regen_add_perc = 500.00
+    ship_hull_regen_add_perc = @t10p_mult
 }
 ###############################
 
 #### ship_shield_regen_speed TIER SELECTOR ####
 cheatinterface_ship_shield_regeneration_t1 = {
-	ship_shield_regen_add_perc = 0.15
+	ship_shield_regen_add_perc = @t1p_mult
 }
 cheatinterface_ship_shield_regeneration_t2 = {
-	ship_shield_regen_add_perc = 0.50
+	ship_shield_regen_add_perc = @t2p_mult
 }
 cheatinterface_ship_shield_regeneration_t3 = {
-	ship_shield_regen_add_perc = 1.00
+	ship_shield_regen_add_perc = @t3p_mult
 }
 cheatinterface_ship_shield_regeneration_t4 = {
-	ship_shield_regen_add_perc = 2.50
+	ship_shield_regen_add_perc = @t4p_mult
 }
 cheatinterface_ship_shield_regeneration_t5 = {
-	ship_shield_regen_add_perc = 5.00
+	ship_shield_regen_add_perc = @t5p_mult
 }
 cheatinterface_ship_shield_regeneration_t6 = {
-	ship_shield_regen_add_perc = 10.00
+	ship_shield_regen_add_perc = @t6p_mult
 }
 cheatinterface_ship_shield_regeneration_t7 = {
-	ship_shield_regen_add_perc = 50.00
+	ship_shield_regen_add_perc = @t7p_mult
 }
 cheatinterface_ship_shield_regeneration_t8 = {
-	ship_shield_regen_add_perc = 100.00
+	ship_shield_regen_add_perc = @t8p_mult
 }
 cheatinterface_ship_shield_regeneration_t9 = {
-	ship_shield_regen_add_perc = 250.00
+	ship_shield_regen_add_perc = @t9p_mult
 }
 cheatinterface_ship_shield_regeneration_t10 = {
-	ship_shield_regen_add_perc = 500.00
+	ship_shield_regen_add_perc = @t10p_mult
 }
 ###############################
 
 #### ship_build_speed TIER SELECTOR ####
 cheatinterface_ship_build_speed_t1 = {
-	shipclass_military_build_speed_mult = 0.15
-	shipclass_colonizer_build_speed_mult = 0.15
-	shipclass_science_ship_build_speed_mult = 0.15
-	shipclass_constructor_build_speed_mult = 0.15
+	shipclass_military_build_speed_mult = @t1p_mult
+	shipclass_colonizer_build_speed_mult = @t1p_mult
+	shipclass_science_ship_build_speed_mult = @t1p_mult
+	shipclass_constructor_build_speed_mult = @t1p_mult
 }
 cheatinterface_ship_build_speed_t2 = {
-	shipclass_military_build_speed_mult = 0.50
-	shipclass_colonizer_build_speed_mult = 0.50
-	shipclass_science_ship_build_speed_mult = 0.50
-	shipclass_constructor_build_speed_mult = 0.50
+	shipclass_military_build_speed_mult = @t2p_mult
+	shipclass_colonizer_build_speed_mult = @t2p_mult
+	shipclass_science_ship_build_speed_mult = @t2p_mult
+	shipclass_constructor_build_speed_mult = @t2p_mult
 }
 cheatinterface_ship_build_speed_t3 = {
-	shipclass_military_build_speed_mult = 1.00
-	shipclass_colonizer_build_speed_mult = 1.00
-	shipclass_science_ship_build_speed_mult = 1.00
-	shipclass_constructor_build_speed_mult = 1.00
+	shipclass_military_build_speed_mult = @t3p_mult
+	shipclass_colonizer_build_speed_mult = @t3p_mult
+	shipclass_science_ship_build_speed_mult = @t3p_mult
+	shipclass_constructor_build_speed_mult = @t3p_mult
 }
 cheatinterface_ship_build_speed_t4 = {
-	shipclass_military_build_speed_mult = 2.50
-	shipclass_colonizer_build_speed_mult = 2.50
-	shipclass_science_ship_build_speed_mult = 2.50
-	shipclass_constructor_build_speed_mult = 2.50
+	shipclass_military_build_speed_mult = @t4p_mult
+	shipclass_colonizer_build_speed_mult = @t4p_mult
+	shipclass_science_ship_build_speed_mult = @t4p_mult
+	shipclass_constructor_build_speed_mult = @t4p_mult
 }
 cheatinterface_ship_build_speed_t5 = {
-	shipclass_military_build_speed_mult = 5.00
-	shipclass_colonizer_build_speed_mult = 5.00
-	shipclass_science_ship_build_speed_mult = 5.00
-	shipclass_constructor_build_speed_mult = 5.00
+	shipclass_military_build_speed_mult = @t5p_mult
+	shipclass_colonizer_build_speed_mult = @t5p_mult
+	shipclass_science_ship_build_speed_mult = @t5p_mult
+	shipclass_constructor_build_speed_mult = @t5p_mult
 }
 cheatinterface_ship_build_speed_t6 = {
-	shipclass_military_build_speed_mult = 10.00
-	shipclass_colonizer_build_speed_mult = 10.00
-	shipclass_science_ship_build_speed_mult = 10.00
-	shipclass_constructor_build_speed_mult = 10.00
+	shipclass_military_build_speed_mult = @t6p_mult
+	shipclass_colonizer_build_speed_mult = @t6p_mult
+	shipclass_science_ship_build_speed_mult = @t6p_mult
+	shipclass_constructor_build_speed_mult = @t6p_mult
 }
 cheatinterface_ship_build_speed_t7 = {
-	shipclass_military_build_speed_mult = 50.00
-	shipclass_colonizer_build_speed_mult = 50.00
-	shipclass_science_ship_build_speed_mult = 50.00
-	shipclass_constructor_build_speed_mult = 50.00
+	shipclass_military_build_speed_mult = @t7p_mult
+	shipclass_colonizer_build_speed_mult = @t7p_mult
+	shipclass_science_ship_build_speed_mult = @t7p_mult
+	shipclass_constructor_build_speed_mult = @t7p_mult
 }
 cheatinterface_ship_build_speed_t8 = {
-	shipclass_military_build_speed_mult = 100.00
-	shipclass_colonizer_build_speed_mult = 100.00
-	shipclass_science_ship_build_speed_mult = 100.00
-	shipclass_constructor_build_speed_mult = 100.00
+	shipclass_military_build_speed_mult = @t8p_mult
+	shipclass_colonizer_build_speed_mult = @t8p_mult
+	shipclass_science_ship_build_speed_mult = @t8p_mult
+	shipclass_constructor_build_speed_mult = @t8p_mult
 }
 cheatinterface_ship_build_speed_t9 = {
-	shipclass_military_build_speed_mult = 250.00
-	shipclass_colonizer_build_speed_mult = 250.00
-	shipclass_science_ship_build_speed_mult = 250.00
-	shipclass_constructor_build_speed_mult = 250.00
+	shipclass_military_build_speed_mult = @t9p_mult
+	shipclass_colonizer_build_speed_mult = @t9p_mult
+	shipclass_science_ship_build_speed_mult = @t9p_mult
+	shipclass_constructor_build_speed_mult = @t9p_mult
 }
 cheatinterface_ship_build_speed_t10 = {
-	shipclass_military_build_speed_mult = 500.00
-	shipclass_colonizer_build_speed_mult = 500.00
-	shipclass_science_ship_build_speed_mult = 500.00
-	shipclass_constructor_build_speed_mult = 500.00
+	shipclass_military_build_speed_mult = @t10p_mult
+	shipclass_colonizer_build_speed_mult = @t10p_mult
+	shipclass_science_ship_build_speed_mult = @t10p_mult
+	shipclass_constructor_build_speed_mult = @t10p_mult
 }
 ###############################
 
 #### ship_naval_capacity TIER SELECTOR ####
 cheatinterface_ship_naval_capacity_t1 = {
-	country_naval_cap_mult = 0.15
+	country_naval_cap_mult = @t1p_mult
 }
 cheatinterface_ship_naval_capacity_t2 = {
-	country_naval_cap_mult = 0.50
+	country_naval_cap_mult = @t2p_mult
 }
 cheatinterface_ship_naval_capacity_t3 = {
-	country_naval_cap_mult = 1.00
+	country_naval_cap_mult = @t3p_mult
 }
 cheatinterface_ship_naval_capacity_t4 = {
-	country_naval_cap_mult = 2.50
+	country_naval_cap_mult = @t4p_mult
 }
 cheatinterface_ship_naval_capacity_t5 = {
-	country_naval_cap_mult = 5.00
+	country_naval_cap_mult = @t5p_mult
 }
 cheatinterface_ship_naval_capacity_t6 = {
-	country_naval_cap_mult = 10.00
+	country_naval_cap_mult = @t6p_mult
 }
 cheatinterface_ship_naval_capacity_t7 = {
-	country_naval_cap_mult = 50.00
+	country_naval_cap_mult = @t7p_mult
 }
 cheatinterface_ship_naval_capacity_t8 = {
-	country_naval_cap_mult = 100.00
+	country_naval_cap_mult = @t8p_mult
 }
 cheatinterface_ship_naval_capacity_t9 = {
-	country_naval_cap_mult = 250.00
+	country_naval_cap_mult = @t9p_mult
 }
 cheatinterface_ship_naval_capacity_t10 = {
-	country_naval_cap_mult = 500.00
+	country_naval_cap_mult = @t10p_mult
 }
 ###############################
 
 #### ship_fleet_limit TIER SELECTOR ####
 cheatinterface_ship_fleet_limit_t1 = {
-	command_limit_mult = 0.15
+	command_limit_mult = @t1p_mult
 }
 cheatinterface_ship_fleet_limit_t2 = {
-	command_limit_mult = 0.50
+	command_limit_mult = @t2p_mult
 }
 cheatinterface_ship_fleet_limit_t3 = {
-	command_limit_mult = 1.00
+	command_limit_mult = @t3p_mult
 }
 cheatinterface_ship_fleet_limit_t4 = {
-	command_limit_mult = 2.50
+	command_limit_mult = @t4p_mult
 }
 cheatinterface_ship_fleet_limit_t5 = {
-	command_limit_mult = 5.00
+	command_limit_mult = @t5p_mult
 }
 cheatinterface_ship_fleet_limit_t6 = {
-	command_limit_mult = 10.00
+	command_limit_mult = @t6p_mult
 }
 cheatinterface_ship_fleet_limit_t7 = {
-	command_limit_mult = 50.00
+	command_limit_mult = @t7p_mult
 }
 cheatinterface_ship_fleet_limit_t8 = {
-	command_limit_mult = 100.00
+	command_limit_mult = @t8p_mult
 }
 cheatinterface_ship_fleet_limit_t9 = {
-	command_limit_mult = 250.00
+	command_limit_mult = @t9p_mult
 }
 cheatinterface_ship_fleet_limit_t10 = {
-	command_limit_mult = 500.00
+	command_limit_mult = @t10p_mult
 }
 ###############################
 
 #### resource storage cap TIER SELECTOR ####
 cheatinterface_ship_weapon_damage_t1 = {
-	ship_weapon_damage = 0.15
+	ship_weapon_damage = @t1p_mult
 
 }
 cheatinterface_ship_weapon_damage_t2 = {
-	ship_weapon_damage = 0.50
+	ship_weapon_damage = @t2p_mult
 }
 cheatinterface_ship_weapon_damage_t3 = {
-	ship_weapon_damage = 1.00
+	ship_weapon_damage = @t3p_mult
 }
 cheatinterface_ship_weapon_damage_t4 = {
-	ship_weapon_damage = 2.50
+	ship_weapon_damage = @t4p_mult
 }
 cheatinterface_ship_weapon_damage_t5 = {
-	ship_weapon_damage = 5.00
+	ship_weapon_damage = @t5p_mult
 }
 cheatinterface_ship_weapon_damage_t6 = {
-	ship_weapon_damage = 10.00
+	ship_weapon_damage = @t6p_mult
 }
 cheatinterface_ship_weapon_damage_t7 = {
-	ship_weapon_damage = 50.00
+	ship_weapon_damage = @t7p_mult
 }
 cheatinterface_ship_weapon_damage_t8 = {
-	ship_weapon_damage = 100.00
+	ship_weapon_damage = @t8p_mult
 }
 cheatinterface_ship_weapon_damage_t9 = {
-	ship_weapon_damage = 250.00
+	ship_weapon_damage = @t9p_mult
 }
 cheatinterface_ship_weapon_damage_t10 = {
-	ship_weapon_damage = 500.00
+	ship_weapon_damage = @t10p_mult
 }
 ###############################
 
 #### ship_experience TIER SELECTOR ####
 cheatinterface_ship_experience_t1 = {
-	ship_experience_gain_mult = 0.15
+	ship_experience_gain_mult = @t1p_mult
 }
 cheatinterface_ship_experience_t2 = {
-	ship_experience_gain_mult = 0.50
+	ship_experience_gain_mult = @t2p_mult
 }
 cheatinterface_ship_experience_t3 = {
-	ship_experience_gain_mult = 1.00
+	ship_experience_gain_mult = @t3p_mult
 }
 cheatinterface_ship_experience_t4 = {
-	ship_experience_gain_mult = 2.50
+	ship_experience_gain_mult = @t4p_mult
 }
 cheatinterface_ship_experience_t5 = {
-	ship_experience_gain_mult = 5.00
+	ship_experience_gain_mult = @t5p_mult
 }
 cheatinterface_ship_experience_t6 = {
-	ship_experience_gain_mult = 10.00
+	ship_experience_gain_mult = @t6p_mult
 }
 cheatinterface_ship_experience_t7 = {
-	ship_experience_gain_mult = 50.00
+	ship_experience_gain_mult = @t7p_mult
 }
 cheatinterface_ship_experience_t8 = {
-	ship_experience_gain_mult = 100.00
+	ship_experience_gain_mult = @t8p_mult
 }
 cheatinterface_ship_experience_t9 = {
-	ship_experience_gain_mult = 250.00
+	ship_experience_gain_mult = @t9p_mult
 }
 cheatinterface_ship_experience_t10 = {
-	ship_experience_gain_mult = 500.00
+	ship_experience_gain_mult = @t10p_mult
 }
 ###############################
 
 #### ship_health TIER SELECTOR ####
 cheatinterface_ship_health_t1 = {
-	ship_hull_mult = 0.15
-	ship_shield_mult = 0.15
-	ship_armor_mult = 0.15
+	ship_hull_mult = @t1p_mult
+	ship_shield_mult = @t1p_mult
+	ship_armor_mult = @t1p_mult
 }
 cheatinterface_ship_health_t2 = {
-	ship_hull_mult = 0.50
-	ship_shield_mult = 0.50
-	ship_armor_mult = 0.50
+	ship_hull_mult = @t2p_mult
+	ship_shield_mult = @t2p_mult
+	ship_armor_mult = @t2p_mult
 }
 cheatinterface_ship_health_t3 = {
-	ship_hull_mult = 1.00
-	ship_shield_mult = 1.00
-	ship_armor_mult = 1.00
+	ship_hull_mult = @t3p_mult
+	ship_shield_mult = @t3p_mult
+	ship_armor_mult = @t3p_mult
 }
 cheatinterface_ship_health_t4 = {
-	ship_hull_mult = 2.50
-	ship_shield_mult = 2.50
-	ship_armor_mult = 2.50
+	ship_hull_mult = @t4p_mult
+	ship_shield_mult = @t4p_mult
+	ship_armor_mult = @t4p_mult
 }
 cheatinterface_ship_health_t5 = {
-	ship_hull_mult = 5.00
-	ship_shield_mult = 5.00
-	ship_armor_mult = 5.00
+	ship_hull_mult = @t5p_mult
+	ship_shield_mult = @t5p_mult
+	ship_armor_mult = @t5p_mult
 }
 cheatinterface_ship_health_t6 = {
-	ship_hull_mult = 10.00
-	ship_shield_mult = 10.00
-	ship_armor_mult = 10.00
+	ship_hull_mult = @t6p_mult
+	ship_shield_mult = @t6p_mult
+	ship_armor_mult = @t6p_mult
 }
 cheatinterface_ship_health_t7 = {
-	ship_hull_mult = 50.00
-	ship_shield_mult = 50.00
-	ship_armor_mult = 50.00
+	ship_hull_mult = @t7p_mult
+	ship_shield_mult = @t7p_mult
+	ship_armor_mult = @t7p_mult
 }
 cheatinterface_ship_health_t8 = {
-	ship_hull_mult = 100.00
-	ship_shield_mult = 100.00
-	ship_armor_mult = 100.00
+	ship_hull_mult = @t8p_mult
+	ship_shield_mult = @t8p_mult
+	ship_armor_mult = @t8p_mult
 }
 cheatinterface_ship_health_t9 = {
-	ship_hull_mult = 250.00
-	ship_shield_mult = 250.00
-	ship_armor_mult = 250.00
+	ship_hull_mult = @t9p_mult
+	ship_shield_mult = @t9p_mult
+	ship_armor_mult = @t9p_mult
 }
 cheatinterface_ship_health_t10 = {
-	ship_hull_mult = 500.00
-	ship_shield_mult = 500.00
-	ship_armor_mult = 500.00
+	ship_hull_mult = @t10p_mult
+	ship_shield_mult = @t10p_mult
+	ship_armor_mult = @t10p_mult
 }
 ###############################
