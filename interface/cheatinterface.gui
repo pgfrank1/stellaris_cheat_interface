@@ -562,6 +562,16 @@ guiTypes = {
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_nanites_title"
                 }
+
+                # Minor_Artifacts Button
+                effectButtonType = {
+                    name = "cheatinterface_2_minor_artifacts"
+                    quadTextureSprite = "GFX_standard_button_142_34_button"
+                    position = { x = 0 y = 560 }
+                    effect = "cheatinterface_button_resource_minor_artifacts"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_minor_artifacts_title"
+                }
             }
         }
         #############################################################################
