@@ -562,34 +562,34 @@ cheatinterface_empire_diplomatic_weight_positive_t10 = {
 
 #### empire_empire_diplomatic_weight_negative TIER NEGATIVE SELECTOR ####
 cheatinterface_empire_diplomatic_weight_negative_t1 = {
-	diplo_weight_mult = -0.15
+	diplo_weight_mult = @t1n_mult
 }
 cheatinterface_empire_diplomatic_weight_negative_t2 = {
-	diplo_weight_mult = -0.50
+	diplo_weight_mult = @t2n_mult
 }
 cheatinterface_empire_diplomatic_weight_negative_t3 = {
-	diplo_weight_mult = -1.00
+	diplo_weight_mult = @t3n_mult
 }
 cheatinterface_empire_diplomatic_weight_negative_t4 = {
-	diplo_weight_mult = -2.50
+	diplo_weight_mult = @t4n_mult
 }
 cheatinterface_empire_diplomatic_weight_negative_t5 = {
-	diplo_weight_mult = -5.00
+	diplo_weight_mult = @t5n_mult
 }
 cheatinterface_empire_diplomatic_weight_negative_t6 = {
-	diplo_weight_mult = -10.00
+	diplo_weight_mult = @t6n_mult
 }
 cheatinterface_empire_diplomatic_weight_negative_t7 = {
-	diplo_weight_mult = -50.00
+	diplo_weight_mult = @t7n_mult
 }
 cheatinterface_empire_diplomatic_weight_negative_t8 = {
-	diplo_weight_mult = -100.00
+	diplo_weight_mult = @t8n_mult
 }
 cheatinterface_empire_diplomatic_weight_negative_t9 = {
-	diplo_weight_mult = -250.00
+	diplo_weight_mult = @t9n_mult
 }
 cheatinterface_empire_diplomatic_weight_negative_t10 = {
-	diplo_weight_mult = -500.00
+	diplo_weight_mult = @t10n_mult
 }
 ###############################
 
@@ -836,34 +836,34 @@ cheatinterface_empire_terraforming_speed_t10 = {
 
 #### Terraform Cost TIER SELECTOR ####
 cheatinterface_empire_terraforming_cost_t1 = {
-	terraforming_cost_mult = -0.15
+	terraforming_cost_mult = @t1n_mult
 }
 cheatinterface_empire_terraforming_cost_t2 = {
-	terraforming_cost_mult = -0.50
+	terraforming_cost_mult = @t2n_mult
 }
 cheatinterface_empire_terraforming_cost_t3 = {
-	terraforming_cost_mult = -1.00
+	terraforming_cost_mult = @t3n_mult
 }
 cheatinterface_empire_terraforming_cost_t4 = {
-	terraforming_cost_mult = -2.50
+	terraforming_cost_mult = @t4n_mult
 }
 cheatinterface_empire_terraforming_cost_t5 = {
-	terraforming_cost_mult = -5.00
+	terraforming_cost_mult = @t5n_mult
 }
 cheatinterface_empire_terraforming_cost_t6 = {
-	terraforming_cost_mult = -10.00
+	terraforming_cost_mult = @t6n_mult
 }
 cheatinterface_empire_terraforming_cost_t7 = {
-	terraforming_cost_mult = -50.00
+	terraforming_cost_mult = @t7n_mult
 }
 cheatinterface_empire_terraforming_cost_t8 = {
-	terraforming_cost_mult = -100.00
+	terraforming_cost_mult = @t8n_mult
 }
 cheatinterface_empire_terraforming_cost_t9 = {
-	terraforming_cost_mult = -250.00
+	terraforming_cost_mult = @t9n_mult
 }
 cheatinterface_empire_terraforming_cost_t10 = {
-	terraforming_cost_mult = -500.00
+	terraforming_cost_mult = @t10n_mult
 }
 ###############################
 
