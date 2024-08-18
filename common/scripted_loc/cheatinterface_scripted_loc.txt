@@ -6444,3 +6444,1379 @@ defined_text = {
 ######################################################################################
 #                               Ship Titles END                                      #
 ######################################################################################
+
+######################################################################################
+#                               Army Titles BEGIN                                    #
+######################################################################################
+
+############################### Army Build Speed Titles ###############################
+defined_text = {
+    name = cheatinterface_2_army_build_speed_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_army_build_speed_t1_modifier
+                has_country_flag = cheatinterface_has_army_build_speed_t2_modifier
+                has_country_flag = cheatinterface_has_army_build_speed_t3_modifier
+                has_country_flag = cheatinterface_has_army_build_speed_t4_modifier
+                has_country_flag = cheatinterface_has_army_build_speed_t5_modifier
+                has_country_flag = cheatinterface_has_army_build_speed_t6_modifier
+                has_country_flag = cheatinterface_has_army_build_speed_t7_modifier
+                has_country_flag = cheatinterface_has_army_build_speed_t8_modifier
+                has_country_flag = cheatinterface_has_army_build_speed_t9_modifier
+                has_country_flag = cheatinterface_has_army_build_speed_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_army_build_speed
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_army_build_speed_t1
+                has_modifier = cheatinterface_army_build_speed_t2
+                has_modifier = cheatinterface_army_build_speed_t3
+                has_modifier = cheatinterface_army_build_speed_t4
+                has_modifier = cheatinterface_army_build_speed_t5
+                has_modifier = cheatinterface_army_build_speed_t6
+                has_modifier = cheatinterface_army_build_speed_t7
+                has_modifier = cheatinterface_army_build_speed_t8
+                has_modifier = cheatinterface_army_build_speed_t9
+                has_modifier = cheatinterface_army_build_speed_t10
+            }
+        }
+        localization_key = cheatinterface_2_army_build_speed_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_army_build_speed_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_build_speed_t1_modifier } }
+        localization_key = cheatinterface_army_build_speed_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_build_speed_t1 }
+        localization_key = cheatinterface_army_build_speed_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_build_speed_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_build_speed_t2_modifier } }
+        localization_key = cheatinterface_army_build_speed_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_build_speed_t2 }
+        localization_key = cheatinterface_army_build_speed_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_build_speed_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_build_speed_t3_modifier } }
+        localization_key = cheatinterface_army_build_speed_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_build_speed_t3 }
+        localization_key = cheatinterface_army_build_speed_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_build_speed_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_build_speed_t4_modifier } }
+        localization_key = cheatinterface_army_build_speed_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_build_speed_t4 }
+        localization_key = cheatinterface_army_build_speed_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_build_speed_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_build_speed_t5_modifier } }
+        localization_key = cheatinterface_army_build_speed_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_build_speed_t5 }
+        localization_key = cheatinterface_army_build_speed_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_build_speed_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_build_speed_t6_modifier } }
+        localization_key = cheatinterface_army_build_speed_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_build_speed_t6 }
+        localization_key = cheatinterface_army_build_speed_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_build_speed_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_build_speed_t7_modifier } }
+        localization_key = cheatinterface_army_build_speed_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_build_speed_t7 }
+        localization_key = cheatinterface_army_build_speed_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_build_speed_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_build_speed_t8_modifier } }
+        localization_key = cheatinterface_army_build_speed_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_build_speed_t8 }
+        localization_key = cheatinterface_army_build_speed_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_build_speed_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_build_speed_t9_modifier } }
+        localization_key = cheatinterface_army_build_speed_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_build_speed_t9 }
+        localization_key = cheatinterface_army_build_speed_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_build_speed_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_build_speed_t10_modifier } }
+        localization_key = cheatinterface_army_build_speed_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_build_speed_t10 }
+        localization_key = cheatinterface_army_build_speed_t10_b
+    }
+}
+##########################################################################
+
+############################### Army Attack Damage Titles ###############################
+defined_text = {
+    name = cheatinterface_2_army_attack_damage_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_army_attack_damage_t1_modifier
+                has_country_flag = cheatinterface_has_army_attack_damage_t2_modifier
+                has_country_flag = cheatinterface_has_army_attack_damage_t3_modifier
+                has_country_flag = cheatinterface_has_army_attack_damage_t4_modifier
+                has_country_flag = cheatinterface_has_army_attack_damage_t5_modifier
+                has_country_flag = cheatinterface_has_army_attack_damage_t6_modifier
+                has_country_flag = cheatinterface_has_army_attack_damage_t7_modifier
+                has_country_flag = cheatinterface_has_army_attack_damage_t8_modifier
+                has_country_flag = cheatinterface_has_army_attack_damage_t9_modifier
+                has_country_flag = cheatinterface_has_army_attack_damage_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_army_attack_damage
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_army_attack_damage_t1
+                has_modifier = cheatinterface_army_attack_damage_t2
+                has_modifier = cheatinterface_army_attack_damage_t3
+                has_modifier = cheatinterface_army_attack_damage_t4
+                has_modifier = cheatinterface_army_attack_damage_t5
+                has_modifier = cheatinterface_army_attack_damage_t6
+                has_modifier = cheatinterface_army_attack_damage_t7
+                has_modifier = cheatinterface_army_attack_damage_t8
+                has_modifier = cheatinterface_army_attack_damage_t9
+                has_modifier = cheatinterface_army_attack_damage_t10
+            }
+        }
+        localization_key = cheatinterface_2_army_attack_damage_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_army_attack_damage_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_damage_t1_modifier } }
+        localization_key = cheatinterface_army_attack_damage_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_damage_t1 }
+        localization_key = cheatinterface_army_attack_damage_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_damage_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_damage_t2_modifier } }
+        localization_key = cheatinterface_army_attack_damage_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_damage_t2 }
+        localization_key = cheatinterface_army_attack_damage_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_damage_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_damage_t3_modifier } }
+        localization_key = cheatinterface_army_attack_damage_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_damage_t3 }
+        localization_key = cheatinterface_army_attack_damage_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_damage_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_damage_t4_modifier } }
+        localization_key = cheatinterface_army_attack_damage_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_damage_t4 }
+        localization_key = cheatinterface_army_attack_damage_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_damage_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_damage_t5_modifier } }
+        localization_key = cheatinterface_army_attack_damage_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_damage_t5 }
+        localization_key = cheatinterface_army_attack_damage_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_damage_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_damage_t6_modifier } }
+        localization_key = cheatinterface_army_attack_damage_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_damage_t6 }
+        localization_key = cheatinterface_army_attack_damage_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_damage_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_damage_t7_modifier } }
+        localization_key = cheatinterface_army_attack_damage_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_damage_t7 }
+        localization_key = cheatinterface_army_attack_damage_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_damage_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_damage_t8_modifier } }
+        localization_key = cheatinterface_army_attack_damage_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_damage_t8 }
+        localization_key = cheatinterface_army_attack_damage_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_damage_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_damage_t9_modifier } }
+        localization_key = cheatinterface_army_attack_damage_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_damage_t9 }
+        localization_key = cheatinterface_army_attack_damage_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_damage_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_damage_t10_modifier } }
+        localization_key = cheatinterface_army_attack_damage_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_damage_t10 }
+        localization_key = cheatinterface_army_attack_damage_t10_b
+    }
+}
+##########################################################################
+
+############################### Army Attack Health Titles ###############################
+defined_text = {
+    name = cheatinterface_2_army_attack_health_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_army_attack_health_t1_modifier
+                has_country_flag = cheatinterface_has_army_attack_health_t2_modifier
+                has_country_flag = cheatinterface_has_army_attack_health_t3_modifier
+                has_country_flag = cheatinterface_has_army_attack_health_t4_modifier
+                has_country_flag = cheatinterface_has_army_attack_health_t5_modifier
+                has_country_flag = cheatinterface_has_army_attack_health_t6_modifier
+                has_country_flag = cheatinterface_has_army_attack_health_t7_modifier
+                has_country_flag = cheatinterface_has_army_attack_health_t8_modifier
+                has_country_flag = cheatinterface_has_army_attack_health_t9_modifier
+                has_country_flag = cheatinterface_has_army_attack_health_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_army_attack_health
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_army_attack_health_t1
+                has_modifier = cheatinterface_army_attack_health_t2
+                has_modifier = cheatinterface_army_attack_health_t3
+                has_modifier = cheatinterface_army_attack_health_t4
+                has_modifier = cheatinterface_army_attack_health_t5
+                has_modifier = cheatinterface_army_attack_health_t6
+                has_modifier = cheatinterface_army_attack_health_t7
+                has_modifier = cheatinterface_army_attack_health_t8
+                has_modifier = cheatinterface_army_attack_health_t9
+                has_modifier = cheatinterface_army_attack_health_t10
+            }
+        }
+        localization_key = cheatinterface_2_army_attack_health_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_army_attack_health_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_health_t1_modifier } }
+        localization_key = cheatinterface_army_attack_health_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_health_t1 }
+        localization_key = cheatinterface_army_attack_health_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_health_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_health_t2_modifier } }
+        localization_key = cheatinterface_army_attack_health_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_health_t2 }
+        localization_key = cheatinterface_army_attack_health_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_health_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_health_t3_modifier } }
+        localization_key = cheatinterface_army_attack_health_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_health_t3 }
+        localization_key = cheatinterface_army_attack_health_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_health_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_health_t4_modifier } }
+        localization_key = cheatinterface_army_attack_health_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_health_t4 }
+        localization_key = cheatinterface_army_attack_health_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_health_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_health_t5_modifier } }
+        localization_key = cheatinterface_army_attack_health_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_health_t5 }
+        localization_key = cheatinterface_army_attack_health_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_health_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_health_t6_modifier } }
+        localization_key = cheatinterface_army_attack_health_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_health_t6 }
+        localization_key = cheatinterface_army_attack_health_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_health_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_health_t7_modifier } }
+        localization_key = cheatinterface_army_attack_health_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_health_t7 }
+        localization_key = cheatinterface_army_attack_health_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_health_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_health_t8_modifier } }
+        localization_key = cheatinterface_army_attack_health_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_health_t8 }
+        localization_key = cheatinterface_army_attack_health_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_health_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_health_t9_modifier } }
+        localization_key = cheatinterface_army_attack_health_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_health_t9 }
+        localization_key = cheatinterface_army_attack_health_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_health_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_health_t10_modifier } }
+        localization_key = cheatinterface_army_attack_health_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_health_t10 }
+        localization_key = cheatinterface_army_attack_health_t10_b
+    }
+}
+##########################################################################
+
+############################### Army Attack Morale Titles ###############################
+defined_text = {
+    name = cheatinterface_2_army_attack_morale_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_army_attack_morale_t1_modifier
+                has_country_flag = cheatinterface_has_army_attack_morale_t2_modifier
+                has_country_flag = cheatinterface_has_army_attack_morale_t3_modifier
+                has_country_flag = cheatinterface_has_army_attack_morale_t4_modifier
+                has_country_flag = cheatinterface_has_army_attack_morale_t5_modifier
+                has_country_flag = cheatinterface_has_army_attack_morale_t6_modifier
+                has_country_flag = cheatinterface_has_army_attack_morale_t7_modifier
+                has_country_flag = cheatinterface_has_army_attack_morale_t8_modifier
+                has_country_flag = cheatinterface_has_army_attack_morale_t9_modifier
+                has_country_flag = cheatinterface_has_army_attack_morale_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_army_attack_morale
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_army_attack_morale_t1
+                has_modifier = cheatinterface_army_attack_morale_t2
+                has_modifier = cheatinterface_army_attack_morale_t3
+                has_modifier = cheatinterface_army_attack_morale_t4
+                has_modifier = cheatinterface_army_attack_morale_t5
+                has_modifier = cheatinterface_army_attack_morale_t6
+                has_modifier = cheatinterface_army_attack_morale_t7
+                has_modifier = cheatinterface_army_attack_morale_t8
+                has_modifier = cheatinterface_army_attack_morale_t9
+                has_modifier = cheatinterface_army_attack_morale_t10
+            }
+        }
+        localization_key = cheatinterface_2_army_attack_morale_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_army_attack_morale_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_morale_t1_modifier } }
+        localization_key = cheatinterface_army_attack_morale_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_morale_t1 }
+        localization_key = cheatinterface_army_attack_morale_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_morale_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_morale_t2_modifier } }
+        localization_key = cheatinterface_army_attack_morale_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_morale_t2 }
+        localization_key = cheatinterface_army_attack_morale_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_morale_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_morale_t3_modifier } }
+        localization_key = cheatinterface_army_attack_morale_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_morale_t3 }
+        localization_key = cheatinterface_army_attack_morale_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_morale_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_morale_t4_modifier } }
+        localization_key = cheatinterface_army_attack_morale_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_morale_t4 }
+        localization_key = cheatinterface_army_attack_morale_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_morale_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_morale_t5_modifier } }
+        localization_key = cheatinterface_army_attack_morale_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_morale_t5 }
+        localization_key = cheatinterface_army_attack_morale_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_morale_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_morale_t6_modifier } }
+        localization_key = cheatinterface_army_attack_morale_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_morale_t6 }
+        localization_key = cheatinterface_army_attack_morale_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_morale_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_morale_t7_modifier } }
+        localization_key = cheatinterface_army_attack_morale_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_morale_t7 }
+        localization_key = cheatinterface_army_attack_morale_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_morale_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_morale_t8_modifier } }
+        localization_key = cheatinterface_army_attack_morale_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_morale_t8 }
+        localization_key = cheatinterface_army_attack_morale_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_morale_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_morale_t9_modifier } }
+        localization_key = cheatinterface_army_attack_morale_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_morale_t9 }
+        localization_key = cheatinterface_army_attack_morale_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_attack_morale_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_attack_morale_t10_modifier } }
+        localization_key = cheatinterface_army_attack_morale_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_attack_morale_t10 }
+        localization_key = cheatinterface_army_attack_morale_t10_b
+    }
+}
+##########################################################################
+
+############################### Army Collateral Damage Titles ###############################
+defined_text = {
+    name = cheatinterface_2_army_collateral_damage_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_army_collateral_damage_t1_modifier
+                has_country_flag = cheatinterface_has_army_collateral_damage_t2_modifier
+                has_country_flag = cheatinterface_has_army_collateral_damage_t3_modifier
+                has_country_flag = cheatinterface_has_army_collateral_damage_t4_modifier
+                has_country_flag = cheatinterface_has_army_collateral_damage_t5_modifier
+                has_country_flag = cheatinterface_has_army_collateral_damage_t6_modifier
+                has_country_flag = cheatinterface_has_army_collateral_damage_t7_modifier
+                has_country_flag = cheatinterface_has_army_collateral_damage_t8_modifier
+                has_country_flag = cheatinterface_has_army_collateral_damage_t9_modifier
+                has_country_flag = cheatinterface_has_army_collateral_damage_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_army_collateral_damage
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_army_collateral_damage_t1
+                has_modifier = cheatinterface_army_collateral_damage_t2
+                has_modifier = cheatinterface_army_collateral_damage_t3
+                has_modifier = cheatinterface_army_collateral_damage_t4
+                has_modifier = cheatinterface_army_collateral_damage_t5
+                has_modifier = cheatinterface_army_collateral_damage_t6
+                has_modifier = cheatinterface_army_collateral_damage_t7
+                has_modifier = cheatinterface_army_collateral_damage_t8
+                has_modifier = cheatinterface_army_collateral_damage_t9
+                has_modifier = cheatinterface_army_collateral_damage_t10
+            }
+        }
+        localization_key = cheatinterface_2_army_collateral_damage_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_army_collateral_damage_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_collateral_damage_t1_modifier } }
+        localization_key = cheatinterface_army_collateral_damage_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_collateral_damage_t1 }
+        localization_key = cheatinterface_army_collateral_damage_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_collateral_damage_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_collateral_damage_t2_modifier } }
+        localization_key = cheatinterface_army_collateral_damage_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_collateral_damage_t2 }
+        localization_key = cheatinterface_army_collateral_damage_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_collateral_damage_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_collateral_damage_t3_modifier } }
+        localization_key = cheatinterface_army_collateral_damage_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_collateral_damage_t3 }
+        localization_key = cheatinterface_army_collateral_damage_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_collateral_damage_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_collateral_damage_t4_modifier } }
+        localization_key = cheatinterface_army_collateral_damage_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_collateral_damage_t4 }
+        localization_key = cheatinterface_army_collateral_damage_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_collateral_damage_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_collateral_damage_t5_modifier } }
+        localization_key = cheatinterface_army_collateral_damage_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_collateral_damage_t5 }
+        localization_key = cheatinterface_army_collateral_damage_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_collateral_damage_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_collateral_damage_t6_modifier } }
+        localization_key = cheatinterface_army_collateral_damage_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_collateral_damage_t6 }
+        localization_key = cheatinterface_army_collateral_damage_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_collateral_damage_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_collateral_damage_t7_modifier } }
+        localization_key = cheatinterface_army_collateral_damage_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_collateral_damage_t7 }
+        localization_key = cheatinterface_army_collateral_damage_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_collateral_damage_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_collateral_damage_t8_modifier } }
+        localization_key = cheatinterface_army_collateral_damage_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_collateral_damage_t8 }
+        localization_key = cheatinterface_army_collateral_damage_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_collateral_damage_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_collateral_damage_t9_modifier } }
+        localization_key = cheatinterface_army_collateral_damage_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_collateral_damage_t9 }
+        localization_key = cheatinterface_army_collateral_damage_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_collateral_damage_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_collateral_damage_t10_modifier } }
+        localization_key = cheatinterface_army_collateral_damage_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_collateral_damage_t10 }
+        localization_key = cheatinterface_army_collateral_damage_t10_b
+    }
+}
+##########################################################################
+
+############################### Army Defence Damage Titles ###############################
+defined_text = {
+    name = cheatinterface_2_army_defence_damage_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_army_defence_damage_t1_modifier
+                has_country_flag = cheatinterface_has_army_defence_damage_t2_modifier
+                has_country_flag = cheatinterface_has_army_defence_damage_t3_modifier
+                has_country_flag = cheatinterface_has_army_defence_damage_t4_modifier
+                has_country_flag = cheatinterface_has_army_defence_damage_t5_modifier
+                has_country_flag = cheatinterface_has_army_defence_damage_t6_modifier
+                has_country_flag = cheatinterface_has_army_defence_damage_t7_modifier
+                has_country_flag = cheatinterface_has_army_defence_damage_t8_modifier
+                has_country_flag = cheatinterface_has_army_defence_damage_t9_modifier
+                has_country_flag = cheatinterface_has_army_defence_damage_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_army_defence_damage
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_army_defence_damage_t1
+                has_modifier = cheatinterface_army_defence_damage_t2
+                has_modifier = cheatinterface_army_defence_damage_t3
+                has_modifier = cheatinterface_army_defence_damage_t4
+                has_modifier = cheatinterface_army_defence_damage_t5
+                has_modifier = cheatinterface_army_defence_damage_t6
+                has_modifier = cheatinterface_army_defence_damage_t7
+                has_modifier = cheatinterface_army_defence_damage_t8
+                has_modifier = cheatinterface_army_defence_damage_t9
+                has_modifier = cheatinterface_army_defence_damage_t10
+            }
+        }
+        localization_key = cheatinterface_2_army_defence_damage_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_army_defence_damage_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_damage_t1_modifier } }
+        localization_key = cheatinterface_army_defence_damage_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_damage_t1 }
+        localization_key = cheatinterface_army_defence_damage_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_damage_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_damage_t2_modifier } }
+        localization_key = cheatinterface_army_defence_damage_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_damage_t2 }
+        localization_key = cheatinterface_army_defence_damage_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_damage_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_damage_t3_modifier } }
+        localization_key = cheatinterface_army_defence_damage_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_damage_t3 }
+        localization_key = cheatinterface_army_defence_damage_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_damage_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_damage_t4_modifier } }
+        localization_key = cheatinterface_army_defence_damage_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_damage_t4 }
+        localization_key = cheatinterface_army_defence_damage_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_damage_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_damage_t5_modifier } }
+        localization_key = cheatinterface_army_defence_damage_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_damage_t5 }
+        localization_key = cheatinterface_army_defence_damage_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_damage_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_damage_t6_modifier } }
+        localization_key = cheatinterface_army_defence_damage_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_damage_t6 }
+        localization_key = cheatinterface_army_defence_damage_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_damage_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_damage_t7_modifier } }
+        localization_key = cheatinterface_army_defence_damage_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_damage_t7 }
+        localization_key = cheatinterface_army_defence_damage_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_damage_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_damage_t8_modifier } }
+        localization_key = cheatinterface_army_defence_damage_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_damage_t8 }
+        localization_key = cheatinterface_army_defence_damage_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_damage_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_damage_t9_modifier } }
+        localization_key = cheatinterface_army_defence_damage_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_damage_t9 }
+        localization_key = cheatinterface_army_defence_damage_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_damage_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_damage_t10_modifier } }
+        localization_key = cheatinterface_army_defence_damage_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_damage_t10 }
+        localization_key = cheatinterface_army_defence_damage_t10_b
+    }
+}
+##########################################################################
+
+############################### Army Defence Health Titles ###############################
+defined_text = {
+    name = cheatinterface_2_army_defence_health_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_army_defence_health_t1_modifier
+                has_country_flag = cheatinterface_has_army_defence_health_t2_modifier
+                has_country_flag = cheatinterface_has_army_defence_health_t3_modifier
+                has_country_flag = cheatinterface_has_army_defence_health_t4_modifier
+                has_country_flag = cheatinterface_has_army_defence_health_t5_modifier
+                has_country_flag = cheatinterface_has_army_defence_health_t6_modifier
+                has_country_flag = cheatinterface_has_army_defence_health_t7_modifier
+                has_country_flag = cheatinterface_has_army_defence_health_t8_modifier
+                has_country_flag = cheatinterface_has_army_defence_health_t9_modifier
+                has_country_flag = cheatinterface_has_army_defence_health_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_army_defence_health
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_army_defence_health_t1
+                has_modifier = cheatinterface_army_defence_health_t2
+                has_modifier = cheatinterface_army_defence_health_t3
+                has_modifier = cheatinterface_army_defence_health_t4
+                has_modifier = cheatinterface_army_defence_health_t5
+                has_modifier = cheatinterface_army_defence_health_t6
+                has_modifier = cheatinterface_army_defence_health_t7
+                has_modifier = cheatinterface_army_defence_health_t8
+                has_modifier = cheatinterface_army_defence_health_t9
+                has_modifier = cheatinterface_army_defence_health_t10
+            }
+        }
+        localization_key = cheatinterface_2_army_defence_health_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_army_defence_health_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_health_t1_modifier } }
+        localization_key = cheatinterface_army_defence_health_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_health_t1 }
+        localization_key = cheatinterface_army_defence_health_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_health_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_health_t2_modifier } }
+        localization_key = cheatinterface_army_defence_health_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_health_t2 }
+        localization_key = cheatinterface_army_defence_health_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_health_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_health_t3_modifier } }
+        localization_key = cheatinterface_army_defence_health_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_health_t3 }
+        localization_key = cheatinterface_army_defence_health_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_health_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_health_t4_modifier } }
+        localization_key = cheatinterface_army_defence_health_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_health_t4 }
+        localization_key = cheatinterface_army_defence_health_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_health_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_health_t5_modifier } }
+        localization_key = cheatinterface_army_defence_health_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_health_t5 }
+        localization_key = cheatinterface_army_defence_health_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_health_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_health_t6_modifier } }
+        localization_key = cheatinterface_army_defence_health_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_health_t6 }
+        localization_key = cheatinterface_army_defence_health_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_health_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_health_t7_modifier } }
+        localization_key = cheatinterface_army_defence_health_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_health_t7 }
+        localization_key = cheatinterface_army_defence_health_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_health_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_health_t8_modifier } }
+        localization_key = cheatinterface_army_defence_health_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_health_t8 }
+        localization_key = cheatinterface_army_defence_health_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_health_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_health_t9_modifier } }
+        localization_key = cheatinterface_army_defence_health_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_health_t9 }
+        localization_key = cheatinterface_army_defence_health_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_health_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_health_t10_modifier } }
+        localization_key = cheatinterface_army_defence_health_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_health_t10 }
+        localization_key = cheatinterface_army_defence_health_t10_b
+    }
+}
+##########################################################################
+
+############################### Army Defence Morale Titles ###############################
+defined_text = {
+    name = cheatinterface_2_army_defence_morale_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_army_defence_morale_t1_modifier
+                has_country_flag = cheatinterface_has_army_defence_morale_t2_modifier
+                has_country_flag = cheatinterface_has_army_defence_morale_t3_modifier
+                has_country_flag = cheatinterface_has_army_defence_morale_t4_modifier
+                has_country_flag = cheatinterface_has_army_defence_morale_t5_modifier
+                has_country_flag = cheatinterface_has_army_defence_morale_t6_modifier
+                has_country_flag = cheatinterface_has_army_defence_morale_t7_modifier
+                has_country_flag = cheatinterface_has_army_defence_morale_t8_modifier
+                has_country_flag = cheatinterface_has_army_defence_morale_t9_modifier
+                has_country_flag = cheatinterface_has_army_defence_morale_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_army_defence_morale
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_army_defence_morale_t1
+                has_modifier = cheatinterface_army_defence_morale_t2
+                has_modifier = cheatinterface_army_defence_morale_t3
+                has_modifier = cheatinterface_army_defence_morale_t4
+                has_modifier = cheatinterface_army_defence_morale_t5
+                has_modifier = cheatinterface_army_defence_morale_t6
+                has_modifier = cheatinterface_army_defence_morale_t7
+                has_modifier = cheatinterface_army_defence_morale_t8
+                has_modifier = cheatinterface_army_defence_morale_t9
+                has_modifier = cheatinterface_army_defence_morale_t10
+            }
+        }
+        localization_key = cheatinterface_2_army_defence_morale_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_army_defence_morale_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_morale_t1_modifier } }
+        localization_key = cheatinterface_army_defence_morale_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_morale_t1 }
+        localization_key = cheatinterface_army_defence_morale_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_morale_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_morale_t2_modifier } }
+        localization_key = cheatinterface_army_defence_morale_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_morale_t2 }
+        localization_key = cheatinterface_army_defence_morale_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_morale_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_morale_t3_modifier } }
+        localization_key = cheatinterface_army_defence_morale_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_morale_t3 }
+        localization_key = cheatinterface_army_defence_morale_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_morale_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_morale_t4_modifier } }
+        localization_key = cheatinterface_army_defence_morale_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_morale_t4 }
+        localization_key = cheatinterface_army_defence_morale_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_morale_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_morale_t5_modifier } }
+        localization_key = cheatinterface_army_defence_morale_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_morale_t5 }
+        localization_key = cheatinterface_army_defence_morale_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_morale_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_morale_t6_modifier } }
+        localization_key = cheatinterface_army_defence_morale_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_morale_t6 }
+        localization_key = cheatinterface_army_defence_morale_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_morale_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_morale_t7_modifier } }
+        localization_key = cheatinterface_army_defence_morale_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_morale_t7 }
+        localization_key = cheatinterface_army_defence_morale_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_morale_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_morale_t8_modifier } }
+        localization_key = cheatinterface_army_defence_morale_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_morale_t8 }
+        localization_key = cheatinterface_army_defence_morale_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_morale_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_morale_t9_modifier } }
+        localization_key = cheatinterface_army_defence_morale_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_morale_t9 }
+        localization_key = cheatinterface_army_defence_morale_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_defence_morale_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_defence_morale_t10_modifier } }
+        localization_key = cheatinterface_army_defence_morale_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_defence_morale_t10 }
+        localization_key = cheatinterface_army_defence_morale_t10_b
+    }
+}
+##########################################################################
+
+############################### Army Experience Gain Titles ###############################
+defined_text = {
+    name = cheatinterface_2_army_experience_gain_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_army_experience_gain_t1_modifier
+                has_country_flag = cheatinterface_has_army_experience_gain_t2_modifier
+                has_country_flag = cheatinterface_has_army_experience_gain_t3_modifier
+                has_country_flag = cheatinterface_has_army_experience_gain_t4_modifier
+                has_country_flag = cheatinterface_has_army_experience_gain_t5_modifier
+                has_country_flag = cheatinterface_has_army_experience_gain_t6_modifier
+                has_country_flag = cheatinterface_has_army_experience_gain_t7_modifier
+                has_country_flag = cheatinterface_has_army_experience_gain_t8_modifier
+                has_country_flag = cheatinterface_has_army_experience_gain_t9_modifier
+                has_country_flag = cheatinterface_has_army_experience_gain_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_army_experience_gain
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_army_experience_gain_t1
+                has_modifier = cheatinterface_army_experience_gain_t2
+                has_modifier = cheatinterface_army_experience_gain_t3
+                has_modifier = cheatinterface_army_experience_gain_t4
+                has_modifier = cheatinterface_army_experience_gain_t5
+                has_modifier = cheatinterface_army_experience_gain_t6
+                has_modifier = cheatinterface_army_experience_gain_t7
+                has_modifier = cheatinterface_army_experience_gain_t8
+                has_modifier = cheatinterface_army_experience_gain_t9
+                has_modifier = cheatinterface_army_experience_gain_t10
+            }
+        }
+        localization_key = cheatinterface_2_army_experience_gain_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_army_experience_gain_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_experience_gain_t1_modifier } }
+        localization_key = cheatinterface_army_experience_gain_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_experience_gain_t1 }
+        localization_key = cheatinterface_army_experience_gain_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_experience_gain_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_experience_gain_t2_modifier } }
+        localization_key = cheatinterface_army_experience_gain_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_experience_gain_t2 }
+        localization_key = cheatinterface_army_experience_gain_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_experience_gain_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_experience_gain_t3_modifier } }
+        localization_key = cheatinterface_army_experience_gain_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_experience_gain_t3 }
+        localization_key = cheatinterface_army_experience_gain_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_experience_gain_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_experience_gain_t4_modifier } }
+        localization_key = cheatinterface_army_experience_gain_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_experience_gain_t4 }
+        localization_key = cheatinterface_army_experience_gain_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_experience_gain_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_experience_gain_t5_modifier } }
+        localization_key = cheatinterface_army_experience_gain_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_experience_gain_t5 }
+        localization_key = cheatinterface_army_experience_gain_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_experience_gain_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_experience_gain_t6_modifier } }
+        localization_key = cheatinterface_army_experience_gain_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_experience_gain_t6 }
+        localization_key = cheatinterface_army_experience_gain_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_experience_gain_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_experience_gain_t7_modifier } }
+        localization_key = cheatinterface_army_experience_gain_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_experience_gain_t7 }
+        localization_key = cheatinterface_army_experience_gain_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_experience_gain_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_experience_gain_t8_modifier } }
+        localization_key = cheatinterface_army_experience_gain_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_experience_gain_t8 }
+        localization_key = cheatinterface_army_experience_gain_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_experience_gain_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_experience_gain_t9_modifier } }
+        localization_key = cheatinterface_army_experience_gain_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_experience_gain_t9 }
+        localization_key = cheatinterface_army_experience_gain_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_army_experience_gain_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_army_experience_gain_t10_modifier } }
+        localization_key = cheatinterface_army_experience_gain_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_army_experience_gain_t10 }
+        localization_key = cheatinterface_army_experience_gain_t10_b
+    }
+}
+##########################################################################
+
+######################################################################################
+#                               Army Titles END                                      #
+######################################################################################

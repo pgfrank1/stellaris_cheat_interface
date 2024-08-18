@@ -967,8 +967,8 @@ guiTypes = {
                 }
             }
             containerWindowType = {
-                name = "empire_buttons"
-                size = { width = 100% height = 496 }
+                name = "army_buttons"
+                size = { width = 100% height = 80% }
                 #dynamic_extra_y = 0.5
                 position = { x = 0 y = 58 }
                 background = {
@@ -981,54 +981,94 @@ guiTypes = {
                     startValue = 0
                 }
 
-                # Diplomatic Weight Button
+                # Army Build Speed Button
                 effectButtonType = {
-                    name = "cheatinterface_2_diplomatic_weight"
+                    name = "cheatinterface_2_army_build_speed"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 0 }
-                    effect = "cheatinterface_button_effect"
+                    effect = "cheatinterface_button_army_build_speed"
                     buttonFont = "cg_16b"
-                    buttonText = "cheatinterface_2_diplomatic_weight"
+                    buttonText = "cheatinterface_2_army_build_speed_title"
                 }
 
-                # Monthly Loyalty Button
+                # Army Attack Damage Button
                 effectButtonType = {
-                    name = "cheatinterface_2_monthly_loyalty"
+                    name = "cheatinterface_2_army_attack_damage"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 40 }
-                    effect = "cheatinterface_button_effect"
+                    effect = "cheatinterface_button_army_attack_damage"
                     buttonFont = "cg_16b"
-                    buttonText = "cheatinterface_2_monthly_loyalty"
+                    buttonText = "cheatinterface_2_army_attack_damage_title"
                 }
 
-                # Planetary Decision Button
+                # Army Attack Health Button
                 effectButtonType = {
-                    name = "cheatinterface_2_planetary_decision"
+                    name = "cheatinterface_2_army_attack_health"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 80 }
-                    effect = "cheatinterface_button_effect"
+                    effect = "cheatinterface_button_army_attack_health"
                     buttonFont = "cg_16b"
-                    buttonText = "cheatinterface_2_planetary_decision"
+                    buttonText = "cheatinterface_2_army_attack_health_title"
                 }
 
-                # Research Button
+                # Army Attack Morale Button
                 effectButtonType = {
-                    name = "cheatinterface_2_research"
+                    name = "cheatinterface_2_army_attack_morale"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 120 }
-                    effect = "cheatinterface_button_effect"
+                    effect = "cheatinterface_button_army_attack_morale"
                     buttonFont = "cg_16b"
-                    buttonText = "cheatinterface_2_research"
+                    buttonText = "cheatinterface_2_army_attack_morale_title"
                 }
 
-                # Colony Development Button
+                # Army Collateral Damage Button
                 effectButtonType = {
-                    name = "cheatinterface_2_colony_development"
+                    name = "cheatinterface_2_army_collateral_damage"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 160 }
-                    effect = "cheatinterface_button_effect"
+                    effect = "cheatinterface_button_army_collateral_damage"
                     buttonFont = "cg_16b"
-                    buttonText = "cheatinterface_2_colony_development"
+                    buttonText = "cheatinterface_2_army_collateral_damage_title"
+                }
+
+                # Army defence Damage Button
+                effectButtonType = {
+                    name = "cheatinterface_2_army_defence_damage"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 200 }
+                    effect = "cheatinterface_button_army_defence_damage"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_army_defence_damage_title"
+                }
+
+                # Army defence Health Button
+                effectButtonType = {
+                    name = "cheatinterface_2_army_defence_health"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 240 }
+                    effect = "cheatinterface_button_army_defence_health"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_army_defence_health_title"
+                }
+
+                # Army defence Morale Button
+                effectButtonType = {
+                    name = "cheatinterface_2_army_defence_morale"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 280 }
+                    effect = "cheatinterface_button_army_defence_morale"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_army_defence_morale_title"
+                }
+
+                # Army Experience Gain Button
+                effectButtonType = {
+                    name = "cheatinterface_2_army_experience_gain"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 320 }
+                    effect = "cheatinterface_button_army_experience_gain"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_army_experience_gain_title"
                 }
             }
         }

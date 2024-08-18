@@ -4,9 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Changed all negative modifiers to variables">
+    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Changed all capacity modifiers to variables">
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_army_attack_damage.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_army_attack_health.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_army_attack_morale.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_army_build_speed.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_army_collateral_damage.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_army_defence_damage.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_army_defence_health.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_army_defence_morale.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_army_experience_gain.gui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/static_modifiers/cheatinterface_static_modifiers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/static_modifiers/cheatinterface_static_modifiers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/cheatinterface_event.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/cheatinterface_event.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/cheatinterface.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_braz_por.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_french.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_german.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_polish.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_russian.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_simp_chinese.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/bc_l_spanish.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/cheatinterface_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/cheatinterface_l_english.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +109,7 @@
       <workItem from="1723219712284" duration="31000" />
       <workItem from="1723219765448" duration="8149000" />
       <workItem from="1723991518238" duration="2042000" />
-      <workItem from="1723994335128" duration="893000" />
+      <workItem from="1723994335128" duration="7208000" />
     </task>
     <task id="LOCAL-00001" summary="Cheat Interface Init">
       <option name="closed" value="true" />
@@ -154,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723995113431</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changed all capacity modifiers to variables">
+      <option name="closed" value="true" />
+      <created>1723995240895</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723995240895</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +221,7 @@
     <MESSAGE value="Ship Health, Experience, Weapon Damage working correctly" />
     <MESSAGE value="Changed all positive modifiers to variables" />
     <MESSAGE value="Changed all negative modifiers to variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed all negative modifiers to variables" />
+    <MESSAGE value="Changed all capacity modifiers to variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed all capacity modifiers to variables" />
   </component>
 </project>
