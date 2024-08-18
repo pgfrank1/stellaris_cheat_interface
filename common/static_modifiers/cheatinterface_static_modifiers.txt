@@ -2167,3 +2167,333 @@ cheatinterface_buildings_clear_blocker_speed_t10 = {
 	planet_clear_blocker_time_mult = @t10n_mult
 }
 ###############################
+
+#### population_bio_growth_speed TIER SELECTOR ####
+cheatinterface_population_bio_growth_speed_t1 = {
+	biological_pop_growth_speed = @t1p_mult
+}
+cheatinterface_population_bio_growth_speed_t2 = {
+	biological_pop_growth_speed = @t2p_mult
+}
+cheatinterface_population_bio_growth_speed_t3 = {
+	biological_pop_growth_speed = @t3p_mult
+}
+cheatinterface_population_bio_growth_speed_t4 = {
+	biological_pop_growth_speed = @t4p_mult
+}
+cheatinterface_population_bio_growth_speed_t5 = {
+	biological_pop_growth_speed = @t5p_mult
+}
+cheatinterface_population_bio_growth_speed_t6 = {
+	biological_pop_growth_speed = @t6p_mult
+}
+cheatinterface_population_bio_growth_speed_t7 = {
+	biological_pop_growth_speed = @t7p_mult
+}
+cheatinterface_population_bio_growth_speed_t8 = {
+	biological_pop_growth_speed = @t8p_mult
+}
+cheatinterface_population_bio_growth_speed_t9 = {
+	biological_pop_growth_speed = @t9p_mult
+}
+cheatinterface_population_bio_growth_speed_t10 = {
+	biological_pop_growth_speed = @t10p_mult
+}
+###############################
+
+#### population_robot_growth_speed TIER SELECTOR ####
+cheatinterface_population_robot_growth_speed_t1 = {
+	planet_pop_assembly_mult = @t1p_mult
+}
+cheatinterface_population_robot_growth_speed_t2 = {
+	planet_pop_assembly_mult = @t2p_mult
+}
+cheatinterface_population_robot_growth_speed_t3 = {
+	planet_pop_assembly_mult = @t3p_mult
+}
+cheatinterface_population_robot_growth_speed_t4 = {
+	planet_pop_assembly_mult = @t4p_mult
+}
+cheatinterface_population_robot_growth_speed_t5 = {
+	planet_pop_assembly_mult = @t5p_mult
+}
+cheatinterface_population_robot_growth_speed_t6 = {
+	planet_pop_assembly_mult = @t6p_mult
+}
+cheatinterface_population_robot_growth_speed_t7 = {
+	planet_pop_assembly_mult = @t7p_mult
+}
+cheatinterface_population_robot_growth_speed_t8 = {
+	planet_pop_assembly_mult = @t8p_mult
+}
+cheatinterface_population_robot_growth_speed_t9 = {
+	planet_pop_assembly_mult = @t9p_mult
+}
+cheatinterface_population_robot_growth_speed_t10 = {
+	planet_pop_assembly_mult = @t10p_mult
+}
+###############################
+
+#### population_habitability TIER SELECTOR ####
+cheatinterface_population_habitability_t1 = {
+	pop_habitability = @t1p_mult
+}
+cheatinterface_population_habitability_t2 = {
+	pop_habitability = @t2p_mult
+}
+cheatinterface_population_habitability_t3 = {
+	pop_habitability = @t3p_mult
+}
+cheatinterface_population_habitability_t4 = {
+	pop_habitability = @t4p_mult
+}
+cheatinterface_population_habitability_t5 = {
+	pop_habitability = @t5p_mult
+}
+cheatinterface_population_habitability_t6 = {
+	pop_habitability = @t6p_mult
+}
+cheatinterface_population_habitability_t7 = {
+	pop_habitability = @t7p_mult
+}
+cheatinterface_population_habitability_t8 = {
+	pop_habitability = @t8p_mult
+}
+cheatinterface_population_habitability_t9 = {
+	pop_habitability = @t9p_mult
+}
+cheatinterface_population_habitability_t10 = {
+	pop_habitability = @t10p_mult
+}
+###############################
+
+#### population_stability TIER SELECTOR ####
+cheatinterface_population_stability_t1 = {
+	planet_stability_mult = @t1p_mult
+}
+cheatinterface_population_stability_t2 = {
+	planet_stability_mult = @t2p_mult
+}
+cheatinterface_population_stability_t3 = {
+	planet_stability_mult = @t3p_mult
+}
+cheatinterface_population_stability_t4 = {
+	planet_stability_mult = @t4p_mult
+}
+cheatinterface_population_stability_t5 = {
+	planet_stability_mult = @t5p_mult
+}
+cheatinterface_population_stability_t6 = {
+	planet_stability_mult = @t6p_mult
+}
+cheatinterface_population_stability_t7 = {
+	planet_stability_mult = @t7p_mult
+}
+cheatinterface_population_stability_t8 = {
+	planet_stability_mult = @t8p_mult
+}
+cheatinterface_population_stability_t9 = {
+	planet_stability_mult = @t9p_mult
+}
+cheatinterface_population_stability_t10 = {
+	planet_stability_mult = @t10p_mult
+}
+###############################
+
+#### population_happiness TIER SELECTOR ####
+cheatinterface_population_happiness_t1 = {
+	pop_happiness = @t1p_mult
+}
+cheatinterface_population_happiness_t2 = {
+	pop_happiness = @t2p_mult
+}
+cheatinterface_population_happiness_t3 = {
+	pop_happiness = @t3p_mult
+}
+cheatinterface_population_happiness_t4 = {
+	pop_happiness = @t4p_mult
+}
+cheatinterface_population_happiness_t5 = {
+	pop_happiness = @t5p_mult
+}
+cheatinterface_population_happiness_t6 = {
+	pop_happiness = @t6p_mult
+}
+cheatinterface_population_happiness_t7 = {
+	pop_happiness = @t7p_mult
+}
+cheatinterface_population_happiness_t8 = {
+	pop_happiness = @t8p_mult
+}
+cheatinterface_population_happiness_t9 = {
+	pop_happiness = @t9p_mult
+}
+cheatinterface_population_happiness_t10 = {
+	pop_happiness = @t10p_mult
+}
+###############################
+
+#### population_amenities_usage TIER SELECTOR ####
+cheatinterface_population_amenities_usage_t1 = {
+	pop_amenities_usage_mult = @t1n_mult
+}
+cheatinterface_population_amenities_usage_t2 = {
+	pop_amenities_usage_mult = @t2n_mult
+}
+cheatinterface_population_amenities_usage_t3 = {
+	pop_amenities_usage_mult = @t3n_mult
+}
+cheatinterface_population_amenities_usage_t4 = {
+	pop_amenities_usage_mult = @t4n_mult
+}
+cheatinterface_population_amenities_usage_t5 = {
+	pop_amenities_usage_mult = @t5n_mult
+}
+cheatinterface_population_amenities_usage_t6 = {
+	pop_amenities_usage_mult = @t6n_mult
+}
+cheatinterface_population_amenities_usage_t7 = {
+	pop_amenities_usage_mult = @t7n_mult
+}
+cheatinterface_population_amenities_usage_t8 = {
+	pop_amenities_usage_mult = @t8n_mult
+}
+cheatinterface_population_amenities_usage_t9 = {
+	pop_amenities_usage_mult = @t9n_mult
+}
+cheatinterface_population_amenities_usage_t10 = {
+	pop_amenities_usage_mult = @t10n_mult
+}
+###############################
+
+#### leader_lifespan TIER SELECTOR ####
+cheatinterface_leader_lifespan_t1 = {
+	leader_lifespan_mult = @t1p_mult
+}
+cheatinterface_leader_lifespan_t2 = {
+	leader_lifespan_mult = @t2p_mult
+}
+cheatinterface_leader_lifespan_t3 = {
+	leader_lifespan_mult = @t3p_mult
+}
+cheatinterface_leader_lifespan_t4 = {
+	leader_lifespan_mult = @t4p_mult
+}
+cheatinterface_leader_lifespan_t5 = {
+	leader_lifespan_mult = @t5p_mult
+}
+cheatinterface_leader_lifespan_t6 = {
+	leader_lifespan_mult = @t6p_mult
+}
+cheatinterface_leader_lifespan_t7 = {
+	leader_lifespan_mult = @t7p_mult
+}
+cheatinterface_leader_lifespan_t8 = {
+	leader_lifespan_mult = @t8p_mult
+}
+cheatinterface_leader_lifespan_t9 = {
+	leader_lifespan_mult = @t9p_mult
+}
+cheatinterface_leader_lifespan_t10 = {
+	leader_lifespan_mult = @t10p_mult
+}
+###############################
+
+#### leader_pool_size TIER SELECTOR ####
+cheatinterface_leader_pool_size_t1 = {
+	country_leader_pool_size = @t1s_cap
+}
+cheatinterface_leader_pool_size_t2 = {
+	country_leader_pool_size = @t2s_cap
+}
+cheatinterface_leader_pool_size_t3 = {
+	country_leader_pool_size = @t3s_cap
+}
+cheatinterface_leader_pool_size_t4 = {
+	country_leader_pool_size = @t4s_cap
+}
+cheatinterface_leader_pool_size_t5 = {
+	country_leader_pool_size = @t5s_cap
+}
+cheatinterface_leader_pool_size_t6 = {
+	country_leader_pool_size = @t6s_cap
+}
+cheatinterface_leader_pool_size_t7 = {
+	country_leader_pool_size = @t7s_cap
+}
+cheatinterface_leader_pool_size_t8 = {
+	country_leader_pool_size = @t8s_cap
+}
+cheatinterface_leader_pool_size_t9 = {
+	country_leader_pool_size = @t9s_cap
+}
+cheatinterface_leader_pool_size_t10 = {
+	country_leader_pool_size = @t10s_cap
+}
+###############################
+
+#### leader_level_cap TIER SELECTOR ####
+cheatinterface_leader_level_cap_t1 = {
+	leader_skill_levels= @t1s_cap
+}
+cheatinterface_leader_level_cap_t2 = {
+	leader_skill_levels = @t2s_cap
+}
+cheatinterface_leader_level_cap_t3 = {
+	leader_skill_levels = @t3s_cap
+}
+cheatinterface_leader_level_cap_t4 = {
+	leader_skill_levels = @t4s_cap
+}
+cheatinterface_leader_level_cap_t5 = {
+	leader_skill_levels = @t5s_cap
+}
+cheatinterface_leader_level_cap_t6 = {
+	leader_skill_levels = @t6s_cap
+}
+cheatinterface_leader_level_cap_t7 = {
+	leader_skill_levels = @t7s_cap
+}
+cheatinterface_leader_level_cap_t8 = {
+	leader_skill_levels = @t8s_cap
+}
+cheatinterface_leader_level_cap_t9 = {
+	leader_skill_levels = @t9s_cap
+}
+cheatinterface_leader_level_cap_t10 = {
+	leader_skill_levels = @t10s_cap
+}
+###############################
+
+#### leader_lifespan TIER SELECTOR ####
+cheatinterface_leader_exp_gain_t1 = {
+	species_leader_exp_gain= @t1p_mult
+}
+cheatinterface_leader_exp_gain_t2 = {
+	species_leader_exp_gain = @t2p_mult
+}
+cheatinterface_leader_exp_gain_t3 = {
+	species_leader_exp_gain = @t3p_mult
+}
+cheatinterface_leader_exp_gain_t4 = {
+	species_leader_exp_gain = @t4p_mult
+}
+cheatinterface_leader_exp_gain_t5 = {
+	species_leader_exp_gain = @t5p_mult
+}
+cheatinterface_leader_exp_gain_t6 = {
+	species_leader_exp_gain = @t6p_mult
+}
+cheatinterface_leader_exp_gain_t7 = {
+	species_leader_exp_gain = @t7p_mult
+}
+cheatinterface_leader_exp_gain_t8 = {
+	species_leader_exp_gain = @t8p_mult
+}
+cheatinterface_leader_exp_gain_t9 = {
+	species_leader_exp_gain = @t9p_mult
+}
+cheatinterface_leader_exp_gain_t10 = {
+	species_leader_exp_gain = @t10p_mult
+}
+###############################

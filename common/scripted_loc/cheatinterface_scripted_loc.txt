@@ -9344,3 +9344,1523 @@ defined_text = {
     }
 }
 ##########################################################################
+
+############################### Buildings Clear Blocker Speed Gain Titles ###############################
+defined_text = {
+    name = cheatinterface_2_population_bio_growth_speed_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_population_bio_growth_speed_t1_modifier
+                has_country_flag = cheatinterface_has_population_bio_growth_speed_t2_modifier
+                has_country_flag = cheatinterface_has_population_bio_growth_speed_t3_modifier
+                has_country_flag = cheatinterface_has_population_bio_growth_speed_t4_modifier
+                has_country_flag = cheatinterface_has_population_bio_growth_speed_t5_modifier
+                has_country_flag = cheatinterface_has_population_bio_growth_speed_t6_modifier
+                has_country_flag = cheatinterface_has_population_bio_growth_speed_t7_modifier
+                has_country_flag = cheatinterface_has_population_bio_growth_speed_t8_modifier
+                has_country_flag = cheatinterface_has_population_bio_growth_speed_t9_modifier
+                has_country_flag = cheatinterface_has_population_bio_growth_speed_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_population_bio_growth_speed
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_population_bio_growth_speed_t1
+                has_modifier = cheatinterface_population_bio_growth_speed_t2
+                has_modifier = cheatinterface_population_bio_growth_speed_t3
+                has_modifier = cheatinterface_population_bio_growth_speed_t4
+                has_modifier = cheatinterface_population_bio_growth_speed_t5
+                has_modifier = cheatinterface_population_bio_growth_speed_t6
+                has_modifier = cheatinterface_population_bio_growth_speed_t7
+                has_modifier = cheatinterface_population_bio_growth_speed_t8
+                has_modifier = cheatinterface_population_bio_growth_speed_t9
+                has_modifier = cheatinterface_population_bio_growth_speed_t10
+            }
+        }
+        localization_key = cheatinterface_2_population_bio_growth_speed_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_population_bio_growth_speed_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_bio_growth_speed_t1_modifier } }
+        localization_key = cheatinterface_population_bio_growth_speed_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_bio_growth_speed_t1 }
+        localization_key = cheatinterface_population_bio_growth_speed_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_bio_growth_speed_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_bio_growth_speed_t2_modifier } }
+        localization_key = cheatinterface_population_bio_growth_speed_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_bio_growth_speed_t2 }
+        localization_key = cheatinterface_population_bio_growth_speed_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_bio_growth_speed_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_bio_growth_speed_t3_modifier } }
+        localization_key = cheatinterface_population_bio_growth_speed_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_bio_growth_speed_t3 }
+        localization_key = cheatinterface_population_bio_growth_speed_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_bio_growth_speed_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_bio_growth_speed_t4_modifier } }
+        localization_key = cheatinterface_population_bio_growth_speed_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_bio_growth_speed_t4 }
+        localization_key = cheatinterface_population_bio_growth_speed_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_bio_growth_speed_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_bio_growth_speed_t5_modifier } }
+        localization_key = cheatinterface_population_bio_growth_speed_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_bio_growth_speed_t5 }
+        localization_key = cheatinterface_population_bio_growth_speed_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_bio_growth_speed_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_bio_growth_speed_t6_modifier } }
+        localization_key = cheatinterface_population_bio_growth_speed_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_bio_growth_speed_t6 }
+        localization_key = cheatinterface_population_bio_growth_speed_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_bio_growth_speed_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_bio_growth_speed_t7_modifier } }
+        localization_key = cheatinterface_population_bio_growth_speed_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_bio_growth_speed_t7 }
+        localization_key = cheatinterface_population_bio_growth_speed_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_bio_growth_speed_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_bio_growth_speed_t8_modifier } }
+        localization_key = cheatinterface_population_bio_growth_speed_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_bio_growth_speed_t8 }
+        localization_key = cheatinterface_population_bio_growth_speed_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_bio_growth_speed_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_bio_growth_speed_t9_modifier } }
+        localization_key = cheatinterface_population_bio_growth_speed_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_bio_growth_speed_t9 }
+        localization_key = cheatinterface_population_bio_growth_speed_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_bio_growth_speed_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_bio_growth_speed_t10_modifier } }
+        localization_key = cheatinterface_population_bio_growth_speed_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_bio_growth_speed_t10 }
+        localization_key = cheatinterface_population_bio_growth_speed_t10_b
+    }
+}
+##########################################################################
+
+############################### Buildings Clear Blocker Speed Gain Titles ###############################
+defined_text = {
+    name = cheatinterface_2_population_robot_growth_speed_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_population_robot_growth_speed_t1_modifier
+                has_country_flag = cheatinterface_has_population_robot_growth_speed_t2_modifier
+                has_country_flag = cheatinterface_has_population_robot_growth_speed_t3_modifier
+                has_country_flag = cheatinterface_has_population_robot_growth_speed_t4_modifier
+                has_country_flag = cheatinterface_has_population_robot_growth_speed_t5_modifier
+                has_country_flag = cheatinterface_has_population_robot_growth_speed_t6_modifier
+                has_country_flag = cheatinterface_has_population_robot_growth_speed_t7_modifier
+                has_country_flag = cheatinterface_has_population_robot_growth_speed_t8_modifier
+                has_country_flag = cheatinterface_has_population_robot_growth_speed_t9_modifier
+                has_country_flag = cheatinterface_has_population_robot_growth_speed_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_population_robot_growth_speed
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_population_robot_growth_speed_t1
+                has_modifier = cheatinterface_population_robot_growth_speed_t2
+                has_modifier = cheatinterface_population_robot_growth_speed_t3
+                has_modifier = cheatinterface_population_robot_growth_speed_t4
+                has_modifier = cheatinterface_population_robot_growth_speed_t5
+                has_modifier = cheatinterface_population_robot_growth_speed_t6
+                has_modifier = cheatinterface_population_robot_growth_speed_t7
+                has_modifier = cheatinterface_population_robot_growth_speed_t8
+                has_modifier = cheatinterface_population_robot_growth_speed_t9
+                has_modifier = cheatinterface_population_robot_growth_speed_t10
+            }
+        }
+        localization_key = cheatinterface_2_population_robot_growth_speed_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_population_robot_growth_speed_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_robot_growth_speed_t1_modifier } }
+        localization_key = cheatinterface_population_robot_growth_speed_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_robot_growth_speed_t1 }
+        localization_key = cheatinterface_population_robot_growth_speed_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_robot_growth_speed_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_robot_growth_speed_t2_modifier } }
+        localization_key = cheatinterface_population_robot_growth_speed_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_robot_growth_speed_t2 }
+        localization_key = cheatinterface_population_robot_growth_speed_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_robot_growth_speed_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_robot_growth_speed_t3_modifier } }
+        localization_key = cheatinterface_population_robot_growth_speed_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_robot_growth_speed_t3 }
+        localization_key = cheatinterface_population_robot_growth_speed_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_robot_growth_speed_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_robot_growth_speed_t4_modifier } }
+        localization_key = cheatinterface_population_robot_growth_speed_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_robot_growth_speed_t4 }
+        localization_key = cheatinterface_population_robot_growth_speed_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_robot_growth_speed_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_robot_growth_speed_t5_modifier } }
+        localization_key = cheatinterface_population_robot_growth_speed_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_robot_growth_speed_t5 }
+        localization_key = cheatinterface_population_robot_growth_speed_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_robot_growth_speed_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_robot_growth_speed_t6_modifier } }
+        localization_key = cheatinterface_population_robot_growth_speed_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_robot_growth_speed_t6 }
+        localization_key = cheatinterface_population_robot_growth_speed_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_robot_growth_speed_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_robot_growth_speed_t7_modifier } }
+        localization_key = cheatinterface_population_robot_growth_speed_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_robot_growth_speed_t7 }
+        localization_key = cheatinterface_population_robot_growth_speed_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_robot_growth_speed_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_robot_growth_speed_t8_modifier } }
+        localization_key = cheatinterface_population_robot_growth_speed_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_robot_growth_speed_t8 }
+        localization_key = cheatinterface_population_robot_growth_speed_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_robot_growth_speed_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_robot_growth_speed_t9_modifier } }
+        localization_key = cheatinterface_population_robot_growth_speed_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_robot_growth_speed_t9 }
+        localization_key = cheatinterface_population_robot_growth_speed_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_robot_growth_speed_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_robot_growth_speed_t10_modifier } }
+        localization_key = cheatinterface_population_robot_growth_speed_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_robot_growth_speed_t10 }
+        localization_key = cheatinterface_population_robot_growth_speed_t10_b
+    }
+}
+##########################################################################
+
+############################### Buildings Clear Blocker Speed Gain Titles ###############################
+defined_text = {
+    name = cheatinterface_2_population_habitability_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_population_habitability_t1_modifier
+                has_country_flag = cheatinterface_has_population_habitability_t2_modifier
+                has_country_flag = cheatinterface_has_population_habitability_t3_modifier
+                has_country_flag = cheatinterface_has_population_habitability_t4_modifier
+                has_country_flag = cheatinterface_has_population_habitability_t5_modifier
+                has_country_flag = cheatinterface_has_population_habitability_t6_modifier
+                has_country_flag = cheatinterface_has_population_habitability_t7_modifier
+                has_country_flag = cheatinterface_has_population_habitability_t8_modifier
+                has_country_flag = cheatinterface_has_population_habitability_t9_modifier
+                has_country_flag = cheatinterface_has_population_habitability_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_population_habitability
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_population_habitability_t1
+                has_modifier = cheatinterface_population_habitability_t2
+                has_modifier = cheatinterface_population_habitability_t3
+                has_modifier = cheatinterface_population_habitability_t4
+                has_modifier = cheatinterface_population_habitability_t5
+                has_modifier = cheatinterface_population_habitability_t6
+                has_modifier = cheatinterface_population_habitability_t7
+                has_modifier = cheatinterface_population_habitability_t8
+                has_modifier = cheatinterface_population_habitability_t9
+                has_modifier = cheatinterface_population_habitability_t10
+            }
+        }
+        localization_key = cheatinterface_2_population_habitability_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_population_habitability_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_habitability_t1_modifier } }
+        localization_key = cheatinterface_population_habitability_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_habitability_t1 }
+        localization_key = cheatinterface_population_habitability_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_habitability_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_habitability_t2_modifier } }
+        localization_key = cheatinterface_population_habitability_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_habitability_t2 }
+        localization_key = cheatinterface_population_habitability_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_habitability_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_habitability_t3_modifier } }
+        localization_key = cheatinterface_population_habitability_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_habitability_t3 }
+        localization_key = cheatinterface_population_habitability_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_habitability_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_habitability_t4_modifier } }
+        localization_key = cheatinterface_population_habitability_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_habitability_t4 }
+        localization_key = cheatinterface_population_habitability_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_habitability_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_habitability_t5_modifier } }
+        localization_key = cheatinterface_population_habitability_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_habitability_t5 }
+        localization_key = cheatinterface_population_habitability_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_habitability_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_habitability_t6_modifier } }
+        localization_key = cheatinterface_population_habitability_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_habitability_t6 }
+        localization_key = cheatinterface_population_habitability_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_habitability_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_habitability_t7_modifier } }
+        localization_key = cheatinterface_population_habitability_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_habitability_t7 }
+        localization_key = cheatinterface_population_habitability_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_habitability_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_habitability_t8_modifier } }
+        localization_key = cheatinterface_population_habitability_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_habitability_t8 }
+        localization_key = cheatinterface_population_habitability_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_habitability_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_habitability_t9_modifier } }
+        localization_key = cheatinterface_population_habitability_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_habitability_t9 }
+        localization_key = cheatinterface_population_habitability_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_habitability_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_habitability_t10_modifier } }
+        localization_key = cheatinterface_population_habitability_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_habitability_t10 }
+        localization_key = cheatinterface_population_habitability_t10_b
+    }
+}
+##########################################################################
+
+############################### Buildings Clear Blocker Speed Gain Titles ###############################
+defined_text = {
+    name = cheatinterface_2_population_stability_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_population_stability_t1_modifier
+                has_country_flag = cheatinterface_has_population_stability_t2_modifier
+                has_country_flag = cheatinterface_has_population_stability_t3_modifier
+                has_country_flag = cheatinterface_has_population_stability_t4_modifier
+                has_country_flag = cheatinterface_has_population_stability_t5_modifier
+                has_country_flag = cheatinterface_has_population_stability_t6_modifier
+                has_country_flag = cheatinterface_has_population_stability_t7_modifier
+                has_country_flag = cheatinterface_has_population_stability_t8_modifier
+                has_country_flag = cheatinterface_has_population_stability_t9_modifier
+                has_country_flag = cheatinterface_has_population_stability_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_population_stability
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_population_stability_t1
+                has_modifier = cheatinterface_population_stability_t2
+                has_modifier = cheatinterface_population_stability_t3
+                has_modifier = cheatinterface_population_stability_t4
+                has_modifier = cheatinterface_population_stability_t5
+                has_modifier = cheatinterface_population_stability_t6
+                has_modifier = cheatinterface_population_stability_t7
+                has_modifier = cheatinterface_population_stability_t8
+                has_modifier = cheatinterface_population_stability_t9
+                has_modifier = cheatinterface_population_stability_t10
+            }
+        }
+        localization_key = cheatinterface_2_population_stability_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_population_stability_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_stability_t1_modifier } }
+        localization_key = cheatinterface_population_stability_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_stability_t1 }
+        localization_key = cheatinterface_population_stability_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_stability_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_stability_t2_modifier } }
+        localization_key = cheatinterface_population_stability_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_stability_t2 }
+        localization_key = cheatinterface_population_stability_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_stability_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_stability_t3_modifier } }
+        localization_key = cheatinterface_population_stability_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_stability_t3 }
+        localization_key = cheatinterface_population_stability_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_stability_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_stability_t4_modifier } }
+        localization_key = cheatinterface_population_stability_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_stability_t4 }
+        localization_key = cheatinterface_population_stability_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_stability_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_stability_t5_modifier } }
+        localization_key = cheatinterface_population_stability_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_stability_t5 }
+        localization_key = cheatinterface_population_stability_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_stability_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_stability_t6_modifier } }
+        localization_key = cheatinterface_population_stability_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_stability_t6 }
+        localization_key = cheatinterface_population_stability_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_stability_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_stability_t7_modifier } }
+        localization_key = cheatinterface_population_stability_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_stability_t7 }
+        localization_key = cheatinterface_population_stability_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_stability_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_stability_t8_modifier } }
+        localization_key = cheatinterface_population_stability_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_stability_t8 }
+        localization_key = cheatinterface_population_stability_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_stability_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_stability_t9_modifier } }
+        localization_key = cheatinterface_population_stability_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_stability_t9 }
+        localization_key = cheatinterface_population_stability_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_stability_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_stability_t10_modifier } }
+        localization_key = cheatinterface_population_stability_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_stability_t10 }
+        localization_key = cheatinterface_population_stability_t10_b
+    }
+}
+##########################################################################
+
+############################### Buildings Clear Blocker Speed Gain Titles ###############################
+defined_text = {
+    name = cheatinterface_2_population_happiness_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_population_happiness_t1_modifier
+                has_country_flag = cheatinterface_has_population_happiness_t2_modifier
+                has_country_flag = cheatinterface_has_population_happiness_t3_modifier
+                has_country_flag = cheatinterface_has_population_happiness_t4_modifier
+                has_country_flag = cheatinterface_has_population_happiness_t5_modifier
+                has_country_flag = cheatinterface_has_population_happiness_t6_modifier
+                has_country_flag = cheatinterface_has_population_happiness_t7_modifier
+                has_country_flag = cheatinterface_has_population_happiness_t8_modifier
+                has_country_flag = cheatinterface_has_population_happiness_t9_modifier
+                has_country_flag = cheatinterface_has_population_happiness_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_population_happiness
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_population_happiness_t1
+                has_modifier = cheatinterface_population_happiness_t2
+                has_modifier = cheatinterface_population_happiness_t3
+                has_modifier = cheatinterface_population_happiness_t4
+                has_modifier = cheatinterface_population_happiness_t5
+                has_modifier = cheatinterface_population_happiness_t6
+                has_modifier = cheatinterface_population_happiness_t7
+                has_modifier = cheatinterface_population_happiness_t8
+                has_modifier = cheatinterface_population_happiness_t9
+                has_modifier = cheatinterface_population_happiness_t10
+            }
+        }
+        localization_key = cheatinterface_2_population_happiness_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_population_happiness_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_happiness_t1_modifier } }
+        localization_key = cheatinterface_population_happiness_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_happiness_t1 }
+        localization_key = cheatinterface_population_happiness_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_happiness_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_happiness_t2_modifier } }
+        localization_key = cheatinterface_population_happiness_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_happiness_t2 }
+        localization_key = cheatinterface_population_happiness_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_happiness_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_happiness_t3_modifier } }
+        localization_key = cheatinterface_population_happiness_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_happiness_t3 }
+        localization_key = cheatinterface_population_happiness_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_happiness_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_happiness_t4_modifier } }
+        localization_key = cheatinterface_population_happiness_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_happiness_t4 }
+        localization_key = cheatinterface_population_happiness_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_happiness_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_happiness_t5_modifier } }
+        localization_key = cheatinterface_population_happiness_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_happiness_t5 }
+        localization_key = cheatinterface_population_happiness_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_happiness_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_happiness_t6_modifier } }
+        localization_key = cheatinterface_population_happiness_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_happiness_t6 }
+        localization_key = cheatinterface_population_happiness_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_happiness_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_happiness_t7_modifier } }
+        localization_key = cheatinterface_population_happiness_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_happiness_t7 }
+        localization_key = cheatinterface_population_happiness_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_happiness_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_happiness_t8_modifier } }
+        localization_key = cheatinterface_population_happiness_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_happiness_t8 }
+        localization_key = cheatinterface_population_happiness_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_happiness_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_happiness_t9_modifier } }
+        localization_key = cheatinterface_population_happiness_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_happiness_t9 }
+        localization_key = cheatinterface_population_happiness_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_happiness_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_happiness_t10_modifier } }
+        localization_key = cheatinterface_population_happiness_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_happiness_t10 }
+        localization_key = cheatinterface_population_happiness_t10_b
+    }
+}
+##########################################################################
+
+############################### Buildings Clear Blocker Speed Gain Titles ###############################
+defined_text = {
+    name = cheatinterface_2_population_amenities_usage_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_population_amenities_usage_t1_modifier
+                has_country_flag = cheatinterface_has_population_amenities_usage_t2_modifier
+                has_country_flag = cheatinterface_has_population_amenities_usage_t3_modifier
+                has_country_flag = cheatinterface_has_population_amenities_usage_t4_modifier
+                has_country_flag = cheatinterface_has_population_amenities_usage_t5_modifier
+                has_country_flag = cheatinterface_has_population_amenities_usage_t6_modifier
+                has_country_flag = cheatinterface_has_population_amenities_usage_t7_modifier
+                has_country_flag = cheatinterface_has_population_amenities_usage_t8_modifier
+                has_country_flag = cheatinterface_has_population_amenities_usage_t9_modifier
+                has_country_flag = cheatinterface_has_population_amenities_usage_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_population_amenities_usage
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_population_amenities_usage_t1
+                has_modifier = cheatinterface_population_amenities_usage_t2
+                has_modifier = cheatinterface_population_amenities_usage_t3
+                has_modifier = cheatinterface_population_amenities_usage_t4
+                has_modifier = cheatinterface_population_amenities_usage_t5
+                has_modifier = cheatinterface_population_amenities_usage_t6
+                has_modifier = cheatinterface_population_amenities_usage_t7
+                has_modifier = cheatinterface_population_amenities_usage_t8
+                has_modifier = cheatinterface_population_amenities_usage_t9
+                has_modifier = cheatinterface_population_amenities_usage_t10
+            }
+        }
+        localization_key = cheatinterface_2_population_amenities_usage_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_population_amenities_usage_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_amenities_usage_t1_modifier } }
+        localization_key = cheatinterface_population_amenities_usage_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_amenities_usage_t1 }
+        localization_key = cheatinterface_population_amenities_usage_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_amenities_usage_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_amenities_usage_t2_modifier } }
+        localization_key = cheatinterface_population_amenities_usage_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_amenities_usage_t2 }
+        localization_key = cheatinterface_population_amenities_usage_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_amenities_usage_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_amenities_usage_t3_modifier } }
+        localization_key = cheatinterface_population_amenities_usage_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_amenities_usage_t3 }
+        localization_key = cheatinterface_population_amenities_usage_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_amenities_usage_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_amenities_usage_t4_modifier } }
+        localization_key = cheatinterface_population_amenities_usage_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_amenities_usage_t4 }
+        localization_key = cheatinterface_population_amenities_usage_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_amenities_usage_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_amenities_usage_t5_modifier } }
+        localization_key = cheatinterface_population_amenities_usage_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_amenities_usage_t5 }
+        localization_key = cheatinterface_population_amenities_usage_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_amenities_usage_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_amenities_usage_t6_modifier } }
+        localization_key = cheatinterface_population_amenities_usage_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_amenities_usage_t6 }
+        localization_key = cheatinterface_population_amenities_usage_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_amenities_usage_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_amenities_usage_t7_modifier } }
+        localization_key = cheatinterface_population_amenities_usage_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_amenities_usage_t7 }
+        localization_key = cheatinterface_population_amenities_usage_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_amenities_usage_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_amenities_usage_t8_modifier } }
+        localization_key = cheatinterface_population_amenities_usage_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_amenities_usage_t8 }
+        localization_key = cheatinterface_population_amenities_usage_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_amenities_usage_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_amenities_usage_t9_modifier } }
+        localization_key = cheatinterface_population_amenities_usage_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_amenities_usage_t9 }
+        localization_key = cheatinterface_population_amenities_usage_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_population_amenities_usage_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_population_amenities_usage_t10_modifier } }
+        localization_key = cheatinterface_population_amenities_usage_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_population_amenities_usage_t10 }
+        localization_key = cheatinterface_population_amenities_usage_t10_b
+    }
+}
+##########################################################################
+
+############################### Buildings Clear Blocker Speed Gain Titles ###############################
+defined_text = {
+    name = cheatinterface_2_leader_lifespan_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_leader_lifespan_t1_modifier
+                has_country_flag = cheatinterface_has_leader_lifespan_t2_modifier
+                has_country_flag = cheatinterface_has_leader_lifespan_t3_modifier
+                has_country_flag = cheatinterface_has_leader_lifespan_t4_modifier
+                has_country_flag = cheatinterface_has_leader_lifespan_t5_modifier
+                has_country_flag = cheatinterface_has_leader_lifespan_t6_modifier
+                has_country_flag = cheatinterface_has_leader_lifespan_t7_modifier
+                has_country_flag = cheatinterface_has_leader_lifespan_t8_modifier
+                has_country_flag = cheatinterface_has_leader_lifespan_t9_modifier
+                has_country_flag = cheatinterface_has_leader_lifespan_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_leader_lifespan
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_leader_lifespan_t1
+                has_modifier = cheatinterface_leader_lifespan_t2
+                has_modifier = cheatinterface_leader_lifespan_t3
+                has_modifier = cheatinterface_leader_lifespan_t4
+                has_modifier = cheatinterface_leader_lifespan_t5
+                has_modifier = cheatinterface_leader_lifespan_t6
+                has_modifier = cheatinterface_leader_lifespan_t7
+                has_modifier = cheatinterface_leader_lifespan_t8
+                has_modifier = cheatinterface_leader_lifespan_t9
+                has_modifier = cheatinterface_leader_lifespan_t10
+            }
+        }
+        localization_key = cheatinterface_2_leader_lifespan_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_leader_lifespan_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_lifespan_t1_modifier } }
+        localization_key = cheatinterface_leader_lifespan_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_lifespan_t1 }
+        localization_key = cheatinterface_leader_lifespan_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_lifespan_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_lifespan_t2_modifier } }
+        localization_key = cheatinterface_leader_lifespan_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_lifespan_t2 }
+        localization_key = cheatinterface_leader_lifespan_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_lifespan_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_lifespan_t3_modifier } }
+        localization_key = cheatinterface_leader_lifespan_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_lifespan_t3 }
+        localization_key = cheatinterface_leader_lifespan_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_lifespan_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_lifespan_t4_modifier } }
+        localization_key = cheatinterface_leader_lifespan_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_lifespan_t4 }
+        localization_key = cheatinterface_leader_lifespan_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_lifespan_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_lifespan_t5_modifier } }
+        localization_key = cheatinterface_leader_lifespan_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_lifespan_t5 }
+        localization_key = cheatinterface_leader_lifespan_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_lifespan_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_lifespan_t6_modifier } }
+        localization_key = cheatinterface_leader_lifespan_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_lifespan_t6 }
+        localization_key = cheatinterface_leader_lifespan_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_lifespan_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_lifespan_t7_modifier } }
+        localization_key = cheatinterface_leader_lifespan_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_lifespan_t7 }
+        localization_key = cheatinterface_leader_lifespan_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_lifespan_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_lifespan_t8_modifier } }
+        localization_key = cheatinterface_leader_lifespan_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_lifespan_t8 }
+        localization_key = cheatinterface_leader_lifespan_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_lifespan_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_lifespan_t9_modifier } }
+        localization_key = cheatinterface_leader_lifespan_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_lifespan_t9 }
+        localization_key = cheatinterface_leader_lifespan_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_lifespan_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_lifespan_t10_modifier } }
+        localization_key = cheatinterface_leader_lifespan_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_lifespan_t10 }
+        localization_key = cheatinterface_leader_lifespan_t10_b
+    }
+}
+##########################################################################
+
+############################### Buildings Clear Blocker Speed Gain Titles ###############################
+defined_text = {
+    name = cheatinterface_2_leader_pool_size_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_leader_pool_size_t1_modifier
+                has_country_flag = cheatinterface_has_leader_pool_size_t2_modifier
+                has_country_flag = cheatinterface_has_leader_pool_size_t3_modifier
+                has_country_flag = cheatinterface_has_leader_pool_size_t4_modifier
+                has_country_flag = cheatinterface_has_leader_pool_size_t5_modifier
+                has_country_flag = cheatinterface_has_leader_pool_size_t6_modifier
+                has_country_flag = cheatinterface_has_leader_pool_size_t7_modifier
+                has_country_flag = cheatinterface_has_leader_pool_size_t8_modifier
+                has_country_flag = cheatinterface_has_leader_pool_size_t9_modifier
+                has_country_flag = cheatinterface_has_leader_pool_size_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_leader_pool_size
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_leader_pool_size_t1
+                has_modifier = cheatinterface_leader_pool_size_t2
+                has_modifier = cheatinterface_leader_pool_size_t3
+                has_modifier = cheatinterface_leader_pool_size_t4
+                has_modifier = cheatinterface_leader_pool_size_t5
+                has_modifier = cheatinterface_leader_pool_size_t6
+                has_modifier = cheatinterface_leader_pool_size_t7
+                has_modifier = cheatinterface_leader_pool_size_t8
+                has_modifier = cheatinterface_leader_pool_size_t9
+                has_modifier = cheatinterface_leader_pool_size_t10
+            }
+        }
+        localization_key = cheatinterface_2_leader_pool_size_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_leader_pool_size_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_pool_size_t1_modifier } }
+        localization_key = cheatinterface_leader_pool_size_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_pool_size_t1 }
+        localization_key = cheatinterface_leader_pool_size_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_pool_size_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_pool_size_t2_modifier } }
+        localization_key = cheatinterface_leader_pool_size_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_pool_size_t2 }
+        localization_key = cheatinterface_leader_pool_size_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_pool_size_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_pool_size_t3_modifier } }
+        localization_key = cheatinterface_leader_pool_size_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_pool_size_t3 }
+        localization_key = cheatinterface_leader_pool_size_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_pool_size_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_pool_size_t4_modifier } }
+        localization_key = cheatinterface_leader_pool_size_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_pool_size_t4 }
+        localization_key = cheatinterface_leader_pool_size_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_pool_size_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_pool_size_t5_modifier } }
+        localization_key = cheatinterface_leader_pool_size_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_pool_size_t5 }
+        localization_key = cheatinterface_leader_pool_size_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_pool_size_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_pool_size_t6_modifier } }
+        localization_key = cheatinterface_leader_pool_size_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_pool_size_t6 }
+        localization_key = cheatinterface_leader_pool_size_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_pool_size_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_pool_size_t7_modifier } }
+        localization_key = cheatinterface_leader_pool_size_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_pool_size_t7 }
+        localization_key = cheatinterface_leader_pool_size_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_pool_size_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_pool_size_t8_modifier } }
+        localization_key = cheatinterface_leader_pool_size_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_pool_size_t8 }
+        localization_key = cheatinterface_leader_pool_size_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_pool_size_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_pool_size_t9_modifier } }
+        localization_key = cheatinterface_leader_pool_size_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_pool_size_t9 }
+        localization_key = cheatinterface_leader_pool_size_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_pool_size_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_pool_size_t10_modifier } }
+        localization_key = cheatinterface_leader_pool_size_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_pool_size_t10 }
+        localization_key = cheatinterface_leader_pool_size_t10_b
+    }
+}
+##########################################################################
+
+############################### Buildings Clear Blocker Speed Gain Titles ###############################
+defined_text = {
+    name = cheatinterface_2_leader_level_cap_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_leader_level_cap_t1_modifier
+                has_country_flag = cheatinterface_has_leader_level_cap_t2_modifier
+                has_country_flag = cheatinterface_has_leader_level_cap_t3_modifier
+                has_country_flag = cheatinterface_has_leader_level_cap_t4_modifier
+                has_country_flag = cheatinterface_has_leader_level_cap_t5_modifier
+                has_country_flag = cheatinterface_has_leader_level_cap_t6_modifier
+                has_country_flag = cheatinterface_has_leader_level_cap_t7_modifier
+                has_country_flag = cheatinterface_has_leader_level_cap_t8_modifier
+                has_country_flag = cheatinterface_has_leader_level_cap_t9_modifier
+                has_country_flag = cheatinterface_has_leader_level_cap_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_leader_level_cap
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_leader_level_cap_t1
+                has_modifier = cheatinterface_leader_level_cap_t2
+                has_modifier = cheatinterface_leader_level_cap_t3
+                has_modifier = cheatinterface_leader_level_cap_t4
+                has_modifier = cheatinterface_leader_level_cap_t5
+                has_modifier = cheatinterface_leader_level_cap_t6
+                has_modifier = cheatinterface_leader_level_cap_t7
+                has_modifier = cheatinterface_leader_level_cap_t8
+                has_modifier = cheatinterface_leader_level_cap_t9
+                has_modifier = cheatinterface_leader_level_cap_t10
+            }
+        }
+        localization_key = cheatinterface_2_leader_level_cap_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_leader_level_cap_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_level_cap_t1_modifier } }
+        localization_key = cheatinterface_leader_level_cap_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_level_cap_t1 }
+        localization_key = cheatinterface_leader_level_cap_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_level_cap_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_level_cap_t2_modifier } }
+        localization_key = cheatinterface_leader_level_cap_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_level_cap_t2 }
+        localization_key = cheatinterface_leader_level_cap_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_level_cap_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_level_cap_t3_modifier } }
+        localization_key = cheatinterface_leader_level_cap_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_level_cap_t3 }
+        localization_key = cheatinterface_leader_level_cap_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_level_cap_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_level_cap_t4_modifier } }
+        localization_key = cheatinterface_leader_level_cap_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_level_cap_t4 }
+        localization_key = cheatinterface_leader_level_cap_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_level_cap_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_level_cap_t5_modifier } }
+        localization_key = cheatinterface_leader_level_cap_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_level_cap_t5 }
+        localization_key = cheatinterface_leader_level_cap_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_level_cap_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_level_cap_t6_modifier } }
+        localization_key = cheatinterface_leader_level_cap_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_level_cap_t6 }
+        localization_key = cheatinterface_leader_level_cap_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_level_cap_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_level_cap_t7_modifier } }
+        localization_key = cheatinterface_leader_level_cap_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_level_cap_t7 }
+        localization_key = cheatinterface_leader_level_cap_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_level_cap_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_level_cap_t8_modifier } }
+        localization_key = cheatinterface_leader_level_cap_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_level_cap_t8 }
+        localization_key = cheatinterface_leader_level_cap_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_level_cap_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_level_cap_t9_modifier } }
+        localization_key = cheatinterface_leader_level_cap_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_level_cap_t9 }
+        localization_key = cheatinterface_leader_level_cap_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_level_cap_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_level_cap_t10_modifier } }
+        localization_key = cheatinterface_leader_level_cap_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_level_cap_t10 }
+        localization_key = cheatinterface_leader_level_cap_t10_b
+    }
+}
+##########################################################################
+
+############################### Buildings Clear Blocker Speed Gain Titles ###############################
+defined_text = {
+    name = cheatinterface_2_leader_exp_gain_title
+    text = {
+        trigger = {
+            NOT = {
+                has_country_flag = cheatinterface_has_leader_exp_gain_t1_modifier
+                has_country_flag = cheatinterface_has_leader_exp_gain_t2_modifier
+                has_country_flag = cheatinterface_has_leader_exp_gain_t3_modifier
+                has_country_flag = cheatinterface_has_leader_exp_gain_t4_modifier
+                has_country_flag = cheatinterface_has_leader_exp_gain_t5_modifier
+                has_country_flag = cheatinterface_has_leader_exp_gain_t6_modifier
+                has_country_flag = cheatinterface_has_leader_exp_gain_t7_modifier
+                has_country_flag = cheatinterface_has_leader_exp_gain_t8_modifier
+                has_country_flag = cheatinterface_has_leader_exp_gain_t9_modifier
+                has_country_flag = cheatinterface_has_leader_exp_gain_t10_modifier
+
+            }
+        }
+        localization_key = cheatinterface_2_leader_exp_gain
+    }
+    text = {
+        trigger = {
+            OR = {
+                has_modifier = cheatinterface_leader_exp_gain_t1
+                has_modifier = cheatinterface_leader_exp_gain_t2
+                has_modifier = cheatinterface_leader_exp_gain_t3
+                has_modifier = cheatinterface_leader_exp_gain_t4
+                has_modifier = cheatinterface_leader_exp_gain_t5
+                has_modifier = cheatinterface_leader_exp_gain_t6
+                has_modifier = cheatinterface_leader_exp_gain_t7
+                has_modifier = cheatinterface_leader_exp_gain_t8
+                has_modifier = cheatinterface_leader_exp_gain_t9
+                has_modifier = cheatinterface_leader_exp_gain_t10
+            }
+        }
+        localization_key = cheatinterface_2_leader_exp_gain_b
+    }
+}
+
+defined_text = {
+    name = cheatinterface_leader_exp_gain_t1_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_exp_gain_t1_modifier } }
+        localization_key = cheatinterface_leader_exp_gain_t1
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_exp_gain_t1 }
+        localization_key = cheatinterface_leader_exp_gain_t1_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_exp_gain_t2_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_exp_gain_t2_modifier } }
+        localization_key = cheatinterface_leader_exp_gain_t2
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_exp_gain_t2 }
+        localization_key = cheatinterface_leader_exp_gain_t2_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_exp_gain_t3_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_exp_gain_t3_modifier } }
+        localization_key = cheatinterface_leader_exp_gain_t3
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_exp_gain_t3 }
+        localization_key = cheatinterface_leader_exp_gain_t3_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_exp_gain_t4_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_exp_gain_t4_modifier } }
+        localization_key = cheatinterface_leader_exp_gain_t4
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_exp_gain_t4 }
+        localization_key = cheatinterface_leader_exp_gain_t4_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_exp_gain_t5_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_exp_gain_t5_modifier } }
+        localization_key = cheatinterface_leader_exp_gain_t5
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_exp_gain_t5 }
+        localization_key = cheatinterface_leader_exp_gain_t5_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_exp_gain_t6_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_exp_gain_t6_modifier } }
+        localization_key = cheatinterface_leader_exp_gain_t6
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_exp_gain_t6 }
+        localization_key = cheatinterface_leader_exp_gain_t6_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_exp_gain_t7_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_exp_gain_t7_modifier } }
+        localization_key = cheatinterface_leader_exp_gain_t7
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_exp_gain_t7 }
+        localization_key = cheatinterface_leader_exp_gain_t7_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_exp_gain_t8_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_exp_gain_t8_modifier } }
+        localization_key = cheatinterface_leader_exp_gain_t8
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_exp_gain_t8 }
+        localization_key = cheatinterface_leader_exp_gain_t8_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_exp_gain_t9_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_exp_gain_t9_modifier } }
+        localization_key = cheatinterface_leader_exp_gain_t9
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_exp_gain_t9 }
+        localization_key = cheatinterface_leader_exp_gain_t9_b
+    }
+}
+defined_text = {
+    name = cheatinterface_leader_exp_gain_t10_title
+    text = {
+        trigger = { NOT = { has_country_flag = cheatinterface_has_leader_exp_gain_t10_modifier } }
+        localization_key = cheatinterface_leader_exp_gain_t10
+    }
+    text = {
+        trigger = { has_modifier = cheatinterface_leader_exp_gain_t10 }
+        localization_key = cheatinterface_leader_exp_gain_t10_b
+    }
+}
+##########################################################################

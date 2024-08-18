@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Completed the Army column">
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_buildings_clear_blocker_speed.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_buildings_defence_platform_capacity.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_buildings_megastructure_build_capacity.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_buildings_megastructure_build_cost.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_buildings_megastructure_build_speed.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_buildings_megastructure_upkeep.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_buildings_outpost_build_speed.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_buildings_planetary_build_speed.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_buildings_starbase_build_speed.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_buildings_starbase_capacity.gui" afterDir="false" />
+    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Completed the Buildings column">
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_leader_level_cap.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_leader_lifespan.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_leader_pool_size.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_population_amenities_usage.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_population_bio_growth_speed.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_population_habitability.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_population_happiness.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_population_robot_growth_speed.gui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_population_stability.gui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" afterDir="false" />
@@ -103,7 +102,7 @@
       <workItem from="1723219712284" duration="31000" />
       <workItem from="1723219765448" duration="8149000" />
       <workItem from="1723991518238" duration="2042000" />
-      <workItem from="1723994335128" duration="18025000" />
+      <workItem from="1723994335128" duration="23316000" />
     </task>
     <task id="LOCAL-00001" summary="Cheat Interface Init">
       <option name="closed" value="true" />
@@ -193,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724001912420</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Completed the Buildings column">
+      <option name="closed" value="true" />
+      <created>1724012710481</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724012710481</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +241,7 @@
     <MESSAGE value="Changed all capacity modifiers to variables" />
     <MESSAGE value="Removed unused localization files" />
     <MESSAGE value="Completed the Army column" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed the Army column" />
+    <MESSAGE value="Completed the Buildings column" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed the Buildings column" />
   </component>
 </project>
