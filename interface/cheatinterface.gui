@@ -1095,33 +1095,33 @@ guiTypes = {
             #movable = yes
             position = { x = 425 y = 335 }
 
-            # Ship Column Title
+            # Building Column Title
             containerWindowType = {
                 #orientation = centerup
                 # origo = centerup
                 size = { width = @cheatinterface_building_column_width height = @cheatinterface_building_column_title_height }
                 alwaysTransparent = yes
-                name = "cheatinterface_2_building_title_container"
+                name = "cheatinterface_2_buildings_title_container"
                 background = {
                     name = "cheatinterface_building_column_title_background"
                     quadTextureSprite = "GFX_bg_area_light"
                 }
-                # Ship Column Title Button
+                # Building Column Title Button
                 effectButtonType = {
-                    name = "cheatinterface_2_building_column_title"
+                    name = "cheatinterface_2_buildings_column_title"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     #position = { x = 0 y = 0 }
                     effect = "cheatinterface_button_effect"
                     buttonFont = "malgun_goth_24"
-                    buttonText = "cheatinterface_2_building"
+                    buttonText = "cheatinterface_2_buildings"
                     alwaysTransparent = yes
                 }
             }
 
-            # Ship Column Buttons
+            # Building Column Buttons
             containerWindowType = {
-                name = "ship_buttons"
-                size = { width = 100% height = 496 }
+                name = "building_buttons"
+                size = { width = 100% height = 80% }
                 #dynamic_extra_y = 0.5
                 position = { x = 0 y = 58 }
                 background = {
@@ -1133,144 +1133,104 @@ guiTypes = {
                     name = "cheatinterface_building_column_scrollbar"
                     startValue = 0
                 }
-                # Ship Base Speed Button
+                # Building Base Speed Button
                 effectButtonType = {
-                    name = "cheatinterface_2_ship_base_speed"
+                    name = "cheatinterface_2_buildings_defence_platform_capacity"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 0 }
-                    effect = "cheatinterface_button_ship_base_speed"
+                    effect = "cheatinterface_button_buildings_defence_platform_capacity"
                     buttonFont = "cg_16b"
-                    buttonText = "cheatinterface_2_ship_base_speed_title"
+                    buttonText = "cheatinterface_2_buildings_defence_platform_capacity_title"
                 }
                 # Ship FTL Speed Button
                 effectButtonType = {
-                    name = "cheatinterface_2_ship_ftl_speed"
+                    name = "cheatinterface_2_buildings_starbase_capacity"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 40 }
-                    effect = "cheatinterface_button_effect"
+                    effect = "cheatinterface_button_buildings_starbase_capacity"
                     buttonFont = "cg_16b"
-                    buttonText = "cheatinterface_2_ship_ftl_speed_title"
+                    buttonText = "cheatinterface_2_buildings_starbase_capacity_title"
                 }
 
                 # Ship Armor Regeneration Button
                 effectButtonType = {
-                    name = "cheatinterface_2_ship_armor_regeneration"
+                    name = "cheatinterface_2_buildings_starbase_build_speed"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 80 }
-                    effect = "cheatinterface_button_effect"
+                    effect = "cheatinterface_button_buildings_starbase_build_speed"
                     buttonFont = "cg_16b"
-                    buttonText = "cheatinterface_2_ship_armor_regeneration_title"
+                    buttonText = "cheatinterface_2_buildings_starbase_build_speed_title"
                 }
 
-                # Ship Hull Regeneration Button
+                # Ship Armor Regeneration Button
                 effectButtonType = {
-                    name = "cheatinterface_2_ship_hull_regeneration"
+                    name = "cheatinterface_2_buildings_outpost_build_speed"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 120 }
-                    effect = "cheatinterface_button_effect"
+                    effect = "cheatinterface_button_buildings_outpost_build_speed"
                     buttonFont = "cg_16b"
-                    buttonText = "cheatinterface_2_ship_hull_regeneration_title"
+                    buttonText = "cheatinterface_2_buildings_outpost_build_speed_title"
                 }
 
-                # Ship Shield Regeneration Button
+                # Ship Armor Regeneration Button
                 effectButtonType = {
-                    name = "cheatinterface_2_building_shield_regen"
+                    name = "cheatinterface_2_buildings_megastructure_build_capacity"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 160 }
-                    effect = "cheatinterface_button_effect"
+                    effect = "cheatinterface_button_buildings_megastructure_build_capacity"
                     buttonFont = "cg_16b"
-                    buttonText = "cheatinterface_2_building_shield_regen"
+                    buttonText = "cheatinterface_2_buildings_megastructure_build_capacity_title"
                 }
 
-                # # Influence Button
-                # effectButtonType = {
-                #     name = "cheatinterface_2_influence"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 200 }
-                #     effect = "cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "cheatinterface_2_influence"
-                # }
-                #
-                # # Unity Button
-                # effectButtonType = {
-                #     name = "cheatinterface_2_unity"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 240 }
-                #     effect = "cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "cheatinterface_2_unity"
-                # }
-                #
-                # # Volatile Motes Button
-                # effectButtonType = {
-                #     name = "cheatinterface_2_volatile_motes"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 280 }
-                #     effect = "cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "cheatinterface_2_volatile_motes"
-                # }
-                #
-                # # Exotic Gases Button
-                # effectButtonType = {
-                #     name = "cheatinterface_2_exotic_gases"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 320 }
-                #     effect = "cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "cheatinterface_2_exotic_gases"
-                # }
-                #
-                # # Rare Crystals Button
-                # effectButtonType = {
-                #     name = "cheatinterface_2_rare_crystals"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 360 }
-                #     effect = "cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "cheatinterface_2_rare_crystals"
-                # }
-                #
-                # # Living Metal Button
-                # effectButtonType = {
-                #     name = "cheatinterface_2_living_metal"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 400 }
-                #     effect = "cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "cheatinterface_2_living_metal"
-                # }
-                #
-                # # Zro Button
-                # effectButtonType = {
-                #     name = "cheatinterface_2_zro"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 440 }
-                #     effect = "cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "cheatinterface_2_zro"
-                # }
-                #
-                # # Dark Matter Button
-                # effectButtonType = {
-                #     name = "cheatinterface_2_dark_matter"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 480 }
-                #     effect = "cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "cheatinterface_2_dark_matter"
-                # }
-                #
-                # # Nanites Button
-                # effectButtonType = {
-                #     name = "cheatinterface_2_nanites"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 520 }
-                #     effect = "cheatinterface_button_effect"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "cheatinterface_2_nanites"
-                # }
+                # Ship Armor Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_buildings_megastructure_upkeep"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 200 }
+                    effect = "cheatinterface_button_buildings_megastructure_upkeep"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_buildings_megastructure_upkeep_title"
+                }
+
+                # Ship Armor Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_buildings_megastructure_build_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 240 }
+                    effect = "cheatinterface_button_buildings_megastructure_build_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_buildings_megastructure_build_speed_title"
+                }
+
+                # Ship Armor Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_buildings_megastructure_build_cost"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 280 }
+                    effect = "cheatinterface_button_buildings_megastructure_build_cost"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_buildings_megastructure_build_cost_title"
+                }
+
+                # Ship Armor Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_buildings_planetary_build_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 320 }
+                    effect = "cheatinterface_button_buildings_planetary_build_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_buildings_planetary_build_speed_title"
+                }
+
+                # Ship Armor Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_buildings_clear_blocker_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 360 }
+                    effect = "cheatinterface_button_buildings_clear_blocker_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_buildings_clear_blocker_speed_title"
+                }
             }
         }
         #############################################################################
@@ -1380,7 +1340,7 @@ guiTypes = {
                     position = { x = 0 y = 160 }
                     effect = "cheatinterface_button_effect"
                     buttonFont = "cg_16b"
-                    buttonText = "cheatinterface_2_building_shield_regen"
+                    buttonText = "cheatinterface_2_buildings_shield_regen"
                 }
 
                 # # Influence Button
@@ -1581,7 +1541,7 @@ guiTypes = {
                     position = { x = 0 y = 160 }
                     effect = "cheatinterface_button_effect"
                     buttonFont = "cg_16b"
-                    buttonText = "cheatinterface_2_building_shield_regen"
+                    buttonText = "cheatinterface_2_buildings_shield_regen"
                 }
 
                 # # Influence Button

@@ -31,6 +31,17 @@
 @t9_cap = 500000
 @t10_cap = 1000000
 
+@t1s_cap = 1
+@t2s_cap = 2
+@t3s_cap = 5
+@t4s_cap = 10
+@t5s_cap = 25
+@t6s_cap = 50
+@t7s_cap = 100
+@t8s_cap = 250
+@t9s_cap = 500
+@t10s_cap = 1000
+
 
 #### resource minerals TIER SELECTOR ####
 cheatinterface_resource_minerals_t1 = {
@@ -1804,5 +1815,355 @@ cheatinterface_army_experience_gain_t9 = {
 }
 cheatinterface_army_experience_gain_t10 = {
 	army_experience_gain_mult = @t10p_mult
+}
+###############################
+
+#### buildings_defence_platform_capacity TIER SELECTOR ####
+cheatinterface_buildings_defence_platform_capacity_t1 = {
+	starbase_defense_platform_capacity_mult = @t1p_mult
+}
+cheatinterface_buildings_defence_platform_capacity_t2 = {
+	starbase_defense_platform_capacity_mult = @t2p_mult
+}
+cheatinterface_buildings_defence_platform_capacity_t3 = {
+	starbase_defense_platform_capacity_mult = @t3p_mult
+}
+cheatinterface_buildings_defence_platform_capacity_t4 = {
+	starbase_defense_platform_capacity_mult = @t4p_mult
+}
+cheatinterface_buildings_defence_platform_capacity_t5 = {
+	starbase_defense_platform_capacity_mult = @t5p_mult
+}
+cheatinterface_buildings_defence_platform_capacity_t6 = {
+	starbase_defense_platform_capacity_mult = @t6p_mult
+}
+cheatinterface_buildings_defence_platform_capacity_t7 = {
+	starbase_defense_platform_capacity_mult = @t7p_mult
+}
+cheatinterface_buildings_defence_platform_capacity_t8 = {
+	starbase_defense_platform_capacity_mult = @t8p_mult
+}
+cheatinterface_buildings_defence_platform_capacity_t9 = {
+	starbase_defense_platform_capacity_mult = @t9p_mult
+}
+cheatinterface_buildings_defence_platform_capacity_t10 = {
+	starbase_defense_platform_capacity_mult = @t10p_mult
+}
+###############################
+
+#### buildings_starbase_capacity TIER SELECTOR ####
+cheatinterface_buildings_starbase_capacity_t1 = {
+	country_starbase_capacity_mult = @t1p_mult
+}
+cheatinterface_buildings_starbase_capacity_t2 = {
+	country_starbase_capacity_mult = @t2p_mult
+}
+cheatinterface_buildings_starbase_capacity_t3 = {
+	country_starbase_capacity_mult = @t3p_mult
+}
+cheatinterface_buildings_starbase_capacity_t4 = {
+	country_starbase_capacity_mult = @t4p_mult
+}
+cheatinterface_buildings_starbase_capacity_t5 = {
+	country_starbase_capacity_mult = @t5p_mult
+}
+cheatinterface_buildings_starbase_capacity_t6 = {
+	country_starbase_capacity_mult = @t6p_mult
+}
+cheatinterface_buildings_starbase_capacity_t7 = {
+	country_starbase_capacity_mult = @t7p_mult
+}
+cheatinterface_buildings_starbase_capacity_t8 = {
+	country_starbase_capacity_mult = @t8p_mult
+}
+cheatinterface_buildings_starbase_capacity_t9 = {
+	country_starbase_capacity_mult = @t9p_mult
+}
+cheatinterface_buildings_starbase_capacity_t10 = {
+	country_starbase_capacity_mult = @t10p_mult
+}
+###############################
+
+#### buildings_starbase_build_speed TIER SELECTOR ####
+cheatinterface_buildings_starbase_build_speed_t1 = {
+	starbase_building_build_time_mult = @t1n_mult
+	starbase_building_build_speed_mult = @t1p_mult
+}
+cheatinterface_buildings_starbase_build_speed_t2 = {
+	starbase_building_build_time_mult = @t2n_mult
+	starbase_building_build_speed_mult = @t2p_mult
+}
+cheatinterface_buildings_starbase_build_speed_t3 = {
+	starbase_building_build_time_mult = @t3n_mult
+	starbase_building_build_speed_mult = @t3p_mult
+}
+cheatinterface_buildings_starbase_build_speed_t4 = {
+	starbase_building_build_time_mult = @t4n_mult
+	starbase_building_build_speed_mult = @t4p_mult
+}
+cheatinterface_buildings_starbase_build_speed_t5 = {
+	starbase_building_build_time_mult = @t5n_mult
+	starbase_building_build_speed_mult = @t5p_mult
+}
+cheatinterface_buildings_starbase_build_speed_t6 = {
+	starbase_building_build_time_mult = @t6n_mult
+	starbase_building_build_speed_mult = @t6p_mult
+}
+cheatinterface_buildings_starbase_build_speed_t7 = {
+	starbase_building_build_time_mult = @t7n_mult
+	starbase_building_build_speed_mult = @t7p_mult
+}
+cheatinterface_buildings_starbase_build_speed_t8 = {
+	starbase_building_build_time_mult = @t8n_mult
+	starbase_building_build_speed_mult = @t8p_mult
+}
+cheatinterface_buildings_starbase_build_speed_t9 = {
+	starbase_building_build_time_mult = @t9n_mult
+	starbase_building_build_speed_mult = @t9p_mult
+}
+cheatinterface_buildings_starbase_build_speed_t10 = {
+	starbase_building_build_time_mult = @t10n_mult
+	starbase_building_build_speed_mult = @t10p_mult
+}
+###############################
+
+#### buildings_outpost_build_speed TIER SELECTOR ####
+cheatinterface_buildings_outpost_build_speed_t1 = {
+	shipsize_starbase_outpost_build_speed_mult = @t1p_mult
+}
+cheatinterface_buildings_outpost_build_speed_t2 = {
+	shipsize_starbase_outpost_build_speed_mult = @t2p_mult
+}
+cheatinterface_buildings_outpost_build_speed_t3 = {
+	shipsize_starbase_outpost_build_speed_mult = @t3p_mult
+}
+cheatinterface_buildings_outpost_build_speed_t4 = {
+	shipsize_starbase_outpost_build_speed_mult = @t4p_mult
+}
+cheatinterface_buildings_outpost_build_speed_t5 = {
+	shipsize_starbase_outpost_build_speed_mult = @t5p_mult
+}
+cheatinterface_buildings_outpost_build_speed_t6 = {
+	shipsize_starbase_outpost_build_speed_mult = @t6p_mult
+}
+cheatinterface_buildings_outpost_build_speed_t7 = {
+	shipsize_starbase_outpost_build_speed_mult = @t7p_mult
+}
+cheatinterface_buildings_outpost_build_speed_t8 = {
+	shipsize_starbase_outpost_build_speed_mult = @t8p_mult
+}
+cheatinterface_buildings_outpost_build_speed_t9 = {
+	shipsize_starbase_outpost_build_speed_mult = @t9p_mult
+}
+cheatinterface_buildings_outpost_build_speed_t10 = {
+	shipsize_starbase_outpost_build_speed_mult = @t10p_mult
+}
+###############################
+
+#### buildings_megastructure_build_capacity TIER SELECTOR ####
+cheatinterface_buildings_megastructure_build_capacity_t1 = {
+	country_megastructure_build_cap_add = @t1s_cap
+}
+cheatinterface_buildings_megastructure_build_capacity_t2 = {
+	country_megastructure_build_cap_add = @t2s_cap
+}
+cheatinterface_buildings_megastructure_build_capacity_t3 = {
+	country_megastructure_build_cap_add = @t3s_cap
+}
+cheatinterface_buildings_megastructure_build_capacity_t4 = {
+	country_megastructure_build_cap_add = @t4s_cap
+}
+cheatinterface_buildings_megastructure_build_capacity_t5 = {
+	country_megastructure_build_cap_add = @t5s_cap
+}
+cheatinterface_buildings_megastructure_build_capacity_t6 = {
+	country_megastructure_build_cap_add = @t6s_cap
+}
+cheatinterface_buildings_megastructure_build_capacity_t7 = {
+	country_megastructure_build_cap_add = @t7s_cap
+}
+cheatinterface_buildings_megastructure_build_capacity_t8 = {
+	country_megastructure_build_cap_add = @t8s_cap
+}
+cheatinterface_buildings_megastructure_build_capacity_t9 = {
+	country_megastructure_build_cap_add = @t9s_cap
+}
+cheatinterface_buildings_megastructure_build_capacity_t10 = {
+	country_megastructure_build_cap_add = @t10s_cap
+}
+###############################
+
+#### buildings_megastructure_upkeep TIER SELECTOR ####
+cheatinterface_buildings_megastructure_upkeep_t1 = {
+	megastructures_upkeep_mult = @t1n_mult
+}
+cheatinterface_buildings_megastructure_upkeep_t2 = {
+	megastructures_upkeep_mult = @t2n_mult
+}
+cheatinterface_buildings_megastructure_upkeep_t3 = {
+	megastructures_upkeep_mult = @t3n_mult
+}
+cheatinterface_buildings_megastructure_upkeep_t4 = {
+	megastructures_upkeep_mult = @t4n_mult
+}
+cheatinterface_buildings_megastructure_upkeep_t5 = {
+	megastructures_upkeep_mult = @t5n_mult
+}
+cheatinterface_buildings_megastructure_upkeep_t6 = {
+	megastructures_upkeep_mult = @t6n_mult
+}
+cheatinterface_buildings_megastructure_upkeep_t7 = {
+	megastructures_upkeep_mult = @t7n_mult
+}
+cheatinterface_buildings_megastructure_upkeep_t8 = {
+	megastructures_upkeep_mult = @t8n_mult
+}
+cheatinterface_buildings_megastructure_upkeep_t9 = {
+	megastructures_upkeep_mult = @t9n_mult
+}
+cheatinterface_buildings_megastructure_upkeep_t10 = {
+	megastructures_upkeep_mult = @t10n_mult
+}
+###############################
+
+#### buildings_megastructure_build_speed TIER SELECTOR ####
+cheatinterface_buildings_megastructure_build_speed_t1 = {
+	megastructure_build_speed_mult = @t1p_mult
+}
+cheatinterface_buildings_megastructure_build_speed_t2 = {
+	megastructure_build_speed_mult = @t2p_mult
+}
+cheatinterface_buildings_megastructure_build_speed_t3 = {
+	megastructure_build_speed_mult = @t3p_mult
+}
+cheatinterface_buildings_megastructure_build_speed_t4 = {
+	megastructure_build_speed_mult = @t4p_mult
+}
+cheatinterface_buildings_megastructure_build_speed_t5 = {
+	megastructure_build_speed_mult = @t5p_mult
+}
+cheatinterface_buildings_megastructure_build_speed_t6 = {
+	megastructure_build_speed_mult = @t6p_mult
+}
+cheatinterface_buildings_megastructure_build_speed_t7 = {
+	megastructure_build_speed_mult = @t7p_mult
+}
+cheatinterface_buildings_megastructure_build_speed_t8 = {
+	megastructure_build_speed_mult = @t8p_mult
+}
+cheatinterface_buildings_megastructure_build_speed_t9 = {
+	megastructure_build_speed_mult = @t9p_mult
+}
+cheatinterface_buildings_megastructure_build_speed_t10 = {
+	megastructure_build_speed_mult = @t10p_mult
+}
+###############################
+
+#### buildings_megastructure_build_cost TIER SELECTOR ####
+cheatinterface_buildings_megastructure_build_cost_t1 = {
+	megastructures_cost_mult = @t1n_mult
+}
+cheatinterface_buildings_megastructure_build_cost_t2 = {
+	megastructures_cost_mult = @t2n_mult
+}
+cheatinterface_buildings_megastructure_build_cost_t3 = {
+	megastructures_cost_mult = @t3n_mult
+}
+cheatinterface_buildings_megastructure_build_cost_t4 = {
+	megastructures_cost_mult = @t4n_mult
+}
+cheatinterface_buildings_megastructure_build_cost_t5 = {
+	megastructures_cost_mult = @t5n_mult
+}
+cheatinterface_buildings_megastructure_build_cost_t6 = {
+	megastructures_cost_mult = @t6n_mult
+}
+cheatinterface_buildings_megastructure_build_cost_t7 = {
+	megastructures_cost_mult = @t7n_mult
+}
+cheatinterface_buildings_megastructure_build_cost_t8 = {
+	megastructures_cost_mult = @t8n_mult
+}
+cheatinterface_buildings_megastructure_build_cost_t9 = {
+	megastructures_cost_mult = @t9n_mult
+}
+cheatinterface_buildings_megastructure_build_cost_t10 = {
+	megastructures_cost_mult = @t10n_mult
+}
+###############################
+
+#### buildings_planetary_build_speed TIER SELECTOR ####
+cheatinterface_buildings_planetary_build_speed_t1 = {
+	planet_building_build_speed_mult = @t1p_mult
+}
+cheatinterface_buildings_planetary_build_speed_t2 = {
+	planet_building_build_speed_mult = @t2p_mult
+}
+cheatinterface_buildings_planetary_build_speed_t3 = {
+	planet_building_build_speed_mult = @t3p_mult
+}
+cheatinterface_buildings_planetary_build_speed_t4 = {
+	planet_building_build_speed_mult = @t4p_mult
+}
+cheatinterface_buildings_planetary_build_speed_t5 = {
+	planet_building_build_speed_mult = @t5p_mult
+}
+cheatinterface_buildings_planetary_build_speed_t6 = {
+	planet_building_build_speed_mult = @t6p_mult
+}
+cheatinterface_buildings_planetary_build_speed_t7 = {
+	planet_building_build_speed_mult = @t7p_mult
+}
+cheatinterface_buildings_planetary_build_speed_t8 = {
+	planet_building_build_speed_mult = @t8p_mult
+}
+cheatinterface_buildings_planetary_build_speed_t9 = {
+	planet_building_build_speed_mult = @t9p_mult
+}
+cheatinterface_buildings_planetary_build_speed_t10 = {
+	planet_building_build_speed_mult = @t10p_mult
+}
+###############################
+
+#### buildings_clear_blocker_speed TIER SELECTOR ####
+cheatinterface_buildings_clear_blocker_speed_t1 = {
+	planet_clear_blocker_speed_mult = @t1p_mult
+	planet_clear_blocker_time_mult = @t1n_mult
+}
+cheatinterface_buildings_clear_blocker_speed_t2 = {
+	planet_clear_blocker_speed_mult = @t2p_mult
+	planet_clear_blocker_time_mult = @t2n_mult
+}
+cheatinterface_buildings_clear_blocker_speed_t3 = {
+	planet_clear_blocker_speed_mult = @t3p_mult
+	planet_clear_blocker_time_mult = @t3n_mult
+}
+cheatinterface_buildings_clear_blocker_speed_t4 = {
+	planet_clear_blocker_speed_mult = @t4p_mult
+	planet_clear_blocker_time_mult = @t4n_mult
+}
+cheatinterface_buildings_clear_blocker_speed_t5 = {
+	planet_clear_blocker_speed_mult = @t5p_mult
+	planet_clear_blocker_time_mult = @t5n_mult
+}
+cheatinterface_buildings_clear_blocker_speed_t6 = {
+	planet_clear_blocker_speed_mult = @t6p_mult
+	planet_clear_blocker_time_mult = @t6n_mult
+}
+cheatinterface_buildings_clear_blocker_speed_t7 = {
+	planet_clear_blocker_speed_mult = @t7p_mult
+	planet_clear_blocker_time_mult = @t7n_mult
+}
+cheatinterface_buildings_clear_blocker_speed_t8 = {
+	planet_clear_blocker_speed_mult = @t8p_mult
+	planet_clear_blocker_time_mult = @t8n_mult
+}
+cheatinterface_buildings_clear_blocker_speed_t9 = {
+	planet_clear_blocker_speed_mult = @t9p_mult
+	planet_clear_blocker_time_mult = @t9n_mult
+}
+cheatinterface_buildings_clear_blocker_speed_t10 = {
+	planet_clear_blocker_speed_mult = @t10p_mult
+	planet_clear_blocker_time_mult = @t10n_mult
 }
 ###############################
