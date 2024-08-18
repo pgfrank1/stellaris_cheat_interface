@@ -547,7 +547,7 @@ country_event = {
 
 ### Cheat Interface Resource Storage Cap Screen ###
 country_event = {
-    id = cheatinterface.1015
+    id = cheatinterface.1016
     title = "cheatinterface_2_storage_cap"
     desc = "cheatinterface_2_storage_cap"
     is_triggered_only = yes

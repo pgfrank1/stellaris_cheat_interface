@@ -7042,7 +7042,7 @@ cheatinterface_button_empire_storage_cap = {
     }
     effect = {
         country_event = {
-            id = "cheatinterface.1015"
+            id = "cheatinterface.1016"
         }
     }
 }

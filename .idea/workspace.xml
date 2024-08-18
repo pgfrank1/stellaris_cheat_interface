@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Completed the Leader column">
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_resource_minor_artifacts.gui" afterDir="false" />
+    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Added Minor Artifacts to the Resources Column">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/descriptor.mod" beforeDir="false" afterPath="$PROJECT_DIR$/descriptor.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/events/cheatinterface_event.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/cheatinterface_event.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/cheatinterface.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface.gui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/localisation/cheatinterface_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/cheatinterface_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thumbnail.png" beforeDir="false" afterPath="$PROJECT_DIR$/thumbnail.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +68,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\patri\Documents\Paradox Interactive\Stellaris\mod\cheatinterface\interface" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\patri\Documents\Paradox Interactive\Stellaris\mod\cheatinterface" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -93,7 +95,8 @@
       <workItem from="1723219712284" duration="31000" />
       <workItem from="1723219765448" duration="8149000" />
       <workItem from="1723991518238" duration="2042000" />
-      <workItem from="1723994335128" duration="24531000" />
+      <workItem from="1723994335128" duration="26269000" />
+      <workItem from="1724024897764" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="Cheat Interface Init">
       <option name="closed" value="true" />
@@ -207,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724018740029</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added Minor Artifacts to the Resources Column">
+      <option name="closed" value="true" />
+      <created>1724019292717</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724019292717</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +262,7 @@
     <MESSAGE value="Completed the Buildings column" />
     <MESSAGE value="Completed the Population column" />
     <MESSAGE value="Completed the Leader column" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed the Leader column" />
+    <MESSAGE value="Added Minor Artifacts to the Resources Column" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Minor Artifacts to the Resources Column" />
   </component>
 </project>

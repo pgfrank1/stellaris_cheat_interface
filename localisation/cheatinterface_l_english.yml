@@ -2274,8 +2274,8 @@
  cheatinterface_2_population_stability_b:0           "§GStability §W£mod_planet_stability_mult£"
  cheatinterface_2_population_happiness:0           "Happiness £mod_pop_happiness£"
  cheatinterface_2_population_happiness_b:0           "§GHappiness §W£mod_pop_happiness£"
- cheatinterface_2_population_amenities_usage:0           "Ammenities Usage £mod_pop_amenities_usage_mult£"
- cheatinterface_2_population_amenities_usage_b:0           "§GAmmenities Usage §W£mod_pop_amenities_usage_mult£"
+ cheatinterface_2_population_amenities_usage:0           "Amenities Usage £mod_pop_amenities_usage_mult£"
+ cheatinterface_2_population_amenities_usage_b:0           "§GAmenities Usage §W£mod_pop_amenities_usage_mult£"
 
  # Buildings Clear_Blocker_Speed Gain
  cheatinterface_population_bio_growth_speed_t1_title:0                  "[owner.cheatinterface_population_bio_growth_speed_t1_title]"
