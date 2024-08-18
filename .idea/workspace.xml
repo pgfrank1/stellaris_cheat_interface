@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Ship Fleet Limit working correctly">
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_ship_experience.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_ship_health.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_ship_weapon_damage.gui" afterDir="false" />
+    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Changed all negative modifiers to variables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/static_modifiers/cheatinterface_static_modifiers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/static_modifiers/cheatinterface_static_modifiers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/cheatinterface_event.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/cheatinterface_event.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/cheatinterface.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface.gui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/cheatinterface_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/cheatinterface_l_english.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,21 +45,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "cheatinterface__freshstart",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/patri/Documents/Paradox Interactive/Stellaris/mod/cheatinterface/interface",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;cheatinterface__freshstart&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/patri/Documents/Paradox Interactive/Stellaris/mod/cheatinterface/interface&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\patri\Documents\Paradox Interactive\Stellaris\mod\cheatinterface\interface" />
@@ -94,7 +86,9 @@
       <workItem from="1719863949865" duration="864000" />
       <workItem from="1722548920342" duration="316000" />
       <workItem from="1723219712284" duration="31000" />
-      <workItem from="1723219765448" duration="7019000" />
+      <workItem from="1723219765448" duration="8149000" />
+      <workItem from="1723991518238" duration="2042000" />
+      <workItem from="1723994335128" duration="893000" />
     </task>
     <task id="LOCAL-00001" summary="Cheat Interface Init">
       <option name="closed" value="true" />
@@ -136,7 +130,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723224397404</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ship Health, Experience, Weapon Damage working correctly">
+      <option name="closed" value="true" />
+      <created>1723227261565</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723227261565</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changed all positive modifiers to variables">
+      <option name="closed" value="true" />
+      <created>1723994740048</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723994740048</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changed all negative modifiers to variables">
+      <option name="closed" value="true" />
+      <created>1723995113431</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723995113431</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +189,9 @@
     <MESSAGE value="Ship Build Speed working correctly" />
     <MESSAGE value="Ship Naval Capacity working correctly" />
     <MESSAGE value="Ship Fleet Limit working correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ship Fleet Limit working correctly" />
+    <MESSAGE value="Ship Health, Experience, Weapon Damage working correctly" />
+    <MESSAGE value="Changed all positive modifiers to variables" />
+    <MESSAGE value="Changed all negative modifiers to variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed all negative modifiers to variables" />
   </component>
 </project>
