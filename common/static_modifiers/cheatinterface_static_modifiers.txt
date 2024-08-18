@@ -505,6 +505,39 @@ cheatinterface_resource_nanites_t10 = {
 }
 ###############################
 
+#### resource Minor_Artifacts TIER SELECTOR ####
+cheatinterface_resource_minor_artifacts_t1 = {
+	country_minor_artifacts_produces_mult = @t1p_mult
+}
+cheatinterface_resource_minor_artifacts_t2 = {
+	country_minor_artifacts_produces_mult = @t2p_mult
+}
+cheatinterface_resource_minor_artifacts_t3 = {
+	country_minor_artifacts_produces_mult = @t3p_mult
+}
+cheatinterface_resource_minor_artifacts_t4 = {
+	country_minor_artifacts_produces_mult = @t4p_mult
+}
+cheatinterface_resource_minor_artifacts_t5 = {
+	country_minor_artifacts_produces_mult = @t5p_mult
+}
+cheatinterface_resource_minor_artifacts_t6 = {
+	country_minor_artifacts_produces_mult = @t6p_mult
+}
+cheatinterface_resource_minor_artifacts_t7 = {
+	country_minor_artifacts_produces_mult = @t7p_mult
+}
+cheatinterface_resource_minor_artifacts_t8 = {
+	country_minor_artifacts_produces_mult = @t8p_mult
+}
+cheatinterface_resource_minor_artifacts_t9 = {
+	country_minor_artifacts_produces_mult = @t9p_mult
+}
+cheatinterface_resource_minor_artifacts_t10 = {
+	country_minor_artifacts_produces_mult = @t10p_mult
+}
+###############################
+
 #### resource storage cap TIER SELECTOR ####
 cheatinterface_empire_storage_cap_t1 = {
 	country_resource_max_add = @t1_cap
@@ -2467,33 +2500,53 @@ cheatinterface_leader_level_cap_t10 = {
 
 #### leader_lifespan TIER SELECTOR ####
 cheatinterface_leader_exp_gain_t1 = {
-	species_leader_exp_gain= @t1p_mult
+	scientist_exp_gain = @t1p_mult
+	official_exp_gain = @t1p_mult
+	commander_exp_gain = @t1p_mult
 }
 cheatinterface_leader_exp_gain_t2 = {
-	species_leader_exp_gain = @t2p_mult
+	scientist_exp_gain = @t2p_mult
+	official_exp_gain = @t2p_mult
+	commander_exp_gain = @t2p_mult
 }
 cheatinterface_leader_exp_gain_t3 = {
-	species_leader_exp_gain = @t3p_mult
+	scientist_exp_gain = @t3p_mult
+	official_exp_gain = @t3p_mult
+	commander_exp_gain = @t3p_mult
 }
 cheatinterface_leader_exp_gain_t4 = {
-	species_leader_exp_gain = @t4p_mult
+	scientist_exp_gain = @t4p_mult
+	official_exp_gain = @t4p_mult
+	commander_exp_gain = @t4p_mult
 }
 cheatinterface_leader_exp_gain_t5 = {
-	species_leader_exp_gain = @t5p_mult
+	scientist_exp_gain = @t5p_mult
+	official_exp_gain = @t5p_mult
+	commander_exp_gain = @t5p_mult
 }
 cheatinterface_leader_exp_gain_t6 = {
-	species_leader_exp_gain = @t6p_mult
+	scientist_exp_gain = @t6p_mult
+	official_exp_gain = @t6p_mult
+	commander_exp_gain = @t6p_mult
 }
 cheatinterface_leader_exp_gain_t7 = {
-	species_leader_exp_gain = @t7p_mult
+	scientist_exp_gain = @t7p_mult
+	official_exp_gain = @t7p_mult
+	commander_exp_gain = @t7p_mult
 }
 cheatinterface_leader_exp_gain_t8 = {
-	species_leader_exp_gain = @t8p_mult
+	scientist_exp_gain = @t8p_mult
+	official_exp_gain = @t8p_mult
+	commander_exp_gain = @t8p_mult
 }
 cheatinterface_leader_exp_gain_t9 = {
-	species_leader_exp_gain = @t9p_mult
+	scientist_exp_gain = @t9p_mult
+	official_exp_gain = @t9p_mult
+	commander_exp_gain = @t9p_mult
 }
 cheatinterface_leader_exp_gain_t10 = {
-	species_leader_exp_gain = @t10p_mult
+	scientist_exp_gain = @t10p_mult
+	official_exp_gain = @t10p_mult
+	commander_exp_gain = @t10p_mult
 }
 ###############################

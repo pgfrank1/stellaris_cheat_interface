@@ -33592,3 +33592,470 @@ cheatinterface_button_leader_level_cap_t10 = {
     }
 }
 ################################################################################
+
+###################### Leader Exp_Gain Button Effects ###########################
+cheatinterface_button_leader_exp_gain = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        country_event = {
+            id = "cheatinterface.7004"
+        }
+    }
+}
+
+cheatinterface_button_leader_exp_gain_t1 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_leader_exp_gain_t1_modifier
+                has_modifier = cheatinterface_leader_exp_gain_t1
+            }
+            remove_country_flag = cheatinterface_has_leader_exp_gain_t1_modifier
+            remove_modifier = cheatinterface_leader_exp_gain_t1
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_leader_exp_gain_t1
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_leader_exp_gain_t1_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t2_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t3_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t4_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t5_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t6_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t7_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t8_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t9_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t10_modifier
+                remove_modifier = cheatinterface_leader_exp_gain_t2
+                remove_modifier = cheatinterface_leader_exp_gain_t3
+                remove_modifier = cheatinterface_leader_exp_gain_t4
+                remove_modifier = cheatinterface_leader_exp_gain_t5
+                remove_modifier = cheatinterface_leader_exp_gain_t6
+                remove_modifier = cheatinterface_leader_exp_gain_t7
+                remove_modifier = cheatinterface_leader_exp_gain_t8
+                remove_modifier = cheatinterface_leader_exp_gain_t9
+                remove_modifier = cheatinterface_leader_exp_gain_t10
+            }
+        }
+    }
+}
+cheatinterface_button_leader_exp_gain_t2 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_leader_exp_gain_t2_modifier
+                has_modifier = cheatinterface_leader_exp_gain_t2
+            }
+            remove_country_flag = cheatinterface_has_leader_exp_gain_t2_modifier
+            remove_modifier = cheatinterface_leader_exp_gain_t2
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_leader_exp_gain_t2
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_leader_exp_gain_t2_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t1_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t3_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t4_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t5_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t6_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t7_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t8_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t9_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t10_modifier
+                remove_modifier = cheatinterface_leader_exp_gain_t1
+                remove_modifier = cheatinterface_leader_exp_gain_t3
+                remove_modifier = cheatinterface_leader_exp_gain_t4
+                remove_modifier = cheatinterface_leader_exp_gain_t5
+                remove_modifier = cheatinterface_leader_exp_gain_t6
+                remove_modifier = cheatinterface_leader_exp_gain_t7
+                remove_modifier = cheatinterface_leader_exp_gain_t8
+                remove_modifier = cheatinterface_leader_exp_gain_t9
+                remove_modifier = cheatinterface_leader_exp_gain_t10
+            }
+        }
+    }
+}
+cheatinterface_button_leader_exp_gain_t3 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_leader_exp_gain_t3_modifier
+                has_modifier = cheatinterface_leader_exp_gain_t3
+            }
+            remove_country_flag = cheatinterface_has_leader_exp_gain_t3_modifier
+            remove_modifier = cheatinterface_leader_exp_gain_t3
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_leader_exp_gain_t3
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_leader_exp_gain_t3_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t1_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t2_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t4_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t5_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t6_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t7_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t8_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t9_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t10_modifier
+                remove_modifier = cheatinterface_leader_exp_gain_t1
+                remove_modifier = cheatinterface_leader_exp_gain_t2
+                remove_modifier = cheatinterface_leader_exp_gain_t4
+                remove_modifier = cheatinterface_leader_exp_gain_t5
+                remove_modifier = cheatinterface_leader_exp_gain_t6
+                remove_modifier = cheatinterface_leader_exp_gain_t7
+                remove_modifier = cheatinterface_leader_exp_gain_t8
+                remove_modifier = cheatinterface_leader_exp_gain_t9
+                remove_modifier = cheatinterface_leader_exp_gain_t10
+            }
+        }
+    }
+}
+cheatinterface_button_leader_exp_gain_t4 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_leader_exp_gain_t4_modifier
+                has_modifier = cheatinterface_leader_exp_gain_t4
+            }
+            remove_country_flag = cheatinterface_has_leader_exp_gain_t4_modifier
+            remove_modifier = cheatinterface_leader_exp_gain_t4
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_leader_exp_gain_t4
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_leader_exp_gain_t4_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t1_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t2_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t3_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t5_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t6_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t7_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t8_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t9_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t10_modifier
+                remove_modifier = cheatinterface_leader_exp_gain_t1
+                remove_modifier = cheatinterface_leader_exp_gain_t2
+                remove_modifier = cheatinterface_leader_exp_gain_t3
+                remove_modifier = cheatinterface_leader_exp_gain_t5
+                remove_modifier = cheatinterface_leader_exp_gain_t6
+                remove_modifier = cheatinterface_leader_exp_gain_t7
+                remove_modifier = cheatinterface_leader_exp_gain_t8
+                remove_modifier = cheatinterface_leader_exp_gain_t9
+                remove_modifier = cheatinterface_leader_exp_gain_t10
+            }
+        }
+    }
+}
+cheatinterface_button_leader_exp_gain_t5 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_leader_exp_gain_t5_modifier
+                has_modifier = cheatinterface_leader_exp_gain_t5
+            }
+            remove_country_flag = cheatinterface_has_leader_exp_gain_t5_modifier
+            remove_modifier = cheatinterface_leader_exp_gain_t5
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_leader_exp_gain_t5
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_leader_exp_gain_t5_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t1_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t2_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t3_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t4_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t6_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t7_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t8_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t9_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t10_modifier
+                remove_modifier = cheatinterface_leader_exp_gain_t1
+                remove_modifier = cheatinterface_leader_exp_gain_t2
+                remove_modifier = cheatinterface_leader_exp_gain_t3
+                remove_modifier = cheatinterface_leader_exp_gain_t4
+                remove_modifier = cheatinterface_leader_exp_gain_t6
+                remove_modifier = cheatinterface_leader_exp_gain_t7
+                remove_modifier = cheatinterface_leader_exp_gain_t8
+                remove_modifier = cheatinterface_leader_exp_gain_t9
+                remove_modifier = cheatinterface_leader_exp_gain_t10
+            }
+        }
+    }
+}
+cheatinterface_button_leader_exp_gain_t6 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_leader_exp_gain_t6_modifier
+                has_modifier = cheatinterface_leader_exp_gain_t6
+            }
+            remove_country_flag = cheatinterface_has_leader_exp_gain_t6_modifier
+            remove_modifier = cheatinterface_leader_exp_gain_t6
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_leader_exp_gain_t6
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_leader_exp_gain_t6_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t1_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t2_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t3_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t4_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t5_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t7_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t8_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t9_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t10_modifier
+                remove_modifier = cheatinterface_leader_exp_gain_t1
+                remove_modifier = cheatinterface_leader_exp_gain_t2
+                remove_modifier = cheatinterface_leader_exp_gain_t3
+                remove_modifier = cheatinterface_leader_exp_gain_t4
+                remove_modifier = cheatinterface_leader_exp_gain_t5
+                remove_modifier = cheatinterface_leader_exp_gain_t7
+                remove_modifier = cheatinterface_leader_exp_gain_t8
+                remove_modifier = cheatinterface_leader_exp_gain_t9
+                remove_modifier = cheatinterface_leader_exp_gain_t10
+            }
+        }
+    }
+}
+cheatinterface_button_leader_exp_gain_t7 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_leader_exp_gain_t7_modifier
+                has_modifier = cheatinterface_leader_exp_gain_t7
+            }
+            remove_country_flag = cheatinterface_has_leader_exp_gain_t7_modifier
+            remove_modifier = cheatinterface_leader_exp_gain_t7
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_leader_exp_gain_t7
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_leader_exp_gain_t7_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t1_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t2_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t3_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t4_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t5_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t6_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t8_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t9_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t10_modifier
+                remove_modifier = cheatinterface_leader_exp_gain_t1
+                remove_modifier = cheatinterface_leader_exp_gain_t2
+                remove_modifier = cheatinterface_leader_exp_gain_t3
+                remove_modifier = cheatinterface_leader_exp_gain_t4
+                remove_modifier = cheatinterface_leader_exp_gain_t5
+                remove_modifier = cheatinterface_leader_exp_gain_t6
+                remove_modifier = cheatinterface_leader_exp_gain_t8
+                remove_modifier = cheatinterface_leader_exp_gain_t9
+                remove_modifier = cheatinterface_leader_exp_gain_t10
+            }
+        }
+    }
+}
+cheatinterface_button_leader_exp_gain_t8 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_leader_exp_gain_t8_modifier
+                has_modifier = cheatinterface_leader_exp_gain_t8
+            }
+            remove_country_flag = cheatinterface_has_leader_exp_gain_t8_modifier
+            remove_modifier = cheatinterface_leader_exp_gain_t8
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_leader_exp_gain_t8
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_leader_exp_gain_t8_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t1_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t2_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t3_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t4_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t5_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t6_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t7_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t9_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t10_modifier
+                remove_modifier = cheatinterface_leader_exp_gain_t1
+                remove_modifier = cheatinterface_leader_exp_gain_t2
+                remove_modifier = cheatinterface_leader_exp_gain_t3
+                remove_modifier = cheatinterface_leader_exp_gain_t4
+                remove_modifier = cheatinterface_leader_exp_gain_t5
+                remove_modifier = cheatinterface_leader_exp_gain_t6
+                remove_modifier = cheatinterface_leader_exp_gain_t7
+                remove_modifier = cheatinterface_leader_exp_gain_t9
+                remove_modifier = cheatinterface_leader_exp_gain_t10
+            }
+        }
+    }
+}
+cheatinterface_button_leader_exp_gain_t9 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_leader_exp_gain_t9_modifier
+                has_modifier = cheatinterface_leader_exp_gain_t9
+            }
+            remove_country_flag = cheatinterface_has_leader_exp_gain_t9_modifier
+            remove_modifier = cheatinterface_leader_exp_gain_t9
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_leader_exp_gain_t9
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_leader_exp_gain_t9_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t1_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t2_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t3_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t4_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t5_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t6_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t7_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t8_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t10_modifier
+                remove_modifier = cheatinterface_leader_exp_gain_t1
+                remove_modifier = cheatinterface_leader_exp_gain_t2
+                remove_modifier = cheatinterface_leader_exp_gain_t3
+                remove_modifier = cheatinterface_leader_exp_gain_t4
+                remove_modifier = cheatinterface_leader_exp_gain_t5
+                remove_modifier = cheatinterface_leader_exp_gain_t6
+                remove_modifier = cheatinterface_leader_exp_gain_t7
+                remove_modifier = cheatinterface_leader_exp_gain_t8
+                remove_modifier = cheatinterface_leader_exp_gain_t10
+            }
+        }
+    }
+}
+cheatinterface_button_leader_exp_gain_t10 = {
+    potential = {
+        always = yes
+    }
+    allow = {
+        is_ai = no
+    }
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = cheatinterface_has_leader_exp_gain_t10_modifier
+                has_modifier = cheatinterface_leader_exp_gain_t10
+            }
+            remove_country_flag = cheatinterface_has_leader_exp_gain_t10_modifier
+            remove_modifier = cheatinterface_leader_exp_gain_t10
+        }
+        else = {
+            add_modifier = {
+                modifier = cheatinterface_leader_exp_gain_t10
+                days = -1
+            }
+            hidden_effect = {
+                set_country_flag = cheatinterface_has_leader_exp_gain_t10_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t1_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t2_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t3_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t4_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t5_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t6_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t7_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t8_modifier
+                remove_country_flag = cheatinterface_has_leader_exp_gain_t9_modifier
+                remove_modifier = cheatinterface_leader_exp_gain_t1
+                remove_modifier = cheatinterface_leader_exp_gain_t2
+                remove_modifier = cheatinterface_leader_exp_gain_t3
+                remove_modifier = cheatinterface_leader_exp_gain_t4
+                remove_modifier = cheatinterface_leader_exp_gain_t5
+                remove_modifier = cheatinterface_leader_exp_gain_t6
+                remove_modifier = cheatinterface_leader_exp_gain_t7
+                remove_modifier = cheatinterface_leader_exp_gain_t8
+                remove_modifier = cheatinterface_leader_exp_gain_t9
+            }
+        }
+    }
+}
+################################################################################

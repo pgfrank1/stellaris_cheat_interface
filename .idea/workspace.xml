@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Completed the Buildings column">
+    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Completed the Population column">
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_leader_exp_gain.gui" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/interface/cheatinterface_leader_level_cap.gui" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/interface/cheatinterface_leader_lifespan.gui" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/interface/cheatinterface_leader_pool_size.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_population_amenities_usage.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_population_bio_growth_speed.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_population_habitability.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_population_happiness.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_population_robot_growth_speed.gui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_population_stability.gui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/static_modifiers/cheatinterface_static_modifiers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/static_modifiers/cheatinterface_static_modifiers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/cheatinterface_event.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/cheatinterface_event.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface/cheatinterface.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface.gui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/cheatinterface_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/cheatinterface_l_english.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +94,7 @@
       <workItem from="1723219712284" duration="31000" />
       <workItem from="1723219765448" duration="8149000" />
       <workItem from="1723991518238" duration="2042000" />
-      <workItem from="1723994335128" duration="23316000" />
+      <workItem from="1723994335128" duration="23973000" />
     </task>
     <task id="LOCAL-00001" summary="Cheat Interface Init">
       <option name="closed" value="true" />
@@ -200,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724012710481</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Completed the Population column">
+      <option name="closed" value="true" />
+      <created>1724017980738</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724017980738</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +242,7 @@
     <MESSAGE value="Removed unused localization files" />
     <MESSAGE value="Completed the Army column" />
     <MESSAGE value="Completed the Buildings column" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed the Buildings column" />
+    <MESSAGE value="Completed the Population column" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed the Population column" />
   </component>
 </project>

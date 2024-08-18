@@ -30,7 +30,7 @@ guiTypes = {
         orientation = center
         origo = center
         moveable = yes
-        size = { width = 974 height = 620 }
+        size = { width = 934 height = 620 }
 
         background = {
             name = "background"
@@ -1444,14 +1444,14 @@ guiTypes = {
                 }
 
                 # Ship Hull Regeneration Button
-                # effectButtonType = {
-                #     name = "cheatinterface_2_leader_exp_gain"
-                #     quadTextureSprite = "GFX_standard_button_200_34_button"
-                #     position = { x = 0 y = 120 }
-                #     effect = "cheatinterface_button_leader_exp_gain"
-                #     buttonFont = "cg_16b"
-                #     buttonText = "cheatinterface_2_leader_exp_gain_title"
-                # }
+                effectButtonType = {
+                    name = "cheatinterface_2_leader_exp_gain"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 120 }
+                    effect = "cheatinterface_button_leader_exp_gain"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_leader_exp_gain_title"
+                }
             }
         }
         #############################################################################
