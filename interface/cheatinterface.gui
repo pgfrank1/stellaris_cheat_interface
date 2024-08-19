@@ -1174,9 +1174,19 @@ guiTypes = {
 
                 # Ship Armor Regeneration Button
                 effectButtonType = {
-                    name = "cheatinterface_2_buildings_outpost_build_speed"
+                    name = "cheatinterface_2_buildings_starbase_module_build_speed"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
                     position = { x = 0 y = 120 }
+                    effect = "cheatinterface_button_buildings_starbase_module_build_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_buildings_starbase_module_build_speed_title"
+                }
+
+                # Ship Armor Regeneration Button
+                effectButtonType = {
+                    name = "cheatinterface_2_buildings_outpost_build_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 160 }
                     effect = "cheatinterface_button_buildings_outpost_build_speed"
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_buildings_outpost_build_speed_title"
@@ -1186,7 +1196,7 @@ guiTypes = {
                 effectButtonType = {
                     name = "cheatinterface_2_buildings_megastructure_build_capacity"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
-                    position = { x = 0 y = 160 }
+                    position = { x = 0 y = 200 }
                     effect = "cheatinterface_button_buildings_megastructure_build_capacity"
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_buildings_megastructure_build_capacity_title"
@@ -1196,7 +1206,7 @@ guiTypes = {
                 effectButtonType = {
                     name = "cheatinterface_2_buildings_megastructure_upkeep"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
-                    position = { x = 0 y = 200 }
+                    position = { x = 0 y = 240 }
                     effect = "cheatinterface_button_buildings_megastructure_upkeep"
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_buildings_megastructure_upkeep_title"
@@ -1206,7 +1216,7 @@ guiTypes = {
                 effectButtonType = {
                     name = "cheatinterface_2_buildings_megastructure_build_speed"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
-                    position = { x = 0 y = 240 }
+                    position = { x = 0 y = 280 }
                     effect = "cheatinterface_button_buildings_megastructure_build_speed"
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_buildings_megastructure_build_speed_title"
@@ -1216,7 +1226,7 @@ guiTypes = {
                 effectButtonType = {
                     name = "cheatinterface_2_buildings_megastructure_build_cost"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
-                    position = { x = 0 y = 280 }
+                    position = { x = 0 y = 320 }
                     effect = "cheatinterface_button_buildings_megastructure_build_cost"
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_buildings_megastructure_build_cost_title"
@@ -1226,7 +1236,7 @@ guiTypes = {
                 effectButtonType = {
                     name = "cheatinterface_2_buildings_planetary_build_speed"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
-                    position = { x = 0 y = 320 }
+                    position = { x = 0 y = 360 }
                     effect = "cheatinterface_button_buildings_planetary_build_speed"
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_buildings_planetary_build_speed_title"
@@ -1236,7 +1246,7 @@ guiTypes = {
                 effectButtonType = {
                     name = "cheatinterface_2_buildings_clear_blocker_speed"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
-                    position = { x = 0 y = 360 }
+                    position = { x = 0 y = 400 }
                     effect = "cheatinterface_button_buildings_clear_blocker_speed"
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_buildings_clear_blocker_speed_title"
