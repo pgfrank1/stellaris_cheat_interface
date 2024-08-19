@@ -1921,42 +1921,62 @@ cheatinterface_buildings_starbase_capacity_t10 = {
 cheatinterface_buildings_starbase_build_speed_t1 = {
 	starbase_building_build_time_mult = @t1n_mult
 	starbase_building_build_speed_mult = @t1p_mult
+	starbase_upgrade_time_mult = @t1n_mult
+	starbase_upgrade_speed_mult = @t1p_mult
 }
 cheatinterface_buildings_starbase_build_speed_t2 = {
 	starbase_building_build_time_mult = @t2n_mult
 	starbase_building_build_speed_mult = @t2p_mult
+	starbase_upgrade_time_mult = @t2n_mult
+	starbase_upgrade_speed_mult = @t2p_mult
 }
 cheatinterface_buildings_starbase_build_speed_t3 = {
 	starbase_building_build_time_mult = @t3n_mult
 	starbase_building_build_speed_mult = @t3p_mult
+	starbase_upgrade_time_mult = @t3n_mult
+	starbase_upgrade_speed_mult = @t3p_mult
 }
 cheatinterface_buildings_starbase_build_speed_t4 = {
 	starbase_building_build_time_mult = @t4n_mult
 	starbase_building_build_speed_mult = @t4p_mult
+	starbase_upgrade_time_mult = @t4n_mult
+	starbase_upgrade_speed_mult = @t4p_mult
 }
 cheatinterface_buildings_starbase_build_speed_t5 = {
 	starbase_building_build_time_mult = @t5n_mult
 	starbase_building_build_speed_mult = @t5p_mult
+	starbase_upgrade_time_mult = @t5n_mult
+	starbase_upgrade_speed_mult = @t5p_mult
 }
 cheatinterface_buildings_starbase_build_speed_t6 = {
 	starbase_building_build_time_mult = @t6n_mult
 	starbase_building_build_speed_mult = @t6p_mult
+	starbase_upgrade_time_mult = @t6n_mult
+	starbase_upgrade_speed_mult = @t6p_mult
 }
 cheatinterface_buildings_starbase_build_speed_t7 = {
 	starbase_building_build_time_mult = @t7n_mult
 	starbase_building_build_speed_mult = @t7p_mult
+	starbase_upgrade_time_mult = @t7n_mult
+	starbase_upgrade_speed_mult = @t7p_mult
 }
 cheatinterface_buildings_starbase_build_speed_t8 = {
 	starbase_building_build_time_mult = @t8n_mult
 	starbase_building_build_speed_mult = @t8p_mult
+	starbase_upgrade_time_mult = @t8n_mult
+	starbase_upgrade_speed_mult = @t8p_mult
 }
 cheatinterface_buildings_starbase_build_speed_t9 = {
 	starbase_building_build_time_mult = @t9n_mult
 	starbase_building_build_speed_mult = @t9p_mult
+	starbase_upgrade_time_mult = @t9n_mult
+	starbase_upgrade_speed_mult = @t9p_mult
 }
 cheatinterface_buildings_starbase_build_speed_t10 = {
 	starbase_building_build_time_mult = @t10n_mult
 	starbase_building_build_speed_mult = @t10p_mult
+	starbase_upgrade_time_mult = @t10n_mult
+	starbase_upgrade_speed_mult = @t10p_mult
 }
 ###############################
 
