@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Added Starbase Module Build Speed, uploaded to Steam Workshop v1.1.0">
+      <change beforePath="$PROJECT_DIR$/common/static_modifiers/cheatinterface_static_modifiers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/static_modifiers/cheatinterface_static_modifiers.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cheatinterface" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pgfrank1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pgfrank1/stellaris_cheat_interface.git&quot;,
+    &quot;accountId&quot;: &quot;ccf35059-20de-4d34-b8d2-99acb90577ca&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2iW2N4HNKnBN8B0a9RU0QA21Bg0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;cheatinterface__freshstart&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/patri/Documents/Paradox Interactive/Stellaris/mod/cheatinterface/interface&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\patri\Documents\Paradox Interactive\Stellaris\mod\cheatinterface\interface" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\patri\Documents\Paradox Interactive\Stellaris\mod\cheatinterface" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18968.26" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18968.26" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="" />
+      <created>1719591969678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719591969678</updated>
+      <workItem from="1719591970905" duration="3999000" />
+      <workItem from="1719863922065" duration="23000" />
+      <workItem from="1719863949865" duration="864000" />
+      <workItem from="1722548920342" duration="316000" />
+      <workItem from="1723219712284" duration="31000" />
+      <workItem from="1723219765448" duration="8149000" />
+      <workItem from="1723991518238" duration="2042000" />
+      <workItem from="1723994335128" duration="26269000" />
+      <workItem from="1724024897764" duration="2827000" />
+    </task>
+    <task id="LOCAL-00001" summary="Cheat Interface Init">
+      <option name="closed" value="true" />
+      <created>1719592184029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719592184029</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Empire Colony Development and Storage Cap options standardized and working correctly.">
+      <option name="closed" value="true" />
+      <created>1723220681329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723220681329</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ship Build Speed working correctly">
+      <option name="closed" value="true" />
+      <created>1723222448718</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723222448718</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ship Naval Capacity working correctly">
+      <option name="closed" value="true" />
+      <created>1723223432533</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723223432533</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ship Fleet Limit working correctly">
+      <option name="closed" value="true" />
+      <created>1723224397404</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723224397404</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ship Health, Experience, Weapon Damage working correctly">
+      <option name="closed" value="true" />
+      <created>1723227261565</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723227261565</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Changed all positive modifiers to variables">
+      <option name="closed" value="true" />
+      <created>1723994740048</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723994740048</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changed all negative modifiers to variables">
+      <option name="closed" value="true" />
+      <created>1723995113431</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723995113431</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changed all capacity modifiers to variables">
+      <option name="closed" value="true" />
+      <created>1723995240895</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723995240895</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Removed unused localization files">
+      <option name="closed" value="true" />
+      <created>1724001857366</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724001857366</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Completed the Army column">
+      <option name="closed" value="true" />
+      <created>1724001912420</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724001912420</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Completed the Buildings column">
+      <option name="closed" value="true" />
+      <created>1724012710481</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724012710481</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Completed the Population column">
+      <option name="closed" value="true" />
+      <created>1724017980738</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724017980738</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Completed the Leader column">
+      <option name="closed" value="true" />
+      <created>1724018740029</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724018740029</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added Minor Artifacts to the Resources Column">
+      <option name="closed" value="true" />
+      <created>1724019292717</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724019292717</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Mod uploaded to Steam Workshop">
+      <option name="closed" value="true" />
+      <created>1724025044639</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724025044639</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fixed Storage Cap using the wrong event selector.">
+      <option name="closed" value="true" />
+      <created>1724025092091</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1724025092091</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added Starbase Module Build Speed, uploaded to Steam Workshop v1.1.0">
+      <option name="closed" value="true" />
+      <created>1724030558242</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1724030558242</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="cheatinterface" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cheat Interface Init" />
+    <MESSAGE value="Empire Colony Development and Storage Cap options standardized and working correctly." />
+    <MESSAGE value="Ship Build Speed working correctly" />
+    <MESSAGE value="Ship Naval Capacity working correctly" />
+    <MESSAGE value="Ship Fleet Limit working correctly" />
+    <MESSAGE value="Ship Health, Experience, Weapon Damage working correctly" />
+    <MESSAGE value="Changed all positive modifiers to variables" />
+    <MESSAGE value="Changed all negative modifiers to variables" />
+    <MESSAGE value="Changed all capacity modifiers to variables" />
+    <MESSAGE value="Removed unused localization files" />
+    <MESSAGE value="Completed the Army column" />
+    <MESSAGE value="Completed the Buildings column" />
+    <MESSAGE value="Completed the Population column" />
+    <MESSAGE value="Completed the Leader column" />
+    <MESSAGE value="Added Minor Artifacts to the Resources Column" />
+    <MESSAGE value="Mod uploaded to Steam Workshop" />
+    <MESSAGE value="Fixed Storage Cap using the wrong event selector." />
+    <MESSAGE value="Added Starbase Module Build Speed, uploaded to Steam Workshop v1.1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Starbase Module Build Speed, uploaded to Steam Workshop v1.1.0" />
+  </component>
+</project>

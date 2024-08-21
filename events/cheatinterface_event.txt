@@ -1,0 +1,2083 @@
+namespace = cheatinterface
+@MinPopCountrySelect = 1	#The minimal amount of pops required to be shown on the 'Select Empire' screen
+
+### Cheat Interface Introduction Screen ###
+country_event = {
+    id = cheatinterface.2
+    title = "cheatinterface_2_title"
+    desc = "cheatinterface_2_title"
+    is_triggered_only = yes
+    diplomatic = yes
+    custom_gui = "cheatinterface"
+    trigger = {
+        is_ai = no
+    }
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_menu
+            every_country = {
+                limit = {
+                    num_pops = 0
+                }
+                save_event_target_as = cheat_target_1
+                save_event_target_as = cheat_target_2
+                save_event_target_as = cheat_target_3
+                save_event_target_as = cheat_target_4
+                save_event_target_as = cheat_target_5
+                save_event_target_as = cheat_target_6
+                save_event_target_as = cheat_target_7
+                save_event_target_as = cheat_target_8
+                save_event_target_as = cheat_target_9
+                save_event_target_as = cheat_target_10
+                save_event_target_as = cheat_target_11
+                save_event_target_as = cheat_target_12
+                save_event_target_as = cheat_target_13
+                save_event_target_as = cheat_target_14
+                save_event_target_as = cheat_target_15
+                save_event_target_as = cheat_target_16
+                save_event_target_as = cheat_target_17
+                save_event_target_as = cheat_target_18
+                save_event_target_as = cheat_target_19
+                save_event_target_as = cheat_target_20
+                save_event_target_as = cheat_target_21
+                save_event_target_as = cheat_target_22
+                save_event_target_as = cheat_target_23
+                save_event_target_as = cheat_target_24
+                save_event_target_as = cheat_target_25
+                save_event_target_as = cheat_target_26
+                save_event_target_as = cheat_target_27
+                save_event_target_as = cheat_target_28
+                save_event_target_as = cheat_target_29
+                save_event_target_as = cheat_target_30
+                save_event_target_as = cheat_target_31
+                save_event_target_as = cheat_target_32
+                save_event_target_as = cheat_target_33
+                save_event_target_as = cheat_target_34
+                save_event_target_as = cheat_target_35
+                save_event_target_as = cheat_target_36
+                save_event_target_as = cheat_target_37
+                save_event_target_as = cheat_target_38
+                save_event_target_as = cheat_target_39
+                save_event_target_as = cheat_target_40
+            }
+        }
+    }
+    
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_menu
+            remove_country_flag = cheatinterface_is_in_ship_base_speed_interface
+            remove_country_flag = cheatinterface_is_in_ship_ftl_speed_interface
+            remove_country_flag = cheatinterface_is_in_ship_armor_regeneration_interface
+        }
+    }
+}
+
+######################################################################################
+#                               Resource Events                                      #
+######################################################################################
+
+### Cheat Interface Resource Minerals Screen ###
+country_event = {
+    id = cheatinterface.1001
+    title = "cheatinterface_2_minerals_title"
+    desc = "cheatinterface_2_minerals"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_minerals_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_minerals"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_minerals_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_minerals_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Energy Screen ###
+country_event = {
+    id = cheatinterface.1002
+    title = "cheatinterface_2_energy"
+    desc = "cheatinterface_2_energy"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_energy_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_energy"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_energy_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_energy_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Food Screen ###
+country_event = {
+    id = cheatinterface.1003
+    title = "cheatinterface_2_food"
+    desc = "cheatinterface_2_food"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_food_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_food"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_food_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_food_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Consumer Goods Screen ###
+country_event = {
+    id = cheatinterface.1004
+    title = "cheatinterface_2_consumer_goods"
+    desc = "cheatinterface_2_consumer_goods"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_consumer_goods_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_consumer_goods"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_consumer_goods_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_consumer_goods_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Alloys Screen ###
+country_event = {
+    id = cheatinterface.1005
+    title = "cheatinterface_2_alloys"
+    desc = "cheatinterface_2_alloys"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_alloys_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_alloys"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_alloys_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_alloys_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Influence Screen ###
+country_event = {
+    id = cheatinterface.1006
+    title = "cheatinterface_2_influence"
+    desc = "cheatinterface_2_influence"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_influence_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_influence"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_influence_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_influence_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Unity Screen ###
+country_event = {
+    id = cheatinterface.1007
+    title = "cheatinterface_2_unity"
+    desc = "cheatinterface_2_unity"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_unity_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_unity"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_unity_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_unity_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Volatile Motes Screen ###
+country_event = {
+    id = cheatinterface.1008
+    title = "cheatinterface_2_volatile_motes"
+    desc = "cheatinterface_2_volatile_motes"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_volatile_motes_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_volatile_motes"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_volatile_motes_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_volatile_motes_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Exotic Gases Screen ###
+country_event = {
+    id = cheatinterface.1009
+    title = "cheatinterface_2_exotic_gases"
+    desc = "cheatinterface_2_exotic_gases"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_exotic_gases_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_exotic_gases"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_exotic_gases_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_exotic_gases_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Rare Crystals Screen ###
+country_event = {
+    id = cheatinterface.1010
+    title = "cheatinterface_2_rare_crystals"
+    desc = "cheatinterface_2_rare_crystals"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_rare_crystals_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_rare_crystals"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_rare_crystals_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_rare_crystals_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Living Metal Screen ###
+country_event = {
+    id = cheatinterface.1011
+    title = "cheatinterface_2_living_metal"
+    desc = "cheatinterface_2_living_metal"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_living_metal_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_living_metal"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_living_metal_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_living_metal_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Zro Screen ###
+country_event = {
+    id = cheatinterface.1012
+    title = "cheatinterface_2_zro"
+    desc = "cheatinterface_2_zro"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_zro_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_zro"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_zro_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_zro_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Dark Matter Screen ###
+country_event = {
+    id = cheatinterface.1013
+    title = "cheatinterface_2_dark_matter"
+    desc = "cheatinterface_2_dark_matter"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_dark_matter_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_dark_matter"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_dark_matter_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_dark_matter_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Nanites Screen ###
+country_event = {
+    id = cheatinterface.1014
+    title = "cheatinterface_2_nanites"
+    desc = "cheatinterface_2_nanites"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_nanites_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_nanites"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_nanites_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_nanites_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Minor_Artifacts Screen ###
+country_event = {
+    id = cheatinterface.1015
+    title = "cheatinterface_2_minor_artifacts"
+    desc = "cheatinterface_2_minor_artifacts"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_resource_minor_artifacts_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_resource_minor_artifacts"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_resource_minor_artifacts_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_resource_minor_artifacts_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Resource Storage Cap Screen ###
+country_event = {
+    id = cheatinterface.1016
+    title = "cheatinterface_2_storage_cap"
+    desc = "cheatinterface_2_storage_cap"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = {
+            has_country_flag = cheatinterface_is_in_empire_storage_cap_interface
+        }
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_empire_storage_cap"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_empire_storage_cap_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_empire_storage_cap_interface
+        }
+    }
+}
+#########################################
+
+
+######################################################################################
+#                               Empire Events                                        #
+######################################################################################
+
+### Cheat Interface Diplomatic Weight Screen ###
+country_event = {
+    id = cheatinterface.2001
+    title = "cheatinterface_2_diplomatic_weight"
+    desc = "cheatinterface_2_diplomatic_weight"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_diplomatic_weight_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_empire_diplomatic_weight"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_diplomatic_weight_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_diplomatic_weight_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Monthly Loyalty Screen ###
+country_event = {
+    id = cheatinterface.2002
+    title = "cheatinterface_2_monthly_loyalty"
+    desc = "cheatinterface_2_monthly_loyalty"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_monthly_loyalty_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_empire_monthly_loyalty"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_monthly_loyalty_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_monthly_loyalty_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Planetary Decision Screen ###
+country_event = {
+    id = cheatinterface.2003
+    title = "cheatinterface_2_planetary_decision"
+    desc = "cheatinterface_2_planetary_decision"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_planetary_decision_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_empire_planetary_decision"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_planetary_decision_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_planetary_decision_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Research Screen ###
+country_event = {
+    id = cheatinterface.2004
+    title = "cheatinterface_2_research"
+    desc = "cheatinterface_2_research"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_research_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_empire_research"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_research_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_research_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Colony Development Screen ###
+country_event = {
+    id = cheatinterface.2005
+    title = "cheatinterface_2_colony_development"
+    desc = "cheatinterface_2_colony_development"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_colony_development_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_empire_colony_development"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_colony_development_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_colony_development_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Terraforming Speed Screen ###
+country_event = {
+    id = cheatinterface.2006
+    title = "cheatinterface_2_terraforming_speed"
+    desc = "cheatinterface_2_terraforming_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_terraforming_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_empire_terraforming_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_terraforming_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_terraforming_speed_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Terraforming Cost Screen ###
+country_event = {
+    id = cheatinterface.2007
+    title = "cheatinterface_2_terraforming_cost"
+    desc = "cheatinterface_2_terraforming_cost"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_terraforming_cost_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_empire_terraforming_cost"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_terraforming_cost_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_terraforming_cost_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Ethics Shift Speed Screen ###
+country_event = {
+    id = cheatinterface.2008
+    title = "cheatinterface_2_ethics_shift_speed"
+    desc = "cheatinterface_2_ethics_shift_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_ethics_shift_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_empire_ethics_shift_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_ethics_shift_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_ethics_shift_speed_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Trust Screen ###
+country_event = {
+    id = cheatinterface.2009
+    title = "cheatinterface_2_trust"
+    desc = "cheatinterface_2_trust"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_trust_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_empire_trust"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_trust_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_trust_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Envoys Screen ###
+country_event = {
+    id = cheatinterface.2010
+    title = "cheatinterface_2_envoys"
+    desc = "cheatinterface_2_envoys"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_envoys_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_empire_envoys"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_envoys_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_envoys_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Admin Cap Screen ###
+country_event = {
+    id = cheatinterface.2011
+    title = "cheatinterface_2_admin_cap"
+    desc = "cheatinterface_2_admin_cap"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_admin_cap_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_empire_admin_cap"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_admin_cap_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_admin_cap_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Admin Cap Screen ###
+country_event = {
+    id = cheatinterface.2013
+    title = "cheatinterface_2_trade_value"
+    desc = "cheatinterface_2_trade_value"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_trade_value_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_empire_trade_value"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_trade_value_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_trade_value_interface
+        }
+    }
+}
+#########################################
+
+
+######################################################################################
+#                               Ship Events                                          #
+######################################################################################
+### Cheat Interface Ship Base Speed Screen ###
+country_event = {
+    id = cheatinterface.3001
+    title = "cheatinterface_2_ship_base_speed"
+    desc = "cheatinterface_2_ship_base_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_ship_base_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_ship_base_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_ship_base_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_ship_base_speed_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Ship FTL Speed Screen ###
+country_event =  {
+    id = cheatinterface.3002
+    title = "cheatinterface_2_ship_ftl_speed"
+    desc = "cheatinterface_2_ship_ftl_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_ship_ftl_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_ship_ftl_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_ship_ftl_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_ship_ftl_speed_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Ship Armor Regeneration Screen ###
+country_event =  {
+    id = cheatinterface.3003
+    title = "cheatinterface_2_ship_armor_regeneration"
+    desc = "cheatinterface_2_ship_armor_regeneration"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_ship_armor_regeneration_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_ship_armor_regeneration"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_ship_armor_regeneration_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_ship_armor_regeneration_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Ship Hull Regeneration Screen ###
+country_event =  {
+    id = cheatinterface.3004
+    title = "cheatinterface_2_ship_hull_regeneration"
+    desc = "cheatinterface_2_ship_hull_regeneration"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_ship_hull_regeneration_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_ship_hull_regeneration"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_ship_hull_regeneration_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_ship_hull_regeneration_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Ship Shield Regeneration Screen ###
+country_event =  {
+    id = cheatinterface.3005
+    title = "cheatinterface_2_ship_shield_regeneration"
+    desc = "cheatinterface_2_ship_shield_regeneration"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_ship_shield_regeneration_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_ship_shield_regeneration"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_ship_shield_regeneration_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_ship_shield_regeneration_interface
+        }
+    }
+}
+
+### Cheat Interface Ship Build Speed Screen ###
+country_event =  {
+    id = cheatinterface.3006
+    title = "cheatinterface_2_ship_build_speed"
+    desc = "cheatinterface_2_ship_build_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_ship_build_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_ship_build_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_ship_build_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_ship_build_speed_interface
+        }
+    }
+}
+
+### Cheat Interface Ship Naval Capacity Screen ###
+country_event =  {
+    id = cheatinterface.3007
+    title = "cheatinterface_2_ship_naval_capacity"
+    desc = "cheatinterface_2_ship_naval_capacity"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_ship_naval_capacity_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_ship_naval_capacity"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_ship_naval_capacity_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_ship_naval_capacity_interface
+        }
+    }
+}
+
+### Cheat Interface Ship Fleet Limit Screen ###
+country_event =  {
+    id = cheatinterface.3008
+    title = "cheatinterface_2_ship_fleet_limit"
+    desc = "cheatinterface_2_ship_fleet_limit"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_ship_fleet_limit_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_ship_fleet_limit"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_ship_fleet_limit_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_ship_fleet_limit_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Ship Health Screen ###
+country_event =  {
+    id = cheatinterface.3009
+    title = "cheatinterface_2_ship_health"
+    desc = "cheatinterface_2_ship_health"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_ship_health_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_ship_health"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_ship_health_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_ship_health_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Ship Experience Screen ###
+country_event =  {
+    id = cheatinterface.3010
+    title = "cheatinterface_2_ship_experience"
+    desc = "cheatinterface_2_ship_experience"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_ship_experience_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_ship_experience"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_ship_experience_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_ship_experience_interface
+        }
+    }
+}
+#########################################
+
+### Cheat Interface Ship Weapon Damage Screen ###
+country_event =  {
+    id = cheatinterface.3011
+    title = "cheatinterface_2_ship_weapon_damage"
+    desc = "cheatinterface_2_ship_weapon_damage"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_ship_weapon_damage_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_ship_weapon_damage"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_ship_weapon_damage_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_ship_weapon_damage_interface
+        }
+    }
+}
+#########################################
+
+######################################################################################
+#                               Army Events                                          #
+######################################################################################
+### Cheat Interface Army Build Speed Screen ###
+country_event = {
+    id = cheatinterface.4001
+    title = "cheatinterface_2_army_build_speed"
+    desc = "cheatinterface_2_army_build_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_army_build_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_army_build_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_army_build_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_army_build_speed_interface
+        }
+    }
+}
+
+### Cheat Interface Army Attack Damage Screen ###
+country_event = {
+    id = cheatinterface.4002
+    title = "cheatinterface_2_army_attack_damage"
+    desc = "cheatinterface_2_army_attack_damage"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_army_attack_damage_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_army_attack_damage"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_army_attack_damage_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_army_attack_damage_interface
+        }
+    }
+}
+### Cheat Interface Army Attack Health Screen ###
+country_event = {
+    id = cheatinterface.4003
+    title = "cheatinterface_2_army_attack_health"
+    desc = "cheatinterface_2_army_attack_health"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_army_attack_health_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_army_attack_health"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_army_attack_health_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_army_attack_health_interface
+        }
+    }
+}
+### Cheat Interface Army Attack Morale Screen ###
+country_event = {
+    id = cheatinterface.4004
+    title = "cheatinterface_2_army_attack_morale"
+    desc = "cheatinterface_2_army_attack_morale"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_army_attack_morale_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_army_attack_morale"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_army_attack_morale_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_army_attack_morale_interface
+        }
+    }
+}
+### Cheat Interface Army Collateral Damage Screen ###
+country_event = {
+    id = cheatinterface.4005
+    title = "cheatinterface_2_army_collateral_damage"
+    desc = "cheatinterface_2_army_collateral_damage"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_army_collateral_damage_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_army_collateral_damage"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_army_collateral_damage_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_army_collateral_damage_interface
+        }
+    }
+}
+### Cheat Interface Army Defence Damage Screen ###
+country_event = {
+    id = cheatinterface.4006
+    title = "cheatinterface_2_army_defence_damage"
+    desc = "cheatinterface_2_army_defence_damage"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_army_defence_damage_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_army_defence_damage"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_army_defence_damage_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_army_defence_damage_interface
+        }
+    }
+}
+### Cheat Interface Army Defence Health Screen ###
+country_event = {
+    id = cheatinterface.4007
+    title = "cheatinterface_2_army_defence_health"
+    desc = "cheatinterface_2_army_defence_health"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_army_defence_health_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_army_defence_health"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_army_defence_health_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_army_defence_health_interface
+        }
+    }
+}
+### Cheat Interface Army Defence Morale Screen ###
+country_event = {
+    id = cheatinterface.4008
+    title = "cheatinterface_2_army_defence_morale"
+    desc = "cheatinterface_2_army_defence_morale"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_army_defence_morale_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_army_defence_morale"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_army_defence_morale_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_army_defence_morale_interface
+        }
+    }
+}
+### Cheat Interface Army Experience Gain Screen ###
+country_event = {
+    id = cheatinterface.4009
+    title = "cheatinterface_2_army_experience_gain"
+    desc = "cheatinterface_2_army_experience_gain"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_army_experience_gain_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_army_experience_gain"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_army_experience_gain_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_army_experience_gain_interface
+        }
+    }
+}
+#########################################
+
+######################################################################################
+#                               Building Events                                          #
+######################################################################################
+### Cheat Interface Buildings Defence Platform Capacity Screen ###
+country_event = {
+    id = cheatinterface.5001
+    title = "cheatinterface_2_buildings_defence_platform_capacity"
+    desc = "cheatinterface_2_buildings_defence_platform_capacity"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_buildings_defence_platform_capacity_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_buildings_defence_platform_capacity"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_buildings_defence_platform_capacity_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_buildings_defence_platform_capacity_interface
+        }
+    }
+}
+### Cheat Interface Buildings Starbase Capacity Screen ###
+country_event = {
+    id = cheatinterface.5002
+    title = "cheatinterface_2_buildings_starbase_capacity"
+    desc = "cheatinterface_2_buildings_starbase_capacity"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_buildings_starbase_capacity_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_buildings_starbase_capacity"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_buildings_starbase_capacity_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_buildings_starbase_capacity_interface
+        }
+    }
+}
+### Cheat Interface Buildings Starbase Build Speed Screen ###
+country_event = {
+    id = cheatinterface.5003
+    title = "cheatinterface_2_buildings_starbase_build_speed"
+    desc = "cheatinterface_2_buildings_starbase_build_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_buildings_starbase_build_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_buildings_starbase_build_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_buildings_starbase_build_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_buildings_starbase_build_speed_interface
+        }
+    }
+}
+### Cheat Interface Buildings Starbase Build Speed Screen ###
+country_event = {
+    id = cheatinterface.5011
+    title = "cheatinterface_2_buildings_starbase_module_build_speed"
+    desc = "cheatinterface_2_buildings_starbase_module_build_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_buildings_starbase_build_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_buildings_starbase_module_build_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_buildings_starbase_build_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_buildings_starbase_build_speed_interface
+        }
+    }
+}
+### Cheat Interface Buildings Outpost Build Speed Screen ###
+country_event = {
+    id = cheatinterface.5004
+    title = "cheatinterface_2_buildings_outpost_build_speed"
+    desc = "cheatinterface_2_buildings_outpost_build_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_buildings_outpost_build_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_buildings_outpost_build_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_buildings_outpost_build_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_buildings_outpost_build_speed_interface
+        }
+    }
+}
+### Cheat Interface Buildings Megastructure Build Cap Screen ###
+country_event = {
+    id = cheatinterface.5005
+    title = "cheatinterface_2_buildings_megastructure_build_capacity"
+    desc = "cheatinterface_2_buildings_megastructure_build_capacity"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_buildings_megastructure_build_capacity_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_buildings_megastructure_build_capacity"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_buildings_megastructure_build_capacity_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_buildings_megastructure_build_capacity_interface
+        }
+    }
+}
+### Cheat Interface Buildings Megastructure Upkeep Screen ###
+country_event = {
+    id = cheatinterface.5006
+    title = "cheatinterface_2_buildings_megastructure_upkeep"
+    desc = "cheatinterface_2_buildings_megastructure_upkeep"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_buildings_megastructure_upkeep_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_buildings_megastructure_upkeep"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_buildings_megastructure_upkeep_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_buildings_megastructure_upkeep_interface
+        }
+    }
+}
+### Cheat Interface Buildings Megastructure Build Speed Screen ###
+country_event = {
+    id = cheatinterface.5007
+    title = "cheatinterface_2_buildings_megastructure_build_speed"
+    desc = "cheatinterface_2_buildings_megastructure_build_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_buildings_megastructure_build_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_buildings_megastructure_build_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_buildings_megastructure_build_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_buildings_megastructure_build_speed_interface
+        }
+    }
+}
+### Cheat Interface Buildings Megastructure Build Cost Screen ###
+country_event = {
+    id = cheatinterface.5008
+    title = "cheatinterface_2_buildings_megastructure_build_cost"
+    desc = "cheatinterface_2_buildings_megastructure_build_cost"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_buildings_megastructure_build_cost_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_buildings_megastructure_build_cost"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_buildings_megastructure_build_cost_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_buildings_megastructure_build_cost_interface
+        }
+    }
+}
+### Cheat Interface Buildings Planetary Build Speed Screen ###
+country_event = {
+    id = cheatinterface.5009
+    title = "cheatinterface_2_buildings_planetary_build_speed"
+    desc = "cheatinterface_2_buildings_planetary_build_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_buildings_planetary_build_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_buildings_planetary_build_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_buildings_planetary_build_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_buildings_planetary_build_speed_interface
+        }
+    }
+}
+### Cheat Interface Buildings Clear Blocker Speed Screen ###
+country_event = {
+    id = cheatinterface.5010
+    title = "cheatinterface_2_buildings_clear_blocker_speed"
+    desc = "cheatinterface_2_buildings_clear_blocker_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_buildings_clear_blocker_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_buildings_clear_blocker_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_buildings_clear_blocker_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_buildings_clear_blocker_speed_interface
+        }
+    }
+}
+#########################################
+
+######################################################################################
+#                               Population Events                                    #
+######################################################################################
+### Cheat Interface Buildings Defence Platform Capacity Screen ###
+country_event = {
+    id = cheatinterface.6001
+    title = "cheatinterface_2_population_bio_growth_speed"
+    desc = "cheatinterface_2_population_bio_growth_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_population_bio_growth_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_population_bio_growth_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_population_bio_growth_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_population_bio_growth_speed_interface
+        }
+    }
+}
+### Cheat Interface Buildings Defence Platform Capacity Screen ###
+country_event = {
+    id = cheatinterface.6002
+    title = "cheatinterface_2_population_robot_growth_speed"
+    desc = "cheatinterface_2_population_robot_growth_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_population_robot_growth_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_population_robot_growth_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_population_robot_growth_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_population_robot_growth_speed_interface
+        }
+    }
+}
+### Cheat Interface Buildings Defence Platform Capacity Screen ###
+country_event = {
+    id = cheatinterface.6003
+    title = "cheatinterface_2_population_habitability"
+    desc = "cheatinterface_2_population_habitability"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_population_habitability_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_population_habitability"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_population_habitability_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_population_habitability_interface
+        }
+    }
+}
+### Cheat Interface Buildings Defence Platform Capacity Screen ###
+country_event = {
+    id = cheatinterface.6004
+    title = "cheatinterface_2_population_stability"
+    desc = "cheatinterface_2_population_stability"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_population_stability_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_population_stability"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_population_stability_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_population_stability_interface
+        }
+    }
+}
+### Cheat Interface Buildings Defence Platform Capacity Screen ###
+country_event = {
+    id = cheatinterface.6005
+    title = "cheatinterface_2_population_happiness"
+    desc = "cheatinterface_2_population_happiness"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_population_happiness_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_population_happiness"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_population_happiness_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_population_happiness_interface
+        }
+    }
+}
+### Cheat Interface Buildings Defence Platform Capacity Screen ###
+country_event = {
+    id = cheatinterface.6006
+    title = "cheatinterface_2_population_amenities_usage"
+    desc = "cheatinterface_2_population_amenities_usage"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_population_amenities_usage_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_population_amenities_usage"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_population_amenities_usage_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_population_amenities_usage_interface
+        }
+    }
+}
+
+
+
+#########################################
+
+######################################################################################
+#                               Leader Events                                        #
+######################################################################################
+### Cheat Interface Buildings Defence Platform Capacity Screen ###
+country_event = {
+    id = cheatinterface.7001
+    title = "cheatinterface_2_leader_lifespan"
+    desc = "cheatinterface_2_leader_lifespan"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_leader_lifespan_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_leader_lifespan"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_leader_lifespan_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_leader_lifespan_interface
+        }
+    }
+}
+### Cheat Interface Buildings Defence Platform Capacity Screen ###
+country_event = {
+    id = cheatinterface.7002
+    title = "cheatinterface_2_leader_pool_size"
+    desc = "cheatinterface_2_leader_pool_size"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_leader_pool_size_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_leader_pool_size"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_leader_pool_size_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_leader_pool_size_interface
+        }
+    }
+}
+### Cheat Interface Buildings Defence Platform Capacity Screen ###
+country_event = {
+    id = cheatinterface.7003
+    title = "cheatinterface_2_leader_level_cap"
+    desc = "cheatinterface_2_leader_level_cap"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_leader_level_cap_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_leader_level_cap"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_leader_level_cap_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_leader_level_cap_interface
+        }
+    }
+}
+### Cheat Interface Buildings Defence Platform Capacity Screen ###
+country_event = {
+    id = cheatinterface.7004
+    title = "cheatinterface_2_leader_exp_gain"
+    desc = "cheatinterface_2_leader_exp_gain"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_leader_exp_gain_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_leader_exp_gain"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_leader_exp_gain_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_leader_exp_gain_interface
+        }
+    }
+}
