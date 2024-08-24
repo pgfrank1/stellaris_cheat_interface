@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Added Starbase Module Build Speed, uploaded to Steam Workshop v1.1.0">
+    <list default="true" id="1af865f8-6637-4ab0-86c8-0f49f5f88939" name="Changes" comment="Updated mod version">
+      <change afterPath="$PROJECT_DIR$/interface/cheatinterface_population_bio_assembly_speed.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/button_effects/cheatinterface_button_effects.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/scripted_loc/cheatinterface_scripted_loc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/static_modifiers/cheatinterface_static_modifiers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/static_modifiers/cheatinterface_static_modifiers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/cheatinterface_event.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/cheatinterface_event.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/cheatinterface.gui" beforeDir="false" afterPath="$PROJECT_DIR$/interface/cheatinterface.gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/cheatinterface_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/cheatinterface_l_english.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="cheatinterface" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,7 +54,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;cheatinterface__freshstart&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;cheatinterface__planet&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/patri/Documents/Paradox Interactive/Stellaris/mod/cheatinterface/interface&quot;,
@@ -92,6 +99,7 @@
       <workItem from="1723991518238" duration="2042000" />
       <workItem from="1723994335128" duration="26269000" />
       <workItem from="1724024897764" duration="2827000" />
+      <workItem from="1724499709036" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="Cheat Interface Init">
       <option name="closed" value="true" />
@@ -285,6 +293,7 @@
     <MESSAGE value="Mod uploaded to Steam Workshop" />
     <MESSAGE value="Fixed Storage Cap using the wrong event selector." />
     <MESSAGE value="Added Starbase Module Build Speed, uploaded to Steam Workshop v1.1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Starbase Module Build Speed, uploaded to Steam Workshop v1.1.0" />
+    <MESSAGE value="Updated mod version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated mod version" />
   </component>
 </project>

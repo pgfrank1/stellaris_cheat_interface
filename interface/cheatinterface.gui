@@ -1323,11 +1323,20 @@ guiTypes = {
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_population_bio_growth_speed_title"
                 }
+                # Ship Base Speed Button
+                effectButtonType = {
+                    name = "cheatinterface_2_population_bio_assembly_speed"
+                    quadTextureSprite = "GFX_standard_button_200_34_button"
+                    position = { x = 0 y = 40 }
+                    effect = "cheatinterface_button_population_bio_assembly_speed"
+                    buttonFont = "cg_16b"
+                    buttonText = "cheatinterface_2_population_bio_assembly_speed_title"
+                }
                 # Ship FTL Speed Button
                 effectButtonType = {
                     name = "cheatinterface_2_population_robot_growth_speed"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
-                    position = { x = 0 y = 40 }
+                    position = { x = 0 y = 80 }
                     effect = "cheatinterface_button_population_robot_growth_speed"
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_population_robot_growth_speed_title"
@@ -1337,7 +1346,7 @@ guiTypes = {
                 effectButtonType = {
                     name = "cheatinterface_2_population_habitability"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
-                    position = { x = 0 y = 80 }
+                    position = { x = 0 y = 120 }
                     effect = "cheatinterface_button_population_habitability"
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_population_habitability_title"
@@ -1347,7 +1356,7 @@ guiTypes = {
                 effectButtonType = {
                     name = "cheatinterface_2_population_stability"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
-                    position = { x = 0 y = 120 }
+                    position = { x = 0 y = 160 }
                     effect = "cheatinterface_button_population_stability"
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_population_stability_title"
@@ -1357,7 +1366,7 @@ guiTypes = {
                 effectButtonType = {
                     name = "cheatinterface_2_population_happiness"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
-                    position = { x = 0 y = 160 }
+                    position = { x = 0 y = 200 }
                     effect = "cheatinterface_button_population_happiness"
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_population_happiness_title"
@@ -1367,7 +1376,7 @@ guiTypes = {
                 effectButtonType = {
                     name = "cheatinterface_2_population_amenities_usage"
                     quadTextureSprite = "GFX_standard_button_200_34_button"
-                    position = { x = 0 y = 200 }
+                    position = { x = 0 y = 240 }
                     effect = "cheatinterface_button_population_amenities_usage"
                     buttonFont = "cg_16b"
                     buttonText = "cheatinterface_2_population_amenities_usage_title"

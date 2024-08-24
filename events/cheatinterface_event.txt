@@ -1832,6 +1832,33 @@ country_event = {
 }
 ### Cheat Interface Buildings Defence Platform Capacity Screen ###
 country_event = {
+    id = cheatinterface.6007
+    title = "cheatinterface_2_population_bio_assembly_speed"
+    desc = "cheatinterface_2_population_bio_assembly_speed"
+    is_triggered_only = yes
+    trigger = {
+        is_ai = no
+        not = { has_country_flag = cheatinterface_is_in_population_bio_assembly_speed_interface}
+    }
+    diplomatic = yes
+    custom_gui = "cheatinterface_population_bio_assembly_speed"
+    immediate = {
+        hidden_effect = {
+            set_country_flag = cheatinterface_is_in_population_bio_assembly_speed_interface
+        }
+    }
+
+    # Close #
+    option = {
+        name = "cheatinterface_close"
+        default_hide_option = yes
+        hidden_effect = {
+            remove_country_flag = cheatinterface_is_in_population_bio_assembly_speed_interface
+        }
+    }
+}
+### Cheat Interface Buildings Defence Platform Capacity Screen ###
+country_event = {
     id = cheatinterface.6002
     title = "cheatinterface_2_population_robot_growth_speed"
     desc = "cheatinterface_2_population_robot_growth_speed"

@@ -2297,6 +2297,39 @@ cheatinterface_population_bio_growth_speed_t10 = {
 }
 ###############################
 
+#### population_bio_assembly_speed TIER SELECTOR ####
+cheatinterface_population_bio_assembly_speed_t1 = {
+	planet_pop_assembly_organic_mult = @t1p_mult
+}
+cheatinterface_population_bio_assembly_speed_t2 = {
+	planet_pop_assembly_organic_mult = @t2p_mult
+}
+cheatinterface_population_bio_assembly_speed_t3 = {
+	planet_pop_assembly_organic_mult = @t3p_mult
+}
+cheatinterface_population_bio_assembly_speed_t4 = {
+	planet_pop_assembly_organic_mult = @t4p_mult
+}
+cheatinterface_population_bio_assembly_speed_t5 = {
+	planet_pop_assembly_organic_mult = @t5p_mult
+}
+cheatinterface_population_bio_assembly_speed_t6 = {
+	planet_pop_assembly_organic_mult = @t6p_mult
+}
+cheatinterface_population_bio_assembly_speed_t7 = {
+	planet_pop_assembly_organic_mult = @t7p_mult
+}
+cheatinterface_population_bio_assembly_speed_t8 = {
+	planet_pop_assembly_organic_mult = @t8p_mult
+}
+cheatinterface_population_bio_assembly_speed_t9 = {
+	planet_pop_assembly_organic_mult = @t9p_mult
+}
+cheatinterface_population_bio_assembly_speed_t10 = {
+	planet_pop_assembly_organic_mult = @t10p_mult
+}
+###############################
+
 #### population_robot_growth_speed TIER SELECTOR ####
 cheatinterface_population_robot_growth_speed_t1 = {
 	planet_pop_assembly_mult = @t1p_mult
